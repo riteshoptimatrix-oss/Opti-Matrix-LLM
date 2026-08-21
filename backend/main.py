@@ -118,6 +118,10 @@ def retrieve_approved_response(intent: str) -> Optional[str]:
         return responses_list
     return None
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to Opti Matrix ML Chatbot Service API. Use /predict to query the model."}
+
 @app.get("/health")
 def health_check():
     return {

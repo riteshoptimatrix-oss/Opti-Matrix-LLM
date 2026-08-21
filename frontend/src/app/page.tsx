@@ -164,8 +164,8 @@ export default function ChatSystem() {
       }
     }
 
-    // Basic markdown link parser for [text](url)
-    const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+    // Basic markdown link parser for [text](url) AND plain URLs
+    const linkRegex = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
     const parts = [];
     let lastIndex = 0;
     let match;
@@ -175,11 +175,23 @@ export default function ChatSystem() {
       if (match.index > lastIndex) {
         parts.push(content.substring(lastIndex, match.index));
       }
+      
+      const isMarkdown = match[1] && match[2];
+      const url = isMarkdown ? match[2] : match[3];
+      let text = isMarkdown ? match[1] : url;
+      
+      // If it's a plain URL and contains 'apply', make it look like an Apply button
+      if (!isMarkdown && url.toLowerCase().includes('apply')) {
+        text = "Apply Here";
+      } else if (!isMarkdown) {
+        text = "Visit Link";
+      }
+
       // Add the link as a button/anchor
       parts.push(
         <a
           key={`link-${match.index}`}
-          href={match[2]}
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -200,7 +212,7 @@ export default function ChatSystem() {
             textAlign: "center"
           }}
         >
-          {match[1]}
+          {text}
         </a>
       );
       lastIndex = linkRegex.lastIndex;

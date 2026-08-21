@@ -37,8 +37,8 @@
           max-width: 800px;
           height: 90vh;
           background-color: var(--chat-bg);
-          border-radius: 20px;
-          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
           display: flex;
           flex-direction: column;
           overflow: hidden;
@@ -50,11 +50,10 @@
           border-bottom: 1px solid var(--border-color);
           text-align: center;
           background-color: var(--chat-bg);
-          box-shadow: 0 2px 10px rgba(0,0,0,0.02);
           z-index: 10;
         }
 
-        .chat-header h1 { font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -0.5px; }
+        .chat-header h1 { font-size: 1.5rem; font-weight: 600; color: var(--text-primary); letter-spacing: -0.5px; }
         .chat-header p { font-size: 0.95rem; color: var(--text-secondary); margin-top: 6px; }
 
         .chat-messages {
@@ -63,8 +62,8 @@
           overflow-y: auto;
           display: flex;
           flex-direction: column;
-          gap: 20px;
-          background-color: #fafafa;
+          gap: 16px;
+          background-color: #ffffff;
         }
 
         .message-wrapper { display: flex; width: 100%; }
@@ -73,80 +72,77 @@
 
         .message {
           max-width: 75%;
-          padding: 14px 20px;
-          border-radius: 16px;
-          font-size: 1rem;
-          line-height: 1.6;
-          animation: slideUp 0.3s ease forwards;
+          padding: 12px 18px;
+          border-radius: 8px;
+          font-size: 0.95rem;
+          line-height: 1.5;
+          animation: slideUp 0.15s ease-out forwards;
           opacity: 0;
-          transform: translateY(10px);
+          transform: translateY(6px);
           white-space: pre-wrap;
         }
 
         .message.user {
           background-color: var(--user-msg-bg);
           color: var(--user-msg-text);
-          border-bottom-right-radius: 4px;
-          box-shadow: 0 4px 15px rgba(37, 99, 235, 0.15);
+          border-bottom-right-radius: 2px;
         }
 
         .message.bot {
           background-color: var(--bot-msg-bg);
           color: var(--bot-msg-text);
-          border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 2px;
           border: 1px solid var(--border-color);
         }
 
-        .chat-input-container { padding: 20px 24px; border-top: 1px solid var(--border-color); background-color: var(--chat-bg); }
-        .chat-form { display: flex; gap: 16px; }
+        .chat-input-container { padding: 16px 24px; border-top: 1px solid var(--border-color); background-color: var(--chat-bg); }
+        .chat-form { display: flex; gap: 12px; }
         
         .chat-input {
           flex: 1;
-          padding: 16px 20px;
+          padding: 14px 18px;
           border: 1px solid var(--border-color);
-          border-radius: 30px;
-          font-size: 1rem;
+          border-radius: 6px;
+          font-size: 0.95rem;
           outline: none;
-          transition: all 0.2s ease;
-          background-color: #f9fafb;
+          transition: border-color 0.15s ease;
+          background-color: #ffffff;
         }
 
-        .chat-input:focus { border-color: var(--accent-color); background-color: #ffffff; box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); }
+        .chat-input:focus { border-color: var(--accent-color); box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1); }
         
         .send-button {
           background-color: var(--accent-color);
           color: white;
           border: none;
-          border-radius: 30px;
-          padding: 0 32px;
-          font-size: 1.05rem;
-          font-weight: 600;
+          border-radius: 6px;
+          padding: 0 24px;
+          font-size: 0.95rem;
+          font-weight: 500;
           cursor: pointer;
-          transition: all 0.2s ease;
-          box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);
+          transition: background-color 0.15s ease;
         }
 
-        .send-button:hover:not(:disabled) { background-color: var(--accent-hover); transform: translateY(-1px); }
-        .send-button:active:not(:disabled) { transform: translateY(1px); }
-        .send-button:disabled { opacity: 0.6; cursor: not-allowed; box-shadow: none; }
+        .send-button:hover:not(:disabled) { background-color: var(--accent-hover); }
+        .send-button:disabled { opacity: 0.6; cursor: not-allowed; }
 
         .typing-indicator {
-          padding: 14px 20px;
+          padding: 12px 18px;
           background-color: var(--bot-msg-bg);
-          border-radius: 16px;
-          border-bottom-left-radius: 4px;
+          border-radius: 8px;
+          border-bottom-left-radius: 2px;
           display: inline-flex;
           align-items: center;
           gap: 6px;
           color: var(--text-secondary);
           font-size: 0.95rem;
-          animation: slideUp 0.3s ease forwards;
+          animation: slideUp 0.15s ease-out forwards;
           border: 1px solid var(--border-color);
         }
 
         .dot {
-          width: 6px;
-          height: 6px;
+          width: 5px;
+          height: 5px;
           background-color: var(--text-secondary);
           border-radius: 50%;
           animation: bounce 1.4s infinite ease-in-out both;
@@ -157,11 +153,11 @@
         .dot:nth-child(3) { animation-delay: 0s; }
 
         @keyframes slideUp { to { opacity: 1; transform: translateY(0); } }
-        @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
+        @keyframes bounce { 0%, 80%, 100% { transform: scale(0.6); } 40% { transform: scale(1); } }
 
-        .chat-messages::-webkit-scrollbar { width: 8px; }
+        .chat-messages::-webkit-scrollbar { width: 6px; }
         .chat-messages::-webkit-scrollbar-track { background: transparent; }
-        .chat-messages::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 4px; }
+        .chat-messages::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
         .chat-messages::-webkit-scrollbar-thumb:hover { background-color: #94a3b8; }
         
         .md-link {
@@ -284,12 +280,21 @@
                 }
             }
 
-            // Markdown link parsing
-            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
-            let formattedContent = content;
-            if (linkRegex.test(content)) {
-                formattedContent = content.replace(linkRegex, '<a href="$2" target="_blank" rel="noopener noreferrer" class="md-link">$1</a>');
-            }
+            // Markdown link and plain URL parsing
+            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
+            let formattedContent = content.replace(linkRegex, function(match, mdText, mdUrl, plainUrl) {
+                const isMarkdown = !!mdText && !!mdUrl;
+                const url = isMarkdown ? mdUrl : plainUrl;
+                let text = isMarkdown ? mdText : url;
+                
+                if (!isMarkdown && url.toLowerCase().includes('apply')) {
+                    text = "Apply Here";
+                } else if (!isMarkdown) {
+                    text = "Visit Link";
+                }
+                
+                return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" class="md-link">' + text + '</a>';
+            });
             return formattedContent;
         }
 
@@ -438,4 +443,3 @@
     </script>
 </body>
 </html>
-
