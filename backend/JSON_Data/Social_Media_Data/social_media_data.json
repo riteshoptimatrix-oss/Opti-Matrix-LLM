@@ -122,5 +122,21 @@
     "responses": [
       "You can find us on Pinterest at @optiinfo. [Pinterest](https://www.pinterest.com/optiinfo)"
     ]
+  },
+  {
+    "intent": "social_migrate_app",
+    "patterns": [
+      "Can you migrate my existing app to Social?",
+      "Can you migrate existing app to social media?",
+      "Migrate my app to social media",
+      "Migrate existing app to social platform",
+      "App migration to social platform",
+      "Social media app migration",
+      "Migrate app to social",
+      "Social platform app migration"
+    ],
+    "responses": [
+      "It looks like there's a slight mix-up! We cannot migrate an app to a 'Social Media' platform. However, if you're looking for our App Migration services or want to integrate social media features into your app, our expert developers can certainly help you with that!"
+    ]
   }
 ]

@@ -56,11 +56,13 @@ def get_session(session_id: str) -> dict:
     if sessions_collection is not None:
         doc = sessions_collection.find_one({"session_id": session_id})
         if doc:
+            if "chat_history" not in doc:
+                doc["chat_history"] = []
             return doc
-        return {"session_id": session_id, "last_query": "", "last_intent": None}
+        return {"session_id": session_id, "last_query": "", "last_intent": None, "chat_history": []}
     else:
         if session_id not in sessions_db:
-            sessions_db[session_id] = {"last_query": "", "last_intent": None}
+            sessions_db[session_id] = {"last_query": "", "last_intent": None, "chat_history": []}
         return sessions_db[session_id]
 
 def update_session(session_id: str, updates: dict):
@@ -73,7 +75,7 @@ def update_session(session_id: str, updates: dict):
         )
     else:
         if session_id not in sessions_db:
-            sessions_db[session_id] = {"last_query": "", "last_intent": None}
+            sessions_db[session_id] = {"last_query": "", "last_intent": None, "chat_history": []}
         sessions_db[session_id].update(updates)
 
 
@@ -234,7 +236,7 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
             f"What hiring models do you offer for {topic}?"
         ]
         return random.sample(pool, min(3, len(pool)))
-    elif raw_topic in ["contact", "greeting", "general", "company", "portfolio"]:
+    elif raw_topic in ["contact", "greeting", "general", "company", "portfolio", "career", "ceo", "social", "privacy"]:
         pool = [
             "What services do you offer?",
             "Do you offer dedicated resource hiring models?",
@@ -265,6 +267,31 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
         ]
         return random.sample(pool, min(3, len(pool)))
 
+def log_and_create_response(session_id: str, question: str, intent: Optional[str], answer: str, confidence: float, matched: bool, suggested_questions: List[str] = None):
+    if suggested_questions is None:
+        suggested_questions = []
+    
+    session_data = get_session(session_id)
+    chat_history = session_data.get("chat_history", [])
+    
+    chat_history.append({"role": "user", "content": question})
+    chat_history.append({"role": "assistant", "content": answer})
+    
+    update_session(session_id, {
+        "last_query": question,
+        "last_intent": intent,
+        "chat_history": chat_history
+    })
+    
+    return PredictResponse(
+        success=True,
+        intent=intent,
+        answer=answer,
+        confidence=confidence,
+        matched=matched,
+        suggested_questions=suggested_questions
+    )
+
 @app.post("/predict", response_model=PredictResponse)
 async def predict_intent(request: PredictRequest):
     """
@@ -293,7 +320,11 @@ async def predict_intent(request: PredictRequest):
         last_intent = session_data.get("last_intent")
         if "hire" in raw_question.lower() and last_intent:
             parts = last_intent.lower().replace("_", " ").split()
-            topic = parts[0] if parts else None
+            # Extract meaningful topic by ignoring common prefix/suffix words
+            ignore_words = {"career", "service", "dev", "development", "developer", "design", "designer", "general"}
+            tech_keywords = [w for w in parts if w not in ignore_words]
+            topic = tech_keywords[0] if tech_keywords else parts[0] if parts else None
+            
             if topic:
                 mapped_hire_intent = None
                 for intent_name in responses_db.keys():
@@ -301,19 +332,22 @@ async def predict_intent(request: PredictRequest):
                         mapped_hire_intent = intent_name
                         break
                 
+                # Fallback to web developer hiring if no specific tech matched but context was web/career
+                if not mapped_hire_intent and ("web" in last_intent.lower() or topic == "career"):
+                    mapped_hire_intent = "hire_web_developer_direct"
+
                 if mapped_hire_intent:
                     logger.info(f"Hard-routing 'hire' query for topic '{topic}' to '{mapped_hire_intent}'")
-                    update_session(session_id, {"last_intent": mapped_hire_intent})
                     
                     company_answer = retrieve_approved_response(mapped_hire_intent)
                     if company_answer:
-                        return PredictResponse(
-                            success=True,
+                        return log_and_create_response(
+                            session_id=session_id,
+                            question=raw_question,
                             intent=mapped_hire_intent,
                             answer=company_answer,
                             confidence=1.0,
-                            matched=True,
-                            suggested_questions=[]
+                            matched=True
                         )
 
         # 1. Try predicting with the raw question
@@ -333,8 +367,9 @@ async def predict_intent(request: PredictRequest):
         # Confidence threshold check
         if confidence < CONFIDENCE_THRESHOLD:
             logger.info(f"Low confidence ({confidence:.4f} < {CONFIDENCE_THRESHOLD}). Returning fallback.")
-            return PredictResponse(
-                success=True,
+            return log_and_create_response(
+                session_id=session_id,
+                question=raw_question,
                 intent=None,
                 answer=FALLBACK_ANSWER,
                 confidence=round(confidence, 4),
@@ -345,8 +380,9 @@ async def predict_intent(request: PredictRequest):
         company_answer = retrieve_approved_response(predicted_intent)
         if not company_answer:
             logger.warning(f"No response found for intent '{predicted_intent}'. Returning fallback.")
-            return PredictResponse(
-                success=True,
+            return log_and_create_response(
+                session_id=session_id,
+                question=raw_question,
                 intent=predicted_intent,
                 answer=FALLBACK_ANSWER,
                 confidence=round(confidence, 4),
@@ -356,8 +392,9 @@ async def predict_intent(request: PredictRequest):
         # Generate follow-up questions using dynamic templates
         suggested_questions = get_dynamic_suggestions(predicted_intent)
 
-        return PredictResponse(
-            success=True,
+        return log_and_create_response(
+            session_id=session_id,
+            question=raw_question,
             intent=predicted_intent,
             answer=company_answer,
             confidence=round(confidence, 4),
@@ -396,3 +433,11 @@ async def ask_question(request: PredictRequest):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
+
+@app.get("/history/{session_id}")
+async def get_chat_history(session_id: str):
+    session_data = get_session(session_id)
+    return {
+        "session_id": session_id,
+        "chat_history": session_data.get("chat_history", [])
+    }

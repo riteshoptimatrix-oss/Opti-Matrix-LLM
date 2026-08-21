@@ -31,9 +31,6 @@
     "Thank you for your interest in joining Opti Matrix as a Web Developer! Please submit your resume and details on our career portal. [Apply Here...](https://www.optimatrix.in/apply)",
     "To apply for a Web Developer or Website Developer role at our company, please visit our application page and submit your profile. [Apply Here...](https://www.optimatrix.in/apply)"
   ],
-  "restricted_location_pakistan": [
-    "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information."
-  ],
   "career_general_inquiry": [
     "We are always on the lookout for talented professionals to join our growing team. You can check our current openings and apply online. [Apply Here...](https://www.optimatrix.in/apply)"
   ],
@@ -48,6 +45,12 @@
   ],
   "career_hr_contact": [
     "For all recruitment and HR-related queries, the best way to reach us is by submitting an application directly on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
+  ],
+  "career_why_choose": [
+    "Opti Matrix offers an excellent environment for growth, learning, and innovation. We value our employees and provide great opportunities to advance your career. Join us to work on exciting projects and shape the future of technology."
+  ],
+  "career_migrate_app": [
+    "I think there might be a misunderstanding! If you are looking for App Migration services, we can certainly help with that. However, if you are inquiring about a job, please visit our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
   ],
   "ceo_general": [
     "Vishal Shah is the Founder & CEO of Opti Matrix Solutions."
@@ -83,13 +86,24 @@
     "PROFILE_CARD:Vishal Shah|Founder & CEO|Opti Matrix Solutions|https://in.linkedin.com/in/shahvishal4u|https://media.licdn.com/dms/image/v2/D4D03AQFvDJWvfIc1mA/profile-displayphoto-scale_200_200/B4DZr.YM9jH4AY-/0/1765204350661?e=2147483647&v=beta&t=JKUFNMShN2k0h6uXrADsoKAh2_CicZnGLEnHGKrTPfw"
   ],
   "ceo_achievements": [
-    "Under Vishal Shah's leadership, Opti Matrix has delivered over 500 successful projects globally and earned a reputation for excellence in the IT industry."
+    "Under Vishal Shah's leadership, Opti Matrix has delivered over 500 successful projects globally and earned a reputation for excellence in the IT industry.",
+    "Vishal Shah has successfully led Opti Matrix in delivering cutting-edge IT solutions for global clients, earning numerous accolades for innovation, reliability, and sustained business growth."
   ],
   "ceo_message": [
-    "Vishal Shah believes that true success comes from empowering clients with innovative technology and building long-term, trust-based relationships."
+    "Vishal Shah believes that true success comes from empowering clients with innovative technology and building long-term, trust-based relationships.",
+    "Our CEO, Vishal Shah, emphasizes that technology must solve real-world problems. His core message is to build transparent, long-lasting partnerships with clients through innovative and reliable digital solutions."
   ],
   "ceo_contact": [
-    "You can connect with Vishal Shah directly on LinkedIn: [View LinkedIn Profile](https://in.linkedin.com/in/shahvishal4u) or contact Opti Matrix through our official support channels."
+    "You can connect with Vishal Shah directly on LinkedIn: [View LinkedIn Profile](https://in.linkedin.com/in/shahvishal4u) or contact Opti Matrix through our official support channels.",
+    "While Vishal Shah is deeply involved in overseeing operations, the best way to reach him directly is via his LinkedIn profile: [Vishal Shah on LinkedIn](https://in.linkedin.com/in/shahvishal4u). For business inquiries, please use our contact page."
+  ],
+  "ceo_why_choose": [
+    "Opti Matrix is led by our visionary Founder & CEO, Vishal Shah. Choosing to work with us means benefiting from his deep IT expertise dating back to 2007, his strong leadership, and a personalized, customer-centric approach that ensures your digital projects achieve the highest standard of excellence.",
+    "Choosing Opti Matrix means you are backed by Vishal Shah's 15+ years of hands-on IT experience. His direct involvement ensures strategic oversight, uncompromising quality, and a deep commitment to the success of your digital initiatives."
+  ],
+  "ceo_migrate_app": [
+    "It seems there might be a slight misunderstanding! Our CEO, Vishal Shah, leads the company, but he doesn't personally act as a platform for your app. However, our expert development team at Opti Matrix would be thrilled to handle your app migration seamlessly using modern technologies.",
+    "We think you might mean migrating your app to a new platform or cloud! While you can't migrate an app 'to a CEO', our CEO Vishal Shah proudly oversees a brilliant team of developers who can flawlessly migrate your existing application to AWS, Azure, or any modern framework."
   ],
   "client_general": [
     "You can view all our esteemed clients by clicking the button below:\n\n[View All Clients](https://www.optiinfo.com/our-clients/)",
@@ -587,7 +601,7 @@
     "Opti Matrix provides end-to-end Next.js services. We migrate standard React apps to Next.js, use TypeScript for robust codebases, and integrate styles like Tailwind CSS. We deploy to Vercel and AWS, utilize NextAuth.js for rock-solid security, integrate third-party APIs, write Jest unit tests, rescue unfinished projects, and offer ongoing maintenance and strategic consulting."
   ],
   "nextjs_hiring": [
-    "Opti Matrix houses a team of elite, highly experienced Next.js developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    "Opti Matrix houses a team of elite, highly experienced Next.js developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at +91 81283 61116 or email [info@optimatrix.in](mailto:info@optimatrix.in)."
   ],
   "nodejs_general_info": [
     "Node.js is an incredibly fast, open-source JavaScript runtime environment built on Chrome's V8 engine. While technically not a framework, it uses a non-blocking, single-threaded event loop to handle requests asynchronously. Using JavaScript for both the frontend and backend significantly accelerates the development process. It also utilizes NPM, the world's largest software registry."
@@ -1885,6 +1899,9 @@
   ],
   "social_media_pinterest": [
     "You can find us on Pinterest at @optiinfo. [Pinterest](https://www.pinterest.com/optiinfo)"
+  ],
+  "social_migrate_app": [
+    "It looks like there's a slight mix-up! We cannot migrate an app to a 'Social Media' platform. However, if you're looking for our App Migration services or want to integrate social media features into your app, our expert developers can certainly help you with that!"
   ],
   "website_general": [
     "We have 2 official websites. You can visit them below:\n\n[Optimatrix](https://www.optimatrix.in/) [OptiInfo](https://www.optiinfo.com/)"

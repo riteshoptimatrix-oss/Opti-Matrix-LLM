@@ -199,7 +199,12 @@
       "Vishal Shah ki photo dikhao.",
       "Owner ki photo dikhao.",
       "Founder ki image dikhao.",
-      "CEO ki image dikhao."
+      "CEO ki image dikhao.",
+      "What does the CEO look like?",
+      "Can I get a picture of Vishal Shah?",
+      "Founder picture please",
+      "Owner ki pic",
+      "Image of the owner"
     ],
     "responses": [
       "PROFILE_CARD:Vishal Shah|Founder & CEO|Opti Matrix Solutions|https://in.linkedin.com/in/shahvishal4u|https://media.licdn.com/dms/image/v2/D4D03AQFvDJWvfIc1mA/profile-displayphoto-scale_200_200/B4DZr.YM9jH4AY-/0/1765204350661?e=2147483647&v=beta&t=JKUFNMShN2k0h6uXrADsoKAh2_CicZnGLEnHGKrTPfw"
@@ -213,10 +218,16 @@
       "CEO awards",
       "Founder achievements",
       "Vishal Shah ke achievements kya hain?",
-      "Tell me about the founder's success."
+      "Tell me about the founder's success.",
+      "What has Vishal Shah achieved?",
+      "Any notable awards for the CEO?",
+      "Vishal Shah track record",
+      "CEO success stories",
+      "What are the accomplishments of the founder?"
     ],
     "responses": [
-      "Under Vishal Shah's leadership, Opti Matrix has delivered over 500 successful projects globally and earned a reputation for excellence in the IT industry."
+      "Under Vishal Shah's leadership, Opti Matrix has delivered over 500 successful projects globally and earned a reputation for excellence in the IT industry.",
+      "Vishal Shah has successfully led Opti Matrix in delivering cutting-edge IT solutions for global clients, earning numerous accolades for innovation, reliability, and sustained business growth."
     ]
   },
   {
@@ -226,10 +237,15 @@
       "CEO's message",
       "Founder's message",
       "What does Vishal Shah say to clients?",
-      "Vishal Shah ka message kya hai?"
+      "Vishal Shah ka message kya hai?",
+      "What is the CEO's vision for clients?",
+      "Vishal Shah quote",
+      "Does the founder have a message?",
+      "Words from the CEO"
     ],
     "responses": [
-      "Vishal Shah believes that true success comes from empowering clients with innovative technology and building long-term, trust-based relationships."
+      "Vishal Shah believes that true success comes from empowering clients with innovative technology and building long-term, trust-based relationships.",
+      "Our CEO, Vishal Shah, emphasizes that technology must solve real-world problems. His core message is to build transparent, long-lasting partnerships with clients through innovative and reliable digital solutions."
     ]
   },
   {
@@ -240,10 +256,50 @@
       "Can I email the founder?",
       "CEO contact details",
       "Vishal Shah ka email kya hai?",
-      "Founder se kaise baat karu?"
+      "Founder se kaise baat karu?",
+      "How to reach the CEO?",
+      "Can I schedule a meeting with Vishal Shah?",
+      "Vishal Shah contact number",
+      "Founder's email id",
+      "CEO se contact karna hai"
     ],
     "responses": [
-      "You can connect with Vishal Shah directly on LinkedIn: [View LinkedIn Profile](https://in.linkedin.com/in/shahvishal4u) or contact Opti Matrix through our official support channels."
+      "You can connect with Vishal Shah directly on LinkedIn: [View LinkedIn Profile](https://in.linkedin.com/in/shahvishal4u) or contact Opti Matrix through our official support channels.",
+      "While Vishal Shah is deeply involved in overseeing operations, the best way to reach him directly is via his LinkedIn profile: [Vishal Shah on LinkedIn](https://in.linkedin.com/in/shahvishal4u). For business inquiries, please use our contact page."
+    ]
+  },
+  {
+    "intent": "ceo_why_choose",
+    "patterns": [
+      "Why should I choose Ceo?",
+      "Why is the CEO important for my project?",
+      "Why should we trust the CEO?",
+      "What makes Vishal Shah different?",
+      "Why Opti Matrix CEO?",
+      "Why work with Vishal Shah?"
+    ],
+    "responses": [
+      "Opti Matrix is led by our visionary Founder & CEO, Vishal Shah. Choosing to work with us means benefiting from his deep IT expertise dating back to 2007, his strong leadership, and a personalized, customer-centric approach that ensures your digital projects achieve the highest standard of excellence.",
+      "Choosing Opti Matrix means you are backed by Vishal Shah's 15+ years of hands-on IT experience. His direct involvement ensures strategic oversight, uncompromising quality, and a deep commitment to the success of your digital initiatives."
+    ]
+  },
+  {
+    "intent": "ceo_migrate_app",
+    "patterns": [
+      "Can you migrate my existing app to Ceo?",
+      "Can you migrate existing app to ceo?",
+      "Migrate my app to ceo",
+      "Migrate existing app to ceo",
+      "App migration to ceo",
+      "CEO app migration",
+      "Migrate app to ceo",
+      "CEO platform app migration",
+      "I want to move my app to CEO",
+      "CEO migration services"
+    ],
+    "responses": [
+      "It seems there might be a slight misunderstanding! Our CEO, Vishal Shah, leads the company, but he doesn't personally act as a platform for your app. However, our expert development team at Opti Matrix would be thrilled to handle your app migration seamlessly using modern technologies.",
+      "We think you might mean migrating your app to a new platform or cloud! While you can't migrate an app 'to a CEO', our CEO Vishal Shah proudly oversees a brilliant team of developers who can flawlessly migrate your existing application to AWS, Azure, or any modern framework."
     ]
   }
 ]

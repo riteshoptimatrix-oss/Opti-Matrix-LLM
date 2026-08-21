@@ -32,18 +32,6 @@
     ]
   },
   {
-    "intent": "restricted_location_pakistan",
-    "patterns": [
-      "Pakistan Details",
-      "pakistan details",
-      "Opti Matrix Pakistan details",
-      "company details in Pakistan"
-    ],
-    "responses": [
-      "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information."
-    ]
-  },
-  {
     "intent": "career_general_inquiry",
     "patterns": [
       "Are you hiring?",
@@ -119,6 +107,27 @@
     ],
     "responses": [
       "For all recruitment and HR-related queries, the best way to reach us is by submitting an application directly on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
+    ]
+  },
+  {
+    "intent": "career_why_choose",
+    "patterns": [
+      "Why should I choose Career?",
+      "Why should I build my career here?",
+      "Why choose Opti Matrix for my career?"
+    ],
+    "responses": [
+      "Opti Matrix offers an excellent environment for growth, learning, and innovation. We value our employees and provide great opportunities to advance your career. Join us to work on exciting projects and shape the future of technology."
+    ]
+  },
+  {
+    "intent": "career_migrate_app",
+    "patterns": [
+      "Can you migrate my existing app to Career?",
+      "Can you migrate my app to career"
+    ],
+    "responses": [
+      "I think there might be a misunderstanding! If you are looking for App Migration services, we can certainly help with that. However, if you are inquiring about a job, please visit our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
     ]
   }
 ]

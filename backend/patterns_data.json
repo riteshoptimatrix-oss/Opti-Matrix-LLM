@@ -80,12 +80,6 @@
     "how to apply for web developer role",
     "I want to become a web developer in your company"
   ],
-  "restricted_location_pakistan": [
-    "Pakistan Details",
-    "pakistan details",
-    "Opti Matrix Pakistan details",
-    "company details in Pakistan"
-  ],
   "career_general_inquiry": [
     "Are you hiring?",
     "Job at opti matrix",
@@ -133,6 +127,15 @@
     "Who is the HR manager?",
     "HR contact details",
     "Send resume to HR"
+  ],
+  "career_why_choose": [
+    "Why should I choose Career?",
+    "Why should I build my career here?",
+    "Why choose Opti Matrix for my career?"
+  ],
+  "career_migrate_app": [
+    "Can you migrate my existing app to Career?",
+    "Can you migrate my app to career"
   ],
   "ceo_general": [
     "Who is the owner of Opti Matrix Solutions?",
@@ -272,7 +275,12 @@
     "Vishal Shah ki photo dikhao.",
     "Owner ki photo dikhao.",
     "Founder ki image dikhao.",
-    "CEO ki image dikhao."
+    "CEO ki image dikhao.",
+    "What does the CEO look like?",
+    "Can I get a picture of Vishal Shah?",
+    "Founder picture please",
+    "Owner ki pic",
+    "Image of the owner"
   ],
   "ceo_achievements": [
     "What are the achievements of Vishal Shah?",
@@ -280,14 +288,23 @@
     "CEO awards",
     "Founder achievements",
     "Vishal Shah ke achievements kya hain?",
-    "Tell me about the founder's success."
+    "Tell me about the founder's success.",
+    "What has Vishal Shah achieved?",
+    "Any notable awards for the CEO?",
+    "Vishal Shah track record",
+    "CEO success stories",
+    "What are the accomplishments of the founder?"
   ],
   "ceo_message": [
     "Message from the CEO",
     "CEO's message",
     "Founder's message",
     "What does Vishal Shah say to clients?",
-    "Vishal Shah ka message kya hai?"
+    "Vishal Shah ka message kya hai?",
+    "What is the CEO's vision for clients?",
+    "Vishal Shah quote",
+    "Does the founder have a message?",
+    "Words from the CEO"
   ],
   "ceo_contact": [
     "How can I contact Vishal Shah?",
@@ -295,7 +312,32 @@
     "Can I email the founder?",
     "CEO contact details",
     "Vishal Shah ka email kya hai?",
-    "Founder se kaise baat karu?"
+    "Founder se kaise baat karu?",
+    "How to reach the CEO?",
+    "Can I schedule a meeting with Vishal Shah?",
+    "Vishal Shah contact number",
+    "Founder's email id",
+    "CEO se contact karna hai"
+  ],
+  "ceo_why_choose": [
+    "Why should I choose Ceo?",
+    "Why is the CEO important for my project?",
+    "Why should we trust the CEO?",
+    "What makes Vishal Shah different?",
+    "Why Opti Matrix CEO?",
+    "Why work with Vishal Shah?"
+  ],
+  "ceo_migrate_app": [
+    "Can you migrate my existing app to Ceo?",
+    "Can you migrate existing app to ceo?",
+    "Migrate my app to ceo",
+    "Migrate existing app to ceo",
+    "App migration to ceo",
+    "CEO app migration",
+    "Migrate app to ceo",
+    "CEO platform app migration",
+    "I want to move my app to CEO",
+    "CEO migration services"
   ],
   "client_general": [
     "Who are your clients?",
@@ -4491,6 +4533,16 @@
     "Pinterest page bhejo",
     "Aapka Pinterest account kya hai?",
     "Pinterest account batao"
+  ],
+  "social_migrate_app": [
+    "Can you migrate my existing app to Social?",
+    "Can you migrate existing app to social media?",
+    "Migrate my app to social media",
+    "Migrate existing app to social platform",
+    "App migration to social platform",
+    "Social media app migration",
+    "Migrate app to social",
+    "Social platform app migration"
   ],
   "website_general": [
     "What is your website?",
