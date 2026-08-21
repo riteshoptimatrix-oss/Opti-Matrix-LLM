@@ -1,0 +1,24 @@
+[
+  {
+    "intent": "faq_emergency_support",
+    "patterns": [
+      "If my website goes down in the middle of the night, do you provide emergency support?",
+      "Website is down",
+      "Emergency support"
+    ],
+    "responses": [
+      "We offer dedicated maintenance and support packages that include critical monitoring and emergency support to ensure your business experiences maximum uptime and stability."
+    ]
+  },
+  {
+    "intent": "faq_troubleshooting_existing",
+    "patterns": [
+      "I have an existing website built by someone else. Can you fix a bug on it?",
+      "Can you fix my current website?",
+      "Bug fixing"
+    ],
+    "responses": [
+      "Yes, we can. Our team is highly experienced in code auditing and refactoring. We can review your existing application, identify the issues, and provide the necessary fixes and optimizations."
+    ]
+  }
+]

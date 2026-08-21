@@ -1,0 +1,35 @@
+[
+  {
+    "intent": "faq_launch_app_stores",
+    "patterns": [
+      "Will you upload my app to the Google Play Store and Apple App Store for me?",
+      "Do you publish the app?",
+      "App store submission"
+    ],
+    "responses": [
+      "Yes, we handle the entire deployment process. We will assist you with submitting and publishing your application to both the Google Play Store and the Apple App Store under your developer accounts."
+    ]
+  },
+  {
+    "intent": "faq_marketing_ads",
+    "patterns": [
+      "Do you run Facebook or Google Ads?",
+      "Do you provide paid marketing?",
+      "Google ads"
+    ],
+    "responses": [
+      "Yes! In addition to development, we offer comprehensive Digital Marketing services, including strategic Facebook Ads, Google Ads, and SEO to help you reach your target audience and drive conversions."
+    ]
+  },
+  {
+    "intent": "faq_support_training",
+    "patterns": [
+      "Will you teach me how to use the admin panel to update my website?",
+      "Admin panel training",
+      "How to use the website"
+    ],
+    "responses": [
+      "Absolutely. We design intuitive, user-friendly admin panels and provide full training and documentation so you and your team can easily manage and update your website content."
+    ]
+  }
+]

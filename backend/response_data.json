@@ -312,6 +312,57 @@
   "inquiry_create_php_software": [
     "Yes, we can! Opti Matrix provides full-stack PHP web and software development services tailored to your project requirements. For inquiries and project consultations, please contact our Head Office at +91 81283 61116 or email us at info@optimatrix.in."
   ],
+  "faq_legal_nda": [
+    "Yes, absolutely. We prioritize your confidentiality and are fully prepared to sign a Non-Disclosure Agreement (NDA) before you share any sensitive project details or ideas with us."
+  ],
+  "faq_legal_ip_ownership": [
+    "Once the project is successfully completed and all payments are settled, you will have 100% ownership of the final source code and Intellectual Property (IP)."
+  ],
+  "faq_security_hackers": [
+    "We follow industry-standard security practices, including SSL encryption, secure coding guidelines (OWASP), regular vulnerability patching, and database encryption to ensure your application remains protected against threats."
+  ],
+  "faq_payment_upfront": [
+    "No, you do not have to pay 100% upfront. We believe in transparent, milestone-based payments to ensure you are completely satisfied with the progress at each stage."
+  ],
+  "faq_payment_milestones": [
+    "Our standard payment structure is milestone-based. Typically, it involves an initial deposit to kick off the project, followed by scheduled payments tied to specific deliverable phases (e.g., design approval, beta release, final launch)."
+  ],
+  "faq_payment_hidden_costs": [
+    "We maintain complete transparency. All development costs will be clearly outlined in your proposal. Third-party expenses like domain, hosting, or external API subscriptions are discussed upfront and are typically managed directly by the client."
+  ],
+  "faq_portfolio_showcase": [
+    "Yes! We have built numerous high-performance websites across various industries. Please visit our official portfolio on our website to see our latest work and live projects."
+  ],
+  "faq_portfolio_ecommerce": [
+    "Absolutely. We specialize in robust e-commerce solutions and have case studies detailing how we increased sales and performance for our retail clients. Please contact us at info@optimatrix.in for detailed case studies."
+  ],
+  "faq_portfolio_clients": [
+    "We have partnered with startups, SMEs, and large enterprises globally to deliver digital excellence. While some clients are under strict NDAs, you can view our featured client testimonials on the Opti Matrix website."
+  ],
+  "faq_launch_app_stores": [
+    "Yes, we handle the entire deployment process. We will assist you with submitting and publishing your application to both the Google Play Store and the Apple App Store under your developer accounts."
+  ],
+  "faq_marketing_ads": [
+    "Yes! In addition to development, we offer comprehensive Digital Marketing services, including strategic Facebook Ads, Google Ads, and SEO to help you reach your target audience and drive conversions."
+  ],
+  "faq_support_training": [
+    "Absolutely. We design intuitive, user-friendly admin panels and provide full training and documentation so you and your team can easily manage and update your website content."
+  ],
+  "faq_tech_native_vs_hybrid": [
+    "It depends on your goals! Native apps offer maximum performance and deep hardware integration, while Hybrid apps (Flutter/React Native) are highly cost-effective and allow you to launch on both iOS and Android simultaneously. We provide free consultations to help you choose the best fit."
+  ],
+  "faq_tech_php_vs_node": [
+    "PHP is excellent for rapid development, content management systems, and traditional web apps. Node.js shines in real-time, highly concurrent applications (like chats or streaming). We will analyze your project requirements to recommend the optimal backend technology."
+  ],
+  "faq_tech_wordpress_ecommerce": [
+    "WordPress (with WooCommerce) is great for small to medium stores. However, for a very large-scale e-commerce platform with heavy traffic and complex integrations, we typically recommend more robust, custom-built solutions or dedicated platforms like Magento or custom Node.js/PHP architectures."
+  ],
+  "faq_emergency_support": [
+    "We offer dedicated maintenance and support packages that include critical monitoring and emergency support to ensure your business experiences maximum uptime and stability."
+  ],
+  "faq_troubleshooting_existing": [
+    "Yes, we can. Our team is highly experienced in code auditing and refactoring. We can review your existing application, identify the issues, and provide the necessary fixes and optimizations."
+  ],
   "portfolio_general": [
     "Sure! You can explore our portfolio and see the projects we have worked on.\n\n[View Portfolio](https://www.optiinfo.com/our-portfolio/)\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
   ],

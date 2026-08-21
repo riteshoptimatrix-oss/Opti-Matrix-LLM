@@ -1,0 +1,35 @@
+[
+  {
+    "intent": "faq_portfolio_showcase",
+    "patterns": [
+      "Can you show me websites you have built?",
+      "Show me your portfolio",
+      "What websites have you made?"
+    ],
+    "responses": [
+      "Yes! We have built numerous high-performance websites across various industries. Please visit our official portfolio on our website to see our latest work and live projects."
+    ]
+  },
+  {
+    "intent": "faq_portfolio_ecommerce",
+    "patterns": [
+      "Do you have any case studies for e-commerce apps?",
+      "Show me your ecommerce work",
+      "Ecommerce case studies"
+    ],
+    "responses": [
+      "Absolutely. We specialize in robust e-commerce solutions and have case studies detailing how we increased sales and performance for our retail clients. Please contact us at info@optimatrix.in for detailed case studies."
+    ]
+  },
+  {
+    "intent": "faq_portfolio_clients",
+    "patterns": [
+      "Who are some of your biggest clients?",
+      "Who have you worked with?",
+      "Your clients"
+    ],
+    "responses": [
+      "We have partnered with startups, SMEs, and large enterprises globally to deliver digital excellence. While some clients are under strict NDAs, you can view our featured client testimonials on the Opti Matrix website."
+    ]
+  }
+]

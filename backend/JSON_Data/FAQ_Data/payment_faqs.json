@@ -1,0 +1,35 @@
+[
+  {
+    "intent": "faq_payment_upfront",
+    "patterns": [
+      "Do I have to pay 100% upfront?",
+      "Do I pay all at once?",
+      "Payment upfront"
+    ],
+    "responses": [
+      "No, you do not have to pay 100% upfront. We believe in transparent, milestone-based payments to ensure you are completely satisfied with the progress at each stage."
+    ]
+  },
+  {
+    "intent": "faq_payment_milestones",
+    "patterns": [
+      "What are your payment milestones?",
+      "How do I pay?",
+      "Payment structure"
+    ],
+    "responses": [
+      "Our standard payment structure is milestone-based. Typically, it involves an initial deposit to kick off the project, followed by scheduled payments tied to specific deliverable phases (e.g., design approval, beta release, final launch)."
+    ]
+  },
+  {
+    "intent": "faq_payment_hidden_costs",
+    "patterns": [
+      "Are there any hidden costs, such as server fees or API costs?",
+      "Hidden charges",
+      "Extra costs"
+    ],
+    "responses": [
+      "We maintain complete transparency. All development costs will be clearly outlined in your proposal. Third-party expenses like domain, hosting, or external API subscriptions are discussed upfront and are typically managed directly by the client."
+    ]
+  }
+]

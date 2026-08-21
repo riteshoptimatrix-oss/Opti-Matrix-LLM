@@ -1122,6 +1122,91 @@
     "kya aap mera project php me bana sakte ho?",
     "php me website ya software banwana hai"
   ],
+  "faq_legal_nda": [
+    "Do you sign an NDA (Non-Disclosure Agreement) before we discuss my idea?",
+    "Will you sign an NDA?",
+    "Is my idea safe with you?"
+  ],
+  "faq_legal_ip_ownership": [
+    "Who owns the source code / Intellectual Property after the project is completed?",
+    "Do I get the source code?",
+    "Who owns the IP?"
+  ],
+  "faq_security_hackers": [
+    "How do you ensure my website is secure from hackers?",
+    "Is my website secure?",
+    "Security measures"
+  ],
+  "faq_payment_upfront": [
+    "Do I have to pay 100% upfront?",
+    "Do I pay all at once?",
+    "Payment upfront"
+  ],
+  "faq_payment_milestones": [
+    "What are your payment milestones?",
+    "How do I pay?",
+    "Payment structure"
+  ],
+  "faq_payment_hidden_costs": [
+    "Are there any hidden costs, such as server fees or API costs?",
+    "Hidden charges",
+    "Extra costs"
+  ],
+  "faq_portfolio_showcase": [
+    "Can you show me websites you have built?",
+    "Show me your portfolio",
+    "What websites have you made?"
+  ],
+  "faq_portfolio_ecommerce": [
+    "Do you have any case studies for e-commerce apps?",
+    "Show me your ecommerce work",
+    "Ecommerce case studies"
+  ],
+  "faq_portfolio_clients": [
+    "Who are some of your biggest clients?",
+    "Who have you worked with?",
+    "Your clients"
+  ],
+  "faq_launch_app_stores": [
+    "Will you upload my app to the Google Play Store and Apple App Store for me?",
+    "Do you publish the app?",
+    "App store submission"
+  ],
+  "faq_marketing_ads": [
+    "Do you run Facebook or Google Ads?",
+    "Do you provide paid marketing?",
+    "Google ads"
+  ],
+  "faq_support_training": [
+    "Will you teach me how to use the admin panel to update my website?",
+    "Admin panel training",
+    "How to use the website"
+  ],
+  "faq_tech_native_vs_hybrid": [
+    "Should I build a native app or a hybrid app using Flutter or React Native?",
+    "Native vs Hybrid app",
+    "Flutter vs React Native"
+  ],
+  "faq_tech_php_vs_node": [
+    "Which is better for my project: PHP or Node.js?",
+    "PHP vs Nodejs",
+    "Which backend is better"
+  ],
+  "faq_tech_wordpress_ecommerce": [
+    "Is WordPress good enough for a large e-commerce store?",
+    "Can I use WordPress for big ecommerce",
+    "WordPress limitations"
+  ],
+  "faq_emergency_support": [
+    "If my website goes down in the middle of the night, do you provide emergency support?",
+    "Website is down",
+    "Emergency support"
+  ],
+  "faq_troubleshooting_existing": [
+    "I have an existing website built by someone else. Can you fix a bug on it?",
+    "Can you fix my current website?",
+    "Bug fixing"
+  ],
   "portfolio_general": [
     "Show me your portfolio",
     "Where can I see your portfolio?",

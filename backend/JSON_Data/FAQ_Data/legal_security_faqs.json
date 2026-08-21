@@ -1,0 +1,35 @@
+[
+  {
+    "intent": "faq_legal_nda",
+    "patterns": [
+      "Do you sign an NDA (Non-Disclosure Agreement) before we discuss my idea?",
+      "Will you sign an NDA?",
+      "Is my idea safe with you?"
+    ],
+    "responses": [
+      "Yes, absolutely. We prioritize your confidentiality and are fully prepared to sign a Non-Disclosure Agreement (NDA) before you share any sensitive project details or ideas with us."
+    ]
+  },
+  {
+    "intent": "faq_legal_ip_ownership",
+    "patterns": [
+      "Who owns the source code / Intellectual Property after the project is completed?",
+      "Do I get the source code?",
+      "Who owns the IP?"
+    ],
+    "responses": [
+      "Once the project is successfully completed and all payments are settled, you will have 100% ownership of the final source code and Intellectual Property (IP)."
+    ]
+  },
+  {
+    "intent": "faq_security_hackers",
+    "patterns": [
+      "How do you ensure my website is secure from hackers?",
+      "Is my website secure?",
+      "Security measures"
+    ],
+    "responses": [
+      "We follow industry-standard security practices, including SSL encryption, secure coding guidelines (OWASP), regular vulnerability patching, and database encryption to ensure your application remains protected against threats."
+    ]
+  }
+]

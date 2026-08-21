@@ -1,0 +1,35 @@
+[
+  {
+    "intent": "faq_tech_native_vs_hybrid",
+    "patterns": [
+      "Should I build a native app or a hybrid app using Flutter or React Native?",
+      "Native vs Hybrid app",
+      "Flutter vs React Native"
+    ],
+    "responses": [
+      "It depends on your goals! Native apps offer maximum performance and deep hardware integration, while Hybrid apps (Flutter/React Native) are highly cost-effective and allow you to launch on both iOS and Android simultaneously. We provide free consultations to help you choose the best fit."
+    ]
+  },
+  {
+    "intent": "faq_tech_php_vs_node",
+    "patterns": [
+      "Which is better for my project: PHP or Node.js?",
+      "PHP vs Nodejs",
+      "Which backend is better"
+    ],
+    "responses": [
+      "PHP is excellent for rapid development, content management systems, and traditional web apps. Node.js shines in real-time, highly concurrent applications (like chats or streaming). We will analyze your project requirements to recommend the optimal backend technology."
+    ]
+  },
+  {
+    "intent": "faq_tech_wordpress_ecommerce",
+    "patterns": [
+      "Is WordPress good enough for a large e-commerce store?",
+      "Can I use WordPress for big ecommerce",
+      "WordPress limitations"
+    ],
+    "responses": [
+      "WordPress (with WooCommerce) is great for small to medium stores. However, for a very large-scale e-commerce platform with heavy traffic and complex integrations, we typically recommend more robust, custom-built solutions or dedicated platforms like Magento or custom Node.js/PHP architectures."
+    ]
+  }
+]
