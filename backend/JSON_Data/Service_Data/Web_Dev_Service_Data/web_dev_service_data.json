@@ -289,6 +289,18 @@
     ]
   },
   {
+    "intent": "hire_web_developer_direct",
+    "patterns": [
+      "i need to hire the web developer",
+      "i need to hire the website developer",
+      "i want to hire a web developer",
+      "need to hire a website developer"
+    ],
+    "responses": [
+      "We would love to help you build your team! Please contact us directly to hire a web developer:\n\n[Get a Quote](https://www.optimatrix.in/contact-us/)\n[WhatsApp Us](https://wa.me/918128361116)\n[Email Us](mailto:info@optimatrix.in)"
+    ]
+  },
+  {
     "intent": "web_dev_business_identity",
     "patterns": [
       "Can you help establish my business identity online?",

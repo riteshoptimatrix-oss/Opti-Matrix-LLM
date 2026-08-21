@@ -113,6 +113,12 @@ def main():
         json.dump(responses_by_intent, f, indent=2, ensure_ascii=False)
     print(f"Response mapping saved to {response_export_path}")
 
+    # Export patterns_data.json for follow-up suggestions
+    patterns_export_path = os.path.join(base_dir, "patterns_data.json")
+    with open(patterns_export_path, "w", encoding="utf-8") as f:
+        json.dump(patterns_by_intent, f, indent=2, ensure_ascii=False)
+    print(f"Patterns mapping saved to {patterns_export_path}")
+
     # Build Augmented Dataset
     augmented_data = []
     seen = set()

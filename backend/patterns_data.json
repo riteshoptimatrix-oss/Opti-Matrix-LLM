@@ -1,0 +1,4383 @@
+{
+  "greeting": [
+    "hi",
+    "hello",
+    "hey",
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "hi there",
+    "hello there",
+    "greetings",
+    "howdy",
+    "hey opti matrix",
+    "hello opti matrix",
+    "start chat",
+    "is anyone there",
+    "hey ai",
+    "hello bot",
+    "hii",
+    "hyy",
+    "hmm",
+    "heyyy"
+  ],
+  "how_are_you": [
+    "how are you",
+    "how are you doing",
+    "how is it going",
+    "what's up",
+    "how are things",
+    "how do you do",
+    "hope you are well"
+  ],
+  "thanks": [
+    "thanks",
+    "thank you",
+    "thanks a lot",
+    "thank you so much",
+    "appreciate it",
+    "many thanks",
+    "thank you for the help",
+    "that was helpful",
+    "great thanks"
+  ],
+  "bye": [
+    "bye",
+    "goodbye",
+    "see you",
+    "catch you later",
+    "have a good day",
+    "bye bye",
+    "good night",
+    "talk to you later",
+    "ttyl",
+    "end chat",
+    "i'm leaving",
+    "farewell",
+    "have a good night"
+  ],
+  "career_web_developer": [
+    "i need to join your company",
+    "I need to join your company",
+    "i needto join your company",
+    "I needto join your company",
+    "Web Developer Role",
+    "web developer role",
+    "Website Developer Role",
+    "website developer role",
+    "Website Designer role",
+    "Web Designer role",
+    "apply for web developer",
+    "job as a web developer",
+    "want to join optimatrix",
+    "join optimatrix as web developer",
+    "are you hiring web developers?",
+    "are you hiring website developers",
+    "any vacancies for web developer?",
+    "web developer vacancy",
+    "looking for a job as a web developer",
+    "web developer job openings",
+    "how to apply for web developer role",
+    "I want to become a web developer in your company"
+  ],
+  "restricted_location_pakistan": [
+    "Pakistan Details",
+    "pakistan details",
+    "Opti Matrix Pakistan details",
+    "company details in Pakistan"
+  ],
+  "career_general_inquiry": [
+    "Are you hiring?",
+    "Job at opti matrix",
+    "jobs at opti matrix",
+    "do you have any job openings?",
+    "I am looking for a job",
+    "Current vacancies in your company",
+    "Can I work at Opti Matrix?",
+    "Careers at Opti Matrix",
+    "Job opportunities",
+    "Current job openings",
+    "Job opportunities at opti matrix",
+    "Job openings at opti matrix"
+  ],
+  "career_app_developer": [
+    "App developer role",
+    "Mobile app developer job",
+    "Are you hiring Android developers?",
+    "Are you hiring iOS developers?",
+    "Vacancy for app developer",
+    "I want to join as an app developer",
+    "Looking for a job as a mobile developer"
+  ],
+  "career_ui_ux_designer": [
+    "UI UX designer role",
+    "Are you hiring UI designers?",
+    "Are you hiring UX designers?",
+    "Graphic designer job",
+    "Vacancy for designer",
+    "I want to join as a designer",
+    "Looking for a job as a UI/UX designer"
+  ],
+  "career_internship": [
+    "Do you offer internships?",
+    "Are there any internship opportunities?",
+    "Can I join as an intern?",
+    "Internship for freshers",
+    "Looking for an internship",
+    "Summer internship"
+  ],
+  "career_hr_contact": [
+    "How to contact HR?",
+    "HR email address",
+    "Can I talk to HR?",
+    "Who is the HR manager?",
+    "HR contact details",
+    "Send resume to HR"
+  ],
+  "ceo_general": [
+    "Who is the owner of Opti Matrix Solutions?",
+    "Who owns Opti Matrix?",
+    "Who is the founder of Opti Matrix?",
+    "Who founded Opti Matrix Solutions?",
+    "Who is the CEO of Opti Matrix?",
+    "Who is the founder and CEO?",
+    "Who runs Opti Matrix?",
+    "Who is behind Opti Matrix?",
+    "Who started Opti Matrix?",
+    "Who established Opti Matrix?",
+    "Tell me about the owner of Opti Matrix.",
+    "Tell me about the founder.",
+    "Company ka owner kaun hai?",
+    "Opti Matrix ka owner kaun hai?",
+    "Opti Matrix ka founder kaun hai?",
+    "Opti Matrix ka CEO kaun hai?",
+    "Opti Matrix ko kaun run karta hai?",
+    "Opti Matrix kisne start ki?",
+    "Aapki company ka founder kaun hai?"
+  ],
+  "ceo_name": [
+    "What is the owner's name?",
+    "What is the founder's name?",
+    "What is the CEO's name?",
+    "Who is Vishal Shah?",
+    "Vishal Shah kaun hain?",
+    "Vishal Shah kaun hai?",
+    "Owner ka naam kya hai?",
+    "Founder ka naam kya hai?",
+    "CEO ka naam kya hai?",
+    "Company ke owner ka naam batao."
+  ],
+  "ceo_designation": [
+    "What is Vishal Shah's designation?",
+    "What is Vishal Shah's position?",
+    "What is his role in the company?",
+    "Is Vishal Shah the CEO?",
+    "Is Vishal Shah the founder?",
+    "Vishal Shah ka role kya hai?",
+    "Vishal Shah ki position kya hai?",
+    "Vishal Shah ka designation kya hai?",
+    "Kya Vishal Shah CEO hain?",
+    "Kya Vishal Shah founder hain?"
+  ],
+  "ceo_education": [
+    "Tell me about Vishal Shah.",
+    "What is Vishal Shah's background?",
+    "What did Vishal Shah study?",
+    "What is the educational background of Vishal Shah?",
+    "Is Vishal Shah a Computer Science graduate?",
+    "Vishal Shah ki education kya hai?",
+    "Vishal Shah ne kya padha hai?",
+    "Founder ki education kya hai?",
+    "CEO ki education kya hai?",
+    "Vishal Shah ke background ke baare mein batao.",
+    "Study of the CEO",
+    "Education of the CEO",
+    "What is the study of the CEO?",
+    "Edcuation of the Vishal Shah"
+  ],
+  "ceo_experience": [
+    "How much IT experience does Vishal Shah have?",
+    "How long has Vishal Shah been in IT?",
+    "When did Vishal Shah start his IT journey?",
+    "What is the founder's IT experience?",
+    "How experienced is Vishal Shah?",
+    "Vishal Shah ka IT experience kitna hai?",
+    "Founder kab se IT mein hain?",
+    "CEO ka IT experience kitna hai?"
+  ],
+  "ceo_vision": [
+    "What does Vishal Shah believe in?",
+    "What is Vishal Shah's vision?",
+    "What motivates Vishal Shah?",
+    "What is the founder passionate about?",
+    "What does Vishal Shah focus on?",
+    "Vishal Shah ki vision kya hai?",
+    "Founder technology ke baare mein kya sochte hain?"
+  ],
+  "ceo_leadership": [
+    "Tell me about Vishal Shah's leadership.",
+    "What kind of leader is Vishal Shah?",
+    "What are Vishal Shah's leadership qualities?",
+    "How does Vishal Shah lead his team?",
+    "Is Vishal Shah a good leader?",
+    "Vishal Shah ki leadership kaisi hai?",
+    "Founder ki leadership ke baare mein batao."
+  ],
+  "ceo_customer_approach": [
+    "What is Vishal Shah's approach toward customers?",
+    "Is Vishal Shah customer focused?",
+    "How does he work with clients?",
+    "What is the founder's approach to clients?",
+    "Vishal Shah ka customer approach kya hai?",
+    "Clients ke liye Vishal Shah kaise kaam karte hain?"
+  ],
+  "ceo_ngo": [
+    "Is Vishal Shah involved in social work?",
+    "Is Vishal Shah associated with NGOs?",
+    "Does Vishal Shah work with NGOs?",
+    "Is the founder involved in social organizations?",
+    "Tell me about Vishal Shah's social work.",
+    "Vishal Shah NGOs ke saath associated hain?",
+    "Kya Vishal Shah social work karte hain?",
+    "Founder NGO se jude hain?"
+  ],
+  "ceo_linkedin": [
+    "What is Vishal Shah's LinkedIn?",
+    "Give me Vishal Shah's LinkedIn profile.",
+    "Vishal Shah LinkedIn?",
+    "Founder ka LinkedIn do.",
+    "CEO ka LinkedIn kya hai?",
+    "Can I see the founder's LinkedIn?",
+    "Vishal Shah ki LinkedIn profile bhejo.",
+    "Vishal Shah LinkedIn profile kaha milegi?",
+    "Founder ki LinkedIn profile kya hai?",
+    "Give me the social media links of the CEO",
+    "What are the CEO's social media accounts?",
+    "CEO social media links",
+    "Social media links of founder",
+    "Founder ki social media profile do"
+  ],
+  "ceo_photo": [
+    "Who is the owner of Opti Matrix?",
+    "Who is the founder of Opti Matrix Solutions?",
+    "Who is the CEO of Opti Matrix Solutions?",
+    "Show me the owner.",
+    "Show me the founder.",
+    "Show me the CEO.",
+    "Show me Vishal Shah.",
+    "Can I see the owner?",
+    "Can I see the founder?",
+    "Show me the founder's photo.",
+    "Show me the CEO's photo.",
+    "Vishal Shah ki photo dikhao.",
+    "Owner ki photo dikhao.",
+    "Founder ki image dikhao.",
+    "CEO ki image dikhao."
+  ],
+  "ceo_achievements": [
+    "What are the achievements of Vishal Shah?",
+    "Has Vishal Shah won any awards?",
+    "CEO awards",
+    "Founder achievements",
+    "Vishal Shah ke achievements kya hain?",
+    "Tell me about the founder's success."
+  ],
+  "ceo_message": [
+    "Message from the CEO",
+    "CEO's message",
+    "Founder's message",
+    "What does Vishal Shah say to clients?",
+    "Vishal Shah ka message kya hai?"
+  ],
+  "ceo_contact": [
+    "How can I contact Vishal Shah?",
+    "Can I talk to the CEO?",
+    "Can I email the founder?",
+    "CEO contact details",
+    "Vishal Shah ka email kya hai?",
+    "Founder se kaise baat karu?"
+  ],
+  "client_general": [
+    "Who are your clients?",
+    "Can I see your clients?",
+    "Show me your clients",
+    "Show me the clients",
+    "List of clients",
+    "Do you have a client list?",
+    "Who have you worked with?",
+    "Who are your current clients?",
+    "Who are your past clients?",
+    "Can you show me your client list?",
+    "Can I get a list of your clients?",
+    "Where can I see your clients?",
+    "Where can I find your client list?",
+    "Do you have a list of companies you have worked with?",
+    "Which companies have you worked with?",
+    "Which companies have you worked for?",
+    "Who has worked with your company?",
+    "Who has used your services?",
+    "Which businesses are your clients?",
+    "Which companies are your customers?",
+    "Who are your customers?",
+    "Can you tell me about your customers?",
+    "Can you share your customer list?",
+    "Can I see your customer portfolio?",
+    "Do you have a customer portfolio?",
+    "Show me your customer portfolio",
+    "Show me your client portfolio",
+    "Can I see your client portfolio?",
+    "What companies have you served?",
+    "What companies have you worked with?",
+    "What businesses have you served?",
+    "Which clients have you worked with?",
+    "Which clients have you served?",
+    "Tell me about your clients",
+    "Tell me about your past clients",
+    "Tell me about your customers",
+    "Tell me who your clients are",
+    "I want to see your clients",
+    "I want to see your client list",
+    "I want to know your clients",
+    "I want to know who you have worked with",
+    "Show me your previous clients",
+    "Show me your past clients",
+    "Show me companies you have worked with",
+    "Show me businesses you have worked with",
+    "Give me your client list",
+    "Give me your customer list",
+    "Send me your client list",
+    "Send me your customer list",
+    "Share your client list",
+    "Share your customer list",
+    "Client list please",
+    "Customer list please",
+    "Client details please",
+    "Customer details please",
+    "Do you have any clients?",
+    "Do you work with companies?",
+    "Do you work with businesses?",
+    "Have you worked with other companies?",
+    "Have you worked with other businesses?",
+    "Who are some of your clients?",
+    "Name some of your clients",
+    "Can you name some of your clients?",
+    "Give me some examples of your clients",
+    "Can you give me examples of companies you have worked with?",
+    "What kind of companies are your clients?",
+    "What type of clients do you have?",
+    "What industries do your clients belong to?",
+    "Do you have international clients?",
+    "Do you have clients outside India?",
+    "Do you work with international companies?",
+    "Are your clients from different countries?",
+    "Aapke clients kaun hain?",
+    "Aapke customer kaun hain?",
+    "Aapke customers kaun hain?",
+    "Aapke clients ki list hai?",
+    "Client list bhejo",
+    "Client list do",
+    "Clients ki list batao",
+    "Clients ki list send karo",
+    "Clients ke naam batao",
+    "Aapne kin companies ke saath kaam kiya hai?",
+    "Aapne kaun kaun si companies ke saath kaam kiya hai?",
+    "Aapne kin businesses ke saath kaam kiya hai?",
+    "Aapke previous clients kaun hain?",
+    "Aapke past clients kaun hain?",
+    "Aapke current clients kaun hain?",
+    "Aapke customers kaun hain?",
+    "Aapke customer ki list do",
+    "Aapke clients ke baare mein batao",
+    "Aapke clients kaha dekh sakte hain?",
+    "Client portfolio dikhao",
+    "Client portfolio bhejo",
+    "Customer portfolio dikhao",
+    "Aapke saath kisne kaam kiya hai?",
+    "Aapne kin clients ko service di hai?",
+    "Aapke clients ki details chahiye",
+    "Mujhe client list chahiye",
+    "Mujhe aapke clients dekhne hain",
+    "Mujhe previous clients dekhne hain",
+    "Mujhe companies ki list chahiye jinke saath aapne kaam kiya hai",
+    "Kya aapke international clients hain?",
+    "Kya aap India ke bahar bhi clients ke saath kaam karte ho?",
+    "Kya aapke foreign clients hain?",
+    "Aapke kuch clients ke naam batao",
+    "Kuch clients ke examples do",
+    "Client kaun kaun hain?"
+  ],
+  "bot_identity": [
+    "who are you",
+    "who are you?",
+    "Who are you",
+    "Who are you?",
+    "what are you",
+    "what are you?",
+    "tell me about yourself",
+    "introduce yourself",
+    "what is your name",
+    "what is your name?",
+    "your name?",
+    "aap kaun ho",
+    "tum kaun ho",
+    "aap kaun ho?",
+    "tum kaun ho?",
+    "apna intro do",
+    "who made you?",
+    "are you an AI?",
+    "are you a chatbot?"
+  ],
+  "company_general": [
+    "What is Opti Matrix?",
+    "What is Opti Matrix Solutions?",
+    "Tell me about Opti Matrix.",
+    "Tell me about the company.",
+    "What does Opti Matrix do?",
+    "What kind of company is Opti Matrix?",
+    "What type of business is Opti Matrix in?",
+    "What does your company specialize in?",
+    "Can you tell me about your company?",
+    "What services does Opti Matrix provide?",
+    "Company ke baare mein batao.",
+    "Opti Matrix kya company hai?",
+    "Opti Matrix kya karti hai?",
+    "Aapki company kya karti hai?",
+    "Tell me about the Optimatrix"
+  ],
+  "company_founded": [
+    "When was Opti Matrix founded?",
+    "When did Opti Matrix start?",
+    "When was the company established?",
+    "When did Opti Matrix Solutions start?",
+    "How old is Opti Matrix?",
+    "How long has Opti Matrix been in business?",
+    "What year was Opti Matrix started?",
+    "Company kab start hui?",
+    "Opti Matrix kab start hui?",
+    "Aapki company kab establish hui?",
+    "Opti Matrix ko kitne saal ho gaye?"
+  ],
+  "company_location": [
+    "Company Location",
+    "Company Location?",
+    "company location",
+    "company location?",
+    "Company address",
+    "Company address?",
+    "company address",
+    "company address?",
+    "Where is Opti Matrix located?",
+    "Where is your company based?",
+    "Where is Opti Matrix based?",
+    "Where is your company located?",
+    "Tell me company location",
+    "Give me company address",
+    "What is company address?",
+    "Location of company",
+    "Address of company",
+    "Where is your head office?",
+    "Do you have an office in Ahmedabad?",
+    "Do you have a branch office?",
+    "Where is your branch office?",
+    "Is Opti Matrix based in India?",
+    "Ahmedabad mein office hai?",
+    "Bhuj mein branch hai?",
+    "Company ka head office kaha hai?",
+    "Company ka branch kaha hai?",
+    "Company ka address kya hai?",
+    "Company location batao"
+  ],
+  "company_global_presence": [
+    "Do you serve clients globally?",
+    "Do you work with international clients?",
+    "Is Opti Matrix an international company?",
+    "Do you have an international presence?",
+    "Which countries do you have a presence in?",
+    "Do you have offices outside India?",
+    "Where do you provide your services?",
+    "Kya aap international clients ke saath kaam karte ho?",
+    "Kya company ka international presence hai?",
+    "Aap kin countries mein services dete ho?"
+  ],
+  "company_services": [
+    "What services do you offer?",
+    "What are your main services?",
+    "Do you provide website development?",
+    "Do you develop applications?",
+    "Do you provide mobile app development?",
+    "Do you provide SEO services?",
+    "Do you provide graphic design services?",
+    "What technology areas do you work with?",
+    "Website banate ho?",
+    "Mobile app banate ho?",
+    "SEO karte ho?",
+    "Graphics ka kaam karte ho?",
+    "Software development karte ho?"
+  ],
+  "company_technology": [
+    "What technologies do you work with?",
+    "Do you work with open-source technologies?",
+    "Do you work with JavaScript frameworks?",
+    "Do you develop custom solutions?",
+    "Do you provide custom framework development?",
+    "What type of software development do you provide?",
+    "Open source mein development karte ho?",
+    "JavaScript framework par kaam karte ho?"
+  ],
+  "company_achievements": [
+    "What achievements has Opti Matrix received?",
+    "Has Opti Matrix won any awards?",
+    "Has your company received any awards?",
+    "What awards has Opti Matrix won?",
+    "Is Opti Matrix an award-winning company?",
+    "What recognition has the company received?",
+    "Company ko kaunse awards mile hain?",
+    "Kya Opti Matrix ko koi award mila hai?"
+  ],
+  "company_growth": [
+    "How has Opti Matrix grown?",
+    "How did the company grow?",
+    "What is the company's journey?",
+    "Tell me about the company's journey.",
+    "How long has the company been growing?",
+    "Company ka journey batao."
+  ],
+  "company_mission": [
+    "What is your mission?",
+    "What is Opti Matrix's mission?",
+    "What is the company's mission?",
+    "Tell me about your mission.",
+    "What do you aim to achieve?",
+    "Company ka mission kya hai?",
+    "Aapka mission kya hai?",
+    "Opti Matrix ka mission kya hai?"
+  ],
+  "company_vision": [
+    "What is your vision?",
+    "What is Opti Matrix's vision?",
+    "What is the company's vision?",
+    "Tell me about your vision.",
+    "What does Opti Matrix want to achieve?",
+    "Company ka vision kya hai?",
+    "Opti Matrix ka vision kya hai?",
+    "Aapka vision kya hai?"
+  ],
+  "company_mission_vision": [
+    "What is your mission and vision?",
+    "Tell me your mission and vision.",
+    "What are the company's mission and vision?",
+    "Company ka mission aur vision kya hai?"
+  ],
+  "company_customer_focus": [
+    "Are your solutions customized?",
+    "Do you provide customized IT solutions?",
+    "Are your solutions user-friendly?",
+    "Do you understand client requirements?",
+    "How do you help businesses?",
+    "Kya aap customized solutions provide karte ho?",
+    "Client ki requirement ke according solution banate ho?"
+  ],
+  "company_digital_agency": [
+    "Is Opti Matrix a digital agency?",
+    "What kind of digital agency are you?",
+    "Are you a software company or digital agency?",
+    "Is Opti Matrix a software company?",
+    "Aap digital agency ho?",
+    "Opti Matrix software company hai?"
+  ],
+  "company_short_questions": [
+    "About company?",
+    "Company?",
+    "Opti Matrix?",
+    "What is Opti Matrix?",
+    "Mission?",
+    "Vision?",
+    "Services?",
+    "Achievements?"
+  ],
+  "faq_pricing_cost_estimate": [
+    "How much does a website cost?",
+    "How much does an app cost?",
+    "What is the cost of developing a mobile application?",
+    "Website banwane ka kitna charge hoga?",
+    "App development price kitna hai?",
+    "What are your development rates?",
+    "How do you charge for software development?",
+    "Approximate cost of building a web application?",
+    "Project quotation kaise milta hai?",
+    "Tell me your pricing structure",
+    "Kitna paisa lagega website banane me?"
+  ],
+  "faq_project_timeline": [
+    "How long does it take to build a website?",
+    "How long does it take to develop a mobile app?",
+    "Project delivery timeline kya hoti hai?",
+    "Kitna time lagega project complete hone me?",
+    "How much time does software development take?",
+    "What is your standard project delivery time?",
+    "Can you deliver an urgent project quickly?",
+    "How fast can you launch my website?"
+  ],
+  "faq_hire_dedicated_developers": [
+    "Can I hire dedicated developers from your company?",
+    "Can I hire full-time PHP developers?",
+    "Can I hire React or Python developers?",
+    "Do you offer dedicated resource hiring models?",
+    "Developer hire kar sakte hain kya?",
+    "How to hire full time programmers from Opti Matrix?",
+    "Hire dedicated mobile app developer",
+    "Do you provide offshore developers?"
+  ],
+  "faq_nda_confidentiality": [
+    "Do you sign an NDA?",
+    "Will my project idea remain confidential?",
+    "Do you protect client intellectual property?",
+    "NDA sign karte ho kya?",
+    "Is my project data safe with you?",
+    "Client data privacy agreement",
+    "Non disclosure agreement signed?"
+  ],
+  "faq_development_process_methodology": [
+    "What is your development methodology?",
+    "How do you execute software projects?",
+    "What is your project development process?",
+    "Aapka kaam karne ka process kya hai?",
+    "Do you use Agile or Scrum?",
+    "Explain your project workflow"
+  ],
+  "faq_industries_served": [
+    "Which industries do you serve?",
+    "What domains do you have experience in?",
+    "Do you have experience in Healthcare or Real Estate?",
+    "Have you built E-commerce platforms?",
+    "Kaun kaun si industry ke liye software banate ho?",
+    "What business sectors do you work with?"
+  ],
+  "faq_internship_training": [
+    "Do you offer internships?",
+    "Are internship opportunities available?",
+    "Can college students apply for live project training?",
+    "Internship ke liye apply kaise kare?",
+    "Do you provide freshers internship in React, PHP, or Python?",
+    "Is summer internship available at Opti Matrix?"
+  ],
+  "faq_working_hours_timezones": [
+    "What are your working hours?",
+    "Office timing kya hai?",
+    "What is your support availability time?",
+    "Do you work in international timezones like US or UK?",
+    "What are your business operating hours?",
+    "Kab se kab tak office open rehta hai?"
+  ],
+  "faq_maintenance_post_launch": [
+    "Do you provide maintenance after project completion?",
+    "What is your post-launch support policy?",
+    "Launch ke baad bug fix karte ho?",
+    "Will you maintain my website after it goes live?",
+    "Do you offer annual maintenance contracts (AMC)?",
+    "Post launch warranty and support details"
+  ],
+  "faq_payment_terms_milestones": [
+    "What are your payment terms?",
+    "How do payment milestones work?",
+    "Payment terms kya hain?",
+    "Do I have to pay 100% upfront?",
+    "What payment methods do you accept?",
+    "Milestone based payment structure"
+  ],
+  "company_history_general": [
+    "What is the history of Opti Matrix?",
+    "Tell me about the history of Opti Matrix.",
+    "What is the journey of Opti Matrix?",
+    "Tell me about the company's journey.",
+    "How did Opti Matrix start?",
+    "When did the journey of Opti Matrix begin?",
+    "How has Opti Matrix grown?",
+    "Can you show me the history of Opti Matrix?",
+    "Show me the company timeline.",
+    "Show me Opti Matrix's journey.",
+    "Opti Matrix ki history batao.",
+    "Company ki history kya hai?",
+    "Company ka journey batao.",
+    "Opti Matrix kab start hui thi?"
+  ],
+  "history_2010_journey_begins": [
+    "When did Opti Matrix start?",
+    "When was Opti Matrix founded?",
+    "When did the company begin?",
+    "How did Opti Matrix start?",
+    "What happened in 2010?",
+    "What was the first milestone of Opti Matrix?",
+    "Opti Matrix ki shuruaat kab hui?"
+  ],
+  "history_2010_website_launch": [
+    "When did you launch your first website?",
+    "When was the official website launched?",
+    "What happened in October 2010?",
+    "When did Opti Matrix start getting global clients?",
+    "When did the company launch its official website?",
+    "2010 mein company ne kya achieve kiya?"
+  ],
+  "history_2011_started_it_services_india": [
+    "When did Opti Matrix start serving Indian customers?",
+    "When did you start IT services in India?",
+    "What happened in 2011?",
+    "When did Opti Matrix enter the Indian market?",
+    "Did Opti Matrix provide services in India?",
+    "India mein services kab start ki?",
+    "Indian customers ke liye services kab start hui?"
+  ],
+  "history_2011_moved_to_office": [
+    "When did Opti Matrix move to an office?",
+    "How many employees did the company initially have?",
+    "When did you hire your first employees?",
+    "What happened in November 2011?",
+    "What technologies were used in the early projects?",
+    "How big was the team in 2011?",
+    "2011 mein team kitni thi?"
+  ],
+  "history_2012_gujarat_election_app": [
+    "What app did Opti Matrix launch for Gujarat Election?",
+    "Did Opti Matrix develop a Gujarat Election app?",
+    "When was the Gujarat Election app launched?",
+    "How successful was the Gujarat Election app?",
+    "What happened in December 2012?",
+    "Gujarat Election app kisne banayi?",
+    "Election app kab launch hui?"
+  ],
+  "history_2012_greece_client_project": [
+    "Did Opti Matrix work with clients in Greece?",
+    "When did the CEO visit Greece?",
+    "What happened in Athens?",
+    "What was the D-Waste Atlas project?",
+    "Did Opti Matrix have international projects in 2012?",
+    "CEO Greece kab gaye the?"
+  ],
+  "history_2013_google_achievement": [
+    "What happened in January 2013?",
+    "Did Opti Matrix achieve a Google ranking?",
+    "What was Opti Matrix's Google achievement?",
+    "Was Opti Matrix ranked on Google US?",
+    "What SEO milestone did the company achieve?"
+  ],
+  "history_2013_south_africa": [
+    "When did Opti Matrix expand to South Africa?",
+    "Did Opti Matrix have a company in South Africa?",
+    "When was Opti Matrix registered in South Africa?",
+    "What happened in South Africa in 2013?",
+    "Did the company have international partnerships?",
+    "South Africa mein company kab expand hui?"
+  ],
+  "history_2013_bhuj_branch": [
+    "When did Opti Matrix open its Bhuj branch?",
+    "When was the branch office started?",
+    "Why did Opti Matrix open a Bhuj office?",
+    "Does Opti Matrix have a branch in Bhuj?",
+    "What happened in August 2013?",
+    "Bhuj branch kab start hui?"
+  ],
+  "history_2013_employee_picnic": [
+    "Did Opti Matrix organize team activities?",
+    "Where did the company take its employees in 2013?",
+    "What happened in August 2013?",
+    "Did the company organize an employee picnic?",
+    "Where was the team trip organized?"
+  ],
+  "history_2014_australia_expansion": [
+    "Did Opti Matrix have an Australia branch?",
+    "When did Opti Matrix expand to Australia?",
+    "What happened in Australia in 2014?",
+    "Did Opti Matrix have an Australian partnership?",
+    "Australia mein branch kab start hui?"
+  ],
+  "history_2014_official_mobile_app": [
+    "Did Opti Matrix have a mobile app?",
+    "When did Opti Matrix launch its mobile app?",
+    "Was the app available on Android?",
+    "Was the app available on iOS?",
+    "What happened in October 2014?",
+    "Opti Matrix ki mobile app kab launch hui?",
+    "Kya Android aur iOS app available thi?"
+  ],
+  "history_2015_ceo_in_local_news": [
+    "Was Opti Matrix featured in the news?",
+    "Was the CEO featured in a newspaper?",
+    "Which newspaper covered Opti Matrix?",
+    "When was the CEO featured in Kutch Mitra?",
+    "What happened in February 2015?"
+  ],
+  "history_2015_vibrant_kutch": [
+    "Did Opti Matrix participate in Vibrant Kutch?",
+    "What was Vibrant Kutch?",
+    "When did Opti Matrix participate in Vibrant Kutch?",
+    "What happened in March 2015?",
+    "Did the company participate in business exhibitions?"
+  ],
+  "history_2015_commercial_advertisement": [
+    "Did Opti Matrix launch a TV advertisement?",
+    "When was the first commercial launched?",
+    "When did Opti Matrix launch its first advertisement?",
+    "What happened in March 2015?",
+    "Did the company create a commercial video?"
+  ],
+  "history_2016_trademark_registration": [
+    "When was Opti Matrix trademark registered?",
+    "Is Opti Matrix a registered trademark?",
+    "Did Opti Matrix register its logo?",
+    "What happened in January 2016?",
+    "When did the company apply for trademark registration?",
+    "Opti Matrix ka trademark kab register hua?"
+  ],
+  "history_2016_vibrant_saurashtra": [
+    "Did Opti Matrix participate in Vibrant Saurashtra?",
+    "What happened at Vibrant Saurashtra?",
+    "When did Opti Matrix become a Technology Partner?",
+    "What app was launched at Vibrant Saurashtra?",
+    "What happened in January 2016?"
+  ],
+  "history_2016_corporate_giveaway": [
+    "Did Opti Matrix celebrate its anniversary?",
+    "What happened in April 2016?",
+    "Did the company organize an anniversary giveaway?",
+    "How did Opti Matrix celebrate its anniversary?"
+  ],
+  "history_2016_charity": [
+    "Does Opti Matrix do charity work?",
+    "Did Opti Matrix help needy people?",
+    "What charity work did the company do?",
+    "When did Opti Matrix organize a charity initiative?",
+    "Did the team donate books?",
+    "What happened in May 2016?",
+    "Opti Matrix ne charity mein kya kiya?"
+  ],
+  "history_2016_easy_cricket_app": [
+    "What is Easy Cricket?",
+    "Did Opti Matrix develop a cricket app?",
+    "When was Easy Cricket launched?",
+    "What was the Easy Cricket application?",
+    "What was the purpose of Easy Cricket?",
+    "Opti Matrix ne cricket app kab launch ki?",
+    "Easy Cricket app kya hai?"
+  ],
+  "history_2016_gitex_dubai": [
+    "Did Opti Matrix attend GITEX?",
+    "What is GITEX?",
+    "When did Opti Matrix visit GITEX Dubai?",
+    "Did Opti Matrix participate in a Dubai technology event?",
+    "What happened in September 2016?",
+    "Opti Matrix Dubai GITEX mein kab gayi?"
+  ],
+  "history_2016_office_celebration": [
+    "Did Opti Matrix celebrate at its office?",
+    "What happened in November 2016?",
+    "Does Opti Matrix organize employee celebrations?",
+    "How does the company celebrate with employees?"
+  ],
+  "history_2017_biggest_laravel_project": [
+    "What happened in January 2017?",
+    "Did Opti Matrix work on a major Laravel project?",
+    "What was the biggest Laravel project?",
+    "Did Opti Matrix develop a Laravel website and app?",
+    "When did Opti Matrix launch its biggest Laravel project?"
+  ],
+  "history_2017_300th_website": [
+    "How many websites has Opti Matrix launched?",
+    "Did Opti Matrix launch 300 websites?",
+    "When did Opti Matrix launch its 300th website?",
+    "What was the 300th website milestone?",
+    "What was one of Opti Matrix's biggest achievements?",
+    "Did the company really launch 300 websites?",
+    "300th website kab launch hui?",
+    "Opti Matrix ne kitni websites launch ki hain?",
+    "What was Opti Matrix's biggest achievement?"
+  ],
+  "history_2018_main_website_relaunch": [
+    "When was Opti Matrix's website relaunched?",
+    "Did Opti Matrix relaunch its website?",
+    "When did the company redesign its main website?",
+    "What happened in May 2018?",
+    "What was the latest milestone in the timeline?",
+    "Opti Matrix ki main website kab relaunch hui?"
+  ],
+  "contact_phone_general": [
+    "What is your contact number?",
+    "What is your mobile number?",
+    "Give me your mobile number",
+    "Can I have your phone number?",
+    "What is the company phone number?",
+    "How can I contact you?",
+    "I need your contact details",
+    "How do I contact the company?",
+    "Can you share your contact details?",
+    "Contact information please"
+  ],
+  "contact_email": [
+    "What is your email?",
+    "Give me your email",
+    "What is the company email?",
+    "Can I have your email address?",
+    "How can I email you?",
+    "What is your official email?",
+    "Email id please",
+    "Mail ID kya hai?",
+    "Email address batao",
+    "Aapka email kya hai?"
+  ],
+  "contact_location_head_office": [
+    "Where is your head office?",
+    "Where is your head office located?",
+    "Give me your head office address",
+    "What is the Ahmedabad office address?",
+    "Ahmedabad office kaha hai?",
+    "Aapka Ahmedabad address kya hai?",
+    "Head office kaha hai?",
+    "Office address batao",
+    "Office address",
+    "Head office address",
+    "Ahmedabad address",
+    "Where can I visit your office?",
+    "Head office location and address"
+  ],
+  "contact_phone_head_office": [
+    "Head office number?",
+    "Head office mobile number?",
+    "Head office contact number?",
+    "Head office phone number?",
+    "Ahmedabad office number?",
+    "Ahmedabad head office contact?",
+    "Head office ka number kya hai?",
+    "Ahmedabad office ka mobile number?",
+    "Main office ka number batao"
+  ],
+  "contact_sales": [
+    "What is your sales number?",
+    "Sales contact number?",
+    "I want to contact sales",
+    "How can I contact sales?",
+    "Sales team ka number kya hai?",
+    "Sales ke liye kisse contact karein?",
+    "I have a sales inquiry",
+    "I want to buy your service",
+    "Product/service ke liye sales se baat karni hai"
+  ],
+  "contact_job": [
+    "What is your job contact number?",
+    "Job ke liye contact number?",
+    "I want to apply for a job",
+    "How can I contact HR?",
+    "Career inquiry number?",
+    "Vacancy ke liye kis number par contact karein?",
+    "I am looking for a job",
+    "Jobs available hain?",
+    "Job ke liye number batao",
+    "Career ke liye kisse contact karein?"
+  ],
+  "contact_location_bhuj": [
+    "Where is your branch office?",
+    "Where is your Bhuj office?",
+    "Bhuj office kaha hai?",
+    "Give me your Bhuj office address",
+    "Bhuj branch address kya hai?",
+    "Do you have an office in Bhuj?",
+    "Is there a branch in Bhuj?"
+  ],
+  "contact_phone_bhuj": [
+    "Bhuj branch ka number?",
+    "Bhuj office ka contact number?",
+    "Bhuj branch mobile number?",
+    "Bhuj office phone number?",
+    "Bhuj sales number?",
+    "Bhuj branch job number?",
+    "Bhuj office ka sales number?"
+  ],
+  "contact_location_usa": [
+    "Do you have an office in the USA?",
+    "Where is your US office?",
+    "USA office address?",
+    "US office ka address kya hai?",
+    "What is your US contact number?",
+    "USA phone number?",
+    "US office ka number?",
+    "USA email?",
+    "Where can I contact you in the US?"
+  ],
+  "contact_phone_usa": [
+    "What is your US contact number?",
+    "USA phone number?",
+    "US office ka number?",
+    "USA email?",
+    "Where can I contact you in the US?"
+  ],
+  "contact_location_south_africa": [
+    "Do you have an office in South Africa?",
+    "Where is your South Africa office?",
+    "South Africa office address?",
+    "Pretoria office kaha hai?",
+    "South Africa contact number?",
+    "South Africa office ka number?",
+    "Pretoria office number?",
+    "South Africa email?"
+  ],
+  "contact_phone_south_africa": [
+    "South Africa contact number?",
+    "South Africa office ka number?",
+    "Pretoria office number?",
+    "South Africa email?"
+  ],
+  "contact_location_general": [
+    "Where are your offices?",
+    "Which cities do you have offices in?",
+    "Do you have offices outside India?",
+    "Do you have an office in Gujarat?",
+    "Do you have an office in Ahmedabad?",
+    "Do you have an office in Bhuj?",
+    "Do you have an office in USA?",
+    "Do you have an office in South Africa?",
+    "India office kaha hai?",
+    "send me the company's other office location",
+    "How many branches do you have?",
+    "How many offices do you have?",
+    "Total branches kitne hain?",
+    "Total offices?",
+    "All branches details"
+  ],
+  "inquiry_create_website": [
+    "i need to create the website",
+    "i needto create the website",
+    "i need to develop the website",
+    "i need to devleop the website",
+    "i want to develop a website",
+    "i want to create a website",
+    "i need a website created",
+    "can you create a website for me",
+    "can you develop a website for me",
+    "website create karwana hai",
+    "website develop karwana hai",
+    "mujhe website banwani hai",
+    "i want to build a website",
+    "can you build a custom website for my business?",
+    "i need a new website",
+    "looking for website development"
+  ],
+  "inquiry_create_mobile_app": [
+    "i need to create the mobile application",
+    "i needto create the mobile application",
+    "i need to develop mobile app",
+    "i need to devleop the mobile application",
+    "i want to create a mobile app",
+    "i need a mobile application",
+    "can you create a mobile application for me",
+    "can you develop a mobile app for me",
+    "mobile app create karwana hai",
+    "mobile app develop karwana hai",
+    "mujhe android app banwana hai",
+    "i want to make an iOS and Android app",
+    "app development karwana hai",
+    "looking to build a mobile application"
+  ],
+  "inquiry_create_software": [
+    "i need to create software",
+    "i needto create the software",
+    "i need to develop software",
+    "i need to devleop the software",
+    "i need to develop the website software etc",
+    "i need to devleop the website software etc.",
+    "i need to create the website software etc",
+    "i want to develop custom software",
+    "i want to create custom software",
+    "i need a software developed",
+    "can you develop custom software for me?",
+    "software development karwana hai",
+    "software develop karwana hai",
+    "mujhe custom software banwana hai",
+    "i want to build a web application or software",
+    "software create karna hai",
+    "need software for my business",
+    "can you build software solutions for us?"
+  ],
+  "inquiry_create_php_software": [
+    "can you make my project in php ?",
+    "can you make my project in php",
+    "can you do my project in php?",
+    "can you build my project in php?",
+    "can you develop my project using php?",
+    "can you work on my PHP project?",
+    "is it possible to make my project in PHP?",
+    "can your team develop my website in PHP?",
+    "will you build my web app in PHP?",
+    "can you create a PHP based project for me?",
+    "i need to create the software in php",
+    "i needto create the software in php",
+    "i need to develop software in php",
+    "i need to devleop the software in php",
+    "i want to create software in php",
+    "i need php software development",
+    "can you create php software for me",
+    "can you develop php software for me",
+    "php me software create karwana hai",
+    "php me software develop karwana hai",
+    "php application banwani hai",
+    "looking for PHP developer to create software",
+    "php me project banana hai",
+    "kya aap mera project php me bana sakte ho?",
+    "php me website ya software banwana hai"
+  ],
+  "portfolio_general": [
+    "Show me your portfolio",
+    "Where can I see your portfolio?",
+    "I want to see your work",
+    "Show your work",
+    "Show me your previous work",
+    "What work have you completed?",
+    "What kind of projects have you worked on?",
+    "Can I see examples of your work?",
+    "Do you have a project portfolio?",
+    "Show me portfolio"
+  ],
+  "show_all_projects": [
+    "Show me the projects you have done",
+    "Show me all projects",
+    "Show me your projects",
+    "What projects have you done?",
+    "Show your completed projects",
+    "Show me all your work",
+    "I want to see your projects",
+    "Can I see your projects?",
+    "Show previous projects",
+    "Show past projects",
+    "Show me all your projects",
+    "Can I see your previous work?",
+    "Can I see your past projects?"
+  ],
+  "web_portfolio": [
+    "Show me web projects",
+    "Do you have web portfolio?",
+    "Can I see your web development projects?",
+    "Show me websites you have built",
+    "Web portfolio examples"
+  ],
+  "app_portfolio": [
+    "Show me app projects",
+    "Do you have an app portfolio?",
+    "Can I see your mobile app projects?",
+    "Show me apps you have built",
+    "App portfolio examples"
+  ],
+  "case_study": [
+    "Do you have case studies?",
+    "Show me a case study",
+    "Can I read your case studies?",
+    "Project case studies",
+    "Show case studies"
+  ],
+  "before_after_work": [
+    "Show me before after work",
+    "Before and after projects",
+    "Do you have before after examples?",
+    "Show before after comparisons"
+  ],
+  "ui_ux_portfolio": [
+    "Show me UI UX projects",
+    "Do you have a design portfolio?",
+    "Can I see your web design projects?",
+    "Show me designs you have made",
+    "UI UX portfolio examples"
+  ],
+  "ecommerce_portfolio": [
+    "Show me ecommerce projects",
+    "Do you have an ecommerce portfolio?",
+    "Can I see your online store projects?",
+    "Show me shopping sites you have built",
+    "Ecommerce portfolio examples"
+  ],
+  "recent_projects": [
+    "Show me your recent work",
+    "What are your latest projects?",
+    "Show recent projects",
+    "Latest portfolio additions",
+    "What did you build recently?"
+  ],
+  "policy_privacy_general": [
+    "What is your privacy policy?",
+    "Show me the privacy policy",
+    "Do you have a privacy policy?",
+    "Privacy policy details",
+    "How do you handle privacy?",
+    "Tell me about privacy",
+    "Privacy statement",
+    "Is my privacy protected?",
+    "Read privacy policy",
+    "Privacy Policy"
+  ],
+  "policy_terms": [
+    "What are your terms and conditions?",
+    "Terms of service",
+    "Show me the terms and conditions",
+    "Terms and conditions",
+    "T&C",
+    "What are the terms?"
+  ],
+  "policy_refund_cancellation": [
+    "What is your refund policy?",
+    "Do you offer refunds?",
+    "Can I get my money back?",
+    "Cancellation policy",
+    "How do I cancel my order?",
+    "Can I cancel?",
+    "Refund rules"
+  ],
+  "policy_data_collection": [
+    "What data do you collect?",
+    "Do you collect personal data?",
+    "What information is collected?",
+    "Do you track usage data?",
+    "What personal information do you need?",
+    "How do you use my data?"
+  ],
+  "policy_data_security": [
+    "Is my data secure?",
+    "How do you protect my data?",
+    "Security of data",
+    "Is it safe to share information?",
+    "Data protection"
+  ],
+  "policy_gdpr": [
+    "What are my GDPR rights?",
+    "EU privacy rights",
+    "European Union data protection",
+    "GDPR policy",
+    "Right to delete data under GDPR",
+    "General Data Protection Regulation"
+  ],
+  "policy_ccpa_caloppa": [
+    "What are my CCPA rights?",
+    "California privacy rights",
+    "CalOPPA policy",
+    "CCPA data protection",
+    "California Consumer Privacy Act",
+    "Do Not Track signals"
+  ],
+  "policy_children": [
+    "What is your children's privacy policy?",
+    "Do you collect data from children?",
+    "Age limit for users",
+    "Under 18 privacy",
+    "Child privacy"
+  ],
+  "policy_contact": [
+    "How do I contact you about privacy?",
+    "Privacy email",
+    "Who to contact for data deletion?",
+    "Privacy support",
+    "Contact for personal data"
+  ],
+  "policy_cookies": [
+    "Do you use cookies?",
+    "What cookies do you use?",
+    "How do I disable cookies?",
+    "Cookie policy",
+    "Are you tracking me with cookies?",
+    "Session cookies"
+  ],
+  "policy_data_retention": [
+    "How long do you keep my data?",
+    "Data retention policy",
+    "When do you delete my data?",
+    "Do you store data forever?",
+    "How long is data saved?"
+  ],
+  "policy_data_transfer": [
+    "Do you transfer data outside my country?",
+    "Where is my data stored?",
+    "International data transfer",
+    "Is data sent to India?",
+    "Data storage location"
+  ],
+  "policy_disclosure": [
+    "Do you share my data with third parties?",
+    "Who do you share my data with?",
+    "Law enforcement data disclosure",
+    "Is my data sold to third parties?",
+    "Do you sell personal information?"
+  ],
+  "policy_third_party_links": [
+    "Are there links to other sites?",
+    "Third party websites",
+    "External links privacy",
+    "Do you link to outside websites?"
+  ],
+  "js_general_info": [
+    "What are JavaScript frameworks?",
+    "Why use a JavaScript framework?",
+    "Which JavaScript frameworks do you specialize in?",
+    "What is Node.js used for?",
+    "Is Node.js a framework?"
+  ],
+  "js_react_info": [
+    "What is React?",
+    "How does React improve performance?",
+    "Do you use Redux with React?",
+    "Do you provide Next.js development?",
+    "Is React SEO friendly?",
+    "Can I hire a dedicated React developer?"
+  ],
+  "js_angular_info": [
+    "What is Angular?",
+    "Do your developers know TypeScript?",
+    "Do you provide Angular migration services?",
+    "Does Angular provide built-in routing?",
+    "Does Angular use two-way data binding?",
+    "Can I hire a dedicated Angular developer?"
+  ],
+  "js_vue_info": [
+    "What is Vue.js?",
+    "Is Vue.js good for small projects?",
+    "Does Vue have a state management library?",
+    "Can I hire a dedicated Vue.js developer?"
+  ],
+  "js_fullstack_node": [
+    "Can you build a full-stack JavaScript application?",
+    "What is the MERN stack?",
+    "What is the MEAN stack?",
+    "What is Express.js?",
+    "Is JavaScript good for real-time applications?",
+    "Why is Node.js fast?"
+  ],
+  "js_capabilities_services": [
+    "Does Opti Matrix provide JavaScript framework development?",
+    "Can you build Single Page Applications (SPAs)?",
+    "Can I hire JavaScript developers from Opti Matrix?",
+    "Can you optimize my existing JavaScript application?",
+    "Does JavaScript work on mobile?",
+    "Can Opti Matrix handle large enterprise JS projects?",
+    "How do you ensure code quality in JavaScript?",
+    "Can you integrate REST APIs with frontend frameworks?",
+    "What is GraphQL?",
+    "Can you build an eCommerce store using JavaScript frameworks?",
+    "Do you build custom JavaScript plugins/widgets?",
+    "What package managers do you use?",
+    "Why choose Opti Matrix for JavaScript development?"
+  ],
+  "angular_general_info": [
+    "What is AngularJS?",
+    "Is Angular the same as AngularJS?",
+    "Why should I choose AngularJS for my project?",
+    "What is the MVC pattern in Angular?",
+    "Does Angular have a good community?"
+  ],
+  "angular_tech_features": [
+    "What is two-way data binding?",
+    "What is Dependency Injection in Angular?",
+    "How does Angular handle routing?",
+    "What are Angular Directives?",
+    "Does Angular support server-side rendering?",
+    "What is Ahead-of-Time (AOT) compilation?",
+    "What is lazy loading in Angular?",
+    "What is Angular CLI?",
+    "How secure are Angular applications?",
+    "What is RxJS in Angular?"
+  ],
+  "angular_capabilities": [
+    "Can you build Single Page Applications (SPAs) with Angular?",
+    "Is AngularJS good for testing?",
+    "Is Angular suitable for enterprise applications?",
+    "Is Angular SEO friendly?",
+    "Does Angular work on mobile devices?",
+    "Can you build an eCommerce platform using Angular?",
+    "Does Angular support progressive web apps (PWAs)?"
+  ],
+  "angular_services": [
+    "Does Opti Matrix provide AngularJS development?",
+    "Does Opti Matrix support two-way data binding in projects?",
+    "Do you use TypeScript for Angular development?",
+    "Can Opti Matrix migrate my AngularJS app to modern Angular?",
+    "Do you build custom directives?",
+    "Can you integrate REST APIs with Angular?",
+    "What UI libraries do you use with Angular?",
+    "How do you manage state in large Angular apps?",
+    "Can you optimize a slow Angular application?",
+    "Does Opti Matrix provide ongoing maintenance for Angular apps?",
+    "Do you write unit tests for Angular applications?",
+    "Do you provide Angular consulting services?",
+    "Can Opti Matrix rescue an unfinished Angular project?",
+    "Can you integrate payment gateways in an Angular app?",
+    "Do your Angular developers know Node.js?"
+  ],
+  "angular_hiring": [
+    "Can I hire dedicated Angular developers from Opti Matrix?",
+    "Are your Angular developers experienced?",
+    "Why choose Opti Matrix for Angular development in India?"
+  ],
+  "jquery_general_info": [
+    "What do people want in the current era of web development?",
+    "Is flash-based animation still popular?",
+    "What do developers use for user interactivity now?",
+    "Why is JavaScript preferred over Flash?",
+    "What is jQuery?"
+  ],
+  "jquery_advantages": [
+    "Does traditional JavaScript cause trouble?",
+    "Why do browsers react differently to JavaScript?",
+    "How does jQuery help with traditional JS issues?",
+    "Is jQuery easy to understand?",
+    "Is jQuery cross browser compatible?",
+    "Is DOM scripting easy with jQuery?",
+    "Do clients ask for jQuery development?",
+    "Should I ask developers if they use jQuery?"
+  ],
+  "jquery_unobtrusive_scripting": [
+    "What is a good practice when writing JavaScript?",
+    "What is unobtrusive DOM scripting?",
+    "Do you write inline JavaScript?",
+    "How does jQuery help unobtrusive DOM scripting?"
+  ],
+  "jquery_plugins": [
+    "Does jQuery have plugins?",
+    "How do jQuery plugins help?",
+    "Do jQuery plugins reduce development time?",
+    "Do jQuery plugins reduce cost?",
+    "What are examples of daily used jQuery plugins?"
+  ],
+  "jquery_services": [
+    "Does Opti Matrix offer core jQuery scripting?",
+    "Do you develop jQuery Plugins?",
+    "Do you offer jQuery Bug Fixing?",
+    "Do you offer jQuery News Ticker Development?",
+    "Do you offer jQuery Slide Show Development?",
+    "Do you have a team for jQuery development?",
+    "How can I consult with your jQuery developers?"
+  ],
+  "opti_matrix_other_services": [
+    "Does Opti Matrix provide Web Development?",
+    "Does Opti Matrix provide Website Designing?",
+    "Does Opti Matrix provide PHP MySQL Development?",
+    "Can I Hire Dedicated Resources?",
+    "Does Opti Matrix provide Open Source Development?",
+    "Does Opti Matrix provide PHP Frameworks development?",
+    "Does Opti Matrix provide Javascript Frameworks development?",
+    "Does Opti Matrix provide Android Applications?",
+    "Does Opti Matrix provide iPhone & iPad Services?",
+    "Does Opti Matrix provide Search Engine Optimization?",
+    "What other services can I contact you for?"
+  ],
+  "nextjs_general_info": [
+    "What is Next.js?",
+    "Is Next.js built on top of React?",
+    "Why should I choose Next.js?",
+    "How does Next.js handle routing?",
+    "Is Next.js fast?",
+    "Does Next.js have fast refresh?"
+  ],
+  "nextjs_tech_features": [
+    "What is Server-Side Rendering (SSR) in Next.js?",
+    "What is Static Site Generation (SSG) in Next.js?",
+    "Can I use both SSR and SSG in the same Next.js app?",
+    "Does Next.js support API routes?",
+    "What is Incremental Static Regeneration (ISR)?",
+    "Does Next.js have a built-in image optimization?",
+    "Does Next.js support Internationalization (i18n)?",
+    "Does Next.js support CSS modules?",
+    "Does Next.js support AMP (Accelerated Mobile Pages)?",
+    "What is dynamic import in Next.js?"
+  ],
+  "nextjs_capabilities": [
+    "Is Next.js good for SEO?",
+    "Can Opti Matrix build an eCommerce site with Next.js?",
+    "Can you integrate a headless CMS with Next.js?",
+    "Is Next.js good for large enterprise applications?",
+    "Can you build SaaS platforms with Next.js?",
+    "Does Next.js support WebSockets?"
+  ],
+  "nextjs_services": [
+    "Does Opti Matrix provide Next.js development?",
+    "Does Opti Matrix optimize Next.js performance?",
+    "Do your Next.js developers use TypeScript?",
+    "Can you migrate my React app to Next.js?",
+    "What styling solutions do you use with Next.js?",
+    "Can you deploy Next.js on Vercel?",
+    "Do you deploy Next.js to AWS?",
+    "Do you provide Next.js consulting services?",
+    "How secure are Next.js applications?",
+    "What is NextAuth.js?",
+    "Can Opti Matrix rescue an unfinished Next.js project?",
+    "Do you write unit tests for Next.js applications?",
+    "Does Next.js support custom server configuration?",
+    "Can you integrate third-party APIs in Next.js?",
+    "Do you provide ongoing maintenance for Next.js apps?"
+  ],
+  "nextjs_hiring": [
+    "Can I hire dedicated Next.js developers from Opti Matrix?",
+    "Are your Next.js developers experienced?",
+    "Why choose Opti Matrix for Next.js development in India?"
+  ],
+  "nodejs_general_info": [
+    "What is Node.js?",
+    "Is Node.js a framework?",
+    "Why should I choose Node.js?",
+    "What is non-blocking I/O?",
+    "Is Node.js fast?",
+    "What is NPM?",
+    "Is Node.js single-threaded?",
+    "How fast is the development process with Node.js?"
+  ],
+  "nodejs_tech_features": [
+    "What is Express.js?",
+    "What databases do you use with Node.js?",
+    "What is the MEAN stack?",
+    "What is the MERN stack?",
+    "Does Node.js work well with front-end frameworks?",
+    "What is PM2?"
+  ],
+  "nodejs_capabilities": [
+    "Can you build real-time applications with Node.js?",
+    "Does Node.js use WebSockets?",
+    "Can Opti Matrix build an API using Node.js?",
+    "Can you build microservices with Node.js?",
+    "Is Node.js suitable for enterprise applications?",
+    "How does Node.js handle heavy traffic?",
+    "Can Node.js be used for IoT applications?",
+    "Is Node.js good for streaming applications?",
+    "Does Node.js support serverless architecture?",
+    "Can Opti Matrix handle e-commerce backends with Node.js?",
+    "Does Node.js support GraphQL?",
+    "Can Opti Matrix build SaaS applications using Node.js?"
+  ],
+  "nodejs_services": [
+    "Does Opti Matrix provide Node.js development?",
+    "Do your developers use Express.js?",
+    "Can you migrate my backend to Node.js?",
+    "Does Opti Matrix provide Node.js maintenance?",
+    "How do you ensure security in Node.js applications?",
+    "Do you use custom NPM packages?",
+    "Can you optimize a slow Node.js application?",
+    "Can you deploy Node.js to AWS?",
+    "Do you write unit tests for Node.js?",
+    "Can you integrate payment gateways with Node.js?",
+    "Does Opti Matrix provide custom Node.js plugin development?"
+  ],
+  "nodejs_hiring": [
+    "Can I hire a dedicated Node.js developer?",
+    "Are your Node.js developers experienced?",
+    "Why choose Opti Matrix for Node.js development in India?"
+  ],
+  "react_general_info": [
+    "What is React.js?",
+    "Is React a framework or a library?",
+    "Why should I choose React for my project?",
+    "What is the Virtual DOM in React?",
+    "What is JSX in React?",
+    "How fast is the development process with React?"
+  ],
+  "react_tech_features": [
+    "How do you handle state management in React?",
+    "What is Redux?",
+    "Do your developers use React Hooks?",
+    "Is React SEO friendly?",
+    "What is Next.js?",
+    "What is React Native?",
+    "What is code splitting in React?",
+    "How secure are React applications?",
+    "What is the MERN stack?",
+    "What is Gatsby?"
+  ],
+  "react_capabilities": [
+    "Can you build Single Page Applications (SPAs) with React?",
+    "Can you build an eCommerce store using React?",
+    "Does React work on mobile devices?",
+    "Can React be used for enterprise applications?",
+    "Does React support progressive web apps (PWAs)?",
+    "Can you integrate a CMS with a React frontend?"
+  ],
+  "react_services": [
+    "Does Opti Matrix provide React.js development?",
+    "Does Opti Matrix build custom React components?",
+    "Can you migrate my existing website to React?",
+    "Does Opti Matrix provide Next.js development?",
+    "Do you offer React Native development?",
+    "Can you integrate third-party APIs with React?",
+    "Do you use GraphQL with React?",
+    "Can you optimize a slow React application?",
+    "Do you write unit tests for React applications?",
+    "What UI libraries do you use with React?",
+    "Does Opti Matrix provide React consulting services?",
+    "Can Opti Matrix rescue an unfinished React project?",
+    "Do your React developers know Node.js?",
+    "Do you use TypeScript with React?",
+    "Do you provide ongoing maintenance for React apps?"
+  ],
+  "react_hiring": [
+    "Can I hire dedicated React developers from Opti Matrix?",
+    "Are your React developers experienced?",
+    "Why choose Opti Matrix for React development in India?"
+  ],
+  "mobile_app_general": [
+    "What mobile application development services does Opti Matrix provide?",
+    "Does Opti Matrix develop custom mobile applications?",
+    "What type of mobile application solutions does Opti Matrix offer?",
+    "Why should businesses choose Opti Matrix for mobile application development?",
+    "Is Optimatrix a mobile app development company?",
+    "Can I get a custom mobile application?",
+    "Do you have a team for mobile apps?",
+    "Is your mobile app team experienced?",
+    "Is Optimatrix growing in mobile app development?",
+    "Do you develop applications globally?",
+    "Why should I choose Optimatrix?"
+  ],
+  "mobile_app_platforms": [
+    "Which mobile platforms does Opti Matrix support?",
+    "What mobile application development platforms are mentioned by Opti Matrix?",
+    "What mobile OS do you support?"
+  ],
+  "mobile_app_ios": [
+    "Does Opti Matrix provide iPhone application development?",
+    "Does Opti Matrix provide iPad application development?",
+    "Do you develop iOS apps?",
+    "Do you develop apps for iPhone 4S?",
+    "Do you develop apps for iOS 5?",
+    "Do you develop apps for Apple iPad?"
+  ],
+  "mobile_app_android": [
+    "Does Opti Matrix develop Android applications?",
+    "Can you build apps for Samsung Galaxy Tab?",
+    "Do you build apps for Android Ice Cream Sandwich?",
+    "Do you build apps for Android Honeycomb?",
+    "Do you build apps for Android Gingerbread?",
+    "Do you build apps for Android Froyo?",
+    "Do you build apps for Android Eclair?"
+  ],
+  "mobile_app_windows": [
+    "Does Opti Matrix develop Windows Phone applications?",
+    "Do you build apps for Windows Mobile?",
+    "Do you build apps for Windows Phone 7?",
+    "Do you support Nokia Windows?"
+  ],
+  "mobile_app_blackberry": [
+    "Does Opti Matrix provide BlackBerry application development?",
+    "Do you develop apps for BlackBerry Playbook?",
+    "Do you support RIM Blackberry?"
+  ],
+  "mobile_app_games": [
+    "Can Opti Matrix develop mobile games?",
+    "Can you provide mobile game development?"
+  ],
+  "mobile_app_marketing": [
+    "Can mobile applications help businesses attract more users?",
+    "Does mobile app development help in marketing?",
+    "Does mobile app development help with publicity?",
+    "Can a mobile app improve business goodwill?",
+    "Do you develop mobile apps for smart phone users?",
+    "Are online businesses moving to mobile?",
+    "Can you develop creative mobile apps?",
+    "Can a mobile app give a new concept to my business?"
+  ],
+  "mobile_website": [
+    "Do you provide mobile websites?",
+    "Can a mobile website attract buyers?",
+    "Do you create eye-catchy mobile websites?"
+  ],
+  "mobile_app_contact": [
+    "How can I contact you for mobile app development?",
+    "How do I start a mobile app project?"
+  ],
+  "android_general": [
+    "What is Android?",
+    "Is Android open source?",
+    "Can Android be customized?",
+    "Are Android devices popular?"
+  ],
+  "android_programming": [
+    "What is your approach to Android Programming?",
+    "Do you use the Google Android SDK?",
+    "What framework do you use for Android development?",
+    "What programming language is used for Android apps?"
+  ],
+  "android_features": [
+    "Can you develop Android applications with integrated browsers?",
+    "Can you develop Android applications with SQLite?",
+    "Can you develop Android applications with GSM Telephony?",
+    "Do your Android apps support media formats?",
+    "Can you develop Android apps with Bluetooth?",
+    "Can you develop Android apps with GPS and Compass?",
+    "Can you develop Android Widgets?",
+    "Can you customize Android APIs?",
+    "Can you develop Android Mobile Banking apps?",
+    "Can you develop Android Bar Code Scanning systems?",
+    "Can you develop Android Games?"
+  ],
+  "android_services": [
+    "Do you provide QA and testing for Android apps?",
+    "Do your Android developers help with the Android Market?"
+  ],
+  "android_hiring": [
+    "Has MaxiMouge developed many Android apps?",
+    "What qualities do your Android Developers have?",
+    "Is it easy to hire professional Android developers from you?",
+    "Can you build apps for Android tablets?"
+  ],
+  "blackberry_general": [
+    "Who is the main audience for BlackBerry applications?",
+    "Is BlackBerry popular in the business community?"
+  ],
+  "blackberry_customization": [
+    "Do you develop consumer-centric BlackBerry applications?",
+    "Do you develop business applications for BlackBerry?",
+    "Do your BlackBerry applications have a good user interface?",
+    "Is technical work for BlackBerry apps top-notch?",
+    "Are your custom BlackBerry mobile applications low-cost?",
+    "Can you develop next-gen consumer applications for BlackBerry?"
+  ],
+  "blackberry_hiring_skills": [
+    "Can I hire BlackBerry Application Developers?",
+    "Do your BlackBerry developers know BlackBerry Internet Service (BIS)?",
+    "Do your BlackBerry developers know BlackBerry Enterprise Server (BES)?",
+    "Do your BlackBerry developers know Location Based Services (LBS)?",
+    "Do your BlackBerry developers know CLDC and MIDP standards?",
+    "Do your developers have expertise in BlackBerry Java Development Environment?",
+    "Do you provide basic BlackBerry operating tools and APIs knowledge?"
+  ],
+  "ipad_app_general": [
+    "What is an iPad?",
+    "What media does an iPad support?",
+    "Who created the iPad?",
+    "How big is an iPad?",
+    "What software runs an iPad?",
+    "Can an iPad run iPhone apps?",
+    "What liberties does an iPad give its users?"
+  ],
+  "ipad_2_hardware": [
+    "What is iPad 2?",
+    "What processor does iPad 2 have?",
+    "Does iPad 2 have a gyroscope?",
+    "Does iPad 2 have cameras?",
+    "Is the new iPad an innovative product?"
+  ],
+  "ipad_app_categories": [
+    "Can you develop entertainment iPad apps?",
+    "Can you develop gaming iPad apps?",
+    "Can you develop e-book publishing iPad apps?",
+    "Can you develop ecommerce iPad apps?",
+    "Can you develop business/trading iPad apps?",
+    "Can you develop health and medical iPad apps?",
+    "Can you develop music iPad apps?",
+    "Can you develop distance learning iPad apps?",
+    "Can you develop maps and navigation iPad apps?",
+    "Can you develop social networking iPad apps?",
+    "Can you develop multimedia iPad apps?",
+    "Can you build health fitness and guide apps for iPad?",
+    "Can you build 3G / Wi-Fi apps for iPad?",
+    "Can you do 3D Animation and game development for iPad?",
+    "Can you build video player and browsing apps for iPad?",
+    "Can you build travel / lifestyle apps for iPad?"
+  ],
+  "ipad_development_company": [
+    "Is Opti Matrix an iPad application development company?",
+    "Can you make my iPad app perform well?",
+    "Does Maximouge offer custom iPad solutions?",
+    "Does Maximouge provide offshore iPad development?"
+  ],
+  "ipad_developers_hiring": [
+    "Do your iPad app developers have professional experience?",
+    "Can iPad SDK programmers build apps for any purpose?",
+    "Do your developers stay ahead of technology trends?",
+    "Are your iPad developers experienced?",
+    "Is your iPad application development reasonably priced?",
+    "Can an iPad developer help me gain long-term profit?",
+    "Can I hire an iPad developer from you?",
+    "Do you believe in delivering quality on time?"
+  ],
+  "iphone_app_general": [
+    "What is the iPhone?",
+    "How many iPhone users are there worldwide?",
+    "Can Opti Matrix assist with multi platform goals?",
+    "How can an iPhone application help my business brand?",
+    "Can I run an advertising campaign via an iPhone app?",
+    "What kind of applications does Opti Matrix produce for the iPhone?",
+    "How can I get in touch for an iPhone application?",
+    "Why are iPhone apps smart tools?"
+  ],
+  "iphone_app_categories": [
+    "In what categories can your iPhone programmers develop applications?",
+    "Can you develop iPhone games?",
+    "Can you develop entertainment iPhone apps?",
+    "Can you develop news iPhone apps?",
+    "Can you develop search tools for iPhone?",
+    "Can you develop productivity iPhone apps?",
+    "Can you develop social networking iPhone apps?",
+    "Can you develop sports iPhone apps?",
+    "Can you develop utilities iPhone apps?",
+    "Can you develop travel iPhone apps?",
+    "Can you develop weather iPhone apps?"
+  ],
+  "iphone_developers_hiring": [
+    "Do you have iPhone Application Developers?",
+    "Can I hire iPhone application developers for long-term projects?",
+    "Do you have a world-class iPhone application development team?"
+  ],
+  "iphone_sdk_tech": [
+    "Does Opti Matrix have access to the latest iPhone developer programs?",
+    "Can Opti Matrix work on any iPhone operating system software?",
+    "Does working ahead of release schedules benefit clients?",
+    "Are there new features in the current iPhone SDK development?",
+    "How do updated functions help iPhone application programmers?",
+    "Are your iPhone developers knowledgeable about Apple's iOS platform?",
+    "Do your developers use the iPhone SDK platform?"
+  ],
+  "iphone_development_process": [
+    "How does Opti Matrix ensure success in developing unique applications?",
+    "Do you design, develop, and deploy applications for several iPhone devices?",
+    "Do technical iPhone developers find executable solutions for business needs?",
+    "Do you coordinate with clients right from the start?",
+    "Can your graphics designers design personalized mocks for iPhone apps?",
+    "Can you handle large size iPhone projects?",
+    "Do you deliver products on a timeline?"
+  ],
+  "iphone_app_features": [
+    "Do your iPhone applications include secured payment gateway integration?"
+  ],
+  "iphone_app_advantages": [
+    "What are the advantages of iPhone Application Development?",
+    "Does an iPhone app improve customer relationships?",
+    "Does an iPhone app increase business profit?"
+  ],
+  "open_source_development": [
+    "Do you provide open source web development services?",
+    "What is open source web development?",
+    "What are the benefits of open source development?",
+    "Why should I choose open source development?",
+    "Is open source development cost-effective?",
+    "Can you customize open source platforms?",
+    "Can open source software be customized according to my requirements?",
+    "Do you provide open source IT consulting?",
+    "Do you provide open source outsourcing services?",
+    "Does Opti Matrix work with CMS platforms?",
+    "Which open source platforms do you work with?",
+    "Which open source platform is best for my website?",
+    "Can you help me choose an open source platform?",
+    "open_source",
+    "open_source_development",
+    "open_source_web_development",
+    "open_source_customization",
+    "open_source_consulting",
+    "open_source_outsourcing",
+    "open_source_cost_effective",
+    "open_source_flexibility",
+    "open_source_vendor_lockin"
+  ],
+  "joomla_development": [
+    "Do you provide Joomla development services?",
+    "Do you provide complete Joomla development?",
+    "Do you have Joomla developers?",
+    "Do you provide Joomla template design?",
+    "Can you build a Joomla website?",
+    "Can you customize Joomla?",
+    "Is Joomla suitable for a CMS website?",
+    "joomla",
+    "joomla_development",
+    "joomla_website",
+    "joomla_customization",
+    "joomla_template",
+    "joomla_cms",
+    "joomla_developer"
+  ],
+  "wordpress_development": [
+    "Do you provide WordPress development services?",
+    "Can you develop a WordPress website?",
+    "Is WordPress suitable for blogging websites?",
+    "Can WordPress be used for ecommerce?",
+    "Can you customize WordPress?",
+    "Does WordPress support plugins?",
+    "Is WordPress user-friendly?",
+    "Does WordPress support SEO?",
+    "Can you create a custom WordPress website?",
+    "Can WordPress be used for a social network?",
+    "wordpress",
+    "wordpress_development",
+    "wordpress_website",
+    "wordpress_customization",
+    "wordpress_plugins",
+    "wordpress_ecommerce",
+    "wordpress_blog",
+    "wordpress_cms",
+    "wordpress_seo",
+    "wordpress_social_network"
+  ],
+  "drupal_development": [
+    "Do you provide Drupal development services?",
+    "What is Drupal?",
+    "Can you develop websites using Drupal?",
+    "Can Drupal be customized?",
+    "Is Drupal open source?",
+    "Can you modify Drupal according to my requirements?",
+    "Do you provide Drupal CMS development?",
+    "drupal",
+    "drupal_development",
+    "drupal_website",
+    "drupal_cms",
+    "drupal_customization",
+    "drupal_open_source"
+  ],
+  "magento_development": [
+    "Do you provide Magento development services?",
+    "Can you develop an ecommerce website using Magento?",
+    "What is Magento?",
+    "Can Magento be used for an online store?",
+    "Can products be managed in Magento?",
+    "Do I need technical knowledge to manage products in Magento?",
+    "Is Magento flexible for ecommerce development?",
+    "Can you customize Magento?",
+    "magento",
+    "magento_development",
+    "magento_website",
+    "magento_ecommerce",
+    "magento_customization",
+    "magento_products",
+    "magento_online_store"
+  ],
+  "oscommerce_development": [
+    "Do you provide osCommerce development?",
+    "What is osCommerce?",
+    "Can you build an ecommerce store using osCommerce?",
+    "Is osCommerce suitable for online businesses?",
+    "Why use osCommerce for an ecommerce website?",
+    "oscommerce",
+    "oscommerce_development",
+    "oscommerce_website",
+    "oscommerce_ecommerce",
+    "oscommerce_online_store"
+  ],
+  "zencart_development": [
+    "Do you provide ZenCart integration?",
+    "What is ZenCart?",
+    "Can you develop an ecommerce website using ZenCart?",
+    "Is ZenCart open source?",
+    "What technologies does ZenCart use?",
+    "Is ZenCart suitable for an online store?",
+    "Can you integrate ZenCart into my ecommerce project?",
+    "zencart",
+    "zencart_development",
+    "zencart_integration",
+    "zencart_website",
+    "zencart_ecommerce",
+    "zencart_online_store",
+    "zencart_php",
+    "zencart_mysql"
+  ],
+  "joomla_general_benefits": [
+    "joomla_website_development",
+    "why_joomla",
+    "joomla_popularity",
+    "joomla_easy_to_use",
+    "feature_rich_joomla",
+    "low_cost_joomla",
+    "joomla_development_cost",
+    "joomla_development_time",
+    "Why choose Joomla?",
+    "Is Joomla easy to use?",
+    "What are the benefits of Joomla website development?"
+  ],
+  "joomla_open_source_free": [
+    "joomla_open_source",
+    "joomla_free",
+    "Is Joomla free?",
+    "Is Joomla open source?"
+  ],
+  "joomla_business_fit": [
+    "joomla_business_website",
+    "joomla_small_business",
+    "joomla_medium_business",
+    "Is Joomla good for small businesses?",
+    "Can medium businesses use Joomla?"
+  ],
+  "joomla_customization_design": [
+    "joomla_customization",
+    "joomla_customization_features",
+    "joomla_template_design",
+    "custom_joomla_design",
+    "Do you provide Joomla customization?",
+    "Can you design a custom Joomla template?"
+  ],
+  "joomla_plugins_modules": [
+    "joomla_custom_modules",
+    "joomla_plugins",
+    "joomla_plugins_modules",
+    "joomla_plugin_integration",
+    "joomla_plugin_benefits",
+    "Can you develop custom Joomla modules?",
+    "Does Joomla have plugins?"
+  ],
+  "joomla_project_types": [
+    "joomla_ecommerce",
+    "joomla_social_network",
+    "joomla_social_network_development",
+    "joomla_web_portal",
+    "joomla_company_website",
+    "joomla_project_types",
+    "Can Joomla be used for ecommerce?",
+    "Can I build a social network with Joomla?"
+  ],
+  "joomla_complete_solutions": [
+    "joomla_consulting",
+    "complete_joomla_solution",
+    "joomla_hosting",
+    "joomla_website_hosting",
+    "joomla_development_to_hosting",
+    "why_optimatrix_joomla",
+    "Do you provide Joomla hosting?",
+    "Why choose Opti Matrix for Joomla?"
+  ],
+  "joomla_hiring_developers": [
+    "experienced_joomla_developers",
+    "joomla_template_designers",
+    "hire_joomla_developer",
+    "hire_joomla_programmer",
+    "hire_joomla_developer_fulltime",
+    "hire_joomla_developer_project",
+    "Can I hire a Joomla developer?",
+    "Do you have experienced Joomla programmers?"
+  ],
+  "joomla_maintenance_support": [
+    "existing_joomla_website",
+    "joomla_existing_website_support",
+    "joomla_existing_project",
+    "joomla_maintenance",
+    "joomla_website_maintenance",
+    "joomla_updates",
+    "joomla_database_maintenance",
+    "finish_joomla_website",
+    "Can you maintain my existing Joomla website?",
+    "Do you offer Joomla updates and support?"
+  ],
+  "magento_development_general": [
+    "What is Magento Development?",
+    "What is Magento?",
+    "Does Opti Matrix provide Magento Development services?",
+    "Can you build an ecommerce website using Magento?",
+    "Is Magento suitable for ecommerce websites?",
+    "Is Magento open source?",
+    "Can Magento be used to start an online store?",
+    "Do you provide Magento installation?",
+    "Can Opti Matrix help with Magento ecommerce development?",
+    "I need a Magento ecommerce website. Can Opti Matrix help?"
+  ],
+  "magento_customization": [
+    "Can Magento be customized?",
+    "Do you provide Magento customization?",
+    "Can you design a custom Magento theme?",
+    "Can you customize Magento templates?",
+    "Do you provide Magento programming services?",
+    "Can you develop custom Magento modules?",
+    "Do you provide Magento plugin development?",
+    "Can Opti Matrix customize Magento according to my business?",
+    "Does Opti Matrix provide Magento theme design?",
+    "Can you create a unique Magento ecommerce store?",
+    "Can you develop custom Magento components?"
+  ],
+  "magento_integration": [
+    "Can Magento integrate with third-party applications?",
+    "Can you integrate Magento with eBay?",
+    "Can you integrate Magento with Amazon?",
+    "Can Magento connect with external applications?"
+  ],
+  "magento_store_management": [
+    "Can Magento manage multiple websites?",
+    "Can Magento manage multiple stores?",
+    "Does Magento support customer groups?",
+    "Can Magento manage product catalogs?",
+    "Can merchants manage products without technical knowledge?",
+    "Does Magento provide a content management system?",
+    "Can I manage my Magento store from an administration panel?"
+  ],
+  "magento_localization": [
+    "Does Magento support multiple currencies?",
+    "Does Magento support different tax rates?",
+    "Can Magento support international ecommerce?"
+  ],
+  "magento_seo": [
+    "Is Magento SEO friendly?",
+    "Does Magento support Google Sitemap?",
+    "Does Magento support SEO-friendly URLs?",
+    "Can Magento help improve ecommerce SEO?"
+  ],
+  "magento_reports": [
+    "Does Magento support Google Analytics?",
+    "Does Magento provide sales reports?",
+    "Does Magento provide abandoned cart reports?",
+    "Does Magento provide stock reports?",
+    "Does Magento provide product reports?",
+    "Does Magento provide search-term reports?"
+  ],
+  "magento_marketing": [
+    "Does Magento support newsletter management?",
+    "Does Magento support coupons?",
+    "Does Magento support promotional pricing?",
+    "Does Magento support free shipping?",
+    "Does Magento support multi-tier pricing?",
+    "Does Magento support bundled products?",
+    "Does Magento support recently viewed products?",
+    "Does Magento support recently compared products?",
+    "Does Magento support product reviews?",
+    "Does Magento support wishlists?",
+    "Does Magento support cross-selling?",
+    "Does Magento support up-selling?",
+    "Can Magento support marketing campaigns?"
+  ],
+  "magento_enterprise": [
+    "Can Magento be used for a large ecommerce store?",
+    "Why should I choose Opti Matrix for Magento Development?"
+  ],
+  "opencart_development_general": [
+    "What is OpenCart Development?",
+    "What is OpenCart?",
+    "Does Opti Matrix provide OpenCart Development services?",
+    "Can you build an ecommerce website using OpenCart?",
+    "Is OpenCart suitable for ecommerce websites?",
+    "Can you help me create an online store with OpenCart?",
+    "Do you provide OpenCart ecommerce development?",
+    "What kind of OpenCart services does Opti Matrix provide?",
+    "I need an OpenCart website. Can Opti Matrix help?",
+    "I want to build an online shop using OpenCart. Can you do it?",
+    "I need OpenCart development services. How can Opti Matrix help?"
+  ],
+  "opencart_customization": [
+    "Can OpenCart be customized?",
+    "Do you provide OpenCart customization?",
+    "Can you develop a custom OpenCart ecommerce store?",
+    "Can you design an OpenCart website?",
+    "Can you customize the OpenCart design?",
+    "Can you develop custom functionality in OpenCart?",
+    "Can Opti Matrix customize OpenCart according to my business?",
+    "Can you create custom features for OpenCart?"
+  ],
+  "opencart_existing_website": [
+    "Can you customize an existing OpenCart website?",
+    "Can you work on an existing OpenCart store?",
+    "Can you modify my OpenCart website?"
+  ],
+  "opencart_integration": [
+    "Can you integrate OpenCart with other systems?"
+  ],
+  "opencart_open_source": [
+    "Is OpenCart an open-source platform?",
+    "Why choose OpenCart for an ecommerce website?",
+    "Does Opti Matrix offer open-source ecommerce development?",
+    "What is Open Source Web Development?",
+    "Why does Opti Matrix provide Open Source Development?",
+    "Can OpenCart be used for a business website?",
+    "Can Opti Matrix develop a customized ecommerce solution?"
+  ],
+  "wordpress_development_general": [
+    "Do you provide WordPress development?",
+    "Do you offer WordPress website development?",
+    "Can you develop a WordPress website?",
+    "What is your WordPress development service?",
+    "Tell me about WordPress development",
+    "WordPress development services",
+    "WordPress website development",
+    "Can Opti Matrix build WordPress websites?",
+    "Aap WordPress website develop karte ho?",
+    "Kya aap WordPress development service dete ho?",
+    "WordPress development ke baare mein batao",
+    "Mujhe WordPress website banwani hai"
+  ],
+  "wordpress_use_cases": [
+    "What can WordPress be used for?",
+    "What type of websites can you build with WordPress?",
+    "Can WordPress be used for ecommerce?",
+    "Can WordPress be used for blogging?",
+    "Can WordPress be used for social networks?",
+    "Can WordPress be used for article publishing?",
+    "What websites can I create using WordPress?",
+    "WordPress se kis type ki website ban sakti hai?",
+    "Kya WordPress ecommerce ke liye use ho sakta hai?",
+    "Kya WordPress blog ke liye suitable hai?"
+  ],
+  "wordpress_customization": [
+    "Can you customize WordPress?",
+    "Do you provide WordPress customization?",
+    "Can you create custom WordPress websites?",
+    "Can WordPress be customized according to requirements?",
+    "Do you customize WordPress themes?",
+    "Can you customize an existing WordPress website?",
+    "WordPress customization service",
+    "Aap WordPress customize kar sakte ho?",
+    "Kya existing WordPress website customize kar sakte ho?",
+    "WordPress ko meri requirement ke according customize karoge?"
+  ],
+  "wordpress_features": [
+    "What are the features of WordPress?",
+    "Tell me WordPress features",
+    "What features does WordPress provide?",
+    "Why is WordPress useful?",
+    "What are the main WordPress features?",
+    "WordPress ke features kya hain?",
+    "WordPress mein kya features milte hain?"
+  ],
+  "wordpress_w3c_compliant": [
+    "Is WordPress W3C compliant?",
+    "Does WordPress follow W3C standards?",
+    "What does W3C compliance mean in WordPress?",
+    "Is WordPress code W3C compliant?",
+    "WordPress W3C compliance",
+    "Kya WordPress W3C compliant hai?"
+  ],
+  "wordpress_spam_protection": [
+    "Does WordPress provide spam protection?",
+    "Can WordPress fight spam?",
+    "How does WordPress handle spam?",
+    "Does WordPress have spam management?",
+    "WordPress spam protection",
+    "Kya WordPress spam ko manage kar sakta hai?"
+  ],
+  "wordpress_installation": [
+    "Do you provide WordPress installation?",
+    "Can you install WordPress for me?",
+    "WordPress installation service",
+    "Can Opti Matrix install WordPress?",
+    "Do you handle WordPress setup?",
+    "WordPress install karwa sakte hain?",
+    "Kya aap WordPress install karte ho?"
+  ],
+  "wordpress_updates": [
+    "Is WordPress easy to update?",
+    "Can WordPress be upgraded easily?",
+    "How are WordPress upgrades handled?",
+    "Can WordPress be updated from the admin panel?",
+    "WordPress update service",
+    "Kya WordPress easily update ho sakta hai?"
+  ],
+  "wordpress_template": [
+    "Do you provide WordPress template design?",
+    "Can you design a custom WordPress template?",
+    "WordPress template design service",
+    "Can you create WordPress themes?",
+    "Do you customize WordPress templates?",
+    "WordPress template design",
+    "Kya aap WordPress template design karte ho?",
+    "Custom WordPress theme bana sakte ho?"
+  ],
+  "wordpress_psd_to_wordpress": [
+    "Do you convert PSD to WordPress?",
+    "Can you convert my PSD design into WordPress?",
+    "PSD to WordPress service",
+    "Can a PSD design be converted into a WordPress website?",
+    "Do you provide PSD to WordPress template conversion?",
+    "PSD ko WordPress mein convert kar sakte ho?",
+    "Mere PSD design ko WordPress website mein convert karoge?"
+  ],
+  "wordpress_plugin_development": [
+    "Do you develop WordPress plugins?",
+    "Can you create custom WordPress plugins?",
+    "WordPress plugin development service",
+    "Can you develop a plugin according to my requirements?",
+    "Do you provide WordPress plugin programming?",
+    "Custom WordPress plugin bana sakte ho?",
+    "Kya aap WordPress plugin development karte ho?"
+  ],
+  "wordpress_hosting": [
+    "Do you provide WordPress hosting?",
+    "Is WordPress hosting available?",
+    "Can you host my WordPress website?",
+    "WordPress hosting service",
+    "Do you provide hosting with WordPress development?",
+    "Kya aap WordPress hosting provide karte ho?",
+    "WordPress website ki hosting bhi karte ho?"
+  ],
+  "wordpress_seo": [
+    "Is WordPress SEO friendly?",
+    "Can WordPress help with SEO?",
+    "Does WordPress support SEO?",
+    "Are WordPress URLs SEO friendly?",
+    "What SEO features does WordPress have?",
+    "WordPress SEO friendly hai?",
+    "Kya WordPress mein SEO possible hai?"
+  ],
+  "wordpress_themes": [
+    "Can WordPress use custom themes?",
+    "Can I install multiple WordPress themes?",
+    "Can themes be switched in WordPress?",
+    "Does WordPress support customized themes?",
+    "How flexible are WordPress themes?",
+    "Can you create a custom WordPress theme?",
+    "Kya WordPress mein custom theme bana sakte hain?",
+    "Kya multiple themes install kar sakte hain?"
+  ],
+  "wordpress_easy_to_use": [
+    "Is WordPress easy to use?",
+    "Is WordPress user friendly?",
+    "Why is WordPress popular?",
+    "Is WordPress suitable for beginners?",
+    "How easy is WordPress to manage?",
+    "WordPress easy to use hai?",
+    "Kya WordPress user friendly hai?"
+  ],
+  "wordpress_plugins": [
+    "Does WordPress support plugins?",
+    "Are WordPress plugins available?",
+    "Can I add plugins to WordPress?",
+    "How do plugins help in WordPress?",
+    "Does WordPress have ready-made plugins?",
+    "WordPress plugins milte hain?",
+    "Kya WordPress mein plugins add kar sakte hain?"
+  ],
+  "wordpress_backend": [
+    "Does WordPress have a backend?",
+    "Is WordPress administration easy?",
+    "Can I manage WordPress from the backend?",
+    "What can I do from the WordPress backend?",
+    "WordPress backend",
+    "Kya WordPress mein strong backend hota hai?"
+  ],
+  "wordpress_template_changes": [
+    "Do WordPress template changes require rebuilding?",
+    "Do I need to rebuild the website after changing a WordPress template?",
+    "Are WordPress template changes immediate?",
+    "How quickly do WordPress template changes appear?",
+    "WordPress template update ke baad rebuild karna padta hai?"
+  ],
+  "wordpress_cross_blog": [
+    "Does WordPress support cross blog communication?",
+    "What are Trackback and Pingback in WordPress?",
+    "Does WordPress support Trackback?",
+    "Does WordPress support Pingback?",
+    "WordPress cross blog communication",
+    "Kya WordPress Trackback aur Pingback support karta hai?"
+  ],
+  "wordpress_development_company": [
+    "Why should I choose Opti Matrix for WordPress development?",
+    "Why Opti Matrix for WordPress?",
+    "What makes Opti Matrix suitable for WordPress development?",
+    "Why hire Opti Matrix for WordPress?",
+    "Why choose your WordPress developers?",
+    "WordPress ke liye Opti Matrix ko kyu choose karein?",
+    "Aap WordPress development ke liye kya offer karte ho?"
+  ],
+  "wordpress_developer_hiring": [
+    "Can I hire a WordPress developer?",
+    "Do you provide WordPress developers?",
+    "Can I hire your WordPress programmer?",
+    "I need a WordPress developer",
+    "Do you offer WordPress developer hiring?",
+    "Can you assign a WordPress developer to my project?",
+    "WordPress developer hire karna hai",
+    "Kya aap WordPress developer provide karte ho?"
+  ],
+  "wordpress_existing_website": [
+    "Can you work on my existing WordPress website?",
+    "Can you modify my existing WordPress website?",
+    "I already have a WordPress website, can you maintain it?",
+    "Can you help with an unfinished WordPress website?",
+    "Do you work on existing WordPress websites?",
+    "Meri existing WordPress website par kaam kar sakte ho?",
+    "Meri purani WordPress website ko update kar sakte ho?"
+  ],
+  "wordpress_maintenance": [
+    "Do you provide WordPress maintenance?",
+    "Can you maintain my WordPress website?",
+    "WordPress website maintenance",
+    "Can you handle regular WordPress updates?",
+    "Do you provide ongoing WordPress support?",
+    "WordPress maintenance service hai?",
+    "Kya aap WordPress website maintain karte ho?"
+  ],
+  "wordpress_ecommerce": [
+    "Can you build an ecommerce website using WordPress?",
+    "Is WordPress suitable for ecommerce?",
+    "Do you develop WordPress ecommerce websites?",
+    "Can WordPress be customized for ecommerce?",
+    "WordPress ecommerce development",
+    "WordPress se ecommerce website bana sakte ho?",
+    "Kya WordPress ecommerce ke liye use kar sakte hain?"
+  ],
+  "wordpress_social_network": [
+    "Can WordPress be used to build a social network?",
+    "Can you build a social network using WordPress?",
+    "Is WordPress suitable for social networking websites?",
+    "WordPress social network development",
+    "Kya WordPress se social network website ban sakti hai?"
+  ],
+  "wordpress_blog": [
+    "Can you build a WordPress blog?",
+    "Is WordPress good for blogging?",
+    "Can WordPress be used as a blogging platform?",
+    "WordPress blog development",
+    "Can I use WordPress for article publishing?",
+    "WordPress blog bana sakte ho?",
+    "Kya WordPress blogging ke liye achha hai?"
+  ],
+  "wordpress_open_source": [
+    "Is WordPress open source?",
+    "Is WordPress an open source platform?",
+    "Why is WordPress called open source?",
+    "WordPress open source hai?",
+    "Kya WordPress free open source platform hai?"
+  ],
+  "wordpress_cost_saving": [
+    "Does WordPress reduce development cost?",
+    "Is WordPress development cost effective?",
+    "Why does WordPress save money?",
+    "Is WordPress cheaper to develop?",
+    "WordPress cost effective hai?",
+    "WordPress se development cost kam hoti hai?"
+  ],
+  "wordpress_development_time": [
+    "Does WordPress speed up website development?",
+    "Is WordPress development faster?",
+    "How does WordPress reduce development time?",
+    "Can WordPress websites be developed quickly?",
+    "WordPress development fast hai?",
+    "WordPress se website jaldi ban sakti hai?"
+  ],
+  "wordpress_complex_application": [
+    "Can WordPress build complex web applications?",
+    "Can WordPress handle complex websites?",
+    "Is WordPress suitable for complex web applications?",
+    "Can customized WordPress templates build complex applications?",
+    "WordPress complex application ke liye suitable hai?"
+  ],
+  "wordpress_portal": [
+    "Can you develop a WordPress web portal?",
+    "Can WordPress be used for web portal development?",
+    "WordPress portal development",
+    "Can you build a WordPress-based portal?",
+    "WordPress web portal bana sakte ho?"
+  ],
+  "wordpress_programmer": [
+    "Do you have experienced WordPress programmers?",
+    "Are your WordPress developers experienced?",
+    "Do you have WordPress programmers in India?",
+    "Who will develop my WordPress website?",
+    "WordPress programmers available hain?",
+    "Aapke paas experienced WordPress developer hai?"
+  ],
+  "wordpress_services_list": [
+    "What WordPress services do you provide?",
+    "List your WordPress services",
+    "What services are included in WordPress development?",
+    "What can you do with WordPress?",
+    "Give me your WordPress service list",
+    "WordPress services ki list do",
+    "Aap WordPress mein kya kya services dete ho?"
+  ],
+  "wordpress_installation_and_setup": [
+    "Can you set up a complete WordPress website?",
+    "Do you provide complete WordPress setup?",
+    "Can you install and configure WordPress?",
+    "I need complete WordPress setup",
+    "Complete WordPress website setup",
+    "WordPress ka complete setup kar sakte ho?"
+  ],
+  "wordpress_plugin_customization": [
+    "Can you customize WordPress plugins?",
+    "Can you develop custom plugin functionality?",
+    "Do you work with WordPress plugins?",
+    "Can you add custom functionality through plugins?",
+    "WordPress plugin customize kar sakte ho?"
+  ],
+  "wordpress_template_customization": [
+    "Can you customize WordPress templates?",
+    "Can you modify a WordPress theme?",
+    "WordPress theme customization service",
+    "Can you make my WordPress theme unique?",
+    "WordPress template customize karna hai"
+  ],
+  "wordpress_existing_portal": [
+    "Can you update my existing WordPress portal?",
+    "Can you maintain a large WordPress portal?",
+    "I have a WordPress portal that needs regular updates",
+    "Do you support large WordPress websites?",
+    "Existing WordPress portal maintain kar sakte ho?"
+  ],
+  "wordpress_social_website": [
+    "Can you develop a social website in WordPress?",
+    "Can WordPress handle social networking functionality?",
+    "WordPress social website development",
+    "Can you customize WordPress for social networking?"
+  ],
+  "wordpress_seo_plugins": [
+    "Does WordPress support SEO plugins?",
+    "Can plugins improve WordPress SEO?",
+    "How can I make WordPress SEO friendly?",
+    "Can WordPress plugins help with SEO?",
+    "WordPress SEO plugins available hain?"
+  ],
+  "wordpress_browser_compatibility": [
+    "Is WordPress compatible with browsers?",
+    "Does WordPress support browser interoperability?",
+    "Why is W3C compliance important for WordPress?",
+    "WordPress browser compatibility",
+    "Kya WordPress different browsers ke saath compatible hai?"
+  ],
+  "wordpress_no_rebuild": [
+    "Do I have to rebuild WordPress after template changes?",
+    "Does WordPress require rebuilding after updates?",
+    "Can changes be applied without rebuilding?",
+    "WordPress rebuild requirement",
+    "WordPress mein changes ke baad rebuild karna padta hai?"
+  ],
+  "wordpress_multiple_themes": [
+    "Can WordPress have multiple themes?",
+    "Can I install multiple themes in WordPress?",
+    "Can I switch between WordPress themes?",
+    "WordPress multiple theme support",
+    "Kya WordPress mein multiple themes rakh sakte hain?"
+  ],
+  "wordpress_project_support": [
+    "Can you help complete my unfinished WordPress project?",
+    "My WordPress website is incomplete, can you finish it?",
+    "Can your WordPress developer work on an unfinished website?",
+    "I need help completing my WordPress website",
+    "Meri incomplete WordPress website complete kar sakte ho?"
+  ],
+  "wordpress_continuous_updates": [
+    "Can you provide continuous WordPress updates?",
+    "Do you handle regular WordPress updates?",
+    "I need someone for ongoing WordPress updates",
+    "Can your developer continuously update my WordPress website?",
+    "Regular WordPress updates kar sakte ho?"
+  ],
+  "wordpress_platform_selection": [
+    "Should I use WordPress for my website?",
+    "Is WordPress a good platform for my website?",
+    "Why choose WordPress?",
+    "Is WordPress suitable for my project?",
+    "Mere project ke liye WordPress suitable hai?"
+  ],
+  "wordpress_cms": [
+    "Is WordPress a CMS?",
+    "What is WordPress?",
+    "Is WordPress a content management system?",
+    "WordPress CMS hai?",
+    "WordPress kya hai?"
+  ],
+  "wordpress_requirements": [
+    "Can WordPress meet custom requirements?",
+    "Can you build WordPress according to my requirements?",
+    "Is WordPress flexible for custom requirements?",
+    "Can WordPress handle custom functionality?",
+    "Kya WordPress meri custom requirements fulfill kar sakta hai?"
+  ],
+  "wordpress_development_advantage": [
+    "What are the advantages of WordPress development?",
+    "Why use WordPress for development?",
+    "What benefits does WordPress provide?",
+    "Benefits of WordPress development",
+    "WordPress development ke advantages kya hain?"
+  ],
+  "wordpress_full_service": [
+    "Do you provide complete WordPress solutions?",
+    "Can you handle WordPress from development to hosting?",
+    "Do you provide end-to-end WordPress services?",
+    "Complete WordPress solution",
+    "Kya aap WordPress ka complete solution provide karte ho?"
+  ],
+  "wordpress_hire_fulltime": [
+    "Can I hire a WordPress developer full time?",
+    "Do you offer full-time WordPress developers?",
+    "Can I hire a WordPress programmer for my project?",
+    "I need a dedicated WordPress developer",
+    "Full time WordPress developer chahiye"
+  ],
+  "php_frameworks_cakephp": [
+    "What is CakePHP?",
+    "Is CakePHP popular?",
+    "Is CakePHP an MVC framework?",
+    "Does CakePHP have MVC features?",
+    "What does MVC stand for in CakePHP?",
+    "Why use CakePHP?",
+    "Can I develop a web application using CakePHP?",
+    "Is CakePHP used worldwide?",
+    "Is CakePHP a PHP framework?",
+    "Do you provide CakePHP development?"
+  ],
+  "php_frameworks_codeigniter": [
+    "What is CodeIgniter?",
+    "Is CodeIgniter easy to understand?",
+    "Who can detect work in CodeIgniter?",
+    "Can developers detect different phases in a CodeIgniter project?",
+    "What is CodeIgniter compared to?",
+    "Is CodeIgniter good for large projects?",
+    "Is CodeIgniter a PHP framework?",
+    "Do you provide CodeIgniter development?",
+    "Does CodeIgniter help in tracking developers' work?",
+    "Why use CodeIgniter?"
+  ],
+  "php_frameworks_symfony": [
+    "What is Symfony?",
+    "Does Symfony use MVC architecture?",
+    "Under what license is Symfony released?",
+    "Is Symfony the same as Symphony CMS?",
+    "What is Symphony CMS?",
+    "Is Symfony written in PHP?",
+    "Is Symfony open source?",
+    "Do you provide Symfony development?",
+    "Does Symfony follow Model-View-Controller?",
+    "Is Symfony an XML content management system?"
+  ],
+  "php_frameworks_mvc": [
+    "What does MVC stand for?",
+    "What is MVC?",
+    "Why use MVC?",
+    "How do different developers work?",
+    "How do some developers manage external files?",
+    "How do developers use classes?",
+    "Do all developers manage codes properly?",
+    "What is straight forward PHP coding?",
+    "Does MVC help manage code better than straightforward PHP?",
+    "Do you provide MVC Development?"
+  ],
+  "cakephp_development_benefits": [
+    "What are the benefits of selecting PHP-MySQL for web development?",
+    "Is the turnaround time faster with a proven framework?",
+    "What are the advantages of using CakePHP as a core framework?"
+  ],
+  "cakephp_mvc_architecture": [
+    "Is CakePHP popular?",
+    "Is CakePHP an MVC framework?",
+    "What is an MVC Framework?",
+    "What are the 3 parts of the MVC architecture?",
+    "What do Modules represent in CakePHP?",
+    "What are Views used for in CakePHP?",
+    "What are Controllers used for in CakePHP?"
+  ],
+  "cakephp_features": [
+    "Does CakePHP have a strong database module?",
+    "Why is the CakePHP database engine a favorite?",
+    "Does CakePHP have a routing engine?",
+    "Are CakePHP URLs search engine friendly?"
+  ],
+  "cakephp_hiring_support": [
+    "Is Opti Matrix a CakePHP development company?",
+    "Can I hire CakePHP developers from Opti Matrix?",
+    "Do you provide CakePHP development from scratch?",
+    "Do you provide maintenance for CakePHP projects?",
+    "Can you help complete an unfinished CakePHP project?",
+    "What are the hiring options for CakePHP developers?"
+  ],
+  "codeigniter_general_info": [
+    "What is CodeIgniter?",
+    "Is CodeIgniter lightweight?",
+    "Is CodeIgniter complex?",
+    "Is CodeIgniter easy to set up?",
+    "Is CodeIgniter an MVC framework?",
+    "How long does it take to set up a workspace in CodeIgniter?",
+    "Is CodeIgniter well-proven?"
+  ],
+  "codeigniter_database_control": [
+    "Does CodeIgniter have a good database layer?",
+    "Why do some people dislike CodeIgniter?",
+    "Why do some people love CodeIgniter?",
+    "Can I write my own SQL queries in CodeIgniter?"
+  ],
+  "codeigniter_project_suitability": [
+    "What scale of projects is CodeIgniter best for?",
+    "Should I use CodeIgniter for complex data structures?",
+    "Should I use CodeIgniter for attractive UIs?",
+    "Does CodeIgniter develop projects in a modular way?",
+    "Is CodeIgniter fast to develop?"
+  ],
+  "codeigniter_developer_experience": [
+    "Is CodeIgniter easy to understand?",
+    "Can developers detect different project phases in CodeIgniter?",
+    "Why does CodeIgniter win at many firms?",
+    "Does CodeIgniter allow developers to work fast?",
+    "Do you like developing with CodeIgniter?",
+    "What does freedom mean in CodeIgniter?",
+    "Do I have to follow strict naming conventions for tables in CodeIgniter?",
+    "Do I have to name models after tables in CodeIgniter?",
+    "Does CodeIgniter give developers control?"
+  ],
+  "codeigniter_legacy_refactoring": [
+    "Is CodeIgniter good for refactoring?",
+    "Can CodeIgniter refactor legacy PHP applications?"
+  ],
+  "codeigniter_technical_specs": [
+    "Does CodeIgniter require a huge footprint of code?",
+    "Does CodeIgniter require huge libraries?",
+    "Does CodeIgniter require PEAR?",
+    "What PHP versions does CodeIgniter work on?",
+    "Does CodeIgniter work on PHP 4?",
+    "Does CodeIgniter work on PHP 5?",
+    "Does CodeIgniter create portable applications?"
+  ],
+  "codeigniter_hiring_services": [
+    "Do you have experienced PHP developers for CodeIgniter?",
+    "Can you work on an existing CodeIgniter project?",
+    "Can you build a new CodeIgniter project from scratch?",
+    "Can I hire a CodeIgniter developer from you?",
+    "Do you provide suggestions and support for CodeIgniter projects?",
+    "Is CodeIgniter an Indian service?"
+  ],
+  "laravel_general_info": [
+    "What is Laravel?",
+    "Is Laravel an MVC framework?",
+    "Why should I choose Laravel for my web application?",
+    "What makes Laravel unique compared to other PHP frameworks?",
+    "Is Laravel cost-effective?",
+    "Does Laravel have a good community?"
+  ],
+  "laravel_features_tech": [
+    "Does Laravel provide high security?",
+    "What is Eloquent ORM in Laravel?",
+    "What is Blade in Laravel?",
+    "What is the Artisan command-line tool?",
+    "Does Laravel support database migrations?",
+    "Does Laravel handle routing easily?",
+    "Does Laravel support unit testing?",
+    "Is Laravel SEO friendly?",
+    "Does Laravel support localization and multiple languages?",
+    "How does Laravel handle caching?",
+    "Does Laravel handle user authentication easily?",
+    "Does Laravel support queue management?"
+  ],
+  "laravel_advanced_tools": [
+    "What is Laravel Forge?",
+    "What is Laravel Envoy?",
+    "What is Laravel Echo?",
+    "What is Laravel Nova?"
+  ],
+  "laravel_project_suitability": [
+    "Can you build an e-commerce website using Laravel?",
+    "Does Laravel support API development?",
+    "Is Laravel good for large enterprise applications?",
+    "Does Opti Matrix build SaaS applications using Laravel?"
+  ],
+  "laravel_development_services": [
+    "Does Opti Matrix provide Laravel Development services?",
+    "Does Opti Matrix develop custom Laravel modules?",
+    "Can you upgrade my existing PHP application to Laravel?",
+    "Do you provide ongoing maintenance for Laravel projects?",
+    "How fast is Laravel development?",
+    "Can you integrate third-party APIs with Laravel?",
+    "Does Opti Matrix provide Laravel consulting services?",
+    "Can you migrate my WordPress site to Laravel?",
+    "Do you provide Laravel package development?",
+    "Can Opti Matrix complete my unfinished Laravel project?",
+    "Can you optimize my slow Laravel application?"
+  ],
+  "laravel_hiring_opti_matrix": [
+    "Can I hire dedicated Laravel developers from Opti Matrix?",
+    "Do your Laravel developers understand front-end technologies?",
+    "Why choose Opti Matrix for Laravel development in India?"
+  ],
+  "mvc_general_concept": [
+    "What does MVC stand for?",
+    "What is MVC?",
+    "What is the benefit of an approach to build web applications?"
+  ],
+  "mvc_poor_coding_practices": [
+    "Do all developers work in the same way?",
+    "How do developers use external files?",
+    "Do developers use classes for code management?",
+    "Do all developers bother about managing codes?",
+    "What is straightforward PHP coding?",
+    "Is core PHP development without management bad?"
+  ],
+  "mvc_cost_and_quality": [
+    "Should I think about the future of my project?",
+    "Is project maintenance important?",
+    "Is it better to spend more money initially?",
+    "Why spend more money on professional development?",
+    "Are quotations from different companies the same?",
+    "How can a non-technical person judge an offer?",
+    "Can looking only at cost lead to a wrong selection?",
+    "Why can't a non-technical person judge the quality of development?",
+    "Will a project look the same if developed by two different people?",
+    "Can the cost differ for the same looking project?",
+    "Why would I choose the cheaper option?",
+    "Is choosing the cheaper option always right?",
+    "What happens if a project is developed in a nasty way?",
+    "Why do bugs and update issues happen?",
+    "How does MVC prevent future expenses?",
+    "What happens to ease of upgrade without MVC?",
+    "Can MVC development save me money in the long run?"
+  ],
+  "mvc_architecture_benefits": [
+    "How does PHP MVC development help?",
+    "Does MVC help developers understand each other's code?",
+    "Is there harmony in MVC codes?",
+    "Is MVC a fantastic architecture?",
+    "Does code harmony matter?"
+  ],
+  "mvc_development_services": [
+    "Should I seek PHP MVC developers?",
+    "Is PHP MVC development doing well in India?",
+    "Does Opti Matrix support PHP MVC application development?",
+    "Does Opti Matrix provide support on CakePHP?",
+    "Does Opti Matrix provide support on CodeIgniter?",
+    "Does Opti Matrix provide support on Symfony?",
+    "How can I find highly experienced PHP MVC developers?",
+    "Why is India good for MVC development?",
+    "What frameworks does Opti Matrix use for MVC?"
+  ],
+  "web_design_general": [
+    "Why is website design important?",
+    "What are website designing services?",
+    "How does a website help my business?"
+  ],
+  "web_design_services": [
+    "Do you provide website designing services?",
+    "Do you offer web design solutions?",
+    "Website designing services?"
+  ],
+  "web_design_vision": [
+    "Will you match my vision for the website?",
+    "Can you turn my ideas into reality?",
+    "Do you build websites according to my thoughts?"
+  ],
+  "psd_layouts_meaning": [
+    "What is a PSD layout?",
+    "How does website development begin?",
+    "What is the first step in website design?"
+  ],
+  "psd_file_explanation": [
+    "What is a PSD file?",
+    "What does PSD mean?"
+  ],
+  "psd_usability": [
+    "Can a PSD file be used directly on a website?",
+    "Is a PSD file a working website?"
+  ],
+  "psd_to_html_conversion": [
+    "Do you convert PSD to HTML?",
+    "What is PSD to HTML conversion?"
+  ],
+  "psd_to_html_why": [
+    "Why do PSD templates need to be converted to HTML?",
+    "Why can't I just upload a PSD template?"
+  ],
+  "html_designing_importance": [
+    "What is HTML designing?",
+    "Why do I need a unique website?",
+    "Why is HTML design important?"
+  ],
+  "html_designing_business": [
+    "Can HTML design help expand my business?",
+    "Does a website expand business worldwide?"
+  ],
+  "logo_designing_service": [
+    "Do you provide logo designing services?",
+    "What is a logo?",
+    "Can you design a logo for my company?"
+  ],
+  "logo_designing_importance": [
+    "Why is logo design important?",
+    "Why should I be meticulous about my logo?",
+    "Does a logo impact people?"
+  ],
+  "web_designing": [
+    "Do you offer web designing?",
+    "Web designing?"
+  ],
+  "website_designing_services": [
+    "What website designing services do you offer?",
+    "Tell me about your website designing services."
+  ],
+  "website_design": [
+    "I need website design.",
+    "Website design"
+  ],
+  "website_design_importance": [
+    "Why is website design important?",
+    "Importance of website design?"
+  ],
+  "custom_website_design": [
+    "Do you provide custom website design?",
+    "Custom website design?"
+  ],
+  "ecommerce_website_design": [
+    "Do you design ecommerce websites?",
+    "Ecommerce website design?"
+  ],
+  "psd_layout": [
+    "What is a PSD layout?",
+    "PSD layout?"
+  ],
+  "psd_design": [
+    "What is PSD design?",
+    "PSD design?"
+  ],
+  "psd_to_html": [
+    "Do you convert PSD to HTML?",
+    "PSD to HTML conversion?"
+  ],
+  "html_designing": [
+    "Do you offer HTML designing?",
+    "HTML designing?"
+  ],
+  "html_website_design": [
+    "Can you create an HTML website design?",
+    "HTML website design?"
+  ],
+  "logo_designing": [
+    "Do you do logo designing?",
+    "Logo designing services?",
+    "Logo designing?",
+    "Do you provide logo design?",
+    "I need a logo.",
+    "I need logo designing services.",
+    "Can you design my logo?",
+    "Do you create logos?",
+    "Logo design service?",
+    "I want a professional logo.",
+    "Can Opti Matrix design my logo?",
+    "I need a company logo.",
+    "Do you provide complete logo design services?"
+  ],
+  "logo_design": [
+    "I need a logo design.",
+    "Logo design"
+  ],
+  "logo_design_importance": [
+    "Why is a logo design important?",
+    "Importance of logo design?"
+  ],
+  "corporate_identity_design": [
+    "Do you provide corporate identity design?",
+    "Corporate identity design?"
+  ],
+  "html_design_general": [
+    "What is HTML designing?",
+    "Why is HTML important for a website?",
+    "Do all websites need HTML?"
+  ],
+  "html_design_services": [
+    "Do you provide HTML designing services?",
+    "Can you design a complete HTML website?",
+    "Can you help me establish my business online?"
+  ],
+  "html_business_fit": [
+    "Can you create a website according to my business requirements?",
+    "Do you create corporate websites?",
+    "Can you create a website for a small business?",
+    "Can you create a website for a large business?",
+    "Can HTML websites help my business online?"
+  ],
+  "html_seo": [
+    "Can HTML design help with SEO?",
+    "Is HTML website design SEO friendly?",
+    "Can HTML help improve Google visibility?",
+    "Do you provide SEO-friendly HTML design?"
+  ],
+  "html_technologies": [
+    "What technologies do your web designers work with?",
+    "Do you work with CSS?",
+    "Do you provide XHTML designing?",
+    "Do you use Photoshop for website design?",
+    "Do you provide Flash design?"
+  ],
+  "html_design_quality": [
+    "Can you create a rich-looking website?",
+    "Can you create a website focused on my target audience?",
+    "Do you create user-oriented websites?",
+    "Do you create business-focused websites?"
+  ],
+  "html_brand_identity": [
+    "Can you design a website according to my brand identity?",
+    "Can you design a website for my marketing strategy?",
+    "Why should my website have a unique design?",
+    "Can you make my website reflect my company's identity?"
+  ],
+  "html_cost_effective": [
+    "Can you create a cost-effective website?",
+    "Can HTML and CSS be used for a business website?"
+  ],
+  "custom_logo_design": [
+    "Can you create a custom logo?",
+    "Can you make a unique logo?",
+    "I want a custom logo for my business.",
+    "Can you design a logo according to my business?",
+    "Can you create a unique company logo?",
+    "I don't want a standard logo.",
+    "Can you make a customized logo?",
+    "Can you design a logo for my brand?",
+    "Can you design a logo for a new business?"
+  ],
+  "logo_branding": [
+    "Can a logo help my branding?",
+    "Why do I need a logo?",
+    "How does a logo help my business?",
+    "Is a logo important for branding?",
+    "Can a logo improve brand recognition?",
+    "What is the importance of a company logo?",
+    "Why is logo design important?",
+    "Do colors matter in logo design?",
+    "Can a logo create a first impression of my company?"
+  ],
+  "logo_competitor_research": [
+    "Do you research competitors?",
+    "Can you make my logo different from competitors?",
+    "How will you make my logo unique?",
+    "Do you analyze competitors before logo design?",
+    "Can you create a logo that stands out?",
+    "How do you differentiate my logo?",
+    "Why should my logo be different from competitors?"
+  ],
+  "logo_market_research": [
+    "Do you research the market before designing?",
+    "Do you analyze my target audience?",
+    "Will you study my competitors?",
+    "Do you consider customer expectations?",
+    "How do you decide what logo suits my business?",
+    "Can you help me understand what type of logo suits my business?"
+  ],
+  "logo_requirements": [
+    "Will you understand my requirements?",
+    "Can I tell you my logo ideas?",
+    "Can I discuss my logo requirements?",
+    "Do your designers talk to clients?",
+    "Will you understand my business before designing?",
+    "Can I explain what I want?",
+    "Do you understand my requirements before designing the logo?"
+  ],
+  "logo_affordable": [
+    "Is your logo design affordable?",
+    "How much does logo designing cost?",
+    "Do you provide affordable logo design?",
+    "Is professional logo design expensive?",
+    "I need an affordable logo."
+  ],
+  "psd_layout_general": [
+    "What are PSD layouts?",
+    "What is a PSD web layout?",
+    "What does PSD stand for?",
+    "Are PSD layouts only for design?",
+    "Is PSD a website?",
+    "Can a PSD file directly run as a website?",
+    "PSD layout?",
+    "What is PSD web design?",
+    "PSD file",
+    "photoshop_design"
+  ],
+  "psd_template_catalog": [
+    "What is a PSD template?",
+    "Do you have PSD website templates?",
+    "Can I choose a PSD template instead of designing one from scratch?",
+    "Are PSD templates available in different designs?",
+    "Why should I use a website layout template?",
+    "Can PSD templates save design time?",
+    "Do you provide premium quality PSD templates?",
+    "Can I select a template before starting website development?",
+    "How can I choose a PSD template?",
+    "Do you have PSD templates?",
+    "Can I choose a PSD template?",
+    "Where can I find your PSD templates?",
+    "Do you provide website templates?",
+    "Can I use your PSD template?",
+    "I want a ready-made PSD template.",
+    "Do you have website layout templates?",
+    "Can I select a template for my website?",
+    "website_layout_template",
+    "website_template",
+    "premium_psd_template"
+  ],
+  "psd_custom_layout": [
+    "Do you provide PSD layout design services?",
+    "Can you create a custom PSD layout for my business?",
+    "Can you design a PSD template according to my company profile?",
+    "I need a PSD layout.",
+    "Do you create PSD layouts?",
+    "Can you make PSD design?",
+    "PSD website design?",
+    "I need a Photoshop website layout.",
+    "Can you design my website in PSD?",
+    "Do you offer PSD designing?",
+    "Can you create a custom PSD?",
+    "Can you design PSD according to my business?",
+    "I need a custom website layout.",
+    "Can you make a PSD based on my company?",
+    "Can you create a unique PSD template?",
+    "I don't want a ready-made template.",
+    "Can you create my own website design in PSD?",
+    "psd_design_service"
+  ],
+  "psd_template_integration": [
+    "Can I provide my own PSD template?",
+    "Can I use a PSD template for my website?",
+    "Can you integrate a PSD template into my website?",
+    "Can I add my own content to a PSD template?",
+    "Do you help with PSD template integration?",
+    "Can you integrate my PSD into a website?",
+    "I already have a PSD design.",
+    "Can you convert my PSD design into a website?",
+    "Can you use my PSD template?",
+    "I have a Photoshop design, can you use it?",
+    "Can you implement my PSD design?",
+    "Can your designers work with my PSD?"
+  ],
+  "psd_website_preview": [
+    "Why is a PSD layout important?",
+    "Can I see how my website will look before development?"
+  ],
+  "psd_to_html_general": [
+    "What is PSD to HTML conversion?",
+    "Why is PSD to HTML conversion necessary?",
+    "Why convert PSD to HTML?"
+  ],
+  "psd_to_html_services": [
+    "Do you provide PSD to HTML conversion services?",
+    "Can you convert my PSD to HTML?",
+    "PSD to HTML services?"
+  ],
+  "psd_to_html_manual_coding": [
+    "Do you provide hand-coded PSD to HTML?",
+    "Is the conversion manually coded?",
+    "Why not use PSD to HTML converter software?"
+  ],
+  "psd_to_html_seo": [
+    "Are your HTML conversions SEO friendly?",
+    "Will the converted HTML be search engine friendly?"
+  ],
+  "psd_to_html_compatibility": [
+    "Are your conversions cross-browser compatible?",
+    "Will the HTML work on all browsers?"
+  ],
+  "psd_to_html_process": [
+    "Is PSD to HTML conversion difficult?",
+    "What does the conversion process require?"
+  ],
+  "web_dev_general": [
+    "Do you provide web development services?",
+    "What web development services does Opti Matrix offer?",
+    "Can you develop a website for my business?",
+    "Do you provide website development?",
+    "What are your website development services?",
+    "Tell me about your web development services."
+  ],
+  "web_dev_custom": [
+    "Do you provide custom website development?",
+    "What is Custom Website Development?",
+    "Why should I choose a custom website for my business?",
+    "Can you create a website according to my business requirements?",
+    "What are custom websites?",
+    "Do you build custom sites?"
+  ],
+  "web_dev_ecommerce": [
+    "Can you create an ecommerce website?",
+    "Do you develop online shopping websites?",
+    "What is the purpose of an ecommerce website?",
+    "Do you build ecommerce stores?",
+    "I want to start an online store, can you help?",
+    "Do you provide ecommerce development?"
+  ],
+  "web_dev_php": [
+    "Do you provide PHP Website Development?",
+    "What is PHP development?",
+    "Do you build sites in PHP?",
+    "Can you develop my website in PHP?"
+  ],
+  "web_dev_ajax": [
+    "Do you provide AJAX Development?",
+    "Can you develop dynamic web applications using AJAX?",
+    "What is AJAX development?",
+    "Do you use AJAX for websites?"
+  ],
+  "web_dev_static": [
+    "Do you develop static websites?",
+    "Can you create a simple website for my business?",
+    "What is a static website?",
+    "I need a simple static website."
+  ],
+  "web_dev_provider_info": [
+    "Who is the best Web Development Services Provider in Ahmedabad?",
+    "Do you provide web development in India?",
+    "Where do you provide website services?",
+    "Are you a web development company in Ahmedabad?"
+  ],
+  "web_dev_cost": [
+    "Are your web development services cost-effective?",
+    "Is building a website with you affordable?",
+    "Do you offer budget-friendly web solutions?",
+    "How much does a website cost?"
+  ],
+  "web_dev_performance": [
+    "Do you build fast websites?",
+    "How is the performance of your websites?",
+    "Can you create a high-performance web application?",
+    "Will my website be fast?"
+  ],
+  "web_dev_tech": [
+    "What technologies do you use for web development?",
+    "Which programming languages do your developers use?",
+    "What platform will my website be built on?"
+  ],
+  "web_dev_web20": [
+    "Do you use Web 2.0 technology?",
+    "Are your websites built with Web 2.0?",
+    "What is Web 2.0 technology?"
+  ],
+  "web_dev_results": [
+    "Can your website help my business grow?",
+    "Will the website increase my sales?",
+    "Do you guarantee measurable results?"
+  ],
+  "web_dev_ecommerce_benefits": [
+    "Why should I get an ecommerce website?",
+    "What are the benefits of selling online?",
+    "Why is ecommerce better than a physical store?"
+  ],
+  "web_dev_php_benefits": [
+    "Why should I choose PHP for my website?",
+    "What are the advantages of PHP development?",
+    "Is PHP a good choice for my web app?"
+  ],
+  "web_dev_ajax_meaning": [
+    "What does AJAX stand for?",
+    "What is the meaning of AJAX?",
+    "Can you explain what AJAX is?"
+  ],
+  "web_dev_static_design": [
+    "What do you consider when designing a static site?",
+    "How do you design a static website?",
+    "What makes a good static website?"
+  ],
+  "web_dev_premium_design": [
+    "Do you offer premium website design?",
+    "Can you create a premium design for my site?",
+    "I want a high-quality premium website design."
+  ],
+  "web_dev_first_impression": [
+    "How do you ensure a good first impression for my website?",
+    "Can you make my website look impressive?",
+    "I want my website to stand out."
+  ],
+  "web_dev_mobile_apps": [
+    "Do you develop mobile applications?",
+    "Can you build an app for iOS or Android?",
+    "Do you offer mobile app development?"
+  ],
+  "web_dev_mobile_tech": [
+    "What technology do you use for mobile apps?",
+    "How do you develop your mobile applications?"
+  ],
+  "web_dev_digital_marketing": [
+    "Do you offer digital marketing services?",
+    "Can you help market my website?",
+    "Do you provide online marketing?"
+  ],
+  "web_dev_seo": [
+    "Do you provide SEO services?",
+    "Can you help my website rank higher on Google?",
+    "Do you do Search Engine Optimization?"
+  ],
+  "web_dev_social_media": [
+    "Do you handle social media marketing?",
+    "Can you promote my business on social media?",
+    "Do you offer social media services?"
+  ],
+  "web_dev_marketing_benefits": [
+    "How can digital marketing help my brand?",
+    "Why should I invest in digital marketing?",
+    "What are the benefits of online marketing?"
+  ],
+  "web_dev_hire_developers": [
+    "Do you have a team of dedicated developers?",
+    "Who will be building my website?",
+    "Are your developers experienced?"
+  ],
+  "hire_web_developer_direct": [
+    "i need to hire the web developer",
+    "i need to hire the website developer",
+    "i want to hire a web developer",
+    "need to hire a website developer"
+  ],
+  "web_dev_business_identity": [
+    "Can you help establish my business identity online?",
+    "I want to build my brand on the Internet.",
+    "How can you help my online identity?"
+  ],
+  "web_dev_trademark": [
+    "Why is a website important for an online business?",
+    "Is a website necessary?",
+    "What role does a website play for my business?"
+  ],
+  "web_dev_technician": [
+    "Do you have skilled technicians?",
+    "Who will work on my project?",
+    "Are your developers experienced?"
+  ],
+  "web_dev_frontend_backend": [
+    "Do you work on both frontend and backend?",
+    "Do you handle full-stack development?",
+    "Do you provide both client-side and server-side development?"
+  ],
+  "web_dev_cost_effectiveness": [
+    "Are your services affordable?",
+    "Do you provide value for money?",
+    "Are your development costs reasonable?"
+  ],
+  "web_dev_quality": [
+    "Do you ensure quality in your work?",
+    "Is your website quality good?",
+    "How do you maintain quality?"
+  ],
+  "web_dev_performance_guarantee": [
+    "Will my website perform well?",
+    "Do you guarantee website performance?",
+    "How fast will my website load?"
+  ],
+  "web_dev_custom_solutions": [
+    "Do you create custom websites?",
+    "Do you provide tailored solutions?",
+    "Can you build a website according to my needs?"
+  ],
+  "web_dev_latest_tech": [
+    "Do you use the latest technologies?",
+    "Are you updated with the latest trends?",
+    "What technologies do you work with?"
+  ],
+  "web_dev_support": [
+    "Do you provide support after launch?",
+    "What kind of support do you offer?",
+    "Do you provide maintenance services?"
+  ],
+  "web_dev_responsiveness": [
+    "Are your websites mobile-friendly?",
+    "Do you create responsive designs?",
+    "Will my website work on all devices?"
+  ],
+  "web_dev_seo_optimized": [
+    "Are your websites SEO optimized?",
+    "Do you build websites with SEO in mind?",
+    "Will my website rank well on search engines?"
+  ],
+  "web_dev_timely_delivery": [
+    "Do you deliver projects on time?",
+    "Do you meet deadlines?",
+    "When will my website be ready?"
+  ],
+  "web_dev_design_creativity": [
+    "Do you have creative designers?",
+    "Can you create unique designs?",
+    "Is your design team creative?"
+  ],
+  "web_dev_client_communication": [
+    "Do you communicate well with clients?",
+    "How do you handle communication?",
+    "Do you keep clients updated?"
+  ],
+  "web_dev_ecom_services": [
+    "Do you offer ecommerce solutions?",
+    "Can you build an online store?",
+    "Do you provide ecommerce website development?"
+  ],
+  "web_dev_logo_design": [
+    "Do you design logos?",
+    "Do you offer graphic design services?",
+    "Can you create a logo for my brand?"
+  ],
+  "web_dev_security": [
+    "Are your websites secure?",
+    "Do you handle website security?",
+    "Are there any security risks?"
+  ],
+  "web_dev_client_requirements": [
+    "Do you understand client requirements?",
+    "How do you understand what I need?",
+    "Do you customize according to requirements?"
+  ],
+  "web_dev_content_integration": [
+    "Can you add my content to the website?",
+    "Do you handle content integration?",
+    "Can I provide my own content?"
+  ],
+  "web_dev_technology_choice": [
+    "How do you choose the right technology?",
+    "Do you decide the technology for me?",
+    "Can I suggest the technology?"
+  ],
+  "web_dev_problem_solving": [
+    "Do you fix website issues?",
+    "Can you solve website problems?"
+  ],
+  "ajax_general": [
+    "What is AJAX?",
+    "AJAX?"
+  ],
+  "ajax_meaning": [
+    "What is AJAX Programming used for?",
+    "Why is AJAX used in websites?"
+  ],
+  "ajax_full_form": [
+    "What does AJAX stand for?",
+    "What is Asynchronous JavaScript and XML?"
+  ],
+  "ajax_programming": [
+    "Do you provide AJAX Programming services?",
+    "AJAX programming?"
+  ],
+  "ajax_web_development": [
+    "AJAX development?",
+    "Need AJAX development?"
+  ],
+  "ajax_web_application": [
+    "Can AJAX be used for web applications?",
+    "Do you develop AJAX web applications?"
+  ],
+  "ajax_page_reload": [
+    "Does AJAX require the entire page to reload?",
+    "Can users stay on the same page while using AJAX?"
+  ],
+  "ajax_no_refresh": [
+    "Can AJAX update a page without refreshing it?",
+    "Can users perform multiple functions without refreshing the page?",
+    "Does AJAX send data without reloading the page?",
+    "AJAX without page refresh?"
+  ],
+  "ajax_partial_reload": [
+    "Can AJAX reduce page reloads?",
+    "Can AJAX reload only part of a page?",
+    "AJAX partial page reload?"
+  ],
+  "ajax_performance": [
+    "Does AJAX make websites faster?",
+    "How does AJAX improve website speed?",
+    "Can AJAX save time for website users?",
+    "Does AJAX improve website performance?",
+    "Can AJAX load pages faster?"
+  ],
+  "ajax_bandwidth": [
+    "Can AJAX reduce Internet bandwidth usage?",
+    "Can AJAX reduce bandwidth usage?",
+    "How does AJAX save bandwidth?",
+    "Why is reduced bandwidth useful?",
+    "Can AJAX reduce unnecessary data transfer?"
+  ],
+  "ajax_user_experience": [
+    "Can AJAX improve user experience?",
+    "Can AJAX make a website more user-friendly?",
+    "Can AJAX reduce user errors?",
+    "Can AJAX increase user productivity?",
+    "Can AJAX reduce support requirements?"
+  ],
+  "ajax_interactivity": [
+    "Can AJAX make a website interactive?",
+    "Can AJAX make web pages more responsive?",
+    "Can AJAX improve website interaction?"
+  ],
+  "ajax_navigation": [
+    "Can AJAX make website navigation easier?"
+  ],
+  "ajax_form_validation": [
+    "Does AJAX support real-time form validation?",
+    "Can AJAX be used for form validation?",
+    "Can I validate form data without refreshing the page?",
+    "Can AJAX make forms more interactive?",
+    "Does AJAX help with real-time validation?",
+    "AJAX form validation?"
+  ],
+  "ajax_ui_controls": [
+    "What are the main advantages of AJAX?",
+    "Does AJAX support sophisticated user interface controls?",
+    "Can you develop good user interfaces using AJAX?"
+  ],
+  "ajax_dynamic_website": [
+    "Can AJAX be used for dynamic websites?"
+  ],
+  "ajax_custom_component": [
+    "Do you develop custom AJAX components?",
+    "Can AJAX components be integrated into web applications?"
+  ],
+  "ajax_integration": [
+    "Can you integrate AJAX into my website?",
+    "AJAX website integration?"
+  ],
+  "ajax_existing_website": [
+    "Can Opti Matrix integrate AJAX into my existing website?"
+  ],
+  "ajax_existing_application": [
+    "Can AJAX be used with existing web applications?",
+    "Can you integrate AJAX into an existing application?",
+    "Can AJAX work with different web applications?"
+  ],
+  "ajax_custom_solution": [
+    "Can you customize AJAX functionality?",
+    "Can you develop a custom AJAX solution?",
+    "Can Opti Matrix develop custom AJAX applications?"
+  ],
+  "ajax_modern_web": [
+    "Can AJAX be used for interactive utilities?",
+    "Do modern websites use AJAX?",
+    "Is AJAX suitable for dynamic websites?",
+    "Is AJAX still useful for interactive websites?",
+    "Why do websites need interactive functionality?",
+    "Can AJAX solve complex web design requirements?"
+  ],
+  "ajax_ria": [
+    "Does Opti Matrix have experience with RIA technologies?",
+    "What RIA technologies does your team understand?"
+  ],
+  "ajax_adobe_flex": [
+    "Do you work with Adobe Flex?"
+  ],
+  "ajax_portfolio": [
+    "Can I see your previous AJAX work?",
+    "Do you have an AJAX development portfolio?"
+  ],
+  "ajax_previous_work": [
+    "Have you developed applications using AJAX?",
+    "Can I see examples of your AJAX applications?"
+  ],
+  "ajax_optima_matrix_experience": [
+    "Does Opti Matrix have experience with AJAX?",
+    "Does Opti Matrix provide AJAX Web Development in India?",
+    "Does Opti Matrix have an experienced AJAX development team?",
+    "Are your AJAX developers experienced?"
+  ],
+  "ajax_cost_effective": [
+    "Are Opti Matrix's AJAX services affordable?",
+    "Do you provide cost-effective AJAX solutions?"
+  ],
+  "custom_web_dev_meaning": [
+    "What is Custom Website Development?",
+    "What makes custom websites different from ready-made websites?"
+  ],
+  "custom_web_dev_services": [
+    "Do you provide Custom Website Development services?",
+    "Can you build a website according to my business requirements?",
+    "Can you create a completely customized website?",
+    "Custom website?",
+    "Custom web development?"
+  ],
+  "custom_web_dev_why": [
+    "Why should I choose a custom website?"
+  ],
+  "custom_web_dev_templates": [
+    "Do you use templates for custom websites?"
+  ],
+  "custom_web_dev_small_business": [
+    "Is custom web development suitable for small businesses?"
+  ],
+  "custom_web_app_dev_services": [
+    "Do you develop custom web applications?",
+    "What type of web applications can you develop?",
+    "Can you develop complex web applications?",
+    "Web application development?"
+  ],
+  "custom_web_app_dev_b2b_b2c": [
+    "Can you develop B2B web applications?",
+    "Can you develop B2C web applications?"
+  ],
+  "custom_web_app_dev_integration_erp_crm": [
+    "Can you integrate applications into my website?",
+    "Do you provide ERP application development?",
+    "Do you provide CRM development services?",
+    "Do you provide data management solutions?"
+  ],
+  "custom_web_dev_maintenance": [
+    "Do you provide application maintenance?",
+    "Do you provide maintenance after website launch?",
+    "Do you provide post-launch support?",
+    "Website maintenance?"
+  ],
+  "custom_web_dev_technologies": [
+    "What technologies do you use for custom web development?",
+    "Can you work with multiple web technologies?",
+    "Do you use PHP for web development?",
+    "Do you work with JavaScript?",
+    "Do you use MySQL databases?",
+    "Do you work with ASP.NET?",
+    "Do you provide AJAX development?"
+  ],
+  "custom_web_dev_process": [
+    "What is your custom web development process?",
+    "What happens after development is completed?"
+  ],
+  "custom_web_dev_research": [
+    "What happens during the Research & Consultation stage?",
+    "Do you provide consultation before development?"
+  ],
+  "custom_web_dev_design": [
+    "What happens during Design & Architecture?",
+    "Do you create wireframes and prototypes?",
+    "Are the designs customized according to my brand?"
+  ],
+  "custom_web_dev_development_stage": [
+    "What happens during the Development stage?",
+    "Do you build scalable websites?",
+    "Scalable website?"
+  ],
+  "custom_web_dev_testing": [
+    "Do you test the website before launch?",
+    "What does your Testing & QA process include?",
+    "Do you test websites on different browsers?",
+    "Do you test websites on different devices?"
+  ],
+  "custom_web_dev_benefits": [
+    "What are the benefits of custom web development?"
+  ],
+  "custom_web_dev_ux": [
+    "Can custom development improve user experience?",
+    "How does custom development help user experience?"
+  ],
+  "custom_web_dev_brand": [
+    "Can you create a website that represents my brand?"
+  ],
+  "custom_web_dev_mobile_responsive": [
+    "Can you build a website that is mobile responsive?",
+    "Mobile responsive website?"
+  ],
+  "custom_web_dev_performance": [
+    "Do you focus on website performance?"
+  ],
+  "custom_web_dev_seo": [
+    "Can custom websites be optimized for SEO?",
+    "Do you provide SEO-friendly website development?",
+    "SEO-friendly website?"
+  ],
+  "custom_web_dev_security": [
+    "Is security considered during custom web development?",
+    "Can you integrate security features into a custom website?",
+    "Website security?"
+  ],
+  "custom_web_dev_scalability": [
+    "Can my custom website be expanded in the future?",
+    "Can I add new features to my website later?",
+    "Can you integrate third-party tools into a website?",
+    "Can custom development support business growth?"
+  ],
+  "custom_web_dev_industry": [
+    "Can you develop a website specifically for my industry?"
+  ],
+  "custom_web_dev_ecommerce": [
+    "Do you provide custom ecommerce development?",
+    "Can you create a customized online store?",
+    "Custom ecommerce?"
+  ],
+  "custom_web_dev_features": [
+    "Can you add special features to my website?",
+    "Can you create booking forms for a website?",
+    "Can you create product pages?"
+  ],
+  "custom_web_dev_location": [
+    "Do you provide custom web development in Ahmedabad?",
+    "Is Opti Matrix a custom web development company in Ahmedabad?"
+  ],
+  "custom_web_dev_why_opti": [
+    "Why should I choose Opti Matrix for custom web development?"
+  ],
+  "custom_web_dev_consulting_time_money": [
+    "Do you provide web development consulting?",
+    "Can Opti Matrix help me save time and money?"
+  ],
+  "custom_web_dev_quote": [
+    "Can I get a quote for custom website development?",
+    "Do you offer a free quote?",
+    "How much does custom website development cost?",
+    "Free quote?"
+  ],
+  "custom_web_dev_start": [
+    "Can I discuss my website requirements with your team?",
+    "I need a custom website. How can I get started?"
+  ],
+  "ecommerce_web_dev_meaning": [
+    "What is Ecommerce Website Development?"
+  ],
+  "ecommerce_web_dev_services": [
+    "Do you provide Ecommerce Website Development services?",
+    "Can you build an online store for my business?",
+    "Can you help me set up my ecommerce store?",
+    "Can you create an ecommerce website according to my business requirements?",
+    "Ecommerce website?",
+    "Online store development?",
+    "Do you build online stores?",
+    "Ecommerce development?"
+  ],
+  "ecommerce_web_dev_why": [
+    "Why should I create an ecommerce website?",
+    "Can customers shop from anywhere through an ecommerce website?",
+    "Is ecommerce a good solution for doing business online?",
+    "Can an ecommerce website help me sell products online?",
+    "Can ecommerce help me reach customers globally?",
+    "Can an ecommerce website help grow my business?"
+  ],
+  "ecommerce_web_dev_cost_effective": [
+    "Is an ecommerce website cost-effective compared to a physical shop?",
+    "Why can ecommerce be more cost-effective than a physical store?"
+  ],
+  "ecommerce_web_design": [
+    "Do you provide Ecommerce Website Design?",
+    "How is ecommerce website design different from a regular website?"
+  ],
+  "ecommerce_design_attractiveness": [
+    "Should an ecommerce website be attractive?",
+    "Can you create an attractive ecommerce website?",
+    "Can you make an ecommerce website attractive?"
+  ],
+  "ecommerce_design_usability": [
+    "Should an ecommerce website be user-friendly?",
+    "Why is ecommerce website navigation important?",
+    "Can you design an ecommerce website from the customer's perspective?",
+    "Can you make my ecommerce website user-friendly?",
+    "Can you make an ecommerce website easy to navigate?",
+    "Can you develop ecommerce websites for different businesses?"
+  ],
+  "ecommerce_dynamic_backend": [
+    "Are ecommerce websites dynamic?",
+    "Does an ecommerce website need a backend?",
+    "Can you develop a product-oriented website?"
+  ],
+  "ecommerce_backend_updates": [
+    "Can products be updated on an ecommerce website?",
+    "Can my ecommerce website be updated regularly?",
+    "Can I update products on my ecommerce website?"
+  ],
+  "ecommerce_features_general": [
+    "What ecommerce features do you provide?",
+    "Can you add multiple ecommerce features to one website?"
+  ],
+  "ecommerce_feature_catalog": [
+    "Do you provide a product catalog?",
+    "Can you create a dynamic product catalog?",
+    "Product catalog?"
+  ],
+  "ecommerce_feature_inventory": [
+    "Do you provide inventory management?",
+    "Inventory management?"
+  ],
+  "ecommerce_feature_order_management": [
+    "Do you provide order management?",
+    "Can I manage orders through the ecommerce website?",
+    "Order management?"
+  ],
+  "ecommerce_feature_shopping_cart": [
+    "Can you add a shopping cart?",
+    "Shopping cart?"
+  ],
+  "ecommerce_feature_shipping": [
+    "Do you provide a shipping module?",
+    "Shipping module?"
+  ],
+  "ecommerce_feature_payment_gateway": [
+    "Can you integrate a payment gateway?",
+    "Payment gateway?"
+  ],
+  "ecommerce_feature_ajax": [
+    "Do you provide AJAX-powered ecommerce functionality?"
+  ],
+  "ecommerce_seo": [
+    "Is SEO important for an ecommerce website?",
+    "Why does an ecommerce website need good search engine ranking?"
+  ],
+  "ecommerce_traffic": [
+    "Can an ecommerce website attract more traffic?",
+    "Does website usability affect ecommerce traffic?"
+  ],
+  "ecommerce_promotion": [
+    "Do you provide web development and promotion services?"
+  ],
+  "ecommerce_user_experience": [
+    "Why is user experience important for an ecommerce website?",
+    "How can an ecommerce website make shopping easier?"
+  ],
+  "ecommerce_customer_loyalty": [
+    "How can an ecommerce website encourage customer loyalty?",
+    "Can you create a personalized shopping experience?"
+  ],
+  "ecommerce_marketing_strategy": [
+    "Do you help with ecommerce marketing strategies?",
+    "Why is understanding target customers important for ecommerce?",
+    "How can marketing strategy help an ecommerce business?",
+    "Does customer expectation matter in ecommerce?",
+    "Can Opti Matrix help me understand my ecommerce requirements?"
+  ],
+  "ecommerce_professional_team": [
+    "How does Opti Matrix approach ecommerce development?",
+    "Do you have professional ecommerce developers?",
+    "Do you have professional ecommerce designers?",
+    "Can you create my dream online store?",
+    "Do you develop ecommerce websites based on customer requirements?"
+  ],
+  "php_general": [
+    "Do you provide PHP Website Development services?",
+    "What is PHP Website Development?",
+    "Why is PHP used for website development?",
+    "Is PHP suitable for web application development?",
+    "Is PHP a programming language?",
+    "Is PHP a server-side language?",
+    "Can PHP create dynamic websites?"
+  ],
+  "php_website_development": [
+    "Can you develop a PHP website for my business?",
+    "Do you provide professional PHP development?",
+    "I need a PHP website. Can you help?"
+  ],
+  "php_application_development": [
+    "Do you provide PHP Application Development?",
+    "What is PHP Application Development?",
+    "Can you develop robust PHP web solutions?",
+    "Can you build a PHP application based on my requirements?",
+    "Do you develop error-free PHP applications?",
+    "Can PHP be used to build complex applications?",
+    "I need a custom PHP application. Do you provide this service?"
+  ],
+  "php_custom_development": [
+    "Can you create a custom PHP application?",
+    "Can you develop custom PHP applications?",
+    "Are your PHP developers familiar with custom PHP development?",
+    "Can your PHP developers work on custom projects?",
+    "Can you provide a customized PHP solution?"
+  ],
+  "php_software_development": [
+    "Can you develop PHP software?"
+  ],
+  "php_database_support": [
+    "What are the benefits of PHP?"
+  ],
+  "php_mysql": [
+    "Does PHP support MySQL?",
+    "Can PHP work with MySQL databases?",
+    "I need a PHP application with MySQL. Can you develop it?",
+    "Can you work on PHP and MySQL projects?"
+  ],
+  "php_oracle": [
+    "Does PHP support Oracle?"
+  ],
+  "php_sybase": [
+    "Does PHP support Sybase?"
+  ],
+  "php_server_compatibility": [
+    "Is PHP compatible with Apache?",
+    "Is PHP compatible with IIS?"
+  ],
+  "php_windows": [
+    "Does PHP work on Windows?"
+  ],
+  "php_linux": [
+    "Does PHP work on Linux?"
+  ],
+  "php_ecommerce": [
+    "Can PHP be used for ecommerce websites?",
+    "Can you develop ecommerce applications using PHP?",
+    "Can you develop an ecommerce application using PHP?"
+  ],
+  "php_cms": [
+    "Can PHP be used to develop CMS systems?",
+    "Can PHP be used for SRM systems?"
+  ],
+  "php_open_source": [
+    "Does PHP support open-source development?",
+    "Can you integrate PHP with open-source software?",
+    "What open-source software can PHP work with?",
+    "Do your PHP developers work with open-source development?",
+    "Can you develop a PHP application using open-source technologies?"
+  ],
+  "php_drupal": [
+    "Do you work with Drupal?"
+  ],
+  "php_joomla": [
+    "Do you work with Joomla?"
+  ],
+  "php_typo3": [
+    "Do you work with Typo3?"
+  ],
+  "php_oscommerce": [
+    "Do you work with osCommerce?"
+  ],
+  "lamp_development": [
+    "Do you provide LAMP Development?",
+    "What is LAMP?",
+    "What technologies are included in LAMP?",
+    "Can you develop websites using LAMP?",
+    "Is LAMP open source?"
+  ],
+  "lamp_technology": [
+    "Why use LAMP for web development?",
+    "Is LAMP suitable for web applications?"
+  ],
+  "lamp_customization": [
+    "Can you customize PHP/LAMP applications?"
+  ],
+  "php_maintenance": [
+    "Do you provide PHP Application Maintenance?",
+    "Why does a PHP website need maintenance?",
+    "What does PHP application maintenance include?",
+    "Can you maintain an existing PHP application developed by someone else?",
+    "I already have a PHP website. Can you maintain it?"
+  ],
+  "php_upgrade": [
+    "Can you upgrade my existing PHP website?"
+  ],
+  "php_addons": [
+    "Can you add new features to an existing PHP application?"
+  ],
+  "php_functionality_modification": [
+    "Can you modify existing PHP functionality?"
+  ],
+  "hire_php_developer": [
+    "Can I hire a PHP programmer from Opti Matrix?",
+    "Can I hire a skilled PHP developer?",
+    "I need a PHP developer. Can I hire one from Opti Matrix?",
+    "i need to hire one",
+    "i need hire",
+    "Php Developer Role i need to hire one",
+    "hire php developer"
+  ],
+  "dedicated_php_developer": [
+    "Do you have dedicated PHP developers?",
+    "Do you provide dedicated PHP programmers?"
+  ],
+  "php_developer_experience": [
+    "Are your PHP developers experienced?"
+  ],
+  "php_cost_effective": [
+    "Is PHP development cost-effective?",
+    "Can PHP help reduce web development costs?",
+    "Do you provide cost-effective PHP solutions?"
+  ],
+  "php_why_opti": [
+    "Why should I choose Opti Matrix for PHP development?"
+  ],
+  "static_website_general": [
+    "What is a static website?",
+    "Do you provide static website services?"
+  ],
+  "static_website_design": [
+    "Do you provide Static Website Design?",
+    "How do you design a static website?"
+  ],
+  "static_website_development": [
+    "Do you develop static websites?",
+    "Static website development?"
+  ],
+  "static_website_meaning": [
+    "What does a static website mean?",
+    "Static website meaning?"
+  ],
+  "static_website_benefits": [
+    "What are the advantages of a static website?",
+    "Why should I choose a static website?"
+  ],
+  "static_website_business": [
+    "How can a static website help my business?"
+  ],
+  "static_website_corporate": [
+    "Do you design professional and corporate static websites?"
+  ],
+  "static_website_informational": [
+    "Is a static website good for sharing information?"
+  ],
+  "static_website_html": [
+    "Are static websites created using HTML?"
+  ],
+  "static_website_css": [
+    "Do you use CSS for static websites?"
+  ],
+  "static_vs_dynamic": [
+    "What is the difference between static and dynamic websites?",
+    "Static vs dynamic websites?"
+  ],
+  "static_website_updates": [
+    "Is updating required for a static website?",
+    "Is a static website suitable if I don't need updates?"
+  ],
+  "static_website_maintenance": [
+    "Does a static website have maintenance hassles?"
+  ],
+  "static_website_content_update": [
+    "How do I change the content of a static website?"
+  ],
+  "static_website_layout": [
+    "How do you plan the layout of a static website?"
+  ],
+  "static_website_custom_design": [
+    "Do you provide customized web solutions for static sites?"
+  ],
+  "static_website_colors": [
+    "Do you consider colors while designing?"
+  ],
+  "static_website_branding": [
+    "How does a static website reflect my brand identity?"
+  ],
+  "static_website_navigation": [
+    "Are static websites easy to navigate?"
+  ],
+  "static_website_images": [
+    "Is a static website ideal for downloading images?"
+  ],
+  "static_website_brochures": [
+    "Can I host brochures on a static website?"
+  ],
+  "static_website_cost": [
+    "Is a static website cost-effective?"
+  ],
+  "static_website_outsourcing": [
+    "Should I outsource my static website services to India?"
+  ],
+  "static_website_india": [
+    "Are your services in India cost-effective?"
+  ],
+  "static_website_requirement": [
+    "Do you analyze client requirements before designing?"
+  ],
+  "static_website_process": [
+    "What is your process for designing a static website?"
+  ],
+  "static_website_company_profile": [
+    "Can a static website act as my company profile or business card?"
+  ],
+  "static_website_business_presence": [
+    "How does a static website convey market presence?"
+  ],
+  "static_website_online_identity": [
+    "Can you help launch my identity online?"
+  ],
+  "static_website_optima_matrix": [
+    "Why choose Opti Matrix for static website design?"
+  ],
+  "webservice_api_general": [
+    "What is Webservice API development?",
+    "Do you provide Webservice API development?",
+    "Webservice API?"
+  ],
+  "webservice_api_integration": [
+    "Can you integrate APIs into my website?",
+    "Do you provide API integration services?",
+    "API integration?"
+  ],
+  "webservice_api_custom": [
+    "Can you develop a custom API for my business?",
+    "Do you build custom APIs?",
+    "Custom API development?"
+  ],
+  "webservice_api_benefits": [
+    "What are the benefits of using an API?",
+    "Why do I need an API for my web application?"
+  ],
+  "webservice_api_security": [
+    "Are your APIs secure?",
+    "How do you secure Web Service APIs?",
+    "Do you provide secure API development?"
+  ],
+  "webservice_api_rest": [
+    "Do you develop REST APIs?",
+    "Do you build RESTful web services?",
+    "REST API development?"
+  ],
+  "webservice_api_soap": [
+    "Do you work with SOAP APIs?",
+    "Can you integrate SOAP web services?",
+    "SOAP API development?"
+  ],
+  "webservice_api_third_party": [
+    "Can you integrate third-party APIs?",
+    "Do you integrate external APIs?",
+    "Can you connect my website to other software?"
+  ],
+  "webservice_api_payment": [
+    "Can you integrate payment gateways?",
+    "Do you provide payment API integration?",
+    "Can I accept payments via API?"
+  ],
+  "webservice_api_mobile": [
+    "Can you build APIs for my mobile app?",
+    "Do you provide backend APIs for mobile applications?",
+    "Mobile app API development?"
+  ],
+  "webservice_api_documentation": [
+    "Do you provide API documentation?",
+    "Will I get documentation for the API?",
+    "Is the API documented?"
+  ],
+  "webservice_api_performance": [
+    "Are your APIs fast?",
+    "How is the performance of your APIs?",
+    "Do you build high-performance APIs?"
+  ],
+  "webservice_api_technologies": [
+    "What technologies do you use for API development?",
+    "Which programming languages do you use for APIs?"
+  ],
+  "webservice_api_json_xml": [
+    "What data formats do your APIs use?",
+    "Do your APIs return JSON or XML?",
+    "API data format?"
+  ],
+  "webservice_api_testing": [
+    "Do you test APIs before launch?",
+    "How do you test Web Services?",
+    "API testing?"
+  ],
+  "webservice_api_maintenance": [
+    "Do you maintain APIs after launch?",
+    "Do you provide API support?",
+    "API maintenance?"
+  ],
+  "webservice_api_cost": [
+    "How much does API development cost?",
+    "Is API development expensive?",
+    "Cost for custom API?"
+  ],
+  "webservice_api_ecommerce": [
+    "Can APIs help my ecommerce store?",
+    "Do you build APIs for ecommerce?",
+    "Ecommerce API development?"
+  ],
+  "webservice_api_opti_matrix": [
+    "Why choose Opti Matrix for API development?",
+    "Why should I hire your team for APIs?"
+  ],
+  "social_media_general": [
+    "What are your social media accounts?",
+    "What social media platforms are you on?",
+    "Where can I follow you?",
+    "Do you have social media?",
+    "Share your social media links",
+    "Your social media accounts?",
+    "Aapke social media accounts kya hain?",
+    "Social media links do",
+    "Company ko social media pe follow karna hai"
+  ],
+  "social_media_instagram": [
+    "What is your Instagram?",
+    "Instagram account?",
+    "Instagram link?",
+    "Do you have Instagram?",
+    "Where can I follow you on Instagram?",
+    "Instagram ID kya hai?",
+    "Instagram page bhejo",
+    "Aapka Insta account kya hai?",
+    "Instagram par ho?",
+    "Insta link do",
+    "Company ka Insta kaha milega?"
+  ],
+  "social_media_facebook": [
+    "What is your Facebook page?",
+    "Facebook account?",
+    "Facebook link?",
+    "Do you have Facebook?",
+    "Where can I follow you on Facebook?",
+    "Facebook ID kya hai?",
+    "Facebook page bhejo",
+    "Aapka Facebook account kya hai?",
+    "FB link do"
+  ],
+  "social_media_twitter": [
+    "What is your Twitter account?",
+    "Twitter handle?",
+    "Twitter link?",
+    "Do you have Twitter?",
+    "Where can I follow you on Twitter?",
+    "Twitter ID kya hai?",
+    "Twitter page bhejo",
+    "Aapka Twitter account?",
+    "Twitter handle batao",
+    "X account kya hai?"
+  ],
+  "social_media_linkedin": [
+    "What is your LinkedIn?",
+    "LinkedIn page?",
+    "LinkedIn link?",
+    "Do you have LinkedIn?",
+    "Where can I follow you on LinkedIn?",
+    "LinkedIn profile kya hai?",
+    "LinkedIn page bhejo",
+    "Company LinkedIn account?",
+    "LinkedIn par ho?",
+    "LinkedIn link send karo",
+    "Company ka LinkedIn kaha milega?"
+  ],
+  "social_media_youtube": [
+    "What is your YouTube channel?",
+    "YouTube channel?",
+    "YouTube link?",
+    "Do you have a YouTube channel?",
+    "Where can I watch your videos?",
+    "YouTube channel bhejo",
+    "YouTube ID kya hai?",
+    "Aapka YouTube account kya hai?",
+    "YouTube channel send karo"
+  ],
+  "social_media_pinterest": [
+    "What is your Pinterest?",
+    "Pinterest account?",
+    "Pinterest link?",
+    "Do you have Pinterest?",
+    "Where can I follow you on Pinterest?",
+    "Pinterest ID kya hai?",
+    "Pinterest page bhejo",
+    "Aapka Pinterest account kya hai?",
+    "Pinterest account batao"
+  ],
+  "website_general": [
+    "What is your website?",
+    "What is your official website?",
+    "What is your company website?",
+    "Do you have a website?",
+    "Website link please",
+    "Company website link?",
+    "Where can I find your website?",
+    "Give me your website",
+    "Aapki website kya hai?",
+    "Website ka link do",
+    "Company ki website bhejo",
+    "Official site kya hai?",
+    "Main website kya hai?",
+    "What are all the web addresses for your company?",
+    "Can you provide the links to your company sites?",
+    "Kaun kaun si website hai aapki?",
+    "How many websites do you have?",
+    "Kitni websites hain aapki?",
+    "Do you have multiple websites?",
+    "How many sites do you operate?",
+    "List all your websites",
+    "Can you list your websites?",
+    "Total websites kitni hain?",
+    "How many official sites are there?",
+    "Give me the list of all your sites",
+    "Tell me all your web URLs",
+    "Show me your all websites",
+    "show me your all websites",
+    "Show me all your websites"
+  ],
+  "website_optimatrix": [
+    "What is Optimatrix website?",
+    "Optimatrix website?",
+    "Optimatrix website link?",
+    "What is the Optimatrix URL?",
+    "Optimatrix ki website kya hai?",
+    "Optimatrix ka website link do",
+    "Where can I find Optimatrix online?",
+    "Optimatrix official website?",
+    "Open Optimatrix website",
+    "Optimatrix site batao",
+    "Optimatrix web address?",
+    "I want to visit Optimatrix",
+    "I need the link to the Optimatrix main page.",
+    "Can you send the Optimatrix URL?",
+    "Optimatrix website pe kaise jau?"
+  ],
+  "website_optiinfo": [
+    "What is OptiInfo website?",
+    "OptiInfo website?",
+    "OptiInfo website link?",
+    "What is the OptiInfo URL?",
+    "OptiInfo ki website kya hai?",
+    "OptiInfo ka website link do",
+    "Where can I find OptiInfo online?",
+    "OptiInfo official website?",
+    "Open OptiInfo website",
+    "OptiInfo site batao",
+    "OptiInfo web address?",
+    "I want to visit OptiInfo",
+    "I need the link to the OptiInfo page.",
+    "Can you send the OptiInfo URL?",
+    "OptiInfo website pe kaise jau?"
+  ],
+  "website_comparison": [
+    "What are your two websites?",
+    "Why do you have two websites?",
+    "What is the difference between your websites?",
+    "Optimatrix aur OptiInfo mein kya difference hai?",
+    "Which website should I visit?",
+    "Which is your main website?",
+    "Are Optimatrix and OptiInfo the same company?",
+    "Is OptiInfo related to Optimatrix?",
+    "Tell me the difference between your two sites.",
+    "Optimatrix aur OptiInfo me kya farq hai?",
+    "Why do you operate two different domains?"
+  ],
+  "website_services": [
+    "What services do you provide?",
+    "What services are available on your website?",
+    "What does Optimatrix do?",
+    "What kind of services do you offer?",
+    "Website development karte ho?",
+    "Mobile app banate ho?",
+    "Digital marketing karte ho?",
+    "What digital solutions are listed on the website?",
+    "Can I hire you for web development?",
+    "Are you a digital marketing agency?"
+  ],
+  "website_portfolio": [
+    "Can I see your portfolio?",
+    "Where can I see your previous work?",
+    "Show me your projects",
+    "Do you have a portfolio?",
+    "Previous work kaha dekh sakta hu?",
+    "Your portfolio link?",
+    "What projects have you completed?",
+    "Where are your past projects listed?",
+    "Show me examples of your previous web development.",
+    "Aapne pehle kaun se projects kiye hain?",
+    "Show me the projects you have done?",
+    "Projects of your company",
+    "Show me the portfolio"
+  ],
+  "website_free_quote": [
+    "How can I get a quote?",
+    "Do you provide free quotes?",
+    "How do I request a project quote?",
+    "Project ka quotation kaise milega?",
+    "I want a project quotation",
+    "Can I get a project estimate?",
+    "Free quotation available hai?",
+    "Is it possible to get a project estimate online?",
+    "How much will my app cost?",
+    "Mujhe apne project ka quote chahiye."
+  ],
+  "website_contact": [
+    "How can I contact you through the website?",
+    "Contact page kaha hai?",
+    "Can I contact you online?",
+    "Website se contact kaise karu?",
+    "Contact form hai?",
+    "I want to send an inquiry",
+    "Where is the contact form on your site?",
+    "How do I message you directly from the site?",
+    "Online inquiry kaise bheju?"
+  ],
+  "support_details": [
+    "Give me the Supports details of the company",
+    "Give me the support details of the company",
+    "Support details",
+    "Support contact details?",
+    "Customer support number?",
+    "Customer support email?",
+    "Support team email and contact",
+    "How do I contact customer support?",
+    "Help desk number",
+    "Technical support contact",
+    "How to reach support team?",
+    "Support helpline number",
+    "Need customer service support",
+    "Support se kaise contact karein?",
+    "Customer care number kya hai?",
+    "Support email address batao",
+    "Customer support hours",
+    "Support timing kya hai?",
+    "What are your support operating hours?",
+    "Do you have 24/7 support?",
+    "Support phone number",
+    "Tech support kaise milega?",
+    "I need urgent technical support",
+    "Contact details for support team",
+    "How do I raise a support ticket?",
+    "Helpdesk support contact",
+    "Customer service helpline",
+    "Support assistance contact",
+    "Kaha call kare support ke liye?"
+  ],
+  "website_about": [
+    "Tell me about your company",
+    "About Optimatrix?",
+    "Who is Optimatrix?",
+    "What is Opti Matrix?",
+    "Company ke baare mein batao",
+    "Optimatrix kya company hai?",
+    "When was Opti Matrix established?",
+    "What is your company's history?",
+    "Aapki company kya karti hai?"
+  ],
+  "website_careers": [
+    "Do you have job openings?",
+    "Are you hiring?",
+    "How can I apply for a job?",
+    "Where can I find vacancies?",
+    "Job ke liye apply kaise karu?",
+    "Careers page kaha hai?",
+    "Vacancy available hai?",
+    "Is your company hiring freshers right now?",
+    "Where do I submit my resume?",
+    "Job vacancy kaise check karu?"
+  ]
+}

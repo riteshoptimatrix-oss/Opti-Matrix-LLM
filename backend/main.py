@@ -3,12 +3,18 @@ import json
 import logging
 import joblib
 import numpy as np
+from datetime import datetime
 from contextlib import asynccontextmanager
 from typing import Optional, List, Dict, Any
 
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+
+from dotenv import load_dotenv
+load_dotenv()
+
+from pymongo import MongoClient
 
 # Setup logging
 logging.basicConfig(
@@ -20,7 +26,48 @@ logger = logging.getLogger("ml_service")
 # Global variables for model and response database
 model = None
 responses_db: Dict[str, List[str]] = {}
+patterns_db: Dict[str, List[str]] = {}
 sessions_db: Dict[str, Dict[str, Any]] = {}
+
+# MongoDB Client
+mongo_client = None
+db = None
+sessions_collection = None
+
+MONGODB_URI = os.getenv("MONGODB_URI")
+if MONGODB_URI:
+    try:
+        mongo_client = MongoClient(MONGODB_URI)
+        db = mongo_client.get_database() # Gets default DB from URI
+        sessions_collection = db["chat_sessions"]
+        logger.info("MongoDB connected successfully for session storage.")
+    except Exception as e:
+        logger.error(f"Failed to connect to MongoDB: {e}")
+
+def get_session(session_id: str) -> dict:
+    if sessions_collection is not None:
+        doc = sessions_collection.find_one({"session_id": session_id})
+        if doc:
+            return doc
+        return {"session_id": session_id, "last_query": "", "last_intent": None}
+    else:
+        if session_id not in sessions_db:
+            sessions_db[session_id] = {"last_query": "", "last_intent": None}
+        return sessions_db[session_id]
+
+def update_session(session_id: str, updates: dict):
+    if sessions_collection is not None:
+        updates["updated_at"] = datetime.utcnow()
+        sessions_collection.update_one(
+            {"session_id": session_id},
+            {"$set": updates},
+            upsert=True
+        )
+    else:
+        if session_id not in sessions_db:
+            sessions_db[session_id] = {"last_query": "", "last_intent": None}
+        sessions_db[session_id].update(updates)
+
 
 # Configurable fallback message and confidence threshold
 DEFAULT_FALLBACK_ANSWER = (
@@ -31,10 +78,11 @@ FALLBACK_ANSWER = os.getenv("FALLBACK_MESSAGE", DEFAULT_FALLBACK_ANSWER)
 CONFIDENCE_THRESHOLD = float(os.getenv("CONFIDENCE_THRESHOLD", "0.15"))
 
 def load_artifacts():
-    global model, responses_db
+    global model, responses_db, patterns_db
     base_dir = os.path.dirname(os.path.abspath(__file__))
     model_path = os.path.join(base_dir, "model.pkl")
     response_path = os.path.join(base_dir, "response_data.json")
+    patterns_path = os.path.join(base_dir, "patterns_data.json")
 
     # Load Model Pipeline
     if not os.path.exists(model_path):
@@ -51,7 +99,16 @@ def load_artifacts():
         with open(response_path, "r", encoding="utf-8") as f:
             responses_db = json.load(f)
         logger.info(f"Response mapping loaded with {len(responses_db)} intents.")
+
+    # Load Patterns Mapping
+    if os.path.exists(patterns_path):
+        with open(patterns_path, "r", encoding="utf-8") as f:
+            patterns_db = json.load(f)
+        logger.info(f"Patterns mapping loaded with {len(patterns_db)} intents.")
     else:
+        logger.warning(f"{patterns_path} not found.")
+
+    if not responses_db:
         logger.warning(f"{response_path} not found. Building fallback response store from JSON files...")
         import glob
         responses_db = {}
@@ -108,6 +165,7 @@ class PredictResponse(BaseModel):
     answer: str
     confidence: float
     matched: bool
+    suggested_questions: Optional[List[str]] = Field(default_factory=list)
 
 def retrieve_approved_response(intent: str) -> Optional[str]:
     """Retrieve approved response from company dataset deterministically."""
@@ -154,12 +212,37 @@ async def predict_intent(request: PredictRequest):
         )
 
     session_id = request.session_id or "default"
-    if session_id not in sessions_db:
-        sessions_db[session_id] = {"last_query": "", "last_intent": None}
-
+    
     try:
-        session_data = sessions_db[session_id]
+        session_data = get_session(session_id)
         
+        # Explicit Context Routing for "Hire" intents
+        last_intent = session_data.get("last_intent")
+        if "hire" in raw_question.lower() and last_intent:
+            parts = last_intent.lower().replace("_", " ").split()
+            topic = parts[0] if parts else None
+            if topic:
+                mapped_hire_intent = None
+                for intent_name in responses_db.keys():
+                    if ("hire" in intent_name or "hiring" in intent_name) and topic in intent_name:
+                        mapped_hire_intent = intent_name
+                        break
+                
+                if mapped_hire_intent:
+                    logger.info(f"Hard-routing 'hire' query for topic '{topic}' to '{mapped_hire_intent}'")
+                    update_session(session_id, {"last_intent": mapped_hire_intent})
+                    
+                    company_answer = retrieve_approved_response(mapped_hire_intent)
+                    if company_answer:
+                        return PredictResponse(
+                            success=True,
+                            intent=mapped_hire_intent,
+                            answer=company_answer,
+                            confidence=1.0,
+                            matched=True,
+                            suggested_questions=[]
+                        )
+
         # 1. Try predicting with the raw question first
         probs_raw = model.predict_proba([raw_question])[0]
         max_idx_raw = int(np.argmax(probs_raw))
@@ -180,7 +263,7 @@ async def predict_intent(request: PredictRequest):
             best_intent = intent_raw
             best_conf = conf_raw
             logger.info(f"Using RAW query. Intent: {best_intent} (Conf: {best_conf:.4f})")
-            sessions_db[session_id]["last_query"] = raw_question
+            update_session(session_id, {"last_query": raw_question})
         elif session_data.get("last_query"):
             # Penalize the augmented intent if it just repeats the exact same topic as before
             # to force it to answer the follow-up question (e.g. hiring) rather than repeating the intro
@@ -198,13 +281,13 @@ async def predict_intent(request: PredictRequest):
         else:
             best_intent = intent_raw
             best_conf = conf_raw
-            sessions_db[session_id]["last_query"] = raw_question
+            update_session(session_id, {"last_query": raw_question})
 
         confidence = best_conf
         predicted_intent = best_intent
 
         # Update session context
-        sessions_db[session_id]["last_intent"] = predicted_intent
+        update_session(session_id, {"last_intent": predicted_intent})
 
         logger.info(f"Query: '{raw_question[:60]}' -> Intent: {predicted_intent} (Conf: {confidence:.4f})")
 
@@ -231,12 +314,34 @@ async def predict_intent(request: PredictRequest):
                 matched=False
             )
 
+        # Generate follow-up questions
+        suggested_questions = []
+        if patterns_db and predicted_intent:
+            parts = predicted_intent.lower().replace("_", " ").split()
+            # Try to get the primary technology/topic (first keyword usually)
+            topic = parts[0] if parts else None
+            if topic:
+                candidate_questions = []
+                for intent, pats in patterns_db.items():
+                    if intent != predicted_intent and topic in intent.lower():
+                        # Pick a random pattern from this related intent
+                        import random
+                        if pats:
+                            candidate_questions.append(random.choice(pats))
+                
+                if candidate_questions:
+                    import random
+                    random.shuffle(candidate_questions)
+                    # Limit to 3 unique suggestions
+                    suggested_questions = list(set(candidate_questions))[:3]
+
         return PredictResponse(
             success=True,
             intent=predicted_intent,
             answer=company_answer,
             confidence=round(confidence, 4),
-            matched=True
+            matched=True,
+            suggested_questions=suggested_questions
         )
 
     except Exception as e:
@@ -257,7 +362,8 @@ async def ask_question(request: PredictRequest):
         "intent": result.intent or "unknown",
         "answer": result.answer,
         "confidence": result.confidence,
-        "matched": result.matched
+        "matched": result.matched,
+        "suggested_questions": result.suggested_questions
     }
 
 if __name__ == "__main__":
