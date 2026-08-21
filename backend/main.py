@@ -180,19 +180,30 @@ async def predict_intent(request: PredictRequest):
             best_intent = intent_raw
             best_conf = conf_raw
             logger.info(f"Using RAW query. Intent: {best_intent} (Conf: {best_conf:.4f})")
+            sessions_db[session_id]["last_query"] = raw_question
         elif session_data.get("last_query"):
+            # Penalize the augmented intent if it just repeats the exact same topic as before
+            # to force it to answer the follow-up question (e.g. hiring) rather than repeating the intro
+            if intent_aug == session_data.get("last_intent") and conf_aug > 0.0:
+                # Find the second best intent
+                max_idx_aug_2 = np.argsort(probs_aug)[-2]
+                if probs_aug[max_idx_aug_2] > CONFIDENCE_THRESHOLD:
+                    intent_aug = str(model.classes_[max_idx_aug_2])
+                    conf_aug = float(probs_aug[max_idx_aug_2])
+
             best_intent = intent_aug
             best_conf = conf_aug
             logger.info(f"Using AUGMENTED query ('{augmented_question}'). Intent: {best_intent} (Conf: {best_conf:.4f})")
+            # Do NOT overwrite last_query here, so we retain the main topic!
         else:
             best_intent = intent_raw
             best_conf = conf_raw
+            sessions_db[session_id]["last_query"] = raw_question
 
         confidence = best_conf
         predicted_intent = best_intent
 
         # Update session context
-        sessions_db[session_id]["last_query"] = raw_question
         sessions_db[session_id]["last_intent"] = predicted_intent
 
         logger.info(f"Query: '{raw_question[:60]}' -> Intent: {predicted_intent} (Conf: {confidence:.4f})")
