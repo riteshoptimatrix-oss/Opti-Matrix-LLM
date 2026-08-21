@@ -1137,6 +1137,90 @@
     "Is my website secure?",
     "Security measures"
   ],
+  "office_location_general_custom": [
+    "Where is your office located?"
+  ],
+  "office_location_ahmedabad_custom": [
+    "Where is your Ahmedabad office located?"
+  ],
+  "office_location_bhuj_custom": [
+    "Where is your Bhuj branch located?"
+  ],
+  "services_general_custom": [
+    "What services do you offer?"
+  ],
+  "services_hiring_models_custom": [
+    "Do you offer dedicated resource hiring models?"
+  ],
+  "website_development_portfolio_custom": [
+    "Can you show me websites you have built?"
+  ],
+  "website_development_benefits_custom": [
+    "What are the benefits of using a website development service for my project?"
+  ],
+  "website_development_case_studies_custom": [
+    "Do you have a portfolio or case studies for website development?"
+  ],
+  "nodejs_what_is_custom": [
+    "What is Node.js?"
+  ],
+  "nodejs_benefits_custom": [
+    "What are the benefits of using Node.js for my project?"
+  ],
+  "nodejs_portfolio_custom": [
+    "Do you have a portfolio or case studies for Node.js development?"
+  ],
+  "nodejs_hire_specific_custom": [
+    "I need to hire a Node.js developer. Can you help?",
+    "I need to hire a Node.js developer."
+  ],
+  "developer_hiring_general_custom": [
+    "I need to hire a developer. Can you help?"
+  ],
+  "developer_hiring_php_custom": [
+    "I need to hire one PHP developer.",
+    "I need to hire a PHP developer."
+  ],
+  "developer_hiring_web_custom": [
+    "I need to hire a web developer.",
+    "I want to hire a web developer."
+  ],
+  "developer_hiring_skills_custom": [
+    "What skills should I look for when hiring a developer?"
+  ],
+  "developer_hiring_cost_custom": [
+    "How much does it typically cost to hire a developer?"
+  ],
+  "developer_hiring_job_desc_custom": [
+    "Can you help me create a job description for a developer?"
+  ],
+  "developer_hiring_short_generic_custom": [
+    "I need to hire."
+  ],
+  "developer_hiring_short_hire_custom": [
+    "Hire"
+  ],
+  "careers_apply_custom": [
+    "I want to join your company. How can I apply?"
+  ],
+  "careers_benefits_custom": [
+    "What are the benefits of working at Opti Matrix?"
+  ],
+  "careers_opportunities_custom": [
+    "Do you have career opportunities for developers?"
+  ],
+  "careers_portfolio_custom": [
+    "Do you have a portfolio or case studies for careers?"
+  ],
+  "important_intent_need_dev_custom": [
+    "I need a developer."
+  ],
+  "important_intent_join_optimatrix_custom": [
+    "I want to join Opti Matrix."
+  ],
+  "contact_general_info_custom": [
+    "How can I contact Opti Matrix?"
+  ],
   "faq_payment_upfront": [
     "Do I have to pay 100% upfront?",
     "Do I pay all at once?",
@@ -1443,6 +1527,12 @@
     "What package managers do you use?",
     "Why choose Opti Matrix for JavaScript development?"
   ],
+  "javascript_hiring": [
+    "I need to hire a Javascript developer",
+    "Can I hire a dedicated Javascript developer?",
+    "Are your Javascript developers experienced?",
+    "Why choose Opti Matrix for Javascript development in India?"
+  ],
   "angular_general_info": [
     "What is AngularJS?",
     "Is Angular the same as AngularJS?",
@@ -1491,7 +1581,8 @@
   "angular_hiring": [
     "Can I hire dedicated Angular developers from Opti Matrix?",
     "Are your Angular developers experienced?",
-    "Why choose Opti Matrix for Angular development in India?"
+    "Why choose Opti Matrix for Angular development in India?",
+    "I need to hire a Angular.js developer"
   ],
   "jquery_general_info": [
     "What do people want in the current era of web development?",
@@ -1545,6 +1636,12 @@
     "Does Opti Matrix provide Search Engine Optimization?",
     "What other services can I contact you for?"
   ],
+  "jquery_hiring": [
+    "I need to hire a jQuery developer",
+    "Can I hire a dedicated jQuery developer?",
+    "Are your jQuery developers experienced?",
+    "Why choose Opti Matrix for jQuery development in India?"
+  ],
   "nextjs_general_info": [
     "What is Next.js?",
     "Is Next.js built on top of React?",
@@ -1593,7 +1690,8 @@
   "nextjs_hiring": [
     "Can I hire dedicated Next.js developers from Opti Matrix?",
     "Are your Next.js developers experienced?",
-    "Why choose Opti Matrix for Next.js development in India?"
+    "Why choose Opti Matrix for Next.js development in India?",
+    "I need to hire a Next.js developer"
   ],
   "nodejs_general_info": [
     "What is Node.js?",
@@ -1643,7 +1741,8 @@
   "nodejs_hiring": [
     "Can I hire a dedicated Node.js developer?",
     "Are your Node.js developers experienced?",
-    "Why choose Opti Matrix for Node.js development in India?"
+    "Why choose Opti Matrix for Node.js development in India?",
+    "I need to hire a Node.js developer"
   ],
   "react_general_info": [
     "What is React.js?",
@@ -1693,7 +1792,8 @@
   "react_hiring": [
     "Can I hire dedicated React developers from Opti Matrix?",
     "Are your React developers experienced?",
-    "Why choose Opti Matrix for React development in India?"
+    "Why choose Opti Matrix for React development in India?",
+    "I need to hire a React.js developer"
   ],
   "mobile_app_general": [
     "What mobile application development services does Opti Matrix provide?",
@@ -1764,6 +1864,12 @@
     "How can I contact you for mobile app development?",
     "How do I start a mobile app project?"
   ],
+  "mobile_app_hiring": [
+    "I need to hire a Mobile App developer",
+    "Can I hire a dedicated Mobile App developer?",
+    "Are your Mobile App developers experienced?",
+    "Why choose Opti Matrix for Mobile App development in India?"
+  ],
   "android_general": [
     "What is Android?",
     "Is Android open source?",
@@ -1797,7 +1903,8 @@
     "Has MaxiMouge developed many Android apps?",
     "What qualities do your Android Developers have?",
     "Is it easy to hire professional Android developers from you?",
-    "Can you build apps for Android tablets?"
+    "Can you build apps for Android tablets?",
+    "I need to hire a Android developer"
   ],
   "blackberry_general": [
     "Who is the main audience for BlackBerry applications?",
@@ -1818,7 +1925,8 @@
     "Do your BlackBerry developers know Location Based Services (LBS)?",
     "Do your BlackBerry developers know CLDC and MIDP standards?",
     "Do your developers have expertise in BlackBerry Java Development Environment?",
-    "Do you provide basic BlackBerry operating tools and APIs knowledge?"
+    "Do you provide basic BlackBerry operating tools and APIs knowledge?",
+    "I need to hire a BlackBerry developer"
   ],
   "ipad_app_general": [
     "What is an iPad?",
@@ -1868,7 +1976,8 @@
     "Is your iPad application development reasonably priced?",
     "Can an iPad developer help me gain long-term profit?",
     "Can I hire an iPad developer from you?",
-    "Do you believe in delivering quality on time?"
+    "Do you believe in delivering quality on time?",
+    "I need to hire a iPad developer"
   ],
   "iphone_app_general": [
     "What is the iPhone?",
@@ -1896,7 +2005,8 @@
   "iphone_developers_hiring": [
     "Do you have iPhone Application Developers?",
     "Can I hire iPhone application developers for long-term projects?",
-    "Do you have a world-class iPhone application development team?"
+    "Do you have a world-class iPhone application development team?",
+    "I need to hire a iPhone developer"
   ],
   "iphone_sdk_tech": [
     "Does Opti Matrix have access to the latest iPhone developer programs?",
@@ -2047,6 +2157,12 @@
     "zencart_php",
     "zencart_mysql"
   ],
+  "open_source_hiring": [
+    "I need to hire a Open Source developer",
+    "Can I hire a dedicated Open Source developer?",
+    "Are your Open Source developers experienced?",
+    "Why choose Opti Matrix for Open Source development in India?"
+  ],
   "joomla_general_benefits": [
     "joomla_website_development",
     "why_joomla",
@@ -2118,7 +2234,8 @@
     "hire_joomla_developer_fulltime",
     "hire_joomla_developer_project",
     "Can I hire a Joomla developer?",
-    "Do you have experienced Joomla programmers?"
+    "Do you have experienced Joomla programmers?",
+    "I need to hire a Joomla developer"
   ],
   "joomla_maintenance_support": [
     "existing_joomla_website",
@@ -2210,6 +2327,12 @@
     "Can Magento be used for a large ecommerce store?",
     "Why should I choose Opti Matrix for Magento Development?"
   ],
+  "magento_hiring": [
+    "I need to hire a Magento developer",
+    "Can I hire a dedicated Magento developer?",
+    "Are your Magento developers experienced?",
+    "Why choose Opti Matrix for Magento development in India?"
+  ],
   "opencart_development_general": [
     "What is OpenCart Development?",
     "What is OpenCart?",
@@ -2249,6 +2372,12 @@
     "Why does Opti Matrix provide Open Source Development?",
     "Can OpenCart be used for a business website?",
     "Can Opti Matrix develop a customized ecommerce solution?"
+  ],
+  "opencart_hiring": [
+    "I need to hire a Opencart developer",
+    "Can I hire a dedicated Opencart developer?",
+    "Are your Opencart developers experienced?",
+    "Why choose Opti Matrix for Opencart development in India?"
   ],
   "wordpress_development_general": [
     "Do you provide WordPress development?",
@@ -2444,7 +2573,8 @@
     "Do you offer WordPress developer hiring?",
     "Can you assign a WordPress developer to my project?",
     "WordPress developer hire karna hai",
-    "Kya aap WordPress developer provide karte ho?"
+    "Kya aap WordPress developer provide karte ho?",
+    "I need to hire a Wordpress developer"
   ],
   "wordpress_existing_website": [
     "Can you work on my existing WordPress website?",
@@ -2660,7 +2790,8 @@
     "Do you offer full-time WordPress developers?",
     "Can I hire a WordPress programmer for my project?",
     "I need a dedicated WordPress developer",
-    "Full time WordPress developer chahiye"
+    "Full time WordPress developer chahiye",
+    "I need to hire a Wordpress developer"
   ],
   "php_frameworks_cakephp": [
     "What is CakePHP?",
@@ -2710,6 +2841,12 @@
     "Does MVC help manage code better than straightforward PHP?",
     "Do you provide MVC Development?"
   ],
+  "php_web_hiring": [
+    "I need to hire a PHP Web developer",
+    "Can I hire a dedicated PHP Web developer?",
+    "Are your PHP Web developers experienced?",
+    "Why choose Opti Matrix for PHP Web development in India?"
+  ],
   "cakephp_development_benefits": [
     "What are the benefits of selecting PHP-MySQL for web development?",
     "Is the turnaround time faster with a proven framework?",
@@ -2736,7 +2873,8 @@
     "Do you provide CakePHP development from scratch?",
     "Do you provide maintenance for CakePHP projects?",
     "Can you help complete an unfinished CakePHP project?",
-    "What are the hiring options for CakePHP developers?"
+    "What are the hiring options for CakePHP developers?",
+    "I need to hire a Cakephp developer"
   ],
   "codeigniter_general_info": [
     "What is CodeIgniter?",
@@ -2790,7 +2928,8 @@
     "Can you build a new CodeIgniter project from scratch?",
     "Can I hire a CodeIgniter developer from you?",
     "Do you provide suggestions and support for CodeIgniter projects?",
-    "Is CodeIgniter an Indian service?"
+    "Is CodeIgniter an Indian service?",
+    "I need to hire a Codeigniter developer"
   ],
   "laravel_general_info": [
     "What is Laravel?",
@@ -2842,7 +2981,8 @@
   "laravel_hiring_opti_matrix": [
     "Can I hire dedicated Laravel developers from Opti Matrix?",
     "Do your Laravel developers understand front-end technologies?",
-    "Why choose Opti Matrix for Laravel development in India?"
+    "Why choose Opti Matrix for Laravel development in India?",
+    "I need to hire a Laravel developer"
   ],
   "mvc_general_concept": [
     "What does MVC stand for?",
@@ -2893,6 +3033,12 @@
     "How can I find highly experienced PHP MVC developers?",
     "Why is India good for MVC development?",
     "What frameworks does Opti Matrix use for MVC?"
+  ],
+  "mvc_hiring": [
+    "I need to hire a MVC developer",
+    "Can I hire a dedicated MVC developer?",
+    "Are your MVC developers experienced?",
+    "Why choose Opti Matrix for MVC development in India?"
   ],
   "web_design_general": [
     "Why is website design important?",
@@ -3020,6 +3166,12 @@
     "Do you provide corporate identity design?",
     "Corporate identity design?"
   ],
+  "web_design_hiring": [
+    "I need to hire a Web Design developer",
+    "Can I hire a dedicated Web Design developer?",
+    "Are your Web Design developers experienced?",
+    "Why choose Opti Matrix for Web Design development in India?"
+  ],
   "html_design_general": [
     "What is HTML designing?",
     "Why is HTML important for a website?",
@@ -3065,6 +3217,12 @@
   "html_cost_effective": [
     "Can you create a cost-effective website?",
     "Can HTML and CSS be used for a business website?"
+  ],
+  "html_hiring": [
+    "I need to hire a HTML developer",
+    "Can I hire a dedicated HTML developer?",
+    "Are your HTML developers experienced?",
+    "Why choose Opti Matrix for HTML development in India?"
   ],
   "custom_logo_design": [
     "Can you create a custom logo?",
@@ -3120,6 +3278,12 @@
     "Do you provide affordable logo design?",
     "Is professional logo design expensive?",
     "I need an affordable logo."
+  ],
+  "logo_designing_hiring": [
+    "I need to hire a Logo Designing developer",
+    "Can I hire a dedicated Logo Designing developer?",
+    "Are your Logo Designing developers experienced?",
+    "Why choose Opti Matrix for Logo Designing development in India?"
   ],
   "psd_layout_general": [
     "What are PSD layouts?",
@@ -3193,6 +3357,12 @@
     "Why is a PSD layout important?",
     "Can I see how my website will look before development?"
   ],
+  "psd_hiring": [
+    "I need to hire a PSD developer",
+    "Can I hire a dedicated PSD developer?",
+    "Are your PSD developers experienced?",
+    "Why choose Opti Matrix for PSD development in India?"
+  ],
   "psd_to_html_general": [
     "What is PSD to HTML conversion?",
     "Why is PSD to HTML conversion necessary?",
@@ -3219,6 +3389,12 @@
   "psd_to_html_process": [
     "Is PSD to HTML conversion difficult?",
     "What does the conversion process require?"
+  ],
+  "psd_to_html_hiring": [
+    "I need to hire a PSD to HTML developer",
+    "Can I hire a dedicated PSD to HTML developer?",
+    "Are your PSD to HTML developers experienced?",
+    "Why choose Opti Matrix for PSD to HTML development in India?"
   ],
   "web_dev_general": [
     "Do you provide web development services?",
@@ -3357,13 +3533,15 @@
   "web_dev_hire_developers": [
     "Do you have a team of dedicated developers?",
     "Who will be building my website?",
-    "Are your developers experienced?"
+    "Are your developers experienced?",
+    "I need to hire a Web developer"
   ],
   "hire_web_developer_direct": [
     "i need to hire the web developer",
     "i need to hire the website developer",
     "i want to hire a web developer",
-    "need to hire a website developer"
+    "need to hire a website developer",
+    "I need to hire a Web developer"
   ],
   "web_dev_business_identity": [
     "Can you help establish my business identity online?",
@@ -3612,6 +3790,12 @@
     "Are Opti Matrix's AJAX services affordable?",
     "Do you provide cost-effective AJAX solutions?"
   ],
+  "ajax_hiring": [
+    "I need to hire a AJAX developer",
+    "Can I hire a dedicated AJAX developer?",
+    "Are your AJAX developers experienced?",
+    "Why choose Opti Matrix for AJAX development in India?"
+  ],
   "custom_web_dev_meaning": [
     "What is Custom Website Development?",
     "What makes custom websites different from ready-made websites?"
@@ -3754,6 +3938,12 @@
     "Can I discuss my website requirements with your team?",
     "I need a custom website. How can I get started?"
   ],
+  "custom_dev_hiring": [
+    "I need to hire a Custom Dev developer",
+    "Can I hire a dedicated Custom Dev developer?",
+    "Are your Custom Dev developers experienced?",
+    "Why choose Opti Matrix for Custom Dev development in India?"
+  ],
   "ecommerce_web_dev_meaning": [
     "What is Ecommerce Website Development?"
   ],
@@ -3871,6 +4061,12 @@
     "Do you have professional ecommerce designers?",
     "Can you create my dream online store?",
     "Do you develop ecommerce websites based on customer requirements?"
+  ],
+  "e_commerce_hiring": [
+    "I need to hire a E Commerce developer",
+    "Can I hire a dedicated E Commerce developer?",
+    "Are your E Commerce developers experienced?",
+    "Why choose Opti Matrix for E Commerce development in India?"
   ],
   "php_general": [
     "Do you provide PHP Website Development services?",
@@ -3995,7 +4191,8 @@
     "i need to hire one",
     "i need hire",
     "Php Developer Role i need to hire one",
-    "hire php developer"
+    "hire php developer",
+    "I need to hire a PHP developer"
   ],
   "dedicated_php_developer": [
     "Do you have dedicated PHP developers?",
@@ -4109,6 +4306,12 @@
   "static_website_optima_matrix": [
     "Why choose Opti Matrix for static website design?"
   ],
+  "static_web_hiring": [
+    "I need to hire a Static Web developer",
+    "Can I hire a dedicated Static Web developer?",
+    "Are your Static Web developers experienced?",
+    "Why choose Opti Matrix for Static Web development in India?"
+  ],
   "webservice_api_general": [
     "What is Webservice API development?",
     "Do you provide Webservice API development?",
@@ -4200,6 +4403,12 @@
   "webservice_api_opti_matrix": [
     "Why choose Opti Matrix for API development?",
     "Why should I hire your team for APIs?"
+  ],
+  "web_api_hiring": [
+    "I need to hire a Web Api developer",
+    "Can I hire a dedicated Web Api developer?",
+    "Are your Web Api developers experienced?",
+    "Why choose Opti Matrix for Web Api development in India?"
   ],
   "social_media_general": [
     "What are your social media accounts?",

@@ -61,5 +61,17 @@
     "responses": [
       "The conversion process requires profound knowledge of different technologies and extensive coding. However, with our professional manpower, the process is quick, simple, and ensures ultimate quality."
     ]
+  },
+  {
+    "intent": "psd_to_html_hiring",
+    "patterns": [
+      "I need to hire a PSD to HTML developer",
+      "Can I hire a dedicated PSD to HTML developer?",
+      "Are your PSD to HTML developers experienced?",
+      "Why choose Opti Matrix for PSD to HTML development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced PSD to HTML developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

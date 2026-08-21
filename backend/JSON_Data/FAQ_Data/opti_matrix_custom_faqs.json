@@ -1,0 +1,156 @@
+[
+  {
+    "intent": "office_location_general_custom",
+    "patterns": ["Where is your office located?"],
+    "responses": ["Our head office is located at:\nOpti Matrix\n706, Indraprastha Corporate, Corporate Road,\nOpp. Shell Petrol Pump, Prahlad Nagar,\nAhmedabad, Gujarat – 380015, India."]
+  },
+  {
+    "intent": "office_location_ahmedabad_custom",
+    "patterns": ["Where is your Ahmedabad office located?"],
+    "responses": ["Our Ahmedabad head office is located at 706, Indraprastha Corporate, Corporate Road, Opp. Shell Petrol Pump, Prahlad Nagar, Ahmedabad, Gujarat – 380015, India."]
+  },
+  {
+    "intent": "office_location_bhuj_custom",
+    "patterns": ["Where is your Bhuj branch located?"],
+    "responses": ["Our Bhuj branch is located at:\nOpti Matrix – Bhuj Branch\n207, Merry Rajaram Complex, Hospital Road,\nVijay Nagar, Bhuj, Gujarat – 370001, India."]
+  },
+  {
+    "intent": "services_general_custom",
+    "patterns": ["What services do you offer?"],
+    "responses": ["Opti Matrix provides a wide range of software development and IT services, including website development, web application development, mobile app development, custom software development, and dedicated developer hiring.\nWe provide development expertise across technologies such as PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter."]
+  },
+  {
+    "intent": "services_hiring_models_custom",
+    "patterns": ["Do you offer dedicated resource hiring models?"],
+    "responses": ["Yes. Opti Matrix offers flexible dedicated developer hiring models based on your project requirements. You can hire developers on a full-time, part-time, or hourly basis.\nWe provide developers across technologies including PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter.\nFor hiring inquiries, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."]
+  },
+  {
+    "intent": "website_development_portfolio_custom",
+    "patterns": ["Can you show me websites you have built?"],
+    "responses": ["Yes. Opti Matrix has developed websites and web applications for businesses across various industries. You can explore our previous work, projects, and case studies through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">View Opti Matrix Portfolio</a>"]
+  },
+  {
+    "intent": "website_development_benefits_custom",
+    "patterns": ["What are the benefits of using a website development service for my project?"],
+    "responses": ["A professionally developed website can help your business establish a strong online presence, improve customer engagement, streamline business processes, and provide a better user experience.\nOpti Matrix can build customized, responsive, secure, and scalable websites based on your business requirements."]
+  },
+  {
+    "intent": "website_development_case_studies_custom",
+    "patterns": ["Do you have a portfolio or case studies for website development?"],
+    "responses": ["Yes. You can explore our previous website development projects and case studies through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">Opti Matrix Portfolio</a>\n<a href=\"https://www.optiinfo.com/our-portfolio/?utm_source=chatgpt.com\">OptiInfo Portfolio</a>"]
+  },
+  {
+    "intent": "nodejs_what_is_custom",
+    "patterns": ["What is Node.js?"],
+    "responses": ["Node.js is a fast, open-source JavaScript runtime environment built on Chrome's V8 JavaScript engine. It uses a non-blocking, event-driven architecture that allows applications to handle multiple requests efficiently.\nNode.js enables developers to use JavaScript for both frontend and backend development, which can simplify development and improve productivity. It also provides access to a large ecosystem of packages through npm, the Node Package Manager."]
+  },
+  {
+    "intent": "nodejs_benefits_custom",
+    "patterns": ["What are the benefits of using Node.js for my project?"],
+    "responses": ["Node.js offers several advantages, including:\nHigh performance and fast execution\nNon-blocking and asynchronous architecture\nExcellent scalability for growing applications\nReal-time application support\nLarge npm ecosystem\nJavaScript development for both frontend and backend\nFaster development and easier code sharing\nSuitable for APIs, web applications, real-time applications, and backend systems"]
+  },
+  {
+    "intent": "nodejs_portfolio_custom",
+    "patterns": ["Do you have a portfolio or case studies for Node.js development?"],
+    "responses": ["Yes. Opti Matrix has experience developing web applications and backend solutions using Node.js. You can explore our portfolio and previous projects to learn more about our development capabilities.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">View Opti Matrix Portfolio</a>"]
+  },
+  {
+    "intent": "nodejs_hire_specific_custom",
+    "patterns": [
+      "I need to hire a Node.js developer. Can you help?",
+      "I need to hire a Node.js developer."
+    ],
+    "responses": [
+      "Yes. Opti Matrix has a team of experienced Node.js developers in India. You can hire a dedicated Node.js developer on a full-time, part-time, or hourly basis, depending on your project requirements.\nOur developers can assist with Node.js backend development, APIs, web applications, integrations, database development, and scalable application architecture.\nFor hiring inquiries, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>.",
+      "Yes. Opti Matrix provides experienced Node.js developers who can work with your team on a full-time, part-time, or hourly basis.\nFor hiring inquiries, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>.",
+      "Yes. We can help you hire an experienced Node.js developer on a full-time, part-time, or hourly basis. Please share your project requirements or contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
+  },
+  {
+    "intent": "developer_hiring_general_custom",
+    "patterns": ["I need to hire a developer. Can you help?"],
+    "responses": ["Yes. Opti Matrix offers dedicated developer hiring services across multiple technologies. You can hire developers on a full-time, part-time, or hourly basis according to your project requirements.\nWe provide developers with expertise in:\nPHP\nPython\nReact\nNext.js\nNode.js\niOS\nAndroid\nFlutter\nFor hiring inquiries, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."]
+  },
+  {
+    "intent": "developer_hiring_php_custom",
+    "patterns": [
+      "I need to hire one PHP developer.",
+      "I need to hire a PHP developer."
+    ],
+    "responses": [
+      "Yes. Opti Matrix can help you hire a dedicated PHP developer based on your project requirements. You can choose a full-time, part-time, or hourly engagement model.\nFor more information or to discuss your requirements, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>.",
+      "Yes. We can help you hire an experienced PHP developer on a full-time, part-time, or hourly basis. Please share your project requirements or contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
+  },
+  {
+    "intent": "developer_hiring_web_custom",
+    "patterns": [
+      "I need to hire a web developer.",
+      "I want to hire a web developer."
+    ],
+    "responses": [
+      "Yes. Opti Matrix can help you hire experienced web developers based on your technical and project requirements.\nYou can choose from full-time, part-time, or hourly hiring models.\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Get a Quote</a>\n<a href=\"https://wa.me/918128361116?utm_source=chatgpt.com\">Contact us on WhatsApp</a>",
+      "Absolutely. Opti Matrix provides experienced web developers on flexible full-time, part-time, and hourly engagement models.\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Get a Quote</a>"
+    ]
+  },
+  {
+    "intent": "developer_hiring_skills_custom",
+    "patterns": ["What skills should I look for when hiring a developer?"],
+    "responses": ["The right skills depend on your project requirements. In general, you should consider:\nRelevant technical expertise\nExperience with your required technology or framework\nProblem-solving ability\nCommunication skills\nUnderstanding of databases and APIs\nVersion control knowledge\nTesting and debugging skills\nExperience working with development methodologies\nAbility to work independently and with a team\nOpti Matrix can help you identify and hire developers based on your specific technical requirements."]
+  },
+  {
+    "intent": "developer_hiring_cost_custom",
+    "patterns": ["How much does it typically cost to hire a developer?"],
+    "responses": ["The cost of hiring a developer depends on factors such as the technology, developer experience, engagement model, project complexity, and required working hours.\nOpti Matrix offers full-time, part-time, and hourly hiring models. Contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a> to discuss your requirements and get the appropriate hiring options."]
+  },
+  {
+    "intent": "developer_hiring_job_desc_custom",
+    "patterns": ["Can you help me create a job description for a developer?"],
+    "responses": ["Yes. We can help you define the required technology, experience level, responsibilities, technical skills, and engagement model for your developer requirement.\nShare your project requirements with us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>, and our team can help you determine the right developer profile."]
+  },
+  {
+    "intent": "developer_hiring_short_generic_custom",
+    "patterns": ["I need to hire."],
+    "responses": ["Absolutely. Opti Matrix provides dedicated developer hiring services on a full-time, part-time, and hourly basis.\nWe can help you hire developers specializing in PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter.\nPlease contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a> and share your requirements."]
+  },
+  {
+    "intent": "developer_hiring_short_hire_custom",
+    "patterns": ["Hire"],
+    "responses": ["Sure. If you are looking to hire a developer, Opti Matrix can help you find experienced developers based on your technology and project requirements.\nWe offer full-time, part-time, and hourly hiring models.\nContact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a> to discuss your requirements."]
+  },
+  {
+    "intent": "careers_apply_custom",
+    "patterns": ["I want to join your company. How can I apply?"],
+    "responses": ["We are glad to hear that you are interested in joining Opti Matrix.\nFor web developer positions and other career opportunities, please apply through our official careers/application page. Our team regularly reviews applications.\n<a href=\"https://www.optimatrix.in/apply?utm_source=chatgpt.com\">Apply at Opti Matrix</a>"]
+  },
+  {
+    "intent": "careers_benefits_custom",
+    "patterns": ["What are the benefits of working at Opti Matrix?"],
+    "responses": ["Working at Opti Matrix provides an opportunity to work on real-world technology projects, collaborate with experienced professionals, develop your technical skills, and gain experience across modern web and mobile technologies.\nFor current job openings and application details, please visit our careers page.\n<a href=\"https://www.optimatrix.in/apply?utm_source=chatgpt.com\">View Career Opportunities</a>"]
+  },
+  {
+    "intent": "careers_opportunities_custom",
+    "patterns": ["Do you have career opportunities for developers?"],
+    "responses": ["Yes. We welcome applications from developers and technology professionals for available positions.\nPlease visit our official application page to view opportunities and submit your application.\n<a href=\"https://www.optimatrix.in/apply?utm_source=chatgpt.com\">Apply Now</a>"]
+  },
+  {
+    "intent": "careers_portfolio_custom",
+    "patterns": ["Do you have a portfolio or case studies for careers?"],
+    "responses": ["A career opportunity is different from a development service, so there is no separate \"career portfolio.\" However, you can explore Opti Matrix's previous projects through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">Opti Matrix Portfolio</a>"]
+  },
+  {
+    "intent": "important_intent_need_dev_custom",
+    "patterns": ["I need a developer."],
+    "responses": ["Sure. What type of developer are you looking to hire? For example, PHP, Python, React, Next.js, Node.js, iOS, Android, or Flutter."]
+  },
+  {
+    "intent": "important_intent_join_optimatrix_custom",
+    "patterns": ["I want to join Opti Matrix."],
+    "responses": ["We would be happy to receive your application. Please apply through our official careers page for available positions.\n<a href=\"https://www.optimatrix.in/apply?utm_source=chatgpt.com\">Apply Here</a>"]
+  },
+  {
+    "intent": "contact_general_info_custom",
+    "patterns": ["How can I contact Opti Matrix?"],
+    "responses": ["You can contact Opti Matrix through the following channels:\nEmail: <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Contact Opti Matrix</a>\n<a href=\"https://wa.me/918128361116?utm_source=chatgpt.com\">WhatsApp Opti Matrix</a>\nFor developer hiring, website development, or other project inquiries, please share your requirements with our team."]
+  }
+]

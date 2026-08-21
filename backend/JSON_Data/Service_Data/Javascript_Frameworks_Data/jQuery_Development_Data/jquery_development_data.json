@@ -86,5 +86,17 @@
     "responses": [
       "Besides jQuery, we offer full Website Development, Website Designing, PHP MySQL Development, Ajax Development, Open Source Development, PHP/JS Frameworks, iPhone/iPad and Android App Development, .NET programming, SEO, and the option to hire dedicated programmers."
     ]
+  },
+  {
+    "intent": "jquery_hiring",
+    "patterns": [
+      "I need to hire a jQuery developer",
+      "Can I hire a dedicated jQuery developer?",
+      "Are your jQuery developers experienced?",
+      "Why choose Opti Matrix for jQuery development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced jQuery developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

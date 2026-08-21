@@ -70,5 +70,17 @@
     "responses": [
       "MVC stands for Module-View-Controller (or Model-View-Controller). It is an approach to building web applications in a structured, modular way. Unlike straightforward core PHP where developers might barely manage code or just use huge lists of external files, MVC encourages using classes to manage code effectively. We specialize in robust MVC development."
     ]
+  },
+  {
+    "intent": "php_web_hiring",
+    "patterns": [
+      "I need to hire a PHP Web developer",
+      "Can I hire a dedicated PHP Web developer?",
+      "Are your PHP Web developers experienced?",
+      "Why choose Opti Matrix for PHP Web development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced PHP Web developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

@@ -1,5 +1,6 @@
 import os
 import json
+import random
 import logging
 import joblib
 import numpy as np
@@ -201,7 +202,14 @@ def health_check():
 
 def get_dynamic_suggestions(intent: str) -> List[str]:
     if not intent:
-        return ["What services do you offer?", "How can I contact you?", "Where is your office located?"]
+        pool = [
+            "What services do you offer?", 
+            "How can I contact you?", 
+            "Where is your office located?",
+            "Can you show me your portfolio?",
+            "How long have you been in business?"
+        ]
+        return random.sample(pool, min(3, len(pool)))
     
     parts = intent.lower().replace("_", " ").split()
     raw_topic = parts[0] if parts else "general"
@@ -217,29 +225,45 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
     is_hiring = "hire" in intent or "hiring" in intent
     
     if is_hiring:
-        return [
+        pool = [
             f"What skills should I look for in a {topic} developer?",
             f"How much does it typically cost to hire a {topic} developer?",
-            f"Can you help me create a job description for a {topic} developer?"
+            f"Can you help me create a job description for a {topic} developer?",
+            f"Are your {topic} developers experienced?",
+            f"Do you provide dedicated {topic} developers?",
+            f"What hiring models do you offer for {topic}?"
         ]
+        return random.sample(pool, min(3, len(pool)))
     elif raw_topic in ["contact", "greeting", "general", "company", "portfolio"]:
-        return [
+        pool = [
             "What services do you offer?",
             "Do you offer dedicated resource hiring models?",
-            "Can you show me websites you have built?"
+            "Can you show me websites you have built?",
+            "Where is your head office?",
+            "What industries do you serve?",
+            "How can I get a quote?"
         ]
+        return random.sample(pool, min(3, len(pool)))
     elif raw_topic in ["payment", "legal", "security", "troubleshooting", "tech", "launch", "support"]:
-        return [
+        pool = [
             "Do I have to pay 100% upfront?",
             "Do you sign an NDA before we discuss my idea?",
-            "Do you provide emergency support if my website goes down?"
+            "Do you provide emergency support if my website goes down?",
+            "What payment methods do you accept?",
+            "How do you ensure data security?",
+            "What is your refund policy?"
         ]
+        return random.sample(pool, min(3, len(pool)))
     else:
-        return [
+        pool = [
             f"What are the benefits of using {topic} for my project?",
             f"Do you have a portfolio or case studies for {topic}?",
-            f"I need to hire a {topic} developer"
+            f"I need to hire a {topic} developer",
+            f"Why should I choose {topic}?",
+            f"Can you migrate my existing app to {topic}?",
+            f"What is the development process for {topic}?"
         ]
+        return random.sample(pool, min(3, len(pool)))
 
 @app.post("/predict", response_model=PredictResponse)
 async def predict_intent(request: PredictRequest):

@@ -130,5 +130,17 @@
     "responses": [
       "Magento is incredibly scalable and ideal for large, complex, and professional ecommerce stores. Opti Matrix brings the expertise in custom development and components required to mold Magento into an enterprise-level platform for your business."
     ]
+  },
+  {
+    "intent": "magento_hiring",
+    "patterns": [
+      "I need to hire a Magento developer",
+      "Can I hire a dedicated Magento developer?",
+      "Are your Magento developers experienced?",
+      "Why choose Opti Matrix for Magento development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Magento developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

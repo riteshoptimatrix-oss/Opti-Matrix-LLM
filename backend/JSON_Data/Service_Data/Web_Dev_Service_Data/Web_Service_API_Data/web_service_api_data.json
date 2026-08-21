@@ -204,5 +204,17 @@
     "responses": [
       "Opti Matrix combines years of experience, a dedicated team of expert developers, rigorous security practices, and cost-effective pricing to deliver world-class Web Service API solutions."
     ]
+  },
+  {
+    "intent": "web_api_hiring",
+    "patterns": [
+      "I need to hire a Web Api developer",
+      "Can I hire a dedicated Web Api developer?",
+      "Are your Web Api developers experienced?",
+      "Why choose Opti Matrix for Web Api development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Web Api developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

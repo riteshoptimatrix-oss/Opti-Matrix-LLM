@@ -86,5 +86,17 @@
     "responses": [
       "Opti Matrix is your premier partner for JavaScript development. We build SPAs, cross-platform mobile apps (React Native), headless eCommerce stores, and enterprise-level JS projects. We integrate REST APIs and GraphQL, ensure code quality with ESLint/Jest, use npm/Yarn, and provide custom plugin development. You can hire our full-stack JS experts to optimize existing apps or build from scratch at highly competitive rates."
     ]
+  },
+  {
+    "intent": "javascript_hiring",
+    "patterns": [
+      "I need to hire a Javascript developer",
+      "Can I hire a dedicated Javascript developer?",
+      "Are your Javascript developers experienced?",
+      "Why choose Opti Matrix for Javascript development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Javascript developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

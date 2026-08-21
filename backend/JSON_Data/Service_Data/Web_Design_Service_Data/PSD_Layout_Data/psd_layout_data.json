@@ -100,5 +100,17 @@
     "responses": [
       "A PSD layout is crucial because it gives you a clear visual representation of your website. It allows you to see exactly what the final appearance and structure will look like before development begins."
     ]
+  },
+  {
+    "intent": "psd_hiring",
+    "patterns": [
+      "I need to hire a PSD developer",
+      "Can I hire a dedicated PSD developer?",
+      "Are your PSD developers experienced?",
+      "Why choose Opti Matrix for PSD development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced PSD developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

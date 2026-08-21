@@ -68,5 +68,17 @@
     "responses": [
       "Opti Matrix provides OpenCart under its Open Source Web Development services, which use openly available technologies. This approach focuses on high flexibility, superior quality, deep customization, cost-effectiveness, and avoiding vendor lock-in for your business website."
     ]
+  },
+  {
+    "intent": "opencart_hiring",
+    "patterns": [
+      "I need to hire a Opencart developer",
+      "Can I hire a dedicated Opencart developer?",
+      "Are your Opencart developers experienced?",
+      "Why choose Opti Matrix for Opencart development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Opencart developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

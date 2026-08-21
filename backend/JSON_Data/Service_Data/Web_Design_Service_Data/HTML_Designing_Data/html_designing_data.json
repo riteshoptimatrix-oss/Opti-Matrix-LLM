@@ -92,5 +92,17 @@
     "responses": [
       "Yes. HTML and CSS can be used to create attractive and highly cost-effective websites, making it a great starting solution for businesses establishing an online presence."
     ]
+  },
+  {
+    "intent": "html_hiring",
+    "patterns": [
+      "I need to hire a HTML developer",
+      "Can I hire a dedicated HTML developer?",
+      "Are your HTML developers experienced?",
+      "Why choose Opti Matrix for HTML development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced HTML developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

@@ -127,5 +127,17 @@
     "responses": [
       "You can contact us today! Reach out to us to experience a whole new look of publicity and marketing. Get Opti Matrix, get the best."
     ]
+  },
+  {
+    "intent": "mobile_app_hiring",
+    "patterns": [
+      "I need to hire a Mobile App developer",
+      "Can I hire a dedicated Mobile App developer?",
+      "Are your Mobile App developers experienced?",
+      "Why choose Opti Matrix for Mobile App development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Mobile App developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

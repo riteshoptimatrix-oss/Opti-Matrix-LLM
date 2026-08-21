@@ -232,7 +232,7 @@
       "Can you create a personalized shopping experience?"
     ],
     "responses": [
-      "A user-friendly website with a personalized touch—like giving consumers personal attention—helps attract traffic and builds a sturdy chain of loyal customers."
+      "A user-friendly website with a personalized touch\u2014like giving consumers personal attention\u2014helps attract traffic and builds a sturdy chain of loyal customers."
     ]
   },
   {
@@ -259,6 +259,18 @@
     ],
     "responses": [
       "Opti Matrix has an excellent team of professional designers and programmers. We focus on understanding client requirements and adopt the ideology of developing the website from the viewpoint of the end user to build your dream online store."
+    ]
+  },
+  {
+    "intent": "e_commerce_hiring",
+    "patterns": [
+      "I need to hire a E Commerce developer",
+      "Can I hire a dedicated E Commerce developer?",
+      "Are your E Commerce developers experienced?",
+      "Why choose Opti Matrix for E Commerce development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced E Commerce developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
     ]
   }
 ]

@@ -219,7 +219,7 @@
       "Are your services in India cost-effective?"
     ],
     "responses": [
-      "Yes. With our location in India—the upcoming IT Hub—our services prove to be very cost-effective to our clients globally."
+      "Yes. With our location in India\u2014the upcoming IT Hub\u2014our services prove to be very cost-effective to our clients globally."
     ]
   },
   {
@@ -274,6 +274,18 @@
     ],
     "responses": [
       "Opti Matrix provides a dedicated team of professional designers, highly customized web solutions, cost-effective services from India, and a hassle-free static design process."
+    ]
+  },
+  {
+    "intent": "static_web_hiring",
+    "patterns": [
+      "I need to hire a Static Web developer",
+      "Can I hire a dedicated Static Web developer?",
+      "Are your Static Web developers experienced?",
+      "Why choose Opti Matrix for Static Web development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Static Web developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
     ]
   }
 ]

@@ -21,7 +21,7 @@
       "Is core PHP development without management bad?"
     ],
     "responses": [
-      "Not all developers work the same way. Some use huge lists of external files, some use classes effectively, and some barely manage code at all—just writing straightforward core PHP to get paid. Poor code management often leads to massive future expenses."
+      "Not all developers work the same way. Some use huge lists of external files, some use classes effectively, and some barely manage code at all\u2014just writing straightforward core PHP to get paid. Poor code management often leads to massive future expenses."
     ]
   },
   {
@@ -77,6 +77,18 @@
     ],
     "responses": [
       "Opti Matrix is a leading provider of PHP MVC application development in India. We offer support on well-proven frameworks like CakePHP, CodeIgniter, and Symfony. If you're looking for highly experienced PHP MVC developers in India, simply write to us with your requirements and we will get back to you shortly."
+    ]
+  },
+  {
+    "intent": "mvc_hiring",
+    "patterns": [
+      "I need to hire a MVC developer",
+      "Can I hire a dedicated MVC developer?",
+      "Are your MVC developers experienced?",
+      "Why choose Opti Matrix for MVC development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced MVC developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
     ]
   }
 ]

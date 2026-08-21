@@ -163,5 +163,17 @@
     "responses": [
       "Yes. We provide professional ZenCart integration and development. ZenCart is a highly beneficial open source ecommerce solution written in PHP and backed by MySQL, perfect for setting up a robust online store."
     ]
+  },
+  {
+    "intent": "open_source_hiring",
+    "patterns": [
+      "I need to hire a Open Source developer",
+      "Can I hire a dedicated Open Source developer?",
+      "Are your Open Source developers experienced?",
+      "Why choose Opti Matrix for Open Source development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Open Source developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]

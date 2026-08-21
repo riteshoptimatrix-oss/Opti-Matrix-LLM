@@ -275,5 +275,17 @@
     "responses": [
       "Yes. Through professional logo designing and unique HTML website designing, we help build and introduce your corporate identity on the web."
     ]
+  },
+  {
+    "intent": "web_design_hiring",
+    "patterns": [
+      "I need to hire a Web Design developer",
+      "Can I hire a dedicated Web Design developer?",
+      "Are your Web Design developers experienced?",
+      "Why choose Opti Matrix for Web Design development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Web Design developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects. Contact our Head Office at <a href=\"tel:+918128361116\">+91 81283 61116</a> or email <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    ]
   }
 ]
