@@ -189,9 +189,12 @@ async def predict_intent(request: PredictRequest):
 
     except Exception as e:
         logger.error(f"Prediction error: {e}", exc_info=True)
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Internal prediction error occurred."
+        return PredictResponse(
+            success=False,
+            intent=None,
+            answer=FALLBACK_ANSWER,
+            confidence=0.0,
+            matched=False
         )
 
 # Backward-compatible /ask endpoint
