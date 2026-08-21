@@ -38,7 +38,10 @@ MONGODB_URI = os.getenv("MONGODB_URI")
 if MONGODB_URI:
     try:
         mongo_client = MongoClient(MONGODB_URI)
-        db = mongo_client.get_database() # Gets default DB from URI
+        try:
+            db = mongo_client.get_database()
+        except Exception:
+            db = mongo_client.get_database("optimatrix_chat")
         sessions_collection = db["chat_sessions"]
         logger.info("MongoDB connected successfully for session storage.")
     except Exception as e:
@@ -192,6 +195,48 @@ def health_check():
         "confidence_threshold": CONFIDENCE_THRESHOLD
     }
 
+def get_dynamic_suggestions(intent: str) -> List[str]:
+    if not intent:
+        return ["What services do you offer?", "How can I contact you?", "Where is your office located?"]
+    
+    parts = intent.lower().replace("_", " ").split()
+    raw_topic = parts[0] if parts else "general"
+    if raw_topic == "faq" and len(parts) > 1:
+        raw_topic = parts[1]
+        
+    mapping = {
+        "nodejs": "Node.js", "nextjs": "Next.js", "reactjs": "React.js", "vuejs": "Vue.js",
+        "php": "PHP", "ios": "iOS", "uiux": "UI/UX", "wordpress": "WordPress", "ecommerce": "E-commerce"
+    }
+    topic = mapping.get(raw_topic, raw_topic.capitalize())
+    
+    is_hiring = "hire" in intent or "hiring" in intent
+    
+    if is_hiring:
+        return [
+            f"What skills should I look for in a {topic} developer?",
+            f"How much does it typically cost to hire a {topic} developer?",
+            f"Can you help me create a job description for a {topic} developer?"
+        ]
+    elif raw_topic in ["contact", "greeting", "general", "company", "portfolio"]:
+        return [
+            "What services do you offer?",
+            "Do you offer dedicated resource hiring models?",
+            "Can you show me websites you have built?"
+        ]
+    elif raw_topic in ["payment", "legal", "security", "troubleshooting", "tech", "launch", "support"]:
+        return [
+            "Do I have to pay 100% upfront?",
+            "Do you sign an NDA before we discuss my idea?",
+            "Do you provide emergency support if my website goes down?"
+        ]
+    else:
+        return [
+            f"What are the benefits of using {topic} for my project?",
+            f"Do you have a portfolio or case studies for {topic}?",
+            f"I need to hire a {topic} developer"
+        ]
+
 @app.post("/predict", response_model=PredictResponse)
 async def predict_intent(request: PredictRequest):
     """
@@ -243,53 +288,19 @@ async def predict_intent(request: PredictRequest):
                             suggested_questions=[]
                         )
 
-        # 1. Try predicting with the raw question first
-        probs_raw = model.predict_proba([raw_question])[0]
-        max_idx_raw = int(np.argmax(probs_raw))
-        conf_raw = float(probs_raw[max_idx_raw])
-        intent_raw = str(model.classes_[max_idx_raw])
-
-        # 2. Try predicting with the augmented question (history + current)
-        augmented_question = f"{session_data.get('last_query', '')} {raw_question}".strip()
-        probs_aug = model.predict_proba([augmented_question])[0]
-        max_idx_aug = int(np.argmax(probs_aug))
-        conf_aug = float(probs_aug[max_idx_aug])
-        intent_aug = str(model.classes_[max_idx_aug])
-
-        # 3. Choose the best intent based on confidence and contextual heuristics
-        # If the raw query has high confidence, it's likely a complete thought/new topic.
-        # If it's low confidence, or the augmented query is significantly more confident, use context.
-        if conf_raw > 0.5 and conf_raw >= conf_aug - 0.1:
-            best_intent = intent_raw
-            best_conf = conf_raw
-            logger.info(f"Using RAW query. Intent: {best_intent} (Conf: {best_conf:.4f})")
-            update_session(session_id, {"last_query": raw_question})
-        elif session_data.get("last_query"):
-            # Penalize the augmented intent if it just repeats the exact same topic as before
-            # to force it to answer the follow-up question (e.g. hiring) rather than repeating the intro
-            if intent_aug == session_data.get("last_intent") and conf_aug > 0.0:
-                # Find the second best intent
-                max_idx_aug_2 = np.argsort(probs_aug)[-2]
-                if probs_aug[max_idx_aug_2] > CONFIDENCE_THRESHOLD:
-                    intent_aug = str(model.classes_[max_idx_aug_2])
-                    conf_aug = float(probs_aug[max_idx_aug_2])
-
-            best_intent = intent_aug
-            best_conf = conf_aug
-            logger.info(f"Using AUGMENTED query ('{augmented_question}'). Intent: {best_intent} (Conf: {best_conf:.4f})")
-            # Do NOT overwrite last_query here, so we retain the main topic!
-        else:
-            best_intent = intent_raw
-            best_conf = conf_raw
-            update_session(session_id, {"last_query": raw_question})
-
-        confidence = best_conf
-        predicted_intent = best_intent
-
-        # Update session context
-        update_session(session_id, {"last_intent": predicted_intent})
+        # 1. Try predicting with the raw question
+        probs = model.predict_proba([raw_question])[0]
+        max_idx = int(np.argmax(probs))
+        confidence = float(probs[max_idx])
+        predicted_intent = str(model.classes_[max_idx])
 
         logger.info(f"Query: '{raw_question[:60]}' -> Intent: {predicted_intent} (Conf: {confidence:.4f})")
+
+        # Update session context
+        update_session(session_id, {
+            "last_query": raw_question,
+            "last_intent": predicted_intent
+        })
 
         # Confidence threshold check
         if confidence < CONFIDENCE_THRESHOLD:
@@ -314,26 +325,8 @@ async def predict_intent(request: PredictRequest):
                 matched=False
             )
 
-        # Generate follow-up questions
-        suggested_questions = []
-        if patterns_db and predicted_intent:
-            parts = predicted_intent.lower().replace("_", " ").split()
-            # Try to get the primary technology/topic (first keyword usually)
-            topic = parts[0] if parts else None
-            if topic:
-                candidate_questions = []
-                for intent, pats in patterns_db.items():
-                    if intent != predicted_intent and topic in intent.lower():
-                        # Pick a random pattern from this related intent
-                        import random
-                        if pats:
-                            candidate_questions.append(random.choice(pats))
-                
-                if candidate_questions:
-                    import random
-                    random.shuffle(candidate_questions)
-                    # Limit to 3 unique suggestions
-                    suggested_questions = list(set(candidate_questions))[:3]
+        # Generate follow-up questions using dynamic templates
+        suggested_questions = get_dynamic_suggestions(predicted_intent)
 
         return PredictResponse(
             success=True,
