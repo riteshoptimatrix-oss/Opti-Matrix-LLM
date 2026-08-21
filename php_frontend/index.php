@@ -398,6 +398,10 @@
             if(typing) typing.remove();
         }
 
+        // Generate a unique session ID for context tracking
+        const sessionId = localStorage.getItem("chatSessionId") || crypto.randomUUID();
+        localStorage.setItem("chatSessionId", sessionId);
+
         chatForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             const userMsg = chatInput.value.trim();
@@ -418,7 +422,7 @@
                     headers: {
                         "Content-Type": "application/json",
                     },
-                    body: JSON.stringify({ question: userMsg }),
+                    body: JSON.stringify({ question: userMsg, session_id: sessionId }),
                 });
 
                 if (!response.ok) {

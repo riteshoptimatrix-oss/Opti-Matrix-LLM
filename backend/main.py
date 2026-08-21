@@ -20,6 +20,7 @@ logger = logging.getLogger("ml_service")
 # Global variables for model and response database
 model = None
 responses_db: Dict[str, List[str]] = {}
+sessions_db: Dict[str, Dict[str, Any]] = {}
 
 # Configurable fallback message and confidence threshold
 DEFAULT_FALLBACK_ANSWER = (
@@ -99,6 +100,7 @@ app.add_middleware(
 # Request / Response Models
 class PredictRequest(BaseModel):
     question: str = Field(..., description="User's natural language question", min_length=1)
+    session_id: Optional[str] = Field(default=None, description="Session ID for context tracking")
 
 class PredictResponse(BaseModel):
     success: bool
@@ -151,12 +153,47 @@ async def predict_intent(request: PredictRequest):
             detail="Question cannot be empty."
         )
 
+    session_id = request.session_id or "default"
+    if session_id not in sessions_db:
+        sessions_db[session_id] = {"last_query": "", "last_intent": None}
+
     try:
-        # Inference using model.pkl pipeline
-        probs = model.predict_proba([raw_question])[0]
-        max_idx = int(np.argmax(probs))
-        confidence = float(probs[max_idx])
-        predicted_intent = str(model.classes_[max_idx])
+        session_data = sessions_db[session_id]
+        
+        # 1. Try predicting with the raw question first
+        probs_raw = model.predict_proba([raw_question])[0]
+        max_idx_raw = int(np.argmax(probs_raw))
+        conf_raw = float(probs_raw[max_idx_raw])
+        intent_raw = str(model.classes_[max_idx_raw])
+
+        # 2. Try predicting with the augmented question (history + current)
+        augmented_question = f"{session_data.get('last_query', '')} {raw_question}".strip()
+        probs_aug = model.predict_proba([augmented_question])[0]
+        max_idx_aug = int(np.argmax(probs_aug))
+        conf_aug = float(probs_aug[max_idx_aug])
+        intent_aug = str(model.classes_[max_idx_aug])
+
+        # 3. Choose the best intent based on confidence and contextual heuristics
+        # If the raw query has high confidence, it's likely a complete thought/new topic.
+        # If it's low confidence, or the augmented query is significantly more confident, use context.
+        if conf_raw > 0.5 and conf_raw >= conf_aug - 0.1:
+            best_intent = intent_raw
+            best_conf = conf_raw
+            logger.info(f"Using RAW query. Intent: {best_intent} (Conf: {best_conf:.4f})")
+        elif session_data.get("last_query"):
+            best_intent = intent_aug
+            best_conf = conf_aug
+            logger.info(f"Using AUGMENTED query ('{augmented_question}'). Intent: {best_intent} (Conf: {best_conf:.4f})")
+        else:
+            best_intent = intent_raw
+            best_conf = conf_raw
+
+        confidence = best_conf
+        predicted_intent = best_intent
+
+        # Update session context
+        sessions_db[session_id]["last_query"] = raw_question
+        sessions_db[session_id]["last_intent"] = predicted_intent
 
         logger.info(f"Query: '{raw_question[:60]}' -> Intent: {predicted_intent} (Conf: {confidence:.4f})")
 
