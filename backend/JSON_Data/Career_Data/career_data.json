@@ -10,6 +10,8 @@
       "web developer role",
       "Website Developer Role",
       "website developer role",
+      "Website Designer role",
+      "Web Designer role",
       "apply for web developer",
       "job as a web developer",
       "want to join optimatrix",
@@ -45,13 +47,17 @@
     "intent": "career_general_inquiry",
     "patterns": [
       "Are you hiring?",
-      "Do you have any job openings?",
+      "Job at opti matrix",
+      "jobs at opti matrix",
+      "do you have any job openings?",
       "I am looking for a job",
       "Current vacancies in your company",
       "Can I work at Opti Matrix?",
       "Careers at Opti Matrix",
       "Job opportunities",
-      "Current job openings"
+      "Current job openings",
+      "Job opportunities at opti matrix",
+      "Job openings at opti matrix"
     ],
     "responses": [
       "We are always on the lookout for talented professionals to join our growing team. You can check our current openings and apply online. [Apply Here...](https://www.optimatrix.in/apply)"
