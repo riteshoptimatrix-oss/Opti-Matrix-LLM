@@ -160,22 +160,29 @@
         .chat-messages::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
         .chat-messages::-webkit-scrollbar-thumb:hover { background-color: #94a3b8; }
         
-        .md-link {
+        .message a {
             display: inline-block;
-            margin-top: 10px;
-            margin-bottom: 6px;
+            margin-top: 8px;
+            margin-bottom: 4px;
             margin-right: 8px;
             padding: 8px 16px;
-            background-color: #2563eb;
+            background-color: var(--accent-color);
             color: white;
             text-decoration: none;
             border-radius: 6px;
             font-weight: 500;
             font-size: 14px;
             box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
-            border: 1px solid #1d4ed8;
+            border: 1px solid var(--accent-hover);
             word-break: break-word;
             text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .message a:hover {
+            background-color: var(--accent-hover);
+            box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+            transform: translateY(-1px);
         }
         
         .filter-btn {
@@ -293,7 +300,7 @@
                     text = "Visit Link";
                 }
                 
-                return '<a href="' + url + '" target="_blank" rel="noopener noreferrer" class="md-link">' + text + '</a>';
+                return '<a href="' + url + '" target="_blank" rel="noopener noreferrer">' + text + '</a>';
             });
             return formattedContent;
         }
@@ -357,8 +364,8 @@
                         <h4 style="margin: 0 0 4px 0; font-size: 16px; color: #111827; font-weight: bold;">${ev.title}</h4>
                         <p style="margin: 0 0 10px 0; font-size: 13px; color: #6b7280; font-weight: 500;">${ev.date}</p>
                         <p style="margin: 0 0 16px 0; font-size: 14px; color: #4b5563; line-height: 1.5;">${ev.desc}</p>
-                        <a href="${ev.link}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 14px;">
-                            ${ev.linkText} <span style="margin-left: 4px; font-size: 16px;">→</span>
+                        <a href="${ev.link}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; background-color: #2563eb; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 14px; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2); transition: all 0.2s ease;">
+                            ${ev.linkText} <span style="margin-left: 6px; font-size: 16px;">→</span>
                         </a>
                     </div>
                 </div>
