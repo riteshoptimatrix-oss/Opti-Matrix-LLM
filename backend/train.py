@@ -15,7 +15,7 @@ def clean_text(text: str) -> str:
         return ""
     return text.strip()
 
-def augment_patterns(pattern: str) -> list:
+def augment_patterns(pattern: str, intent: str = "") -> list:
     """
     Generate synthetic in-domain paraphrases and prefix variations
     to enrich intent coverage and boost generalization.
@@ -43,6 +43,21 @@ def augment_patterns(pattern: str) -> list:
         variations.add(stripped)
         for pref in prefixes[:3]:
             variations.add(pref + stripped)
+            
+    # Inject synthetic context-augmented patterns for hiring intents
+    if "hire" in intent.lower() or "hiring" in intent.lower():
+        # Try to extract technology name from intent (e.g. 'hire_php_developer' -> 'php', 'angular_hiring' -> 'angular')
+        parts = intent.lower().replace("_", " ").split()
+        tech_keywords = [w for w in parts if w not in ["hire", "hiring", "developer", "developers", "fulltime", "dedicated", "support", "opti", "matrix"]]
+        tech = tech_keywords[0] if tech_keywords else "web"
+        
+        # Add the exact augmented patterns the user might produce
+        variations.add(f"{tech} developer role i need to hire one")
+        variations.add(f"{tech} developer i need to hire one")
+        variations.add(f"{tech} i need hire")
+        variations.add(f"{tech} i need to hire one")
+        variations.add(f"i need hire {tech}")
+        variations.add(f"i need to hire one {tech}")
             
     return list(variations)
 
@@ -103,7 +118,7 @@ def main():
     seen = set()
     for intent, patterns in patterns_by_intent.items():
         for p in patterns:
-            for variant in augment_patterns(p):
+            for variant in augment_patterns(p, intent):
                 variant_clean = clean_text(variant)
                 key = (variant_clean.lower(), intent)
                 if key not in seen and len(variant_clean) > 1:
