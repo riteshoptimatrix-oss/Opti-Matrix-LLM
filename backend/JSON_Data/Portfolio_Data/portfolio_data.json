@@ -88,5 +88,44 @@
     "responses": [
       "You can see our Before & After work to understand the dramatic improvements we make for our clients.\n\n[View Before After Work](https://www.optiinfo.com/our-portfolio/)"
     ]
+  },
+  {
+    "intent": "ui_ux_portfolio",
+    "patterns": [
+      "Show me UI UX projects",
+      "Do you have a design portfolio?",
+      "Can I see your web design projects?",
+      "Show me designs you have made",
+      "UI UX portfolio examples"
+    ],
+    "responses": [
+      "Take a look at our Design Portfolio to see the beautiful and intuitive interfaces we have crafted.\n\n[View Design Portfolio](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  },
+  {
+    "intent": "ecommerce_portfolio",
+    "patterns": [
+      "Show me ecommerce projects",
+      "Do you have an ecommerce portfolio?",
+      "Can I see your online store projects?",
+      "Show me shopping sites you have built",
+      "Ecommerce portfolio examples"
+    ],
+    "responses": [
+      "We have extensive experience building robust online stores. Browse our eCommerce Portfolio to see our work.\n\n[View eCommerce Portfolio](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  },
+  {
+    "intent": "recent_projects",
+    "patterns": [
+      "Show me your recent work",
+      "What are your latest projects?",
+      "Show recent projects",
+      "Latest portfolio additions",
+      "What did you build recently?"
+    ],
+    "responses": [
+      "We are always building exciting new things! Check out our latest projects and recent work in our portfolio.\n\n[View Recent Work](https://www.optiinfo.com/our-portfolio/)"
+    ]
   }
 ]

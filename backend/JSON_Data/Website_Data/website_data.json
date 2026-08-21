@@ -27,7 +27,10 @@
       "Total websites kitni hain?",
       "How many official sites are there?",
       "Give me the list of all your sites",
-      "Tell me all your web URLs"
+      "Tell me all your web URLs",
+      "Show me your all websites",
+      "show me your all websites",
+      "Show me all your websites"
     ],
     "responses": [
       "We have 2 official websites. You can visit them below:\n\n[Optimatrix](https://www.optimatrix.in/) [OptiInfo](https://www.optiinfo.com/)"

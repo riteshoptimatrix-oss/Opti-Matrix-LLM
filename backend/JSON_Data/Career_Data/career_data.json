@@ -24,9 +24,9 @@
       "I want to become a web developer in your company"
     ],
     "responses": [
-      "We are thrilled that you want to join our team! For Web Developer roles and other opportunities, please apply directly through our official careers page. We review applications regularly. Apply here: https://www.optimatrix.in/apply",
-      "Thank you for your interest in joining Opti Matrix as a Web Developer! Please submit your resume and details on our career portal: https://www.optimatrix.in/apply",
-      "To apply for a Web Developer or Website Developer role at our company, please visit our application page and submit your profile. Here is the link to apply: https://www.optimatrix.in/apply"
+      "We are thrilled that you want to join our team! For Web Developer roles and other opportunities, please apply directly through our official careers page. We review applications regularly. [Apply Here...](https://www.optimatrix.in/apply)",
+      "Thank you for your interest in joining Opti Matrix as a Web Developer! Please submit your resume and details on our career portal. [Apply Here...](https://www.optimatrix.in/apply)",
+      "To apply for a Web Developer or Website Developer role at our company, please visit our application page and submit your profile. [Apply Here...](https://www.optimatrix.in/apply)"
     ]
   },
   {
@@ -39,6 +39,80 @@
     ],
     "responses": [
       "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information."
+    ]
+  },
+  {
+    "intent": "career_general_inquiry",
+    "patterns": [
+      "Are you hiring?",
+      "Do you have any job openings?",
+      "I am looking for a job",
+      "Current vacancies in your company",
+      "Can I work at Opti Matrix?",
+      "Careers at Opti Matrix",
+      "Job opportunities",
+      "Current job openings"
+    ],
+    "responses": [
+      "We are always on the lookout for talented professionals to join our growing team. You can check our current openings and apply online. [Apply Here...](https://www.optimatrix.in/apply)"
+    ]
+  },
+  {
+    "intent": "career_app_developer",
+    "patterns": [
+      "App developer role",
+      "Mobile app developer job",
+      "Are you hiring Android developers?",
+      "Are you hiring iOS developers?",
+      "Vacancy for app developer",
+      "I want to join as an app developer",
+      "Looking for a job as a mobile developer"
+    ],
+    "responses": [
+      "If you're passionate about building great mobile experiences, we'd love to hear from you. For Android and iOS developer roles, please apply via our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
+    ]
+  },
+  {
+    "intent": "career_ui_ux_designer",
+    "patterns": [
+      "UI UX designer role",
+      "Are you hiring UI designers?",
+      "Are you hiring UX designers?",
+      "Graphic designer job",
+      "Vacancy for designer",
+      "I want to join as a designer",
+      "Looking for a job as a UI/UX designer"
+    ],
+    "responses": [
+      "We are always searching for creative minds to craft beautiful interfaces! Please submit your portfolio and resume on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
+    ]
+  },
+  {
+    "intent": "career_internship",
+    "patterns": [
+      "Do you offer internships?",
+      "Are there any internship opportunities?",
+      "Can I join as an intern?",
+      "Internship for freshers",
+      "Looking for an internship",
+      "Summer internship"
+    ],
+    "responses": [
+      "Yes, we provide exciting internship opportunities for freshers and students to learn and grow. Please share your details through our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
+    ]
+  },
+  {
+    "intent": "career_hr_contact",
+    "patterns": [
+      "How to contact HR?",
+      "HR email address",
+      "Can I talk to HR?",
+      "Who is the HR manager?",
+      "HR contact details",
+      "Send resume to HR"
+    ],
+    "responses": [
+      "For all recruitment and HR-related queries, the best way to reach us is by submitting an application directly on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
     ]
   }
 ]

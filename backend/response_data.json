@@ -27,12 +27,27 @@
     "Good night! Have a peaceful rest."
   ],
   "career_web_developer": [
-    "We are thrilled that you want to join our team! For Web Developer roles and other opportunities, please apply directly through our official careers page. We review applications regularly. Apply here: https://www.optimatrix.in/apply",
-    "Thank you for your interest in joining Opti Matrix as a Web Developer! Please submit your resume and details on our career portal: https://www.optimatrix.in/apply",
-    "To apply for a Web Developer or Website Developer role at our company, please visit our application page and submit your profile. Here is the link to apply: https://www.optimatrix.in/apply"
+    "We are thrilled that you want to join our team! For Web Developer roles and other opportunities, please apply directly through our official careers page. We review applications regularly. [Apply Here...](https://www.optimatrix.in/apply)",
+    "Thank you for your interest in joining Opti Matrix as a Web Developer! Please submit your resume and details on our career portal. [Apply Here...](https://www.optimatrix.in/apply)",
+    "To apply for a Web Developer or Website Developer role at our company, please visit our application page and submit your profile. [Apply Here...](https://www.optimatrix.in/apply)"
   ],
   "restricted_location_pakistan": [
     "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information."
+  ],
+  "career_general_inquiry": [
+    "We are always on the lookout for talented professionals to join our growing team. You can check our current openings and apply online. [Apply Here...](https://www.optimatrix.in/apply)"
+  ],
+  "career_app_developer": [
+    "If you're passionate about building great mobile experiences, we'd love to hear from you. For Android and iOS developer roles, please apply via our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
+  ],
+  "career_ui_ux_designer": [
+    "We are always searching for creative minds to craft beautiful interfaces! Please submit your portfolio and resume on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
+  ],
+  "career_internship": [
+    "Yes, we provide exciting internship opportunities for freshers and students to learn and grow. Please share your details through our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
+  ],
+  "career_hr_contact": [
+    "For all recruitment and HR-related queries, the best way to reach us is by submitting an application directly on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
   ],
   "ceo_general": [
     "Vishal Shah is the Founder & CEO of Opti Matrix Solutions."
@@ -67,6 +82,15 @@
   "ceo_photo": [
     "PROFILE_CARD:Vishal Shah|Founder & CEO|Opti Matrix Solutions|https://in.linkedin.com/in/shahvishal4u|https://media.licdn.com/dms/image/v2/D4D03AQFvDJWvfIc1mA/profile-displayphoto-scale_200_200/B4DZr.YM9jH4AY-/0/1765204350661?e=2147483647&v=beta&t=JKUFNMShN2k0h6uXrADsoKAh2_CicZnGLEnHGKrTPfw"
   ],
+  "ceo_achievements": [
+    "Under Vishal Shah's leadership, Opti Matrix has delivered over 500 successful projects globally and earned a reputation for excellence in the IT industry."
+  ],
+  "ceo_message": [
+    "Vishal Shah believes that true success comes from empowering clients with innovative technology and building long-term, trust-based relationships."
+  ],
+  "ceo_contact": [
+    "You can connect with Vishal Shah directly on LinkedIn: [View LinkedIn Profile](https://in.linkedin.com/in/shahvishal4u) or contact Opti Matrix through our official support channels."
+  ],
   "client_general": [
     "You can view all our esteemed clients by clicking the button below:\n\n[View All Clients](https://www.optiinfo.com/our-clients/)",
     "We have worked with clients from different industries. You can view our client portfolio here:\n\n[View All Clients](https://www.optiinfo.com/our-clients/)",
@@ -85,8 +109,8 @@
     "Hello! I am the OptiMatrix AI assistant. I'm here to help you with information about Opti Matrix, our web and software development services, technologies, project estimates, company history, and contact details."
   ],
   "company_general": [
-    "Opti Matrix Solutions is a result-driven digital agency and offshore software development company providing customized technology solutions globally.",
-    "Opti Matrix is a digital agency specializing in software development, website design and development, application development, graphics, mobile solutions, SEO, and digital marketing."
+    "Opti Matrix Solutions is a result-driven digital agency and offshore software development company providing customized technology solutions globally. [About Us](https://www.optiinfo.com/about/)",
+    "Opti Matrix is a digital agency specializing in software development, website design and development, application development, graphics, mobile solutions, SEO, and digital marketing. [About Us](https://www.optiinfo.com/about/)"
   ],
   "company_founded": [
     "Opti Matrix Solutions began its journey in 2010 as a startup with a vision of creating amazing digital experiences."
@@ -305,6 +329,15 @@
   ],
   "before_after_work": [
     "You can see our Before & After work to understand the dramatic improvements we make for our clients.\n\n[View Before After Work](https://www.optiinfo.com/our-portfolio/)"
+  ],
+  "ui_ux_portfolio": [
+    "Take a look at our Design Portfolio to see the beautiful and intuitive interfaces we have crafted.\n\n[View Design Portfolio](https://www.optiinfo.com/our-portfolio/)"
+  ],
+  "ecommerce_portfolio": [
+    "We have extensive experience building robust online stores. Browse our eCommerce Portfolio to see our work.\n\n[View eCommerce Portfolio](https://www.optiinfo.com/our-portfolio/)"
+  ],
+  "recent_projects": [
+    "We are always building exciting new things! Check out our latest projects and recent work in our portfolio.\n\n[View Recent Work](https://www.optiinfo.com/our-portfolio/)"
   ],
   "policy_privacy_general": [
     "Our Privacy Policy governs your visit to optiinfo.com, explaining how we collect, safeguard, and disclose information resulting from your use of our Service. By using our Service, you agree to the collection and use of information in accordance with this policy. For questions, you can contact us at info@optinfo.com."
