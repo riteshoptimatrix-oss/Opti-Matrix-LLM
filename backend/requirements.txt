@@ -3,7 +3,7 @@ uvicorn
 scikit-learn
 joblib
 pydantic
-pymongo[srv]
+pymongo[srv]==4.9.0
 python-dotenv
 certifi
 pymongo

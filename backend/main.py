@@ -15,6 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from pymongo import MongoClient
+from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
 
 # Setup logging
 logging.basicConfig(
@@ -40,6 +41,7 @@ MONGODB_URI = os.getenv("MONGODB_URI")
 if MONGODB_URI:
     try:
         mongo_client = MongoClient(MONGODB_URI, tlsCAFile=certifi.where())
+        mongo_client.admin.command('ping')
         try:
             db = mongo_client.get_database()
         except Exception:
@@ -47,7 +49,7 @@ if MONGODB_URI:
         sessions_collection = db["chat_sessions"]
         logger.info("MongoDB connected successfully for session storage.")
     except Exception as e:
-        logger.error(f"Failed to connect to MongoDB: {e}")
+        logger.error("Failed to connect to MongoDB. Check credentials, URI format, and network connectivity.")
 
 def get_session(session_id: str) -> dict:
     if sessions_collection is not None:
@@ -339,6 +341,12 @@ async def predict_intent(request: PredictRequest):
             suggested_questions=suggested_questions
         )
 
+    except (PyMongoError, ServerSelectionTimeoutError) as db_err:
+        logger.error("Database connection error during prediction.")
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Database connection error. Please try again later."
+        )
     except Exception as e:
         logger.error(f"Prediction error: {e}", exc_info=True)
         return PredictResponse(
