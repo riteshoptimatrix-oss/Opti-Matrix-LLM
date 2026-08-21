@@ -1,0 +1,82 @@
+[
+  {
+    "intent": "angular_general_info",
+    "patterns": [
+      "What is AngularJS?",
+      "Is Angular the same as AngularJS?",
+      "Why should I choose AngularJS for my project?",
+      "What is the MVC pattern in Angular?",
+      "Does Angular have a good community?"
+    ],
+    "responses": [
+      "AngularJS (1.x) is a structural framework for dynamic web apps, originally developed by Google. Modern Angular (2+) is a complete rewrite using TypeScript. It uses an MVC pattern to separate logic, data, and presentation, resulting in an expressive, readable environment backed by a massive community."
+    ]
+  },
+  {
+    "intent": "angular_tech_features",
+    "patterns": [
+      "What is two-way data binding?",
+      "What is Dependency Injection in Angular?",
+      "How does Angular handle routing?",
+      "What are Angular Directives?",
+      "Does Angular support server-side rendering?",
+      "What is Ahead-of-Time (AOT) compilation?",
+      "What is lazy loading in Angular?",
+      "What is Angular CLI?",
+      "How secure are Angular applications?",
+      "What is RxJS in Angular?"
+    ],
+    "responses": [
+      "Angular boasts robust features including two-way data binding, Dependency Injection (DI) for modularity, built-in routing, custom Directives, Angular Universal for server-side rendering, AOT compilation and lazy loading for immense speed, Angular CLI for rapid scaffolding, RxJS for asynchronous operations, and built-in protections against XSS and CSRF."
+    ]
+  },
+  {
+    "intent": "angular_capabilities",
+    "patterns": [
+      "Can you build Single Page Applications (SPAs) with Angular?",
+      "Is AngularJS good for testing?",
+      "Is Angular suitable for enterprise applications?",
+      "Is Angular SEO friendly?",
+      "Does Angular work on mobile devices?",
+      "Can you build an eCommerce platform using Angular?",
+      "Does Angular support progressive web apps (PWAs)?"
+    ],
+    "responses": [
+      "Angular is highly versatile and testable from the ground up. It is the perfect choice for building highly responsive Single Page Applications (SPAs), secure eCommerce platforms, Progressive Web Apps (PWAs), cross-platform mobile apps (via Ionic), and large-scale enterprise applications. With server-side rendering, it is fully SEO-friendly."
+    ]
+  },
+  {
+    "intent": "angular_services",
+    "patterns": [
+      "Does Opti Matrix provide AngularJS development?",
+      "Does Opti Matrix support two-way data binding in projects?",
+      "Do you use TypeScript for Angular development?",
+      "Can Opti Matrix migrate my AngularJS app to modern Angular?",
+      "Do you build custom directives?",
+      "Can you integrate REST APIs with Angular?",
+      "What UI libraries do you use with Angular?",
+      "How do you manage state in large Angular apps?",
+      "Can you optimize a slow Angular application?",
+      "Does Opti Matrix provide ongoing maintenance for Angular apps?",
+      "Do you write unit tests for Angular applications?",
+      "Do you provide Angular consulting services?",
+      "Can Opti Matrix rescue an unfinished Angular project?",
+      "Can you integrate payment gateways in an Angular app?",
+      "Do your Angular developers know Node.js?"
+    ],
+    "responses": [
+      "Opti Matrix provides comprehensive Angular services, from legacy AngularJS migrations to building modern Angular apps with TypeScript. We handle REST API/payment integrations, custom directives, UI libraries (Angular Material/Bootstrap), state management (NgRx), deep optimization (AOT/lazy loading), unit testing (Jasmine/Karma), consulting, ongoing maintenance, and rescuing unfinished projects. We also offer full MEAN stack capabilities."
+    ]
+  },
+  {
+    "intent": "angular_hiring",
+    "patterns": [
+      "Can I hire dedicated Angular developers from Opti Matrix?",
+      "Are your Angular developers experienced?",
+      "Why choose Opti Matrix for Angular development in India?"
+    ],
+    "responses": [
+      "You can hire elite, highly experienced Angular developers from Opti Matrix in India on flexible monthly, part-time, or hourly models. We guarantee strict quality assurance, transparent communication, and timely delivery of enterprise-grade Angular solutions at highly competitive rates."
+    ]
+  }
+]

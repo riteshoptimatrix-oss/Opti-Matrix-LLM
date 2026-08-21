@@ -1,0 +1,104 @@
+[
+  {
+    "intent": "psd_layout_general",
+    "patterns": [
+      "What are PSD layouts?",
+      "What is a PSD web layout?",
+      "What does PSD stand for?",
+      "Are PSD layouts only for design?",
+      "Is PSD a website?",
+      "Can a PSD file directly run as a website?",
+      "PSD layout?",
+      "What is PSD web design?",
+      "PSD file",
+      "photoshop_design"
+    ],
+    "responses": [
+      "PSD stands for Photoshop Document. A PSD layout is a visual design created in Adobe Photoshop that represents the layout and appearance of a website before it is converted into functional web pages. It is a design file, not a working website."
+    ]
+  },
+  {
+    "intent": "psd_template_catalog",
+    "patterns": [
+      "What is a PSD template?",
+      "Do you have PSD website templates?",
+      "Can I choose a PSD template instead of designing one from scratch?",
+      "Are PSD templates available in different designs?",
+      "Why should I use a website layout template?",
+      "Can PSD templates save design time?",
+      "Do you provide premium quality PSD templates?",
+      "Can I select a template before starting website development?",
+      "How can I choose a PSD template?",
+      "Do you have PSD templates?",
+      "Can I choose a PSD template?",
+      "Where can I find your PSD templates?",
+      "Do you provide website templates?",
+      "Can I use your PSD template?",
+      "I want a ready-made PSD template.",
+      "Do you have website layout templates?",
+      "Can I select a template for my website?",
+      "website_layout_template",
+      "website_template",
+      "premium_psd_template"
+    ],
+    "responses": [
+      "A PSD template is a pre-designed website layout. Opti Matrix offers a large catalogue of premium-quality PSD templates. You can preview and select a design from our collection to save time and money instead of starting from scratch."
+    ]
+  },
+  {
+    "intent": "psd_custom_layout",
+    "patterns": [
+      "Do you provide PSD layout design services?",
+      "Can you create a custom PSD layout for my business?",
+      "Can you design a PSD template according to my company profile?",
+      "I need a PSD layout.",
+      "Do you create PSD layouts?",
+      "Can you make PSD design?",
+      "PSD website design?",
+      "I need a Photoshop website layout.",
+      "Can you design my website in PSD?",
+      "Do you offer PSD designing?",
+      "Can you create a custom PSD?",
+      "Can you design PSD according to my business?",
+      "I need a custom website layout.",
+      "Can you make a PSD based on my company?",
+      "Can you create a unique PSD template?",
+      "I don't want a ready-made template.",
+      "Can you create my own website design in PSD?",
+      "psd_design_service"
+    ],
+    "responses": [
+      "Yes. If you don't want a ready-made template, our creative designers can create a completely custom, unique PSD layout tailored specifically to your business requirements and company profile."
+    ]
+  },
+  {
+    "intent": "psd_template_integration",
+    "patterns": [
+      "Can I provide my own PSD template?",
+      "Can I use a PSD template for my website?",
+      "Can you integrate a PSD template into my website?",
+      "Can I add my own content to a PSD template?",
+      "Do you help with PSD template integration?",
+      "Can you integrate my PSD into a website?",
+      "I already have a PSD design.",
+      "Can you convert my PSD design into a website?",
+      "Can you use my PSD template?",
+      "I have a Photoshop design, can you use it?",
+      "Can you implement my PSD design?",
+      "Can your designers work with my PSD?"
+    ],
+    "responses": [
+      "Yes! Whether you select a PSD template from our catalog or provide your own custom Photoshop design, our team can integrate it into a functional website and add your content to make it relevant to your business."
+    ]
+  },
+  {
+    "intent": "psd_website_preview",
+    "patterns": [
+      "Why is a PSD layout important?",
+      "Can I see how my website will look before development?"
+    ],
+    "responses": [
+      "A PSD layout is crucial because it gives you a clear visual representation of your website. It allows you to see exactly what the final appearance and structure will look like before development begins."
+    ]
+  }
+]

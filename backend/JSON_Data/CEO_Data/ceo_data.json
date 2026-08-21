@@ -1,0 +1,207 @@
+[
+  {
+    "intent": "ceo_general",
+    "patterns": [
+      "Who is the owner of Opti Matrix Solutions?",
+      "Who owns Opti Matrix?",
+      "Who is the founder of Opti Matrix?",
+      "Who founded Opti Matrix Solutions?",
+      "Who is the CEO of Opti Matrix?",
+      "Who is the founder and CEO?",
+      "Who runs Opti Matrix?",
+      "Who is behind Opti Matrix?",
+      "Who started Opti Matrix?",
+      "Who established Opti Matrix?",
+      "Tell me about the owner of Opti Matrix.",
+      "Tell me about the founder.",
+      "Company ka owner kaun hai?",
+      "Opti Matrix ka owner kaun hai?",
+      "Opti Matrix ka founder kaun hai?",
+      "Opti Matrix ka CEO kaun hai?",
+      "Opti Matrix ko kaun run karta hai?",
+      "Opti Matrix kisne start ki?",
+      "Aapki company ka founder kaun hai?"
+    ],
+    "responses": [
+      "Vishal Shah is the Founder & CEO of Opti Matrix Solutions."
+    ]
+  },
+  {
+    "intent": "ceo_name",
+    "patterns": [
+      "What is the owner's name?",
+      "What is the founder's name?",
+      "What is the CEO's name?",
+      "Who is Vishal Shah?",
+      "Vishal Shah kaun hain?",
+      "Vishal Shah kaun hai?",
+      "Owner ka naam kya hai?",
+      "Founder ka naam kya hai?",
+      "CEO ka naam kya hai?",
+      "Company ke owner ka naam batao."
+    ],
+    "responses": [
+      "The owner's name is Vishal Shah. He is the Founder & CEO of Opti Matrix Solutions."
+    ]
+  },
+  {
+    "intent": "ceo_designation",
+    "patterns": [
+      "What is Vishal Shah's designation?",
+      "What is Vishal Shah's position?",
+      "What is his role in the company?",
+      "Is Vishal Shah the CEO?",
+      "Is Vishal Shah the founder?",
+      "Vishal Shah ka role kya hai?",
+      "Vishal Shah ki position kya hai?",
+      "Vishal Shah ka designation kya hai?",
+      "Kya Vishal Shah CEO hain?",
+      "Kya Vishal Shah founder hain?"
+    ],
+    "responses": [
+      "Vishal Shah serves as the Founder & CEO of Opti Matrix Solutions."
+    ]
+  },
+  {
+    "intent": "ceo_education",
+    "patterns": [
+      "Tell me about Vishal Shah.",
+      "What is Vishal Shah's background?",
+      "What did Vishal Shah study?",
+      "What is the educational background of Vishal Shah?",
+      "Is Vishal Shah a Computer Science graduate?",
+      "Vishal Shah ki education kya hai?",
+      "Vishal Shah ne kya padha hai?",
+      "Founder ki education kya hai?",
+      "CEO ki education kya hai?",
+      "Vishal Shah ke background ke baare mein batao.",
+      "Study of the CEO",
+      "Education of the CEO",
+      "What is the study of the CEO?"
+    ],
+    "responses": [
+      "Vishal Shah is a Computer Science graduate with strong IT experience since 2007."
+    ]
+  },
+  {
+    "intent": "ceo_experience",
+    "patterns": [
+      "How much IT experience does Vishal Shah have?",
+      "How long has Vishal Shah been in IT?",
+      "When did Vishal Shah start his IT journey?",
+      "What is the founder's IT experience?",
+      "How experienced is Vishal Shah?",
+      "Vishal Shah ka IT experience kitna hai?",
+      "Founder kab se IT mein hain?",
+      "CEO ka IT experience kitna hai?"
+    ],
+    "responses": [
+      "Vishal Shah has strong IT experience dating back to 2007."
+    ]
+  },
+  {
+    "intent": "ceo_vision",
+    "patterns": [
+      "What does Vishal Shah believe in?",
+      "What is Vishal Shah's vision?",
+      "What motivates Vishal Shah?",
+      "What is the founder passionate about?",
+      "What does Vishal Shah focus on?",
+      "Vishal Shah ki vision kya hai?",
+      "Founder technology ke baare mein kya sochte hain?"
+    ],
+    "responses": [
+      "His vision is driven by innovation, technology, and delivering solutions that empower businesses, streamline operations, and enhance digital experiences."
+    ]
+  },
+  {
+    "intent": "ceo_leadership",
+    "patterns": [
+      "Tell me about Vishal Shah's leadership.",
+      "What kind of leader is Vishal Shah?",
+      "What are Vishal Shah's leadership qualities?",
+      "How does Vishal Shah lead his team?",
+      "Is Vishal Shah a good leader?",
+      "Vishal Shah ki leadership kaisi hai?",
+      "Founder ki leadership ke baare mein batao."
+    ],
+    "responses": [
+      "Vishal Shah has strong leadership skills, a customer-centric approach, and a focus on delivering results by empowering his team."
+    ]
+  },
+  {
+    "intent": "ceo_customer_approach",
+    "patterns": [
+      "What is Vishal Shah's approach toward customers?",
+      "Is Vishal Shah customer focused?",
+      "How does he work with clients?",
+      "What is the founder's approach to clients?",
+      "Vishal Shah ka customer approach kya hai?",
+      "Clients ke liye Vishal Shah kaise kaam karte hain?"
+    ],
+    "responses": [
+      "He follows a personalized, customer-centric approach, ensuring solutions are tailored to specific business needs."
+    ]
+  },
+  {
+    "intent": "ceo_ngo",
+    "patterns": [
+      "Is Vishal Shah involved in social work?",
+      "Is Vishal Shah associated with NGOs?",
+      "Does Vishal Shah work with NGOs?",
+      "Is the founder involved in social organizations?",
+      "Tell me about Vishal Shah's social work.",
+      "Vishal Shah NGOs ke saath associated hain?",
+      "Kya Vishal Shah social work karte hain?",
+      "Founder NGO se jude hain?"
+    ],
+    "responses": [
+      "Yes, Founder & CEO Vishal Shah is associated with various NGOs and social organizations."
+    ]
+  },
+  {
+    "intent": "ceo_linkedin",
+    "patterns": [
+      "What is Vishal Shah's LinkedIn?",
+      "Give me Vishal Shah's LinkedIn profile.",
+      "Vishal Shah LinkedIn?",
+      "Founder ka LinkedIn do.",
+      "CEO ka LinkedIn kya hai?",
+      "Can I see the founder's LinkedIn?",
+      "Vishal Shah ki LinkedIn profile bhejo.",
+      "Vishal Shah LinkedIn profile kaha milegi?",
+      "Founder ki LinkedIn profile kya hai?",
+      "Give me the social media links of the CEO",
+      "What are the CEO's social media accounts?",
+      "CEO social media links",
+      "Social media links of founder",
+      "Founder ki social media profile do"
+    ],
+    "responses": [
+      "You can view Vishal Shah's LinkedIn profile here: [View LinkedIn Profile](https://in.linkedin.com/in/shahvishal4u)"
+    ]
+  },
+  {
+    "intent": "ceo_photo",
+    "patterns": [
+      "Who is the owner of Opti Matrix?",
+      "Who is the founder of Opti Matrix Solutions?",
+      "Who is the CEO of Opti Matrix Solutions?",
+      "Show me the owner.",
+      "Show me the founder.",
+      "Show me the CEO.",
+      "Show me Vishal Shah.",
+      "Can I see the owner?",
+      "Can I see the founder?",
+      "Show me the founder's photo.",
+      "Show me the CEO's photo.",
+      "Vishal Shah ki photo dikhao.",
+      "Owner ki photo dikhao.",
+      "Founder ki image dikhao.",
+      "CEO ki image dikhao."
+    ],
+    "responses": [
+      "PROFILE_CARD:Vishal Shah|Founder & CEO|Opti Matrix Solutions|https://in.linkedin.com/in/shahvishal4u|https://media.licdn.com/dms/image/v2/D4D03AQFvDJWvfIc1mA/profile-displayphoto-scale_200_200/B4DZr.YM9jH4AY-/0/1765204350661?e=2147483647&v=beta&t=JKUFNMShN2k0h6uXrADsoKAh2_CicZnGLEnHGKrTPfw"
+    ]
+  }
+]

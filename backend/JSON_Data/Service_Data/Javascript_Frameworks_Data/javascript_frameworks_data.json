@@ -1,0 +1,90 @@
+[
+  {
+    "intent": "js_general_info",
+    "patterns": [
+      "What are JavaScript frameworks?",
+      "Why use a JavaScript framework?",
+      "Which JavaScript frameworks do you specialize in?",
+      "What is Node.js used for?",
+      "Is Node.js a framework?"
+    ],
+    "responses": [
+      "JavaScript frameworks are collections of pre-written JS code that provide a structure for building web applications, speeding up development and managing complex UIs. We specialize in top frameworks like React, Angular, and Vue.js for the frontend, and Node.js (a JavaScript runtime environment) for building fast, scalable backends."
+    ]
+  },
+  {
+    "intent": "js_react_info",
+    "patterns": [
+      "What is React?",
+      "How does React improve performance?",
+      "Do you use Redux with React?",
+      "Do you provide Next.js development?",
+      "Is React SEO friendly?",
+      "Can I hire a dedicated React developer?"
+    ],
+    "responses": [
+      "React is a highly flexible JavaScript library for building user interfaces. It uses a Virtual DOM to maximize rendering performance. Our dedicated React developers use Redux for state management, and frameworks like Next.js for server-side rendering to make applications highly SEO-friendly."
+    ]
+  },
+  {
+    "intent": "js_angular_info",
+    "patterns": [
+      "What is Angular?",
+      "Do your developers know TypeScript?",
+      "Do you provide Angular migration services?",
+      "Does Angular provide built-in routing?",
+      "Does Angular use two-way data binding?",
+      "Can I hire a dedicated Angular developer?"
+    ],
+    "responses": [
+      "Angular is a robust platform by Google for building single-page applications using HTML and TypeScript. It features built-in routing and two-way data binding. You can hire our dedicated Angular developers to build new applications or migrate older AngularJS apps to modern versions."
+    ]
+  },
+  {
+    "intent": "js_vue_info",
+    "patterns": [
+      "What is Vue.js?",
+      "Is Vue.js good for small projects?",
+      "Does Vue have a state management library?",
+      "Can I hire a dedicated Vue.js developer?"
+    ],
+    "responses": [
+      "Vue.js is a progressive, lightweight JavaScript framework perfect for both small projects and large-scale applications. Our dedicated Vue.js developers heavily utilize Vuex, its official state management library, to build robust UIs."
+    ]
+  },
+  {
+    "intent": "js_fullstack_node",
+    "patterns": [
+      "Can you build a full-stack JavaScript application?",
+      "What is the MERN stack?",
+      "What is the MEAN stack?",
+      "What is Express.js?",
+      "Is JavaScript good for real-time applications?",
+      "Why is Node.js fast?"
+    ],
+    "responses": [
+      "Yes, we build robust full-stack applications using the MERN (MongoDB, Express, React, Node) and MEAN (MongoDB, Express, Angular, Node) stacks. Node.js is incredibly fast due to its non-blocking I/O model, making it (along with Express.js) perfect for building real-time applications like chats and live dashboards."
+    ]
+  },
+  {
+    "intent": "js_capabilities_services",
+    "patterns": [
+      "Does Opti Matrix provide JavaScript framework development?",
+      "Can you build Single Page Applications (SPAs)?",
+      "Can I hire JavaScript developers from Opti Matrix?",
+      "Can you optimize my existing JavaScript application?",
+      "Does JavaScript work on mobile?",
+      "Can Opti Matrix handle large enterprise JS projects?",
+      "How do you ensure code quality in JavaScript?",
+      "Can you integrate REST APIs with frontend frameworks?",
+      "What is GraphQL?",
+      "Can you build an eCommerce store using JavaScript frameworks?",
+      "Do you build custom JavaScript plugins/widgets?",
+      "What package managers do you use?",
+      "Why choose Opti Matrix for JavaScript development?"
+    ],
+    "responses": [
+      "Opti Matrix is your premier partner for JavaScript development. We build SPAs, cross-platform mobile apps (React Native), headless eCommerce stores, and enterprise-level JS projects. We integrate REST APIs and GraphQL, ensure code quality with ESLint/Jest, use npm/Yarn, and provide custom plugin development. You can hire our full-stack JS experts to optimize existing apps or build from scratch at highly competitive rates."
+    ]
+  }
+]

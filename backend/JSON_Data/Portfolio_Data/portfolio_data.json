@@ -1,0 +1,92 @@
+[
+  {
+    "intent": "portfolio_general",
+    "patterns": [
+      "Show me your portfolio",
+      "Where can I see your portfolio?",
+      "I want to see your work",
+      "Show your work",
+      "Show me your previous work",
+      "What work have you completed?",
+      "What kind of projects have you worked on?",
+      "Can I see examples of your work?",
+      "Do you have a project portfolio?",
+      "Show me portfolio"
+    ],
+    "responses": [
+      "Sure! You can explore our portfolio and see the projects we have worked on.\n\n[View Portfolio](https://www.optiinfo.com/our-portfolio/)\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
+    ]
+  },
+  {
+    "intent": "show_all_projects",
+    "patterns": [
+      "Show me the projects you have done",
+      "Show me all projects",
+      "Show me your projects",
+      "What projects have you done?",
+      "Show your completed projects",
+      "Show me all your work",
+      "I want to see your projects",
+      "Can I see your projects?",
+      "Show previous projects",
+      "Show past projects",
+      "Show me all your projects",
+      "Can I see your previous work?",
+      "Can I see your past projects?"
+    ],
+    "responses": [
+      "Sure! Explore all the projects completed by Opti Matrix.\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
+    ]
+  },
+  {
+    "intent": "web_portfolio",
+    "patterns": [
+      "Show me web projects",
+      "Do you have web portfolio?",
+      "Can I see your web development projects?",
+      "Show me websites you have built",
+      "Web portfolio examples"
+    ],
+    "responses": [
+      "Here is our Web Portfolio showcasing some of the best websites we have developed.\n\n[View Web Portfolio](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  },
+  {
+    "intent": "app_portfolio",
+    "patterns": [
+      "Show me app projects",
+      "Do you have an app portfolio?",
+      "Can I see your mobile app projects?",
+      "Show me apps you have built",
+      "App portfolio examples"
+    ],
+    "responses": [
+      "Check out our App Portfolio to see the mobile applications we've built for Android and iOS.\n\n[View App Portfolio](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  },
+  {
+    "intent": "case_study",
+    "patterns": [
+      "Do you have case studies?",
+      "Show me a case study",
+      "Can I read your case studies?",
+      "Project case studies",
+      "Show case studies"
+    ],
+    "responses": [
+      "We have detailed case studies available that explain how we solved complex problems for our clients.\n\n[View Case Studies](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  },
+  {
+    "intent": "before_after_work",
+    "patterns": [
+      "Show me before after work",
+      "Before and after projects",
+      "Do you have before after examples?",
+      "Show before after comparisons"
+    ],
+    "responses": [
+      "You can see our Before & After work to understand the dramatic improvements we make for our clients.\n\n[View Before After Work](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  }
+]

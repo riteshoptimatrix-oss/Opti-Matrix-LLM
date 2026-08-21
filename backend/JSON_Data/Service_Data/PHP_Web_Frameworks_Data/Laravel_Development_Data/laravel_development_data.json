@@ -1,0 +1,90 @@
+[
+  {
+    "intent": "laravel_general_info",
+    "patterns": [
+      "What is Laravel?",
+      "Is Laravel an MVC framework?",
+      "Why should I choose Laravel for my web application?",
+      "What makes Laravel unique compared to other PHP frameworks?",
+      "Is Laravel cost-effective?",
+      "Does Laravel have a good community?"
+    ],
+    "responses": [
+      "Laravel is a highly expressive, elegant, open-source PHP web framework that follows the MVC architectural pattern. It is unique due to its elegant syntax, built-in functionalities, and active community. Choosing Laravel is highly cost-effective because it drastically reduces development time and complexity."
+    ]
+  },
+  {
+    "intent": "laravel_features_tech",
+    "patterns": [
+      "Does Laravel provide high security?",
+      "What is Eloquent ORM in Laravel?",
+      "What is Blade in Laravel?",
+      "What is the Artisan command-line tool?",
+      "Does Laravel support database migrations?",
+      "Does Laravel handle routing easily?",
+      "Does Laravel support unit testing?",
+      "Is Laravel SEO friendly?",
+      "Does Laravel support localization and multiple languages?",
+      "How does Laravel handle caching?",
+      "Does Laravel handle user authentication easily?",
+      "Does Laravel support queue management?"
+    ],
+    "responses": [
+      "Laravel offers robust built-in features including high-level security (CSRF, XSS protection), the Eloquent ORM for expressive database interactions, the Blade templating engine, Artisan CLI, easy routing, database migrations, native PHPUnit testing, unified caching (Redis/Memcached), background queue management, localization for multiple languages, and built-in scaffolding for secure user authentication."
+    ]
+  },
+  {
+    "intent": "laravel_advanced_tools",
+    "patterns": [
+      "What is Laravel Forge?",
+      "What is Laravel Envoy?",
+      "What is Laravel Echo?",
+      "What is Laravel Nova?"
+    ],
+    "responses": [
+      "The Laravel ecosystem includes advanced tools which our experts utilize: Laravel Forge for server management, Laravel Envoy for remote deployment tasks, Laravel Echo for real-time WebSocket event broadcasting, and Laravel Nova for beautifully designed administration panels."
+    ]
+  },
+  {
+    "intent": "laravel_project_suitability",
+    "patterns": [
+      "Can you build an e-commerce website using Laravel?",
+      "Does Laravel support API development?",
+      "Is Laravel good for large enterprise applications?",
+      "Does Opti Matrix build SaaS applications using Laravel?"
+    ],
+    "responses": [
+      "Yes, Laravel's robust architecture makes it the perfect choice for building highly scalable e-commerce solutions, RESTful APIs, large-scale enterprise applications, and complex multi-tenant SaaS (Software as a Service) platforms."
+    ]
+  },
+  {
+    "intent": "laravel_development_services",
+    "patterns": [
+      "Does Opti Matrix provide Laravel Development services?",
+      "Does Opti Matrix develop custom Laravel modules?",
+      "Can you upgrade my existing PHP application to Laravel?",
+      "Do you provide ongoing maintenance for Laravel projects?",
+      "How fast is Laravel development?",
+      "Can you integrate third-party APIs with Laravel?",
+      "Does Opti Matrix provide Laravel consulting services?",
+      "Can you migrate my WordPress site to Laravel?",
+      "Do you provide Laravel package development?",
+      "Can Opti Matrix complete my unfinished Laravel project?",
+      "Can you optimize my slow Laravel application?"
+    ],
+    "responses": [
+      "Opti Matrix provides extensive, end-to-end Laravel development services. We offer everything from rapid from-scratch development and strategic consulting to integrating third-party APIs, custom package/module creation, legacy PHP/WordPress migrations, speed optimizations, and rescuing unfinished projects. We also offer flexible ongoing maintenance plans."
+    ]
+  },
+  {
+    "intent": "laravel_hiring_opti_matrix",
+    "patterns": [
+      "Can I hire dedicated Laravel developers from Opti Matrix?",
+      "Do your Laravel developers understand front-end technologies?",
+      "Why choose Opti Matrix for Laravel development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, passionate full-stack Laravel developers in India who are also proficient in front-end technologies like Vue.js and React. You can hire dedicated Laravel experts on a flexible monthly, part-time, or hourly basis to guarantee high-quality, professional, and on-time delivery at competitive rates."
+    ]
+  }
+]

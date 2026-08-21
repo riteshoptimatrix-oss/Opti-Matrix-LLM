@@ -1,0 +1,82 @@
+[
+  {
+    "intent": "nextjs_general_info",
+    "patterns": [
+      "What is Next.js?",
+      "Is Next.js built on top of React?",
+      "Why should I choose Next.js?",
+      "How does Next.js handle routing?",
+      "Is Next.js fast?",
+      "Does Next.js have fast refresh?"
+    ],
+    "responses": [
+      "Next.js is a powerful React framework that provides out-of-the-box features like file-system based routing, incredibly fast performance, automatic code splitting, and Fast Refresh for a superb developer experience."
+    ]
+  },
+  {
+    "intent": "nextjs_tech_features",
+    "patterns": [
+      "What is Server-Side Rendering (SSR) in Next.js?",
+      "What is Static Site Generation (SSG) in Next.js?",
+      "Can I use both SSR and SSG in the same Next.js app?",
+      "Does Next.js support API routes?",
+      "What is Incremental Static Regeneration (ISR)?",
+      "Does Next.js have a built-in image optimization?",
+      "Does Next.js support Internationalization (i18n)?",
+      "Does Next.js support CSS modules?",
+      "Does Next.js support AMP (Accelerated Mobile Pages)?",
+      "What is dynamic import in Next.js?"
+    ],
+    "responses": [
+      "Next.js allows you to use Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering on a per-page basis. It boasts advanced features like Incremental Static Regeneration (ISR), built-in API routes, automatic image optimization, internationalized routing (i18n), CSS Modules, AMP support, and dynamic imports for lazy loading."
+    ]
+  },
+  {
+    "intent": "nextjs_capabilities",
+    "patterns": [
+      "Is Next.js good for SEO?",
+      "Can Opti Matrix build an eCommerce site with Next.js?",
+      "Can you integrate a headless CMS with Next.js?",
+      "Is Next.js good for large enterprise applications?",
+      "Can you build SaaS platforms with Next.js?",
+      "Does Next.js support WebSockets?"
+    ],
+    "responses": [
+      "Because of its SSR and SSG capabilities, Next.js provides unmatched SEO performance. It is the premier choice for headless eCommerce platforms, headless CMS integrations (Sanity/Contentful), highly interactive SaaS applications, and large-scale enterprise solutions. We can also integrate WebSockets for real-time functionality."
+    ]
+  },
+  {
+    "intent": "nextjs_services",
+    "patterns": [
+      "Does Opti Matrix provide Next.js development?",
+      "Does Opti Matrix optimize Next.js performance?",
+      "Do your Next.js developers use TypeScript?",
+      "Can you migrate my React app to Next.js?",
+      "What styling solutions do you use with Next.js?",
+      "Can you deploy Next.js on Vercel?",
+      "Do you deploy Next.js to AWS?",
+      "Do you provide Next.js consulting services?",
+      "How secure are Next.js applications?",
+      "What is NextAuth.js?",
+      "Can Opti Matrix rescue an unfinished Next.js project?",
+      "Do you write unit tests for Next.js applications?",
+      "Does Next.js support custom server configuration?",
+      "Can you integrate third-party APIs in Next.js?",
+      "Do you provide ongoing maintenance for Next.js apps?"
+    ],
+    "responses": [
+      "Opti Matrix provides end-to-end Next.js services. We migrate standard React apps to Next.js, use TypeScript for robust codebases, and integrate styles like Tailwind CSS. We deploy to Vercel and AWS, utilize NextAuth.js for rock-solid security, integrate third-party APIs, write Jest unit tests, rescue unfinished projects, and offer ongoing maintenance and strategic consulting."
+    ]
+  },
+  {
+    "intent": "nextjs_hiring",
+    "patterns": [
+      "Can I hire dedicated Next.js developers from Opti Matrix?",
+      "Are your Next.js developers experienced?",
+      "Why choose Opti Matrix for Next.js development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses an elite team of highly experienced Next.js developers in India. You can hire dedicated experts on flexible monthly, part-time, or hourly models, guaranteeing modern architectures, strict quality assurance, and highly competitive pricing."
+    ]
+  }
+]

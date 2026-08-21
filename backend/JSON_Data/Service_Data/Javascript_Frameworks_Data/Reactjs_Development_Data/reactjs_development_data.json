@@ -1,0 +1,82 @@
+[
+  {
+    "intent": "react_general_info",
+    "patterns": [
+      "What is React.js?",
+      "Is React a framework or a library?",
+      "Why should I choose React for my project?",
+      "What is the Virtual DOM in React?",
+      "What is JSX in React?",
+      "How fast is the development process with React?"
+    ],
+    "responses": [
+      "React.js is a highly flexible, open-source JavaScript library developed by Facebook for building user interfaces. It uses a Virtual DOM for blazing-fast rendering and JSX syntax for intuitive development. Because of its component-based architecture and reusability, it significantly accelerates the overall development process."
+    ]
+  },
+  {
+    "intent": "react_tech_features",
+    "patterns": [
+      "How do you handle state management in React?",
+      "What is Redux?",
+      "Do your developers use React Hooks?",
+      "Is React SEO friendly?",
+      "What is Next.js?",
+      "What is React Native?",
+      "What is code splitting in React?",
+      "How secure are React applications?",
+      "What is the MERN stack?",
+      "What is Gatsby?"
+    ],
+    "responses": [
+      "React handles complex state management using Redux or Context API. Our developers heavily utilize React Hooks for functional components. While standard React SPAs can be tough for SEO, we use frameworks like Next.js (for server-side rendering) or Gatsby (for static generation) to ensure 100% SEO friendliness. We also utilize code splitting for faster loads, MERN stack integration for full-stack solutions, and React Native for mobile apps."
+    ]
+  },
+  {
+    "intent": "react_capabilities",
+    "patterns": [
+      "Can you build Single Page Applications (SPAs) with React?",
+      "Can you build an eCommerce store using React?",
+      "Does React work on mobile devices?",
+      "Can React be used for enterprise applications?",
+      "Does React support progressive web apps (PWAs)?",
+      "Can you integrate a CMS with a React frontend?"
+    ],
+    "responses": [
+      "React is exceptionally versatile. It is the premier choice for building lightning-fast Single Page Applications (SPAs), headless eCommerce storefronts, headless CMS integrations (like Contentful or headless WordPress), large-scale enterprise dashboards, and Progressive Web Apps (PWAs). With React Native, we can also deploy to mobile devices."
+    ]
+  },
+  {
+    "intent": "react_services",
+    "patterns": [
+      "Does Opti Matrix provide React.js development?",
+      "Does Opti Matrix build custom React components?",
+      "Can you migrate my existing website to React?",
+      "Does Opti Matrix provide Next.js development?",
+      "Do you offer React Native development?",
+      "Can you integrate third-party APIs with React?",
+      "Do you use GraphQL with React?",
+      "Can you optimize a slow React application?",
+      "Do you write unit tests for React applications?",
+      "What UI libraries do you use with React?",
+      "Does Opti Matrix provide React consulting services?",
+      "Can Opti Matrix rescue an unfinished React project?",
+      "Do your React developers know Node.js?",
+      "Do you use TypeScript with React?",
+      "Do you provide ongoing maintenance for React apps?"
+    ],
+    "responses": [
+      "Opti Matrix provides end-to-end React services. We handle migrations, custom component creation, full-stack MERN development (Node.js backend), Next.js and React Native development. We use TypeScript for type safety, Jest for unit testing, and UI libraries like Material-UI. We also optimize slow applications, integrate GraphQL APIs, rescue unfinished projects, offer strategic consulting, and provide ongoing maintenance."
+    ]
+  },
+  {
+    "intent": "react_hiring",
+    "patterns": [
+      "Can I hire dedicated React developers from Opti Matrix?",
+      "Are your React developers experienced?",
+      "Why choose Opti Matrix for React development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses elite, highly experienced React developers in India. You can hire dedicated experts on flexible monthly, part-time, or hourly models. We guarantee agile methodologies, strict quality control, and timely delivery of complex web applications at highly competitive rates."
+    ]
+  }
+]

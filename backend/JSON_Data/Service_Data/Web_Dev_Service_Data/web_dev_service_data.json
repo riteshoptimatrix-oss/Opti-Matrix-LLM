@@ -1,0 +1,529 @@
+[
+  {
+    "intent": "web_dev_general",
+    "patterns": [
+      "Do you provide web development services?",
+      "What web development services does Opti Matrix offer?",
+      "Can you develop a website for my business?",
+      "Do you provide website development?",
+      "What are your website development services?",
+      "Tell me about your web development services."
+    ],
+    "responses": [
+      "Opti Matrix offers professional website development services focused on performance and cost-effective solutions. We offer a range of services including Custom Website Development, Ecommerce Website Development, PHP Website Development, AJAX Development, and Static Website Development."
+    ]
+  },
+  {
+    "intent": "web_dev_custom",
+    "patterns": [
+      "Do you provide custom website development?",
+      "What is Custom Website Development?",
+      "Why should I choose a custom website for my business?",
+      "Can you create a website according to my business requirements?",
+      "What are custom websites?",
+      "Do you build custom sites?"
+    ],
+    "responses": [
+      "Yes, we provide Custom Website Development services. A custom website is designed around your specific business requirements to act as an online platform for introducing your business, promoting your services, and supporting business processes."
+    ]
+  },
+  {
+    "intent": "web_dev_ecommerce",
+    "patterns": [
+      "Can you create an ecommerce website?",
+      "Do you develop online shopping websites?",
+      "What is the purpose of an ecommerce website?",
+      "Do you build ecommerce stores?",
+      "I want to start an online store, can you help?",
+      "Do you provide ecommerce development?"
+    ],
+    "responses": [
+      "Yes, Opti Matrix provides Ecommerce Website Development services. An ecommerce website provides an online platform where customers can access products or services and shop conveniently, helping businesses expand their presence online."
+    ]
+  },
+  {
+    "intent": "web_dev_php",
+    "patterns": [
+      "Do you provide PHP Website Development?",
+      "What is PHP development?",
+      "Do you build sites in PHP?",
+      "Can you develop my website in PHP?"
+    ],
+    "responses": [
+      "Yes, PHP Website Development is one of the services offered by Opti Matrix. PHP is a secure, fast, and reliable server-side scripting language commonly used for developing dynamic websites and web applications."
+    ]
+  },
+  {
+    "intent": "web_dev_ajax",
+    "patterns": [
+      "Do you provide AJAX Development?",
+      "Can you develop dynamic web applications using AJAX?",
+      "What is AJAX development?",
+      "Do you use AJAX for websites?"
+    ],
+    "responses": [
+      "Yes, Opti Matrix provides AJAX Development. AJAX (Asynchronous JavaScript and XML) is a mix of programming and development technologies used to create dynamic, fast, and interactive web applications."
+    ]
+  },
+  {
+    "intent": "web_dev_static",
+    "patterns": [
+      "Do you develop static websites?",
+      "Can you create a simple website for my business?",
+      "What is a static website?",
+      "I need a simple static website."
+    ],
+    "responses": [
+      "Yes, Static Website Development is one of the services provided by Opti Matrix. We can design a static website according to your business's visual identity, elegance, and presentation needs to act as your online marketing agent."
+    ]
+  },
+  {
+    "intent": "web_dev_provider_info",
+    "patterns": [
+      "Who is the best Web Development Services Provider in Ahmedabad?",
+      "Do you provide web development in India?",
+      "Where do you provide website services?",
+      "Are you a web development company in Ahmedabad?"
+    ],
+    "responses": [
+      "Opti Matrix is a leading Web Development Services Provider in Ahmedabad, India. We offer a range of services from website designing and developing to mobile application development, aiming to provide the best solutions for your business identity on the Internet."
+    ]
+  },
+  {
+    "intent": "web_dev_cost",
+    "patterns": [
+      "Are your web development services cost-effective?",
+      "Is building a website with you affordable?",
+      "Do you offer budget-friendly web solutions?",
+      "How much does a website cost?"
+    ],
+    "responses": [
+      "Yes, Opti Matrix provides performance-driven and cost-effective website development solutions tailored to meet our customers' budgets."
+    ]
+  },
+  {
+    "intent": "web_dev_performance",
+    "patterns": [
+      "Do you build fast websites?",
+      "How is the performance of your websites?",
+      "Can you create a high-performance web application?",
+      "Will my website be fast?"
+    ],
+    "responses": [
+      "Absolutely. We focus on delivering high-performance solutions. By using technologies like PHP and AJAX, we ensure your website is fast, secure, and highly interactive."
+    ]
+  },
+  {
+    "intent": "web_dev_tech",
+    "patterns": [
+      "What technologies do you use for web development?",
+      "Which programming languages do your developers use?",
+      "What platform will my website be built on?"
+    ],
+    "responses": [
+      "We utilize a variety of modern technologies, including PHP for secure server-side scripting, AJAX for dynamic interactions, and Web 2.0 technology to create powerful web applications."
+    ]
+  },
+  {
+    "intent": "web_dev_web20",
+    "patterns": [
+      "Do you use Web 2.0 technology?",
+      "Are your websites built with Web 2.0?",
+      "What is Web 2.0 technology?"
+    ],
+    "responses": [
+      "Yes, we combine Web 2.0 technology with our creative talent and expertise to build applications that help customers achieve measurable results and fast Internet sales."
+    ]
+  },
+  {
+    "intent": "web_dev_results",
+    "patterns": [
+      "Can your website help my business grow?",
+      "Will the website increase my sales?",
+      "Do you guarantee measurable results?"
+    ],
+    "responses": [
+      "Our unique website development methodology is designed to help customers across various industries achieve measurable business results and drive fast Internet sales."
+    ]
+  },
+  {
+    "intent": "web_dev_ecommerce_benefits",
+    "patterns": [
+      "Why should I get an ecommerce website?",
+      "What are the benefits of selling online?",
+      "Why is ecommerce better than a physical store?"
+    ],
+    "responses": [
+      "Ecommerce makes shopping easier and more comfortable for your customers by offering door-step services, eliminating the tedious process of going to a mall. It is a perfect solution for doing great business online."
+    ]
+  },
+  {
+    "intent": "web_dev_php_benefits",
+    "patterns": [
+      "Why should I choose PHP for my website?",
+      "What are the advantages of PHP development?",
+      "Is PHP a good choice for my web app?"
+    ],
+    "responses": [
+      "PHP is a secure, fast, and reliable general-purpose server-side scripting language. It offers many advantages for creating dynamic web pages and makes your site accessible to a wide audience."
+    ]
+  },
+  {
+    "intent": "web_dev_ajax_meaning",
+    "patterns": [
+      "What does AJAX stand for?",
+      "What is the meaning of AJAX?",
+      "Can you explain what AJAX is?"
+    ],
+    "responses": [
+      "AJAX stands for Asynchronous JavaScript and XML. It is a combination of development technologies used to create dynamic, fast, and interactive web applications."
+    ]
+  },
+  {
+    "intent": "web_dev_static_design",
+    "patterns": [
+      "What do you consider when designing a static site?",
+      "How do you design a static website?",
+      "What makes a good static website?"
+    ],
+    "responses": [
+      "When designing a static website, we carefully consider factors like color, elegance, and matching the design to your business grounds. It needs to uniquely present your business as an onshore marketing agent."
+    ]
+  },
+  {
+    "intent": "web_dev_premium_design",
+    "patterns": [
+      "Do you offer premium website design?",
+      "Can you create a premium design for my site?",
+      "I want a high-quality premium website design."
+    ],
+    "responses": [
+      "Yes, we offer Premium Website Design services. We ensure your website's appearance creates a long-lasting impact and makes a great first impression on your customers."
+    ]
+  },
+  {
+    "intent": "web_dev_first_impression",
+    "patterns": [
+      "How do you ensure a good first impression for my website?",
+      "Can you make my website look impressive?",
+      "I want my website to stand out."
+    ],
+    "responses": [
+      "Through our Premium Website Design services, our creative team focuses on the appearance and elegance of your site to make a strong and long-lasting first impression on your clients."
+    ]
+  },
+  {
+    "intent": "web_dev_mobile_apps",
+    "patterns": [
+      "Do you develop mobile applications?",
+      "Can you build an app for iOS or Android?",
+      "Do you offer mobile app development?"
+    ],
+    "responses": [
+      "Yes, we offer Mobile Application Development. Our artistic team develops mobile apps using the perfect fit technology according to your project requirements and current market trends."
+    ]
+  },
+  {
+    "intent": "web_dev_mobile_tech",
+    "patterns": [
+      "What technology do you use for mobile apps?",
+      "How do you develop your mobile applications?"
+    ],
+    "responses": [
+      "Our team uses the perfect fit technology tailored to your specific project requirements and aligned with current market trends to develop high-quality mobile applications."
+    ]
+  },
+  {
+    "intent": "web_dev_digital_marketing",
+    "patterns": [
+      "Do you offer digital marketing services?",
+      "Can you help market my website?",
+      "Do you provide online marketing?"
+    ],
+    "responses": [
+      "Yes, we provide data-driven Digital Marketing services. We can elevate your brand with strategies designed to maximize visibility and engagement."
+    ]
+  },
+  {
+    "intent": "web_dev_seo",
+    "patterns": [
+      "Do you provide SEO services?",
+      "Can you help my website rank higher on Google?",
+      "Do you do Search Engine Optimization?"
+    ],
+    "responses": [
+      "Yes, as part of our Digital Marketing services, we provide SEO (Search Engine Optimization) to help attract, convert, and retain customers effectively."
+    ]
+  },
+  {
+    "intent": "web_dev_social_media",
+    "patterns": [
+      "Do you handle social media marketing?",
+      "Can you promote my business on social media?",
+      "Do you offer social media services?"
+    ],
+    "responses": [
+      "Yes, our Digital Marketing services include social media strategies to help you maximize your brand's visibility and engage with your target audience."
+    ]
+  },
+  {
+    "intent": "web_dev_marketing_benefits",
+    "patterns": [
+      "How can digital marketing help my brand?",
+      "Why should I invest in digital marketing?",
+      "What are the benefits of online marketing?"
+    ],
+    "responses": [
+      "Data-driven digital marketing elevates your brand by maximizing visibility and engagement. Whether through SEO or social media, it helps you attract, convert, and retain customers effectively."
+    ]
+  },
+  {
+    "intent": "web_dev_hire_developers",
+    "patterns": [
+      "Do you have a team of dedicated developers?",
+      "Who will be building my website?",
+      "Are your developers experienced?"
+    ],
+    "responses": [
+      "Yes, every project is built after careful consideration by our team of dedicated developers who have deep expertise and creative talent in various website development techniques."
+    ]
+  },
+  {
+    "intent": "web_dev_business_identity",
+    "patterns": [
+      "Can you help establish my business identity online?",
+      "I want to build my brand on the Internet.",
+      "How can you help my online identity?"
+    ],
+    "responses": [
+      "Our staff will assist you in creating a strong business identity on the Internet. From website designing to mobile apps, we provide the tools to help spread and grow your business."
+    ]
+  },
+  {
+    "intent": "web_dev_trademark",
+    "patterns": [
+      "Why is a website important for an online business?",
+      "Is a website necessary?",
+      "What role does a website play for my business?"
+    ],
+    "responses": [
+      "We understand that a website is the trademark of every online business. It acts as an innovative medium to introduce your business, facilitate processes, and act as your onshore marketing agent."
+    ]
+  },
+  {
+    "intent": "web_dev_technician",
+    "patterns": [
+      "Do you have skilled technicians?",
+      "Who will work on my project?",
+      "Are your developers experienced?"
+    ],
+    "responses": [
+      "Yes, our team consists of skilled technicians with deep knowledge of website development, ensuring every project is handled with expertise and precision."
+    ]
+  },
+  {
+    "intent": "web_dev_frontend_backend",
+    "patterns": [
+      "Do you work on both frontend and backend?",
+      "Do you handle full-stack development?",
+      "Do you provide both client-side and server-side development?"
+    ],
+    "responses": [
+      "Yes, we offer complete web development services, covering both frontend (client-side) and backend (server-side) development to deliver a seamless user experience."
+    ]
+  },
+  {
+    "intent": "web_dev_cost_effectiveness",
+    "patterns": [
+      "Are your services affordable?",
+      "Do you provide value for money?",
+      "Are your development costs reasonable?"
+    ],
+    "responses": [
+      "Yes, we provide the best performance for your website at the best price, ensuring you receive cost-effective solutions without compromising on quality."
+    ]
+  },
+  {
+    "intent": "web_dev_quality",
+    "patterns": [
+      "Do you ensure quality in your work?",
+      "Is your website quality good?",
+      "How do you maintain quality?"
+    ],
+    "responses": [
+      "Yes, we maintain high standards of quality throughout the development process. Our team ensures that every project is built with precision and adheres to industry best practices."
+    ]
+  },
+  {
+    "intent": "web_dev_performance_guarantee",
+    "patterns": [
+      "Will my website perform well?",
+      "Do you guarantee website performance?",
+      "How fast will my website load?"
+    ],
+    "responses": [
+      "Yes, we guarantee optimal performance for your website. By using the latest technologies and efficient coding practices, we ensure fast loading times and a smooth user experience."
+    ]
+  },
+  {
+    "intent": "web_dev_custom_solutions",
+    "patterns": [
+      "Do you create custom websites?",
+      "Do you provide tailored solutions?",
+      "Can you build a website according to my needs?"
+    ],
+    "responses": [
+      "Yes, we specialize in creating customized web development solutions that are tailored to meet the unique needs and requirements of our clients."
+    ]
+  },
+  {
+    "intent": "web_dev_latest_tech",
+    "patterns": [
+      "Do you use the latest technologies?",
+      "Are you updated with the latest trends?",
+      "What technologies do you work with?"
+    ],
+    "responses": [
+      "Yes, we utilize the latest technologies and frameworks in web development to ensure your website is modern, scalable, and future-ready."
+    ]
+  },
+  {
+    "intent": "web_dev_support",
+    "patterns": [
+      "Do you provide support after launch?",
+      "What kind of support do you offer?",
+      "Do you provide maintenance services?"
+    ],
+    "responses": [
+      "Yes, we provide ongoing support and maintenance services to ensure your website continues to function optimally long after its launch."
+    ]
+  },
+  {
+    "intent": "web_dev_responsiveness",
+    "patterns": [
+      "Are your websites mobile-friendly?",
+      "Do you create responsive designs?",
+      "Will my website work on all devices?"
+    ],
+    "responses": [
+      "Yes, we design responsive websites that work seamlessly across all devices, including desktops, tablets, and smartphones."
+    ]
+  },
+  {
+    "intent": "web_dev_seo_optimized",
+    "patterns": [
+      "Are your websites SEO optimized?",
+      "Do you build websites with SEO in mind?",
+      "Will my website rank well on search engines?"
+    ],
+    "responses": [
+      "Yes, all our websites are developed with SEO best practices in mind to help them rank higher on search engines and attract more visitors."
+    ]
+  },
+  {
+    "intent": "web_dev_timely_delivery",
+    "patterns": [
+      "Do you deliver projects on time?",
+      "Do you meet deadlines?",
+      "When will my website be ready?"
+    ],
+    "responses": [
+      "Yes, we are committed to timely delivery and strive to complete projects within the agreed-upon timelines without compromising on quality."
+    ]
+  },
+  {
+    "intent": "web_dev_design_creativity",
+    "patterns": [
+      "Do you have creative designers?",
+      "Can you create unique designs?",
+      "Is your design team creative?"
+    ],
+    "responses": [
+      "Yes, our creative team of designers works hard to create unique, eye-catching designs that reflect your brand identity and impress your visitors."
+    ]
+  },
+  {
+    "intent": "web_dev_client_communication",
+    "patterns": [
+      "Do you communicate well with clients?",
+      "How do you handle communication?",
+      "Do you keep clients updated?"
+    ],
+    "responses": [
+      "Yes, we maintain clear and consistent communication with our clients throughout the development process, keeping them updated on the progress of their project."
+    ]
+  },
+  {
+    "intent": "web_dev_ecom_services",
+    "patterns": [
+      "Do you offer ecommerce solutions?",
+      "Can you build an online store?",
+      "Do you provide ecommerce website development?"
+    ],
+    "responses": [
+      "Yes, we provide comprehensive ecommerce solutions to help businesses establish their online presence and sell products online effectively."
+    ]
+  },
+  {
+    "intent": "web_dev_logo_design",
+    "patterns": [
+      "Do you design logos?",
+      "Do you offer graphic design services?",
+      "Can you create a logo for my brand?"
+    ],
+    "responses": [
+      "Yes, we offer professional logo design and graphic design services to help create a strong visual identity for your brand."
+    ]
+  },
+  {
+    "intent": "web_dev_security",
+    "patterns": [
+      "Are your websites secure?",
+      "Do you handle website security?",
+      "Are there any security risks?"
+    ],
+    "responses": [
+      "Yes, website security is our priority. We implement robust security measures to protect your website from potential threats and ensure data protection."
+    ]
+  },
+  {
+    "intent": "web_dev_client_requirements",
+    "patterns": [
+      "Do you understand client requirements?",
+      "How do you understand what I need?",
+      "Do you customize according to requirements?"
+    ],
+    "responses": [
+      "Yes, we focus on understanding your specific requirements and objectives to deliver customized solutions that align with your business goals."
+    ]
+  },
+  {
+    "intent": "web_dev_content_integration",
+    "patterns": [
+      "Can you add my content to the website?",
+      "Do you handle content integration?",
+      "Can I provide my own content?"
+    ],
+    "responses": [
+      "Yes, we can easily integrate your existing content into the new website, ensuring a smooth transition and consistent brand messaging."
+    ]
+  },
+  {
+    "intent": "web_dev_technology_choice",
+    "patterns": [
+      "How do you choose the right technology?",
+      "Do you decide the technology for me?",
+      "Can I suggest the technology?"
+    ],
+    "responses": [
+      "We recommend the most suitable technology based on your project requirements, budget, and long-term goals, ensuring optimal performance and scalability."
+    ]
+  },
+  {
+    "intent": "web_dev_problem_solving",
+    "patterns": [
+      "Do you fix website issues?",
+      "Can you solve website problems?"
+    ]
+  }
+]

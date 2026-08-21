@@ -1,0 +1,131 @@
+[
+  {
+    "intent": "mobile_app_general",
+    "patterns": [
+      "What mobile application development services does Opti Matrix provide?",
+      "Does Opti Matrix develop custom mobile applications?",
+      "What type of mobile application solutions does Opti Matrix offer?",
+      "Why should businesses choose Opti Matrix for mobile application development?",
+      "Is Optimatrix a mobile app development company?",
+      "Can I get a custom mobile application?",
+      "Do you have a team for mobile apps?",
+      "Is your mobile app team experienced?",
+      "Is Optimatrix growing in mobile app development?",
+      "Do you develop applications globally?",
+      "Why should I choose Optimatrix?"
+    ],
+    "responses": [
+      "Opti Matrix is a fast-growing mobile app development company with a team of qualified and experienced experts. We provide custom mobile applications and games globally across multiple platforms, tailoring solutions to your specific business needs."
+    ]
+  },
+  {
+    "intent": "mobile_app_platforms",
+    "patterns": [
+      "Which mobile platforms does Opti Matrix support?",
+      "What mobile application development platforms are mentioned by Opti Matrix?",
+      "What mobile OS do you support?"
+    ],
+    "responses": [
+      "We support a wide range of mobile platforms and operating systems, including Apple iOS (iPhone/iPad), Google Android, Nokia Windows Mobile/Phone, and RIM's BlackBerry."
+    ]
+  },
+  {
+    "intent": "mobile_app_ios",
+    "patterns": [
+      "Does Opti Matrix provide iPhone application development?",
+      "Does Opti Matrix provide iPad application development?",
+      "Do you develop iOS apps?",
+      "Do you develop apps for iPhone 4S?",
+      "Do you develop apps for iOS 5?",
+      "Do you develop apps for Apple iPad?"
+    ],
+    "responses": [
+      "Yes, we provide extensive Apple iOS application development services, including custom apps for iPhones (3G, 4, 4S, iOS 4, iOS 5) and iPads."
+    ]
+  },
+  {
+    "intent": "mobile_app_android",
+    "patterns": [
+      "Does Opti Matrix develop Android applications?",
+      "Can you build apps for Samsung Galaxy Tab?",
+      "Do you build apps for Android Ice Cream Sandwich?",
+      "Do you build apps for Android Honeycomb?",
+      "Do you build apps for Android Gingerbread?",
+      "Do you build apps for Android Froyo?",
+      "Do you build apps for Android Eclair?"
+    ],
+    "responses": [
+      "Yes, we provide comprehensive Google Android application development. We support various versions including Eclair, Froyo, Gingerbread, Honeycomb, and Ice Cream Sandwich, for devices like smartphones and the Samsung Galaxy Tab."
+    ]
+  },
+  {
+    "intent": "mobile_app_windows",
+    "patterns": [
+      "Does Opti Matrix develop Windows Phone applications?",
+      "Do you build apps for Windows Mobile?",
+      "Do you build apps for Windows Phone 7?",
+      "Do you support Nokia Windows?"
+    ],
+    "responses": [
+      "Yes, we develop custom applications for Nokia Windows operating systems, including Windows Mobile and Windows Phone 7."
+    ]
+  },
+  {
+    "intent": "mobile_app_blackberry",
+    "patterns": [
+      "Does Opti Matrix provide BlackBerry application development?",
+      "Do you develop apps for BlackBerry Playbook?",
+      "Do you support RIM Blackberry?"
+    ],
+    "responses": [
+      "Yes, we offer application development services for RIM's BlackBerry platform, including BlackBerry smartphones and the BlackBerry PlayBook."
+    ]
+  },
+  {
+    "intent": "mobile_app_games",
+    "patterns": [
+      "Can Opti Matrix develop mobile games?",
+      "Can you provide mobile game development?"
+    ],
+    "responses": [
+      "Yes, our team of experts provides custom solutions for mobile games across various platforms based on your requirements."
+    ]
+  },
+  {
+    "intent": "mobile_app_marketing",
+    "patterns": [
+      "Can mobile applications help businesses attract more users?",
+      "Does mobile app development help in marketing?",
+      "Does mobile app development help with publicity?",
+      "Can a mobile app improve business goodwill?",
+      "Do you develop mobile apps for smart phone users?",
+      "Are online businesses moving to mobile?",
+      "Can you develop creative mobile apps?",
+      "Can a mobile app give a new concept to my business?"
+    ],
+    "responses": [
+      "Absolutely! Online businesses are rapidly moving to mobile to attract smartphone users. A creative mobile application opens up entirely new avenues for marketing and publicity, bringing fresh goodwill and a modern concept to your business."
+    ]
+  },
+  {
+    "intent": "mobile_website",
+    "patterns": [
+      "Do you provide mobile websites?",
+      "Can a mobile website attract buyers?",
+      "Do you create eye-catchy mobile websites?"
+    ],
+    "responses": [
+      "Yes. We develop wonderful, eye-catchy mobile websites designed specifically for smartphone users to help you attract more buyers and establish a strong mobile presence."
+    ]
+  },
+  {
+    "intent": "mobile_app_contact",
+    "patterns": [
+      "How can I contact you for mobile app development?",
+      "How do I start a mobile app project?"
+    ],
+    "responses": [
+      "You can contact us today! Reach out to us to experience a whole new look of publicity and marketing. Get Opti Matrix, get the best."
+    ]
+  }
+]

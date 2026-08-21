@@ -1,0 +1,134 @@
+[
+  {
+    "intent": "magento_development_general",
+    "patterns": [
+      "What is Magento Development?",
+      "What is Magento?",
+      "Does Opti Matrix provide Magento Development services?",
+      "Can you build an ecommerce website using Magento?",
+      "Is Magento suitable for ecommerce websites?",
+      "Is Magento open source?",
+      "Can Magento be used to start an online store?",
+      "Do you provide Magento installation?",
+      "Can Opti Matrix help with Magento ecommerce development?",
+      "I need a Magento ecommerce website. Can Opti Matrix help?"
+    ],
+    "responses": [
+      "Magento is a professional, feature-rich, open-source ecommerce platform. Opti Matrix provides extensive Magento development services, including installation, theme design, customization, and creating complete online stores that allow merchants to easily manage products."
+    ]
+  },
+  {
+    "intent": "magento_customization",
+    "patterns": [
+      "Can Magento be customized?",
+      "Do you provide Magento customization?",
+      "Can you design a custom Magento theme?",
+      "Can you customize Magento templates?",
+      "Do you provide Magento programming services?",
+      "Can you develop custom Magento modules?",
+      "Do you provide Magento plugin development?",
+      "Can Opti Matrix customize Magento according to my business?",
+      "Does Opti Matrix provide Magento theme design?",
+      "Can you create a unique Magento ecommerce store?",
+      "Can you develop custom Magento components?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides comprehensive Magento customization. This includes custom theme and template design, bespoke programming, module and plugin development, and creating custom ecommerce components tailored exactly to your business requirements."
+    ]
+  },
+  {
+    "intent": "magento_integration",
+    "patterns": [
+      "Can Magento integrate with third-party applications?",
+      "Can you integrate Magento with eBay?",
+      "Can you integrate Magento with Amazon?",
+      "Can Magento connect with external applications?"
+    ],
+    "responses": [
+      "Yes. Magento provides robust Web Services API support. We can develop custom modules to seamlessly connect your Magento store with external, third-party applications like eBay and Amazon."
+    ]
+  },
+  {
+    "intent": "magento_store_management",
+    "patterns": [
+      "Can Magento manage multiple websites?",
+      "Can Magento manage multiple stores?",
+      "Does Magento support customer groups?",
+      "Can Magento manage product catalogs?",
+      "Can merchants manage products without technical knowledge?",
+      "Does Magento provide a content management system?",
+      "Can I manage my Magento store from an administration panel?"
+    ],
+    "responses": [
+      "Yes. Magento features a powerful administration panel that allows you to easily manage multiple websites, stores, customer groups, CMS pages, and complex product catalogs without needing any technical knowledge."
+    ]
+  },
+  {
+    "intent": "magento_localization",
+    "patterns": [
+      "Does Magento support multiple currencies?",
+      "Does Magento support different tax rates?",
+      "Can Magento support international ecommerce?"
+    ],
+    "responses": [
+      "Yes. Magento is fully equipped for international ecommerce, providing built-in support for localization, multiple currencies, and complex, dynamic tax rates."
+    ]
+  },
+  {
+    "intent": "magento_seo",
+    "patterns": [
+      "Is Magento SEO friendly?",
+      "Does Magento support Google Sitemap?",
+      "Does Magento support SEO-friendly URLs?",
+      "Can Magento help improve ecommerce SEO?"
+    ],
+    "responses": [
+      "Yes. Magento is 100% search engine friendly. It includes built-in SEO features like URL rewrites, metadata management, auto-generated Google Site Maps, and search-engine-friendly URLs to improve your visibility."
+    ]
+  },
+  {
+    "intent": "magento_reports",
+    "patterns": [
+      "Does Magento support Google Analytics?",
+      "Does Magento provide sales reports?",
+      "Does Magento provide abandoned cart reports?",
+      "Does Magento provide stock reports?",
+      "Does Magento provide product reports?",
+      "Does Magento provide search-term reports?"
+    ],
+    "responses": [
+      "Yes. Magento provides extensive analytics and reporting features. It integrates with Google Analytics and generates detailed reports for sales, abandoned shopping carts, low stock, product reviews, and popular search terms."
+    ]
+  },
+  {
+    "intent": "magento_marketing",
+    "patterns": [
+      "Does Magento support newsletter management?",
+      "Does Magento support coupons?",
+      "Does Magento support promotional pricing?",
+      "Does Magento support free shipping?",
+      "Does Magento support multi-tier pricing?",
+      "Does Magento support bundled products?",
+      "Does Magento support recently viewed products?",
+      "Does Magento support recently compared products?",
+      "Does Magento support product reviews?",
+      "Does Magento support wishlists?",
+      "Does Magento support cross-selling?",
+      "Does Magento support up-selling?",
+      "Can Magento support marketing campaigns?"
+    ],
+    "responses": [
+      "Yes. Magento is packed with marketing tools. It supports flexible coupons, promotional and multi-tier pricing, up-selling, cross-selling, bundled products, wishlists, newsletter management, free shipping options, and product reviews."
+    ]
+  },
+  {
+    "intent": "magento_enterprise",
+    "patterns": [
+      "Can Magento be used for a large ecommerce store?",
+      "Why should I choose Opti Matrix for Magento Development?"
+    ],
+    "responses": [
+      "Magento is incredibly scalable and ideal for large, complex, and professional ecommerce stores. Opti Matrix brings the expertise in custom development and components required to mold Magento into an enterprise-level platform for your business."
+    ]
+  }
+]

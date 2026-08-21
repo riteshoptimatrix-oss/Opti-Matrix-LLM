@@ -1,0 +1,126 @@
+[
+  {
+    "intent": "social_media_general",
+    "patterns": [
+      "What are your social media accounts?",
+      "What social media platforms are you on?",
+      "Where can I follow you?",
+      "Do you have social media?",
+      "Share your social media links",
+      "Your social media accounts?",
+      "Aapke social media accounts kya hain?",
+      "Social media links do",
+      "Company ko social media pe follow karna hai"
+    ],
+    "responses": [
+      "You can follow us on all our platforms below:\n\n[Instagram](https://www.instagram.com/optiinfo) [Facebook](https://www.facebook.com/OptiMatrix) [Twitter / X](https://twitter.com/optiinfo) [LinkedIn](https://www.linkedin.com/company/opti-matrix) [YouTube](https://www.youtube.com/@OptiMatrix) [Pinterest](https://www.pinterest.com/optiinfo)"
+    ]
+  },
+  {
+    "intent": "social_media_instagram",
+    "patterns": [
+      "What is your Instagram?",
+      "Instagram account?",
+      "Instagram link?",
+      "Do you have Instagram?",
+      "Where can I follow you on Instagram?",
+      "Instagram ID kya hai?",
+      "Instagram page bhejo",
+      "Aapka Insta account kya hai?",
+      "Instagram par ho?",
+      "Insta link do",
+      "Company ka Insta kaha milega?"
+    ],
+    "responses": [
+      "You can follow us on Instagram at @optiinfo. [Instagram](https://www.instagram.com/optiinfo)"
+    ]
+  },
+  {
+    "intent": "social_media_facebook",
+    "patterns": [
+      "What is your Facebook page?",
+      "Facebook account?",
+      "Facebook link?",
+      "Do you have Facebook?",
+      "Where can I follow you on Facebook?",
+      "Facebook ID kya hai?",
+      "Facebook page bhejo",
+      "Aapka Facebook account kya hai?",
+      "FB link do"
+    ],
+    "responses": [
+      "You can find us on Facebook at OptiMatrix. [Facebook](https://www.facebook.com/OptiMatrix)"
+    ]
+  },
+  {
+    "intent": "social_media_twitter",
+    "patterns": [
+      "What is your Twitter account?",
+      "Twitter handle?",
+      "Twitter link?",
+      "Do you have Twitter?",
+      "Where can I follow you on Twitter?",
+      "Twitter ID kya hai?",
+      "Twitter page bhejo",
+      "Aapka Twitter account?",
+      "Twitter handle batao",
+      "X account kya hai?"
+    ],
+    "responses": [
+      "You can follow us on Twitter/X at @optiinfo. [Twitter / X](https://twitter.com/optiinfo)"
+    ]
+  },
+  {
+    "intent": "social_media_linkedin",
+    "patterns": [
+      "What is your LinkedIn?",
+      "LinkedIn page?",
+      "LinkedIn link?",
+      "Do you have LinkedIn?",
+      "Where can I follow you on LinkedIn?",
+      "LinkedIn profile kya hai?",
+      "LinkedIn page bhejo",
+      "Company LinkedIn account?",
+      "LinkedIn par ho?",
+      "LinkedIn link send karo",
+      "Company ka LinkedIn kaha milega?"
+    ],
+    "responses": [
+      "You can find us on LinkedIn at Opti Matrix. [LinkedIn](https://www.linkedin.com/company/opti-matrix)"
+    ]
+  },
+  {
+    "intent": "social_media_youtube",
+    "patterns": [
+      "What is your YouTube channel?",
+      "YouTube channel?",
+      "YouTube link?",
+      "Do you have a YouTube channel?",
+      "Where can I watch your videos?",
+      "YouTube channel bhejo",
+      "YouTube ID kya hai?",
+      "Aapka YouTube account kya hai?",
+      "YouTube channel send karo"
+    ],
+    "responses": [
+      "You can find us on YouTube at @OptiMatrix. [YouTube](https://www.youtube.com/@OptiMatrix)"
+    ]
+  },
+  {
+    "intent": "social_media_pinterest",
+    "patterns": [
+      "What is your Pinterest?",
+      "Pinterest account?",
+      "Pinterest link?",
+      "Do you have Pinterest?",
+      "Where can I follow you on Pinterest?",
+      "Pinterest ID kya hai?",
+      "Pinterest page bhejo",
+      "Aapka Pinterest account kya hai?",
+      "Pinterest account batao"
+    ],
+    "responses": [
+      "You can find us on Pinterest at @optiinfo. [Pinterest](https://www.pinterest.com/optiinfo)"
+    ]
+  }
+]

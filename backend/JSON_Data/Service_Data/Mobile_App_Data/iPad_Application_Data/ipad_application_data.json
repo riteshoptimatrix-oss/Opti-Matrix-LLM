@@ -1,0 +1,82 @@
+[
+  {
+    "intent": "ipad_app_general",
+    "patterns": [
+      "What is an iPad?",
+      "What media does an iPad support?",
+      "Who created the iPad?",
+      "How big is an iPad?",
+      "What software runs an iPad?",
+      "Can an iPad run iPhone apps?",
+      "What liberties does an iPad give its users?"
+    ],
+    "responses": [
+      "The iPad is a line of tablet computers created and marketed by Apple Inc., sized between a laptop and a smartphone. It runs the same software as the iPod Touch and iPhone, meaning it can run all iPhone applications. It acts as a platform for AV media and gives users the liberty to move around and conveniently manage their social media, online business, and office connectivity."
+    ]
+  },
+  {
+    "intent": "ipad_2_hardware",
+    "patterns": [
+      "What is iPad 2?",
+      "What processor does iPad 2 have?",
+      "Does iPad 2 have a gyroscope?",
+      "Does iPad 2 have cameras?",
+      "Is the new iPad an innovative product?"
+    ],
+    "responses": [
+      "Apple's iPad 2 is an award-winning, innovative upgrade to the original iPad. It features a brand new A5 processor, a 3-axis gyroscope, and both front and rear cameras, with several components made smaller to fit the new design."
+    ]
+  },
+  {
+    "intent": "ipad_app_categories",
+    "patterns": [
+      "Can you develop entertainment iPad apps?",
+      "Can you develop gaming iPad apps?",
+      "Can you develop e-book publishing iPad apps?",
+      "Can you develop ecommerce iPad apps?",
+      "Can you develop business/trading iPad apps?",
+      "Can you develop health and medical iPad apps?",
+      "Can you develop music iPad apps?",
+      "Can you develop distance learning iPad apps?",
+      "Can you develop maps and navigation iPad apps?",
+      "Can you develop social networking iPad apps?",
+      "Can you develop multimedia iPad apps?",
+      "Can you build health fitness and guide apps for iPad?",
+      "Can you build 3G / Wi-Fi apps for iPad?",
+      "Can you do 3D Animation and game development for iPad?",
+      "Can you build video player and browsing apps for iPad?",
+      "Can you build travel / lifestyle apps for iPad?"
+    ],
+    "responses": [
+      "Yes. Our iPad SDK programmers can build applications for any purpose, including Entertainment, Gaming & 3D Animation, E-book Publishing, E-commerce, Business/Trading, Health/Medical & Fitness, Music/Video Players, Distance Learning, Maps and Navigation, Social Networking, Travel/Lifestyle, and 3G/Wi-Fi apps."
+    ]
+  },
+  {
+    "intent": "ipad_development_company",
+    "patterns": [
+      "Is Opti Matrix an iPad application development company?",
+      "Can you make my iPad app perform well?",
+      "Does Maximouge offer custom iPad solutions?",
+      "Does Maximouge provide offshore iPad development?"
+    ],
+    "responses": [
+      "Yes, as a leading iPad application development company, Opti Matrix/Maximouge offers every kind of custom iPad app development service. We provide offshore mobile application development globally and meet all your needs to ensure your apps perform flawlessly on the device."
+    ]
+  },
+  {
+    "intent": "ipad_developers_hiring",
+    "patterns": [
+      "Do your iPad app developers have professional experience?",
+      "Can iPad SDK programmers build apps for any purpose?",
+      "Do your developers stay ahead of technology trends?",
+      "Are your iPad developers experienced?",
+      "Is your iPad application development reasonably priced?",
+      "Can an iPad developer help me gain long-term profit?",
+      "Can I hire an iPad developer from you?",
+      "Do you believe in delivering quality on time?"
+    ],
+    "responses": [
+      "Yes, you can hire dedicated iPad developers from us at a very reasonable price. Our team brings years of professional experience across iPhone, iPod Touch, and iPad. By staying ahead of the technology curve, we deliver high-quality, creative, and unique iPad applications on time, helping you gain long-term market profit."
+    ]
+  }
+]

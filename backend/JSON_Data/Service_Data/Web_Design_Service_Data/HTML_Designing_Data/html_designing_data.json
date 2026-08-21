@@ -1,0 +1,96 @@
+[
+  {
+    "intent": "html_design_general",
+    "patterns": [
+      "What is HTML designing?",
+      "Why is HTML important for a website?",
+      "Do all websites need HTML?"
+    ],
+    "responses": [
+      "HTML designing involves creating the structure and presentation of web pages using HTML. It is a fundamental markup language required for all websites on the World Wide Web to structure and display content properly."
+    ]
+  },
+  {
+    "intent": "html_design_services",
+    "patterns": [
+      "Do you provide HTML designing services?",
+      "Can you design a complete HTML website?",
+      "Can you help me establish my business online?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides professional HTML website designing services to help businesses establish or improve their online presence and communicate their brand to a wider audience."
+    ]
+  },
+  {
+    "intent": "html_business_fit",
+    "patterns": [
+      "Can you create a website according to my business requirements?",
+      "Do you create corporate websites?",
+      "Can you create a website for a small business?",
+      "Can you create a website for a large business?",
+      "Can HTML websites help my business online?"
+    ],
+    "responses": [
+      "Yes. A well-designed website serves as a vital marketing tool. Opti Matrix designs user-oriented and business-focused corporate websites tailored to the requirements of businesses of all sizes, from small to large."
+    ]
+  },
+  {
+    "intent": "html_seo",
+    "patterns": [
+      "Can HTML design help with SEO?",
+      "Is HTML website design SEO friendly?",
+      "Can HTML help improve Google visibility?",
+      "Do you provide SEO-friendly HTML design?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix creates search-engine-friendly websites using proper HTML and XHTML markup tags. This contributes to better search engine visibility and page ranking as part of a solid SEO strategy."
+    ]
+  },
+  {
+    "intent": "html_technologies",
+    "patterns": [
+      "What technologies do your web designers work with?",
+      "Do you work with CSS?",
+      "Do you provide XHTML designing?",
+      "Do you use Photoshop for website design?",
+      "Do you provide Flash design?"
+    ],
+    "responses": [
+      "Opti Matrix's designers have deep expertise with Photoshop, Flash, HTML, XHTML, CSS, and modern Web 2.0 standards to deliver comprehensive web design solutions."
+    ]
+  },
+  {
+    "intent": "html_design_quality",
+    "patterns": [
+      "Can you create a rich-looking website?",
+      "Can you create a website focused on my target audience?",
+      "Do you create user-oriented websites?",
+      "Do you create business-focused websites?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix designs attractive, user-oriented, and business-focused websites, carefully balancing striking visual appearance with your business strategies and target audience needs."
+    ]
+  },
+  {
+    "intent": "html_brand_identity",
+    "patterns": [
+      "Can you design a website according to my brand identity?",
+      "Can you design a website for my marketing strategy?",
+      "Why should my website have a unique design?",
+      "Can you make my website reflect my company's identity?"
+    ],
+    "responses": [
+      "A unique website design is essential to distinguish your business. We tailor-make websites to reflect your corporate identity, business standards, policies, and marketing strategy perfectly."
+    ]
+  },
+  {
+    "intent": "html_cost_effective",
+    "patterns": [
+      "Can you create a cost-effective website?",
+      "Can HTML and CSS be used for a business website?"
+    ],
+    "responses": [
+      "Yes. HTML and CSS can be used to create attractive and highly cost-effective websites, making it a great starting solution for businesses establishing an online presence."
+    ]
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "intent": "company_history_general",
+    "patterns": [
+      "What is the history of Opti Matrix?",
+      "Tell me about the history of Opti Matrix.",
+      "What is the journey of Opti Matrix?",
+      "Tell me about the company's journey.",
+      "How did Opti Matrix start?",
+      "When did the journey of Opti Matrix begin?",
+      "How has Opti Matrix grown?",
+      "Can you show me the history of Opti Matrix?",
+      "Show me the company timeline.",
+      "Show me Opti Matrix's journey.",
+      "Opti Matrix ki history batao.",
+      "Company ki history kya hai?",
+      "Company ka journey batao.",
+      "Opti Matrix kab start hui thi?"
+    ],
+    "responses": [
+      "TIMELINE_DATA:[{\"year\":\"2010\",\"title\":\"Journey Begins for Opti Matrix Solutions\",\"date\":\"May 9, 2010\",\"desc\":\"Opti Matrix Solutions started its journey as an IT Solution Provider company. The name Opti Matrix represents the idea of 'Optimizing Complicated IT Solutions.'\",\"link\":\"https://www.optiinfo.com/announcement/journey-begins-for-opti-matrix-solutions/\",\"linkText\":\"Read More\"},{\"year\":\"2010\",\"title\":\"Launching of Official Website\",\"date\":\"October 9, 2010\",\"desc\":\"We Launch Official Website for Opti Matrix Solutions and Started to get new orders / clients from whole world.\",\"link\":\"https://www.optiinfo.com/announcement/launching-of-official-website/\",\"linkText\":\"Read More\"},{\"year\":\"2011\",\"title\":\"Started IT Service Provider for India\",\"date\":\"May 9, 2011\",\"desc\":\"We have begin and start our Journey to serving local customers with good affordable rates.\",\"link\":\"https://www.optiinfo.com/announcement/started-it-service-provider-for-india/\",\"linkText\":\"Read More\"},{\"year\":\"2011\",\"title\":\"Moved to Office\",\"date\":\"November 9, 2011\",\"desc\":\"Opti Matrix Rented Office and hire 4 Employees and started big development projects in PHP , MySQL and MVC Frameworks.\",\"link\":\"https://www.optiinfo.com/announcement/moved-to-office/\",\"linkText\":\"Read More\"},{\"year\":\"2012\",\"title\":\"D-Waste Atlas On Site Project Discussion\",\"date\":\"September 9, 2012\",\"desc\":\"First Official Visit at Client Side location for Project Discussion, Our CEO Visited Athens,Greece for 1 week.\",\"link\":\"https://www.optiinfo.com/announcement/d-waste-atlas-on-site-project-discussion/\",\"linkText\":\"Read More\"},{\"year\":\"2012\",\"title\":\"Launch Mobile App for Gujarat Election\",\"date\":\"December 9, 2012\",\"desc\":\"Opti Matrix come up with big idea of launching application for Gujarat Election... app downloaded more then 10k per day.\",\"link\":\"https://www.optiinfo.com/announcement/launch-mobile-app-for-gujarat-election/\",\"linkText\":\"Read More\"},{\"year\":\"2013\",\"title\":\"Opti Matrix Leading Path in Google\",\"date\":\"January 9, 2013\",\"desc\":\"We are the leading website development company on the 1st position of Google US.\",\"link\":\"https://www.optiinfo.com/announcement/opti-matrix-leading-path-in-google/\",\"linkText\":\"Read More\"},{\"year\":\"2013\",\"title\":\"Registered Opti Matrix Pty Ltd, South Africa\",\"date\":\"January 17, 2013\",\"desc\":\"Our CEO Visited South Africa... and also registered company with partnership of local person Mr Alex Magezi.\",\"link\":\"https://www.optiinfo.com/announcement/registered-opti-matrix-pty-ltd-south-africa/\",\"linkText\":\"Read More\"},{\"year\":\"2013\",\"title\":\"Start Branch Office Opti Matrix Solutions\",\"date\":\"August 9, 2013\",\"desc\":\"We have started Another Branch Office for Opti Matrix Solutions to provide more better service to local customers for Entire Kutch Region.\",\"link\":\"https://www.optiinfo.com/announcement/start-branch-office-opti-matrix-solutions/\",\"linkText\":\"Read More\"},{\"year\":\"2013\",\"title\":\"Organize 3 days Picnic to Silvaasa Treat Resort\",\"date\":\"August 22, 2013\",\"desc\":\"We Organize 2N/3D tour for all our employees / staff members resort located near Silvassa.\",\"link\":\"https://www.optiinfo.com/announcement/organize-3-days-picninc-to-silvaasa-treat-resort/\",\"linkText\":\"Read More\"},{\"year\":\"2014\",\"title\":\"Another Branch For Opti Matrix Australia\",\"date\":\"August 9, 2014\",\"desc\":\"Opti Matrix Solutons starting another branch at Australia with partnership of local person to provide more better service to local customers.\",\"link\":\"https://www.optiinfo.com/announcement/another-branch-for-opti-matrix-australia/\",\"linkText\":\"Read More\"},{\"year\":\"2014\",\"title\":\"Launching of Official Opti Matrix Mobile App\",\"date\":\"October 9, 2014\",\"desc\":\"Opti Matrix Launch Official Android & iOS application for customers for browse all information very easily from their mobile phone.\",\"link\":\"https://www.optiinfo.com/announcement/launching-of-official-opti-matrix-mobile-app/\",\"linkText\":\"Read More\"},{\"year\":\"2015\",\"title\":\"Story Covered By Local News Paper Kutch Mitra\",\"date\":\"February 9, 2015\",\"desc\":\"One of Leading newspaper of Kutch covered Story of our CEO.\",\"link\":\"https://www.optiinfo.com/announcement/story-covered-by-local-news-paper-kutch-mitra/\",\"linkText\":\"Read More\"},{\"year\":\"2015\",\"title\":\"Opti Matrix Taken Part in Vibrant Kutch\",\"date\":\"March 9, 2015\",\"desc\":\"Opti Matrix taken part in first business exhibition to attract more local customers and explain more detail to customers.\",\"link\":\"https://www.optiinfo.com/announcement/opti-matrix-taken-part-in-vibrant-kutch/\",\"linkText\":\"Read More\"},{\"year\":\"2015\",\"title\":\"First Commercial Big Advertisement Video Launch\",\"date\":\"March 20, 2015\",\"desc\":\"Opti Matrix Officialy Launch First Commercial TV Advertisement Video.\",\"link\":\"https://www.optiinfo.com/announcement/first-commercial-big-advertisement-video-launch/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"Opti Matrix Registered for Trade Mark in India\",\"date\":\"January 11, 2016\",\"desc\":\"Opti Matrix is now Trade Mark Registered Company for India, we apply our logo and name for Trade Mark Registration During January, 2016.\",\"link\":\"https://www.optiinfo.com/announcement/opti-matrix-registered-for-trade-mark-in-india/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"Participated in Vibrant Saurashtra Expo & Summit\",\"date\":\"January 21, 2016\",\"desc\":\"Opti Matrix Participated in Vibrant Saurashtra Expo & Summit at Rajkot, Launched Vibrant Saurashtra App as we stands as Technology Partner.\",\"link\":\"https://www.optiinfo.com/announcement/participated-in-vibrant-saurashtra-expo-summit/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"Corporate Giveaway for Anniversary Celebration\",\"date\":\"April 11, 2016\",\"desc\":\"Opti Matrix Celebrating First Official Corporate Give Away for Anniversary Celebration.\",\"link\":\"https://www.optiinfo.com/announcement/corporate-give-away-for-anniversary-celebration/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"Charity to needy people with optimatrix team\",\"date\":\"May 9, 2016\",\"desc\":\"Given learning books , painting books to the people in slum area, where their childrens not going to school.\",\"link\":\"https://www.optiinfo.com/announcement/charity-to-needy-people-with-optimatrix-team/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"Launching of Official Product Easy Cricket Application\",\"date\":\"August 20, 2016\",\"desc\":\"Unique Customize Mobile Application for Cricket Scoring Tournament at Local , District , State Level.\",\"link\":\"https://www.optiinfo.com/announcement/launching-of-official-product-easy-cricket-application/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"Gitex Technology Event at Dubai\",\"date\":\"September 9, 2016\",\"desc\":\"Visited Gitex Technology Event at World Trade Center Dubai.\",\"link\":\"https://www.optiinfo.com/announcement/visited-gitex-technology-event-at-world-trade-center-dubai/\",\"linkText\":\"Read More\"},{\"year\":\"2016\",\"title\":\"We Did some Celebrations, too at our Office.\",\"date\":\"November 21, 2016\",\"desc\":\"Celebraing Birthday in a office is great way to give some energy and positivity to staff and employees.\",\"link\":\"https://www.optiinfo.com/announcement/we-did-some-celebrations-too-at-our-office/\",\"linkText\":\"Read More\"},{\"year\":\"2017\",\"title\":\"Launched Biggest Website and App Project in Laravel\",\"date\":\"January 10, 2017\",\"desc\":\"Launched Biggest Website and App Project in Laravel.\",\"link\":\"https://www.optiinfo.com/announcement/launched-biggest-website-and-app-project-in-laravel/\",\"linkText\":\"Read More\"},{\"year\":\"2017\",\"title\":\"Launching of 300th Website\",\"date\":\"August 12, 2017\",\"desc\":\"One of the biggest achivement that today we have launched 300th website of our customer.\",\"link\":\"https://www.optiinfo.com/announcement/launching-of-300th-website/\",\"linkText\":\"Read More\"},{\"year\":\"2018\",\"title\":\"Relaunching of Main Website\",\"date\":\"May 9, 2018\",\"desc\":\"Relaunching of Main Website.\",\"link\":\"https://www.optiinfo.com/announcement/relaunching-of-main-website/\",\"linkText\":\"Read More\"}]"
+    ]
+  },
+  {
+    "intent": "history_2010_journey_begins",
+    "patterns": [
+      "When did Opti Matrix start?",
+      "When was Opti Matrix founded?",
+      "When did the company begin?",
+      "How did Opti Matrix start?",
+      "What happened in 2010?",
+      "What was the first milestone of Opti Matrix?",
+      "Opti Matrix ki shuruaat kab hui?"
+    ],
+    "responses": [
+      "🚀 **May 2010 — The Journey Begins**\nOpti Matrix Solutions started its journey as an IT Solution Provider company.\nThe name Opti Matrix represents the idea of 'Optimizing Complicated IT Solutions.'\nThis marked the beginning of the company's journey in providing technology solutions.\n\n[Read more](https://www.optiinfo.com/announcement/journey-begins-for-opti-matrix-solutions/)"
+    ]
+  },
+  {
+    "intent": "history_2010_website_launch",
+    "patterns": [
+      "When did you launch your first website?",
+      "When was the official website launched?",
+      "What happened in October 2010?",
+      "When did Opti Matrix start getting global clients?",
+      "When did the company launch its official website?",
+      "2010 mein company ne kya achieve kiya?"
+    ],
+    "responses": [
+      "🌐 **October 2010 — Official Website Launch**\nOpti Matrix launched its official website and started receiving new orders and clients from around the world.\n\n[Read more](https://www.optiinfo.com/announcement/launching-of-official-website/)"
+    ]
+  },
+  {
+    "intent": "history_2011_started_it_services_india",
+    "patterns": [
+      "When did Opti Matrix start serving Indian customers?",
+      "When did you start IT services in India?",
+      "What happened in 2011?",
+      "When did Opti Matrix enter the Indian market?",
+      "Did Opti Matrix provide services in India?",
+      "India mein services kab start ki?",
+      "Indian customers ke liye services kab start hui?"
+    ],
+    "responses": [
+      "🇮🇳 **May 2011 — IT Services for Indian Customers**\nOpti Matrix began serving local Indian customers with affordable IT services and started building the Opti Matrix brand in the Indian market.\n\n[Read more](https://www.optiinfo.com/announcement/started-it-service-provider-for-india/)"
+    ]
+  },
+  {
+    "intent": "history_2011_moved_to_office",
+    "patterns": [
+      "When did Opti Matrix move to an office?",
+      "How many employees did the company initially have?",
+      "When did you hire your first employees?",
+      "What happened in November 2011?",
+      "What technologies were used in the early projects?",
+      "How big was the team in 2011?",
+      "2011 mein team kitni thi?"
+    ],
+    "responses": [
+      "🏢 **November 2011 — Dedicated Office**\nOpti Matrix moved into a rented office, hired 4 employees, and started working on larger development projects using PHP, MySQL and MVC frameworks.\n\n[Read more](https://www.optiinfo.com/announcement/moved-to-office/)"
+    ]
+  },
+  {
+    "intent": "history_2012_gujarat_election_app",
+    "patterns": [
+      "What app did Opti Matrix launch for Gujarat Election?",
+      "Did Opti Matrix develop a Gujarat Election app?",
+      "When was the Gujarat Election app launched?",
+      "How successful was the Gujarat Election app?",
+      "What happened in December 2012?",
+      "Gujarat Election app kisne banayi?",
+      "Election app kab launch hui?"
+    ],
+    "responses": [
+      "📱 **December 2012 — Gujarat Election App**\nOpti Matrix launched a mobile application for the Gujarat Election that provided information about candidates and political parties.\nThe application achieved significant traction, with downloads reported at more than 10,000 per day during the campaign.\n\n[Read more](https://www.optiinfo.com/announcement/launch-mobile-app-for-gujarat-election/)"
+    ]
+  },
+  {
+    "intent": "history_2012_greece_client_project",
+    "patterns": [
+      "Did Opti Matrix work with clients in Greece?",
+      "When did the CEO visit Greece?",
+      "What happened in Athens?",
+      "What was the D-Waste Atlas project?",
+      "Did Opti Matrix have international projects in 2012?",
+      "CEO Greece kab gaye the?"
+    ],
+    "responses": [
+      "🌍 **September 2012 — Greece Project Visit**\nOpti Matrix's CEO visited Athens, Greece for a week for an on-site project discussion related to the D-Waste Atlas project.\n\n[Read more](https://www.optiinfo.com/announcement/d-waste-atlas-on-site-project-discussion/)"
+    ]
+  },
+  {
+    "intent": "history_2013_google_achievement",
+    "patterns": [
+      "What happened in January 2013?",
+      "Did Opti Matrix achieve a Google ranking?",
+      "What was Opti Matrix's Google achievement?",
+      "Was Opti Matrix ranked on Google US?",
+      "What SEO milestone did the company achieve?"
+    ],
+    "responses": [
+      "🔎 **January 2013 — Google Milestone**\nOpti Matrix highlighted its growth in website development and reported reaching the 1st position on Google US for its targeted presence at that time.\n\n[Read more](https://www.optiinfo.com/announcement/opti-matrix-leading-path-in-google/)"
+    ]
+  },
+  {
+    "intent": "history_2013_south_africa",
+    "patterns": [
+      "When did Opti Matrix expand to South Africa?",
+      "Did Opti Matrix have a company in South Africa?",
+      "When was Opti Matrix registered in South Africa?",
+      "What happened in South Africa in 2013?",
+      "Did the company have international partnerships?",
+      "South Africa mein company kab expand hui?"
+    ],
+    "responses": [
+      "🌍 **January 2013 — South Africa Expansion**\nOpti Matrix expanded its international presence by registering Opti Matrix Pty Ltd in South Africa through a local partnership.\n\n[Read more](https://www.optiinfo.com/announcement/registered-opti-matrix-pty-ltd-south-africa/)"
+    ]
+  },
+  {
+    "intent": "history_2013_bhuj_branch",
+    "patterns": [
+      "When did Opti Matrix open its Bhuj branch?",
+      "When was the branch office started?",
+      "Why did Opti Matrix open a Bhuj office?",
+      "Does Opti Matrix have a branch in Bhuj?",
+      "What happened in August 2013?",
+      "Bhuj branch kab start hui?"
+    ],
+    "responses": [
+      "🏢 **August 2013 — Bhuj Branch Office**\nOpti Matrix started another branch office to provide better services to customers across the Kutch region.\n\n[Read more](https://www.optiinfo.com/announcement/start-branch-office-opti-matrix-solutions/)"
+    ]
+  },
+  {
+    "intent": "history_2013_employee_picnic",
+    "patterns": [
+      "Did Opti Matrix organize team activities?",
+      "Where did the company take its employees in 2013?",
+      "What happened in August 2013?",
+      "Did the company organize an employee picnic?",
+      "Where was the team trip organized?"
+    ],
+    "responses": [
+      "🎉 **August 2013 — Team Picnic**\nOpti Matrix organized a 2-night/3-day team trip to Silvassa for employees and staff as part of team bonding and celebrations.\n\n[Read more](https://www.optiinfo.com/announcement/organize-3-days-picninc-to-silvaasa-treat-resort/)"
+    ]
+  },
+  {
+    "intent": "history_2014_australia_expansion",
+    "patterns": [
+      "Did Opti Matrix have an Australia branch?",
+      "When did Opti Matrix expand to Australia?",
+      "What happened in Australia in 2014?",
+      "Did Opti Matrix have an Australian partnership?",
+      "Australia mein branch kab start hui?"
+    ],
+    "responses": [
+      "🇦🇺 **August 2014 — Australia Expansion**\nOpti Matrix expanded its presence in Australia through a local partnership to provide better services to customers there.\n\n[Read more](https://www.optiinfo.com/announcement/another-branch-for-opti-matrix-australia/)"
+    ]
+  },
+  {
+    "intent": "history_2014_official_mobile_app",
+    "patterns": [
+      "Did Opti Matrix have a mobile app?",
+      "When did Opti Matrix launch its mobile app?",
+      "Was the app available on Android?",
+      "Was the app available on iOS?",
+      "What happened in October 2014?",
+      "Opti Matrix ki mobile app kab launch hui?",
+      "Kya Android aur iOS app available thi?"
+    ],
+    "responses": [
+      "📱 **October 2014 — Official Mobile App**\nOpti Matrix launched its official Android and iOS mobile application, making company information easier for customers to access through mobile devices.\n\n[Read more](https://www.optiinfo.com/announcement/launching-of-official-opti-matrix-mobile-app/)"
+    ]
+  },
+  {
+    "intent": "history_2015_ceo_in_local_news",
+    "patterns": [
+      "Was Opti Matrix featured in the news?",
+      "Was the CEO featured in a newspaper?",
+      "Which newspaper covered Opti Matrix?",
+      "When was the CEO featured in Kutch Mitra?",
+      "What happened in February 2015?"
+    ],
+    "responses": [
+      "📰 **February 2015 — Media Coverage**\nOpti Matrix's CEO was featured in a story covered by Kutch Mitra, a leading newspaper in Kutch.\n\n[Read more](https://www.optiinfo.com/announcement/story-covered-by-local-news-paper-kutch-mitra/)"
+    ]
+  },
+  {
+    "intent": "history_2015_vibrant_kutch",
+    "patterns": [
+      "Did Opti Matrix participate in Vibrant Kutch?",
+      "What was Vibrant Kutch?",
+      "When did Opti Matrix participate in Vibrant Kutch?",
+      "What happened in March 2015?",
+      "Did the company participate in business exhibitions?"
+    ],
+    "responses": [
+      "🤝 **March 2015 — Vibrant Kutch**\nOpti Matrix participated in its first business exhibition to connect with local customers and showcase its technology and IT services.\n\n[Read more](https://www.optiinfo.com/announcement/opti-matrix-taken-part-in-vibrant-kutch/)"
+    ]
+  },
+  {
+    "intent": "history_2015_commercial_advertisement",
+    "patterns": [
+      "Did Opti Matrix launch a TV advertisement?",
+      "When was the first commercial launched?",
+      "When did Opti Matrix launch its first advertisement?",
+      "What happened in March 2015?",
+      "Did the company create a commercial video?"
+    ],
+    "responses": [
+      "📺 **March 2015 — First Commercial Advertisement**\nOpti Matrix officially launched its first commercial TV advertisement video.\n\n[Read more](https://www.optiinfo.com/announcement/first-commercial-big-advertisement-video-launch/)"
+    ]
+  },
+  {
+    "intent": "history_2016_trademark_registration",
+    "patterns": [
+      "When was Opti Matrix trademark registered?",
+      "Is Opti Matrix a registered trademark?",
+      "Did Opti Matrix register its logo?",
+      "What happened in January 2016?",
+      "When did the company apply for trademark registration?",
+      "Opti Matrix ka trademark kab register hua?"
+    ],
+    "responses": [
+      "™️ **January 2016 — Trademark Registration**\nOpti Matrix registered its name and logo as a trademark in India.\n\n[Read more](https://www.optiinfo.com/announcement/opti-matrix-registered-for-trade-mark-in-india/)"
+    ]
+  },
+  {
+    "intent": "history_2016_vibrant_saurashtra",
+    "patterns": [
+      "Did Opti Matrix participate in Vibrant Saurashtra?",
+      "What happened at Vibrant Saurashtra?",
+      "When did Opti Matrix become a Technology Partner?",
+      "What app was launched at Vibrant Saurashtra?",
+      "What happened in January 2016?"
+    ],
+    "responses": [
+      "🤝 **January 2016 — Vibrant Saurashtra**\nOpti Matrix participated in the Vibrant Saurashtra Expo & Summit in Rajkot and launched the Vibrant Saurashtra App as a Technology Partner.\n\n[Read more](https://www.optiinfo.com/announcement/participated-in-vibrant-saurashtra-expo-summit/)"
+    ]
+  },
+  {
+    "intent": "history_2016_corporate_giveaway",
+    "patterns": [
+      "Did Opti Matrix celebrate its anniversary?",
+      "What happened in April 2016?",
+      "Did the company organize an anniversary giveaway?",
+      "How did Opti Matrix celebrate its anniversary?"
+    ],
+    "responses": [
+      "🎁 **April 2016 — Anniversary Celebration**\nOpti Matrix celebrated its anniversary with its first official corporate giveaway.\n\n[Read more](https://www.optiinfo.com/announcement/corporate-give-away-for-anniversary-celebration/)"
+    ]
+  },
+  {
+    "intent": "history_2016_charity",
+    "patterns": [
+      "Does Opti Matrix do charity work?",
+      "Did Opti Matrix help needy people?",
+      "What charity work did the company do?",
+      "When did Opti Matrix organize a charity initiative?",
+      "Did the team donate books?",
+      "What happened in May 2016?",
+      "Opti Matrix ne charity mein kya kiya?"
+    ],
+    "responses": [
+      "❤️ **May 2016 — Charity Initiative**\nThe Opti Matrix team donated learning books and painting books to people in a slum area where some children were not attending school.\n\n[Read more](https://www.optiinfo.com/announcement/charity-to-needy-people-with-optimatrix-team/)"
+    ]
+  },
+  {
+    "intent": "history_2016_easy_cricket_app",
+    "patterns": [
+      "What is Easy Cricket?",
+      "Did Opti Matrix develop a cricket app?",
+      "When was Easy Cricket launched?",
+      "What was the Easy Cricket application?",
+      "What was the purpose of Easy Cricket?",
+      "Opti Matrix ne cricket app kab launch ki?",
+      "Easy Cricket app kya hai?"
+    ],
+    "responses": [
+      "🏏 **August 2016 — Easy Cricket App**\nOpti Matrix launched Easy Cricket, a customizable mobile application designed for cricket scoring and tournaments at local, district and state levels.\n\n[Read more](https://www.optiinfo.com/announcement/launching-of-official-product-easy-cricket-application/)"
+    ]
+  },
+  {
+    "intent": "history_2016_gitex_dubai",
+    "patterns": [
+      "Did Opti Matrix attend GITEX?",
+      "What is GITEX?",
+      "When did Opti Matrix visit GITEX Dubai?",
+      "Did Opti Matrix participate in a Dubai technology event?",
+      "What happened in September 2016?",
+      "Opti Matrix Dubai GITEX mein kab gayi?"
+    ],
+    "responses": [
+      "🌍 **September 2016 — GITEX Dubai**\nOpti Matrix visited the GITEX Technology Event at the World Trade Center in Dubai.\n\n[Read more](https://www.optiinfo.com/announcement/visited-gitex-technology-event-at-world-trade-center-dubai/)"
+    ]
+  },
+  {
+    "intent": "history_2016_office_celebration",
+    "patterns": [
+      "Did Opti Matrix celebrate at its office?",
+      "What happened in November 2016?",
+      "Does Opti Matrix organize employee celebrations?",
+      "How does the company celebrate with employees?"
+    ],
+    "responses": [
+      "🎉 **November 2016 — Office Celebration**\nOpti Matrix organized celebrations at its office as a way to bring energy and positivity to its staff and employees.\n\n[Read more](https://www.optiinfo.com/announcement/we-did-some-celebrations-too-at-our-office/)"
+    ]
+  },
+  {
+    "intent": "history_2017_biggest_laravel_project",
+    "patterns": [
+      "What happened in January 2017?",
+      "Did Opti Matrix work on a major Laravel project?",
+      "What was the biggest Laravel project?",
+      "Did Opti Matrix develop a Laravel website and app?",
+      "When did Opti Matrix launch its biggest Laravel project?"
+    ],
+    "responses": [
+      "💻 **January 2017 — Major Laravel Project**\nOpti Matrix launched one of its biggest website and application projects built using Laravel.\n\n[Read more](https://www.optiinfo.com/announcement/launched-biggest-website-and-app-project-in-laravel/)"
+    ]
+  },
+  {
+    "intent": "history_2017_300th_website",
+    "patterns": [
+      "How many websites has Opti Matrix launched?",
+      "Did Opti Matrix launch 300 websites?",
+      "When did Opti Matrix launch its 300th website?",
+      "What was the 300th website milestone?",
+      "What was one of Opti Matrix's biggest achievements?",
+      "Did the company really launch 300 websites?",
+      "300th website kab launch hui?",
+      "Opti Matrix ne kitni websites launch ki hain?",
+      "What was Opti Matrix's biggest achievement?"
+    ],
+    "responses": [
+      "🏆 **August 2017 — 300th Website Milestone**\nOpti Matrix reached a major milestone by launching the 300th website for a customer.\n\n[Read more](https://www.optiinfo.com/announcement/launching-of-300th-website/)"
+    ]
+  },
+  {
+    "intent": "history_2018_main_website_relaunch",
+    "patterns": [
+      "When was Opti Matrix's website relaunched?",
+      "Did Opti Matrix relaunch its website?",
+      "When did the company redesign its main website?",
+      "What happened in May 2018?",
+      "What was the latest milestone in the timeline?",
+      "Opti Matrix ki main website kab relaunch hui?"
+    ],
+    "responses": [
+      "🌐 **May 2018 — Main Website Relaunch**\nOpti Matrix relaunched its main website, marking another milestone in its digital journey.\n\n[Read more](https://www.optiinfo.com/announcement/relaunching-of-main-website/)"
+    ]
+  }
+]

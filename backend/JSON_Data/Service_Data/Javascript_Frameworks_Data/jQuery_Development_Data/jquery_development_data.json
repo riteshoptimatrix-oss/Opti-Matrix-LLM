@@ -1,0 +1,90 @@
+[
+  {
+    "intent": "jquery_general_info",
+    "patterns": [
+      "What do people want in the current era of web development?",
+      "Is flash-based animation still popular?",
+      "What do developers use for user interactivity now?",
+      "Why is JavaScript preferred over Flash?",
+      "What is jQuery?"
+    ],
+    "responses": [
+      "The era of Flash-based animation has passed. Today, users demand highly dynamic and interactive web pages, and developers prefer lightweight JavaScript and DOM scripting. jQuery is one of the most promising and popular lightweight JavaScript frameworks used to achieve this."
+    ]
+  },
+  {
+    "intent": "jquery_advantages",
+    "patterns": [
+      "Does traditional JavaScript cause trouble?",
+      "Why do browsers react differently to JavaScript?",
+      "How does jQuery help with traditional JS issues?",
+      "Is jQuery easy to understand?",
+      "Is jQuery cross browser compatible?",
+      "Is DOM scripting easy with jQuery?",
+      "Do clients ask for jQuery development?",
+      "Should I ask developers if they use jQuery?"
+    ],
+    "responses": [
+      "Traditional JavaScript can cause cross-browser interoperability issues if not written properly. jQuery overcomes this because it is simple, completely cross-browser compatible, and makes DOM scripting incredibly easy and perfect. It's highly recommended to ask developers to use jQuery for your website."
+    ]
+  },
+  {
+    "intent": "jquery_unobtrusive_scripting",
+    "patterns": [
+      "What is a good practice when writing JavaScript?",
+      "What is unobtrusive DOM scripting?",
+      "Do you write inline JavaScript?",
+      "How does jQuery help unobtrusive DOM scripting?"
+    ],
+    "responses": [
+      "A best practice is 'unobtrusive DOM scripting', where JavaScript doesn't interfere with HTML/CSS. We never write inline JavaScript; instead, we create external JS files and use jQuery to easily attach runtime events to DOM elements."
+    ]
+  },
+  {
+    "intent": "jquery_plugins",
+    "patterns": [
+      "Does jQuery have plugins?",
+      "How do jQuery plugins help?",
+      "Do jQuery plugins reduce development time?",
+      "Do jQuery plugins reduce cost?",
+      "What are examples of daily used jQuery plugins?"
+    ],
+    "responses": [
+      "jQuery has a massive library of ready-made plugins. You can easily grab plugins like News Tickers, Sliders, and Image Galleries to produce high-end interactivity and animations, which significantly reduces development time and costs."
+    ]
+  },
+  {
+    "intent": "jquery_services",
+    "patterns": [
+      "Does Opti Matrix offer core jQuery scripting?",
+      "Do you develop jQuery Plugins?",
+      "Do you offer jQuery Bug Fixing?",
+      "Do you offer jQuery News Ticker Development?",
+      "Do you offer jQuery Slide Show Development?",
+      "Do you have a team for jQuery development?",
+      "How can I consult with your jQuery developers?"
+    ],
+    "responses": [
+      "We have a team of highly experienced JavaScript developers offering core jQuery scripting, custom jQuery plugin development, bug fixing, news ticker development, and slide show development. Shoot us a mail to consult with our experts!"
+    ]
+  },
+  {
+    "intent": "opti_matrix_other_services",
+    "patterns": [
+      "Does Opti Matrix provide Web Development?",
+      "Does Opti Matrix provide Website Designing?",
+      "Does Opti Matrix provide PHP MySQL Development?",
+      "Can I Hire Dedicated Resources?",
+      "Does Opti Matrix provide Open Source Development?",
+      "Does Opti Matrix provide PHP Frameworks development?",
+      "Does Opti Matrix provide Javascript Frameworks development?",
+      "Does Opti Matrix provide Android Applications?",
+      "Does Opti Matrix provide iPhone & iPad Services?",
+      "Does Opti Matrix provide Search Engine Optimization?",
+      "What other services can I contact you for?"
+    ],
+    "responses": [
+      "Besides jQuery, we offer full Website Development, Website Designing, PHP MySQL Development, Ajax Development, Open Source Development, PHP/JS Frameworks, iPhone/iPad and Android App Development, .NET programming, SEO, and the option to hire dedicated programmers."
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "intent": "logo_designing",
+    "patterns": [
+      "Logo designing?",
+      "Do you provide logo design?",
+      "I need a logo.",
+      "I need logo designing services.",
+      "Can you design my logo?",
+      "Do you create logos?",
+      "Logo design service?",
+      "I want a professional logo.",
+      "Can Opti Matrix design my logo?",
+      "I need a company logo.",
+      "Do you provide complete logo design services?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides complete, professional logo designing services to help businesses create a unique, recognizable, and highly professional visual identity."
+    ]
+  },
+  {
+    "intent": "custom_logo_design",
+    "patterns": [
+      "Can you create a custom logo?",
+      "Can you make a unique logo?",
+      "I want a custom logo for my business.",
+      "Can you design a logo according to my business?",
+      "Can you create a unique company logo?",
+      "I don't want a standard logo.",
+      "Can you make a customized logo?",
+      "Can you design a logo for my brand?",
+      "Can you design a logo for a new business?"
+    ],
+    "responses": [
+      "Yes. We specialize in custom logo design. We focus on creating unique, custom-made logos tailored specifically to your business identity and branding goals."
+    ]
+  },
+  {
+    "intent": "logo_branding",
+    "patterns": [
+      "Can a logo help my branding?",
+      "Why do I need a logo?",
+      "How does a logo help my business?",
+      "Is a logo important for branding?",
+      "Can a logo improve brand recognition?",
+      "What is the importance of a company logo?",
+      "Why is logo design important?",
+      "Do colors matter in logo design?",
+      "Can a logo create a first impression of my company?"
+    ],
+    "responses": [
+      "A logo is a crucial part of branding. It represents your corporate identity, creates a strong first impression using colors and symbols, and helps customers instantly recognize and remember your business."
+    ]
+  },
+  {
+    "intent": "logo_competitor_research",
+    "patterns": [
+      "Do you research competitors?",
+      "Can you make my logo different from competitors?",
+      "How will you make my logo unique?",
+      "Do you analyze competitors before logo design?",
+      "Can you create a logo that stands out?",
+      "How do you differentiate my logo?",
+      "Why should my logo be different from competitors?"
+    ],
+    "responses": [
+      "Yes. We meticulously research your market and competitors to ensure your logo is entirely unique and distinguishable, helping your brand stand out and avoid confusion."
+    ]
+  },
+  {
+    "intent": "logo_market_research",
+    "patterns": [
+      "Do you research the market before designing?",
+      "Do you analyze my target audience?",
+      "Will you study my competitors?",
+      "Do you consider customer expectations?",
+      "How do you decide what logo suits my business?",
+      "Can you help me understand what type of logo suits my business?"
+    ],
+    "responses": [
+      "Yes. Before designing, we conduct thorough research to understand your market, target audience expectations, and competitors. This ensures the final logo perfectly communicates your intended business message."
+    ]
+  },
+  {
+    "intent": "logo_requirements",
+    "patterns": [
+      "Will you understand my requirements?",
+      "Can I tell you my logo ideas?",
+      "Can I discuss my logo requirements?",
+      "Do your designers talk to clients?",
+      "Will you understand my business before designing?",
+      "Can I explain what I want?",
+      "Do you understand my requirements before designing the logo?"
+    ],
+    "responses": [
+      "Absolutely. Our professional designers will sit with you personally to discuss and deeply understand your expectations, requirements, and business vision before creating any concepts."
+    ]
+  },
+  {
+    "intent": "logo_affordable",
+    "patterns": [
+      "Is your logo design affordable?",
+      "How much does logo designing cost?",
+      "Do you provide affordable logo design?",
+      "Is professional logo design expensive?",
+      "I need an affordable logo."
+    ],
+    "responses": [
+      "Our professional logo designing services are highly affordable while maintaining a superior standard of quality. Please contact us directly for an exact quote based on your requirements!"
+    ]
+  }
+]

@@ -1,0 +1,279 @@
+[
+  {
+    "intent": "static_website_general",
+    "patterns": [
+      "What is a static website?",
+      "Do you provide static website services?"
+    ],
+    "responses": [
+      "A static website is an e-source of representation containing all the information about your business. Opti Matrix provides professional static website design services."
+    ]
+  },
+  {
+    "intent": "static_website_design",
+    "patterns": [
+      "Do you provide Static Website Design?",
+      "How do you design a static website?"
+    ],
+    "responses": [
+      "Yes. We specialize in providing exclusive Static website design services through conceptualization, proper planning, framing, and executing your ideas perfectly."
+    ]
+  },
+  {
+    "intent": "static_website_development",
+    "patterns": [
+      "Do you develop static websites?",
+      "Static website development?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix helps you create your static HTML website by understanding your requirements and designing a layout that translates your business logic."
+    ]
+  },
+  {
+    "intent": "static_website_meaning",
+    "patterns": [
+      "What does a static website mean?",
+      "Static website meaning?"
+    ],
+    "responses": [
+      "A static website is a site created primarily using HTML and CSS, designed to share information without dynamic backends or runtime code."
+    ]
+  },
+  {
+    "intent": "static_website_benefits",
+    "patterns": [
+      "What are the advantages of a static website?",
+      "Why should I choose a static website?"
+    ],
+    "responses": [
+      "Having a static website completely keeps you away from all the hassles of handling coded pages or runtime errors, making it the best option for merely sharing information."
+    ]
+  },
+  {
+    "intent": "static_website_business",
+    "patterns": [
+      "How can a static website help my business?"
+    ],
+    "responses": [
+      "It acts as your onshore marketing agent, representing your business uniquely across boundaries and acting just like a digital business card for your online meetings."
+    ]
+  },
+  {
+    "intent": "static_website_corporate",
+    "patterns": [
+      "Do you design professional and corporate static websites?"
+    ],
+    "responses": [
+      "Yes. It is highly advised to have a professional and corporate static website to effectively convey your market presence, and we specialize in creating them."
+    ]
+  },
+  {
+    "intent": "static_website_informational",
+    "patterns": [
+      "Is a static website good for sharing information?"
+    ],
+    "responses": [
+      "Yes. If your website is merely meant for sharing information, having a static website is the best and most reliable option."
+    ]
+  },
+  {
+    "intent": "static_website_html",
+    "patterns": [
+      "Are static websites created using HTML?"
+    ],
+    "responses": [
+      "Yes. Static web pages are normally created using HTML, with styling done through graphics or CSS."
+    ]
+  },
+  {
+    "intent": "static_website_css",
+    "patterns": [
+      "Do you use CSS for static websites?"
+    ],
+    "responses": [
+      "Yes. We use CSS styles to elegantly design and format static websites created in HTML."
+    ]
+  },
+  {
+    "intent": "static_vs_dynamic",
+    "patterns": [
+      "What is the difference between static and dynamic websites?",
+      "Static vs dynamic websites?"
+    ],
+    "responses": [
+      "Static websites are created using HTML and CSS for sharing information, whereas dynamic websites are created using programming languages like ASP, PHP, or AJAX for interactive functionality."
+    ]
+  },
+  {
+    "intent": "static_website_updates",
+    "patterns": [
+      "Is updating required for a static website?",
+      "Is a static website suitable if I don't need updates?"
+    ],
+    "responses": [
+      "A static website is quite suitable when regularly updating products or services is not required."
+    ]
+  },
+  {
+    "intent": "static_website_maintenance",
+    "patterns": [
+      "Does a static website have maintenance hassles?"
+    ],
+    "responses": [
+      "No. A static site keeps you completely away from the hassles of handling complex coded pages or dealing with runtime errors."
+    ]
+  },
+  {
+    "intent": "static_website_content_update",
+    "patterns": [
+      "How do I change the content of a static website?"
+    ],
+    "responses": [
+      "Every time you want to make a content change, you simply modify the HTML template of your static website and the page is ready to be uploaded."
+    ]
+  },
+  {
+    "intent": "static_website_layout",
+    "patterns": [
+      "How do you plan the layout of a static website?"
+    ],
+    "responses": [
+      "We analyze and design the appropriate layout that smoothly translates your business logic into the desired visual application."
+    ]
+  },
+  {
+    "intent": "static_website_custom_design",
+    "patterns": [
+      "Do you provide customized web solutions for static sites?"
+    ],
+    "responses": [
+      "Yes. We make use of our customized web solutions to showcase your online business in the most attractive and unique way possible."
+    ]
+  },
+  {
+    "intent": "static_website_colors",
+    "patterns": [
+      "Do you consider colors while designing?"
+    ],
+    "responses": [
+      "Yes. While designing, we carefully keep in mind the color of the design and its elegance, matching it to suit your specific business grounds."
+    ]
+  },
+  {
+    "intent": "static_website_branding",
+    "patterns": [
+      "How does a static website reflect my brand identity?"
+    ],
+    "responses": [
+      "Your website acts as your online marketing agent. We ensure it is presented in a unique and different way to establish a strong brand identity online."
+    ]
+  },
+  {
+    "intent": "static_website_navigation",
+    "patterns": [
+      "Are static websites easy to navigate?"
+    ],
+    "responses": [
+      "Yes. Static websites are very easy to navigate and highly browser compatible."
+    ]
+  },
+  {
+    "intent": "static_website_images",
+    "patterns": [
+      "Is a static website ideal for downloading images?"
+    ],
+    "responses": [
+      "Yes. Static web designs are ideal for sharing and downloading static content like images."
+    ]
+  },
+  {
+    "intent": "static_website_brochures",
+    "patterns": [
+      "Can I host brochures on a static website?"
+    ],
+    "responses": [
+      "Yes. Static websites are perfect for hosting and downloading company brochures and informational materials."
+    ]
+  },
+  {
+    "intent": "static_website_cost",
+    "patterns": [
+      "Is a static website cost-effective?"
+    ],
+    "responses": [
+      "Yes. Static websites are highly cost-effective, and outsourcing to a company like Opti Matrix in India ensures great affordability linked with top quality."
+    ]
+  },
+  {
+    "intent": "static_website_outsourcing",
+    "patterns": [
+      "Should I outsource my static website services to India?"
+    ],
+    "responses": [
+      "Yes. Outsourcing your static website services to India is one of the best options, as it provides immense cost-effectiveness without compromising on quality."
+    ]
+  },
+  {
+    "intent": "static_website_india",
+    "patterns": [
+      "Are your services in India cost-effective?"
+    ],
+    "responses": [
+      "Yes. With our location in India—the upcoming IT Hub—our services prove to be very cost-effective to our clients globally."
+    ]
+  },
+  {
+    "intent": "static_website_requirement",
+    "patterns": [
+      "Do you analyze client requirements before designing?"
+    ],
+    "responses": [
+      "Yes. Our static web designing services start strongly with understanding the client's requirements before analyzing and designing."
+    ]
+  },
+  {
+    "intent": "static_website_process",
+    "patterns": [
+      "What is your process for designing a static website?"
+    ],
+    "responses": [
+      "Our process includes understanding requirements, conceptualization, proper planning, framing, designing the layout, and executing your ideas strategically."
+    ]
+  },
+  {
+    "intent": "static_website_company_profile",
+    "patterns": [
+      "Can a static website act as my company profile or business card?"
+    ],
+    "responses": [
+      "Yes. Having a static website is just like carrying a business card for your online business meetings, containing all information about your profile."
+    ]
+  },
+  {
+    "intent": "static_website_business_presence",
+    "patterns": [
+      "How does a static website convey market presence?"
+    ],
+    "responses": [
+      "A professional corporate static website conveys your market presence by clearly communicating your services and acting as your digital representative."
+    ]
+  },
+  {
+    "intent": "static_website_online_identity",
+    "patterns": [
+      "Can you help launch my identity online?"
+    ],
+    "responses": [
+      "Yes. We specialize in framing and executing your ideas strategically to properly launch your face or identity online."
+    ]
+  },
+  {
+    "intent": "static_website_optima_matrix",
+    "patterns": [
+      "Why choose Opti Matrix for static website design?"
+    ],
+    "responses": [
+      "Opti Matrix provides a dedicated team of professional designers, highly customized web solutions, cost-effective services from India, and a hassle-free static design process."
+    ]
+  }
+]

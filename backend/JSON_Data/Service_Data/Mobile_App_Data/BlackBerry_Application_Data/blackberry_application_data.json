@@ -1,0 +1,41 @@
+[
+  {
+    "intent": "blackberry_general",
+    "patterns": [
+      "Who is the main audience for BlackBerry applications?",
+      "Is BlackBerry popular in the business community?"
+    ],
+    "responses": [
+      "BlackBerry's main appeal has traditionally been among business people. Global approval by the business community for executing effective business operations has vastly increased its practices."
+    ]
+  },
+  {
+    "intent": "blackberry_customization",
+    "patterns": [
+      "Do you develop consumer-centric BlackBerry applications?",
+      "Do you develop business applications for BlackBerry?",
+      "Do your BlackBerry applications have a good user interface?",
+      "Is technical work for BlackBerry apps top-notch?",
+      "Are your custom BlackBerry mobile applications low-cost?",
+      "Can you develop next-gen consumer applications for BlackBerry?"
+    ],
+    "responses": [
+      "Yes, whether it's an old-gen, next-gen, consumer-centric, or business-oriented application, we offer top-notch technical work at very low-cost rates. Our highly proficient designers assure the best user interface fitting the exact taste of your target audience."
+    ]
+  },
+  {
+    "intent": "blackberry_hiring_skills",
+    "patterns": [
+      "Can I hire BlackBerry Application Developers?",
+      "Do your BlackBerry developers know BlackBerry Internet Service (BIS)?",
+      "Do your BlackBerry developers know BlackBerry Enterprise Server (BES)?",
+      "Do your BlackBerry developers know Location Based Services (LBS)?",
+      "Do your BlackBerry developers know CLDC and MIDP standards?",
+      "Do your developers have expertise in BlackBerry Java Development Environment?",
+      "Do you provide basic BlackBerry operating tools and APIs knowledge?"
+    ],
+    "responses": [
+      "You can hire our expert BlackBerry Application Developers who have years of experience. They have deep knowledge of BIS, BES, LBS, CLDC/MIDP standards, basic operating tools/APIs, and the BlackBerry Java Development Environment."
+    ]
+  }
+]

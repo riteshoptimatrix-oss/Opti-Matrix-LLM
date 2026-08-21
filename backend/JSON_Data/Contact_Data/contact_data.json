@@ -1,0 +1,329 @@
+[
+  {
+    "intent": "contact_phone_general",
+    "patterns": [
+      "What is your contact number?",
+      "What is your mobile number?",
+      "Give me your mobile number",
+      "Can I have your phone number?",
+      "What is the company phone number?",
+      "How can I contact you?",
+      "I need your contact details",
+      "How do I contact the company?",
+      "Can you share your contact details?",
+      "Contact information please"
+    ],
+    "responses": [
+      "Our Head Office mobile number is +91 81283 61116. Email: info@optimatrix.in"
+    ]
+  },
+  {
+    "intent": "contact_email",
+    "patterns": [
+      "What is your email?",
+      "Give me your email",
+      "What is the company email?",
+      "Can I have your email address?",
+      "How can I email you?",
+      "What is your official email?",
+      "Email id please",
+      "Mail ID kya hai?",
+      "Email address batao",
+      "Aapka email kya hai?"
+    ],
+    "responses": [
+      "Our Head Office mobile number is +91 81283 61116. Email: info@optimatrix.in"
+    ]
+  },
+  {
+    "intent": "contact_location_head_office",
+    "patterns": [
+      "Where is your head office?",
+      "Where is your head office located?",
+      "Give me your head office address",
+      "What is the Ahmedabad office address?",
+      "Ahmedabad office kaha hai?",
+      "Aapka Ahmedabad address kya hai?",
+      "Head office kaha hai?",
+      "Office address batao",
+      "Office address",
+      "Head office address",
+      "Ahmedabad address",
+      "Where can I visit your office?",
+      "Head office location and address"
+    ],
+    "responses": [
+      "Head Office Location: 706, Indraprastha Corporate, Corporate Road, Opp. Shell Petrol Pump, Prahlad Nagar, Ahmedabad, Gujarat 380015."
+    ]
+  },
+  {
+    "intent": "contact_phone_head_office",
+    "patterns": [
+      "Head office number?",
+      "Head office mobile number?",
+      "Head office contact number?",
+      "Head office phone number?",
+      "Ahmedabad office number?",
+      "Ahmedabad head office contact?",
+      "Head office ka number kya hai?",
+      "Ahmedabad office ka mobile number?",
+      "Main office ka number batao"
+    ],
+    "responses": [
+      "Our Head Office mobile number is +91 81283 61116. Email: info@optimatrix.in"
+    ]
+  },
+  {
+    "intent": "contact_sales",
+    "patterns": [
+      "What is your sales number?",
+      "Sales contact number?",
+      "I want to contact sales",
+      "How can I contact sales?",
+      "Sales team ka number kya hai?",
+      "Sales ke liye kisse contact karein?",
+      "I have a sales inquiry",
+      "I want to buy your service",
+      "Product/service ke liye sales se baat karni hai"
+    ],
+    "responses": [
+      "For Sales Inquiries, please call +91 75750 58824.",
+      "You can contact our Sales team at +91 75750 58824."
+    ]
+  },
+  {
+    "intent": "contact_job",
+    "patterns": [
+      "What is your job contact number?",
+      "Job ke liye contact number?",
+      "I want to apply for a job",
+      "How can I contact HR?",
+      "Career inquiry number?",
+      "Vacancy ke liye kis number par contact karein?",
+      "I am looking for a job",
+      "Jobs available hain?",
+      "Job ke liye number batao",
+      "Career ke liye kisse contact karein?"
+    ],
+    "responses": [
+      "For job inquiries or HR, please contact +91 99792 61116.",
+      "Our job and career contact number is +91 99792 61116."
+    ]
+  },
+  {
+    "intent": "contact_location_bhuj",
+    "patterns": [
+      "Where is your branch office?",
+      "Where is your Bhuj office?",
+      "Bhuj office kaha hai?",
+      "Give me your Bhuj office address",
+      "Bhuj branch address kya hai?",
+      "Do you have an office in Bhuj?",
+      "Is there a branch in Bhuj?"
+    ],
+    "responses": [
+      "Bhuj Branch Location: 207, Merry Rajaram Complex, Hospital Road, Vijay Nagar, Bhuj, Gujarat 370001."
+    ]
+  },
+  {
+    "intent": "contact_phone_bhuj",
+    "patterns": [
+      "Bhuj branch ka number?",
+      "Bhuj office ka contact number?",
+      "Bhuj branch mobile number?",
+      "Bhuj office phone number?",
+      "Bhuj sales number?",
+      "Bhuj branch job number?",
+      "Bhuj office ka sales number?"
+    ],
+    "responses": [
+      "For our Bhuj branch Sales Inquiry, call +91 75750 58824. For Jobs, contact +91 99792 61116. Email: info@optimatrix.in"
+    ]
+  },
+  {
+    "intent": "contact_location_usa",
+    "patterns": [
+      "Do you have an office in the USA?",
+      "Where is your US office?",
+      "USA office address?",
+      "US office ka address kya hai?",
+      "What is your US contact number?",
+      "USA phone number?",
+      "US office ka number?",
+      "USA email?",
+      "Where can I contact you in the US?"
+    ],
+    "responses": [
+      "United States Office Location: 79 Columbia Ave, Apt 3, Jersey City, NJ 07307, United States."
+    ]
+  },
+  {
+    "intent": "contact_phone_usa",
+    "patterns": [
+      "What is your US contact number?",
+      "USA phone number?",
+      "US office ka number?",
+      "USA email?",
+      "Where can I contact you in the US?"
+    ],
+    "responses": [
+      "Our US office number is +1 516 499 3880. Email: info@optiinfo.com"
+    ]
+  },
+  {
+    "intent": "contact_location_south_africa",
+    "patterns": [
+      "Do you have an office in South Africa?",
+      "Where is your South Africa office?",
+      "South Africa office address?",
+      "Pretoria office kaha hai?",
+      "South Africa contact number?",
+      "South Africa office ka number?",
+      "Pretoria office number?",
+      "South Africa email?"
+    ],
+    "responses": [
+      "South Africa Office Location: 325 Esseln Street, Pretoria 0002, South Africa."
+    ]
+  },
+  {
+    "intent": "contact_phone_south_africa",
+    "patterns": [
+      "South Africa contact number?",
+      "South Africa office ka number?",
+      "Pretoria office number?",
+      "South Africa email?"
+    ],
+    "responses": [
+      "Our South Africa office number is +27 12 34 33 515. Email: info@optiinfo.com"
+    ]
+  },
+  {
+    "intent": "contact_location_general",
+    "patterns": [
+      "Where are your offices?",
+      "Which cities do you have offices in?",
+      "Do you have offices outside India?",
+      "Do you have an office in Gujarat?",
+      "Do you have an office in Ahmedabad?",
+      "Do you have an office in Bhuj?",
+      "Do you have an office in USA?",
+      "Do you have an office in South Africa?",
+      "India office kaha hai?",
+      "send me the company's other office location",
+      "How many branches do you have?",
+      "How many offices do you have?",
+      "Total branches kitne hain?",
+      "Total offices?",
+      "All branches details"
+    ],
+    "responses": [
+      "We have offices in Ahmedabad, Bhuj, Jersey City (USA), and Pretoria (South Africa)."
+    ]
+  },
+  {
+    "intent": "inquiry_create_website",
+    "patterns": [
+      "i need to create the website",
+      "i needto create the website",
+      "i need to develop the website",
+      "i need to devleop the website",
+      "i want to develop a website",
+      "i want to create a website",
+      "i need a website created",
+      "can you create a website for me",
+      "can you develop a website for me",
+      "website create karwana hai",
+      "website develop karwana hai",
+      "mujhe website banwani hai",
+      "i want to build a website",
+      "can you build a custom website for my business?",
+      "i need a new website",
+      "looking for website development"
+    ],
+    "responses": [
+      "We'd love to help you build your website! For website development inquiries and consultations, please contact our Head Office at +91 81283 61116 or email us at info@optimatrix.in. You can also submit your requirements through our website contact form."
+    ]
+  },
+  {
+    "intent": "inquiry_create_mobile_app",
+    "patterns": [
+      "i need to create the mobile application",
+      "i needto create the mobile application",
+      "i need to develop mobile app",
+      "i need to devleop the mobile application",
+      "i want to create a mobile app",
+      "i need a mobile application",
+      "can you create a mobile application for me",
+      "can you develop a mobile app for me",
+      "mobile app create karwana hai",
+      "mobile app develop karwana hai",
+      "mujhe android app banwana hai",
+      "i want to make an iOS and Android app",
+      "app development karwana hai",
+      "looking to build a mobile application"
+    ],
+    "responses": [
+      "We build high-performance mobile apps for iOS and Android! For mobile application inquiries, please call us at +91 81283 61116 or email info@optimatrix.in to discuss your project requirements."
+    ]
+  },
+  {
+    "intent": "inquiry_create_software",
+    "patterns": [
+      "i need to create software",
+      "i needto create the software",
+      "i need to develop software",
+      "i need to devleop the software",
+      "i need to develop the website software etc",
+      "i need to devleop the website software etc.",
+      "i need to create the website software etc",
+      "i want to develop custom software",
+      "i want to create custom software",
+      "i need a software developed",
+      "can you develop custom software for me?",
+      "software development karwana hai",
+      "software develop karwana hai",
+      "mujhe custom software banwana hai",
+      "i want to build a web application or software",
+      "software create karna hai",
+      "need software for my business",
+      "can you build software solutions for us?"
+    ],
+    "responses": [
+      "We offer end-to-end custom software and web application development tailored to your business needs! Please contact our team at +91 81283 61116 or email us at info@optimatrix.in to share your project details and get a customized quote."
+    ]
+  },
+  {
+    "intent": "inquiry_create_php_software",
+    "patterns": [
+      "can you make my project in php ?",
+      "can you make my project in php",
+      "can you do my project in php?",
+      "can you build my project in php?",
+      "can you develop my project using php?",
+      "can you work on my PHP project?",
+      "is it possible to make my project in PHP?",
+      "can your team develop my website in PHP?",
+      "will you build my web app in PHP?",
+      "can you create a PHP based project for me?",
+      "i need to create the software in php",
+      "i needto create the software in php",
+      "i need to develop software in php",
+      "i need to devleop the software in php",
+      "i want to create software in php",
+      "i need php software development",
+      "can you create php software for me",
+      "can you develop php software for me",
+      "php me software create karwana hai",
+      "php me software develop karwana hai",
+      "php application banwani hai",
+      "looking for PHP developer to create software",
+      "php me project banana hai",
+      "kya aap mera project php me bana sakte ho?",
+      "php me website ya software banwana hai"
+    ],
+    "responses": [
+      "Yes, we can! Opti Matrix provides full-stack PHP web and software development services tailored to your project requirements. For inquiries and project consultations, please contact our Head Office at +91 81283 61116 or email us at info@optimatrix.in."
+    ]
+  }
+]

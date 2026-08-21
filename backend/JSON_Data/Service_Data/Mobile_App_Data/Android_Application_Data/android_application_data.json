@@ -1,0 +1,67 @@
+[
+  {
+    "intent": "android_general",
+    "patterns": [
+      "What is Android?",
+      "Is Android open source?",
+      "Can Android be customized?",
+      "Are Android devices popular?"
+    ],
+    "responses": [
+      "Android is an operating system and software platform developed by Google and Open Handset Alliance, built on Linux. It is an open-source basis, meaning developers can customize it at minimal cost. It is extremely popular, with hundreds of millions of devices in use globally."
+    ]
+  },
+  {
+    "intent": "android_programming",
+    "patterns": [
+      "What is your approach to Android Programming?",
+      "Do you use the Google Android SDK?",
+      "What framework do you use for Android development?",
+      "What programming language is used for Android apps?"
+    ],
+    "responses": [
+      "We harness open-source technology using Java, the Google Android SDK, and Android development tools for IDE to create robust applications that add massive value to the end user and are easy to port."
+    ]
+  },
+  {
+    "intent": "android_features",
+    "patterns": [
+      "Can you develop Android applications with integrated browsers?",
+      "Can you develop Android applications with SQLite?",
+      "Can you develop Android applications with GSM Telephony?",
+      "Do your Android apps support media formats?",
+      "Can you develop Android apps with Bluetooth?",
+      "Can you develop Android apps with GPS and Compass?",
+      "Can you develop Android Widgets?",
+      "Can you customize Android APIs?",
+      "Can you develop Android Mobile Banking apps?",
+      "Can you develop Android Bar Code Scanning systems?",
+      "Can you develop Android Games?"
+    ],
+    "responses": [
+      "Yes, our expertise includes integrated browsers, SQLite, GSM Telephony, extensive media support, Bluetooth, GPS, widget development, custom APIs, mobile banking, barcode scanning, and Android games."
+    ]
+  },
+  {
+    "intent": "android_services",
+    "patterns": [
+      "Do you provide QA and testing for Android apps?",
+      "Do your Android developers help with the Android Market?"
+    ],
+    "responses": [
+      "Yes, we provide comprehensive QA/Testing Services, and our developers will support you through every stage to get your application successfully launched in the Android Market."
+    ]
+  },
+  {
+    "intent": "android_hiring",
+    "patterns": [
+      "Has MaxiMouge developed many Android apps?",
+      "What qualities do your Android Developers have?",
+      "Is it easy to hire professional Android developers from you?",
+      "Can you build apps for Android tablets?"
+    ],
+    "responses": [
+      "MaxiMouge makes it easy to hire top-tier Android developers for smartphones and tablets. Our developers have complete knowledge, top experience, fast response times, great communication, and perfect project management reporting."
+    ]
+  }
+]

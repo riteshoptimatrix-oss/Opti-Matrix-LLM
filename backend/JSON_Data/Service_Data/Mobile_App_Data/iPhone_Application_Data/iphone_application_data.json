@@ -1,0 +1,98 @@
+[
+  {
+    "intent": "iphone_app_general",
+    "patterns": [
+      "What is the iPhone?",
+      "How many iPhone users are there worldwide?",
+      "Can Opti Matrix assist with multi platform goals?",
+      "How can an iPhone application help my business brand?",
+      "Can I run an advertising campaign via an iPhone app?",
+      "What kind of applications does Opti Matrix produce for the iPhone?",
+      "How can I get in touch for an iPhone application?",
+      "Why are iPhone apps smart tools?"
+    ],
+    "responses": [
+      "The iPhone is one of the most celebrated next-generation mobile platforms with over sixty million users globally (as of Dec 2010). iPhone applications have become a smart marketing tool for advertising products and ideas. We can produce accurate, interactive, flexible, and user-friendly iPhone applications to help you achieve your multi-platform goals and gain a competitive edge. Please feel free to get in touch with us!"
+    ]
+  },
+  {
+    "intent": "iphone_app_categories",
+    "patterns": [
+      "In what categories can your iPhone programmers develop applications?",
+      "Can you develop iPhone games?",
+      "Can you develop entertainment iPhone apps?",
+      "Can you develop news iPhone apps?",
+      "Can you develop search tools for iPhone?",
+      "Can you develop productivity iPhone apps?",
+      "Can you develop social networking iPhone apps?",
+      "Can you develop sports iPhone apps?",
+      "Can you develop utilities iPhone apps?",
+      "Can you develop travel iPhone apps?",
+      "Can you develop weather iPhone apps?"
+    ],
+    "responses": [
+      "Our iPhone programmers can develop applications in various categories including Games, Entertainment, News, Search Tools, Productivity, Social Networking, Sports, Utilities, Travel, and Weather."
+    ]
+  },
+  {
+    "intent": "iphone_developers_hiring",
+    "patterns": [
+      "Do you have iPhone Application Developers?",
+      "Can I hire iPhone application developers for long-term projects?",
+      "Do you have a world-class iPhone application development team?"
+    ],
+    "responses": [
+      "Yes, we have a world-class iPhone application development team. You can hire dedicated, qualified iPhone programmers on a long-term basis for continuous project and product development on iOS to turn your ideas into reality."
+    ]
+  },
+  {
+    "intent": "iphone_sdk_tech",
+    "patterns": [
+      "Does Opti Matrix have access to the latest iPhone developer programs?",
+      "Can Opti Matrix work on any iPhone operating system software?",
+      "Does working ahead of release schedules benefit clients?",
+      "Are there new features in the current iPhone SDK development?",
+      "How do updated functions help iPhone application programmers?",
+      "Are your iPhone developers knowledgeable about Apple's iOS platform?",
+      "Do your developers use the iPhone SDK platform?"
+    ],
+    "responses": [
+      "Being an integral part of the latest iPhone developer programs, we have immediate access to up-to-date SDK utilities. Our experienced developers are well-versed in Apple's iOS platform, Touch Framework, and Objective C. We leverage the newest SDK features to create dynamic applications, and we can even work on software ahead of release schedules to give our clients a pleasant bonus."
+    ]
+  },
+  {
+    "intent": "iphone_development_process",
+    "patterns": [
+      "How does Opti Matrix ensure success in developing unique applications?",
+      "Do you design, develop, and deploy applications for several iPhone devices?",
+      "Do technical iPhone developers find executable solutions for business needs?",
+      "Do you coordinate with clients right from the start?",
+      "Can your graphics designers design personalized mocks for iPhone apps?",
+      "Can you handle large size iPhone projects?",
+      "Do you deliver products on a timeline?"
+    ],
+    "responses": [
+      "Through in-depth technical knowledge, we design, develop, and deploy applications for various iPhone devices. Our team coordinates with clients from the start, offering personalized mockups from graphic designers and finding executable solutions for business needs. We have the resources to complete large-scale projects on time with a high level of accuracy."
+    ]
+  },
+  {
+    "intent": "iphone_app_features",
+    "patterns": [
+      "Do your iPhone applications include secured payment gateway integration?"
+    ],
+    "responses": [
+      "Yes, our iPhone applications are developed and filled out with secured payment gateway integration."
+    ]
+  },
+  {
+    "intent": "iphone_app_advantages",
+    "patterns": [
+      "What are the advantages of iPhone Application Development?",
+      "Does an iPhone app improve customer relationships?",
+      "Does an iPhone app increase business profit?"
+    ],
+    "responses": [
+      "The advantages of iPhone Application Development include better customer service with satisfaction, easy-to-use applications, improved customer relationships, awareness of business products, brand recognition, increased business profit and sales, open communication channels, and enhanced user experiences."
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "intent": "faq_pricing_cost_estimate",
+    "patterns": [
+      "How much does a website cost?",
+      "How much does an app cost?",
+      "What is the cost of developing a mobile application?",
+      "Website banwane ka kitna charge hoga?",
+      "App development price kitna hai?",
+      "What are your development rates?",
+      "How do you charge for software development?",
+      "Approximate cost of building a web application?",
+      "Project quotation kaise milta hai?",
+      "Tell me your pricing structure",
+      "Kitna paisa lagega website banane me?"
+    ],
+    "responses": [
+      "Project costs depend on your specific requirements, feature complexity, design, and target platforms. We offer flexible pricing models including fixed-price and hourly rates. Please contact our team at +91 81283 61116 or email info@optimatrix.in to get a detailed, free quote for your project."
+    ]
+  },
+  {
+    "intent": "faq_project_timeline",
+    "patterns": [
+      "How long does it take to build a website?",
+      "How long does it take to develop a mobile app?",
+      "Project delivery timeline kya hoti hai?",
+      "Kitna time lagega project complete hone me?",
+      "How much time does software development take?",
+      "What is your standard project delivery time?",
+      "Can you deliver an urgent project quickly?",
+      "How fast can you launch my website?"
+    ],
+    "responses": [
+      "Project timelines vary based on scope: a standard custom website typically takes 2 to 4 weeks, while complex mobile apps or enterprise software can take 6 to 12+ weeks. We define clear milestones and deliverables before kicking off the project."
+    ]
+  },
+  {
+    "intent": "faq_hire_dedicated_developers",
+    "patterns": [
+      "Can I hire dedicated developers from your company?",
+      "Can I hire full-time PHP developers?",
+      "Can I hire React or Python developers?",
+      "Do you offer dedicated resource hiring models?",
+      "Developer hire kar sakte hain kya?",
+      "How to hire full time programmers from Opti Matrix?",
+      "Hire dedicated mobile app developer",
+      "Do you provide offshore developers?"
+    ],
+    "responses": [
+      "Yes! Opti Matrix offers dedicated developer hiring on full-time, part-time, and hourly engagement models across technologies like PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter. Contact us at info@optimatrix.in to hire developers."
+    ]
+  },
+  {
+    "intent": "faq_nda_confidentiality",
+    "patterns": [
+      "Do you sign an NDA?",
+      "Will my project idea remain confidential?",
+      "Do you protect client intellectual property?",
+      "NDA sign karte ho kya?",
+      "Is my project data safe with you?",
+      "Client data privacy agreement",
+      "Non disclosure agreement signed?"
+    ],
+    "responses": [
+      "Yes, absolutely. We prioritize client confidentiality and sign a comprehensive Non-Disclosure Agreement (NDA) before discussing project specifics to protect your intellectual property and data."
+    ]
+  },
+  {
+    "intent": "faq_development_process_methodology",
+    "patterns": [
+      "What is your development methodology?",
+      "How do you execute software projects?",
+      "What is your project development process?",
+      "Aapka kaam karne ka process kya hai?",
+      "Do you use Agile or Scrum?",
+      "Explain your project workflow"
+    ],
+    "responses": [
+      "We follow an Agile development process structured into 6 phases: 1) Requirement Gathering & Consultation, 2) UI/UX Design & Prototyping, 3) Core Development, 4) Quality Assurance & Testing, 5) Deployment & Launch, and 6) Post-launch Maintenance & Support."
+    ]
+  },
+  {
+    "intent": "faq_industries_served",
+    "patterns": [
+      "Which industries do you serve?",
+      "What domains do you have experience in?",
+      "Do you have experience in Healthcare or Real Estate?",
+      "Have you built E-commerce platforms?",
+      "Kaun kaun si industry ke liye software banate ho?",
+      "What business sectors do you work with?"
+    ],
+    "responses": [
+      "Opti Matrix serves diverse global industries including E-Commerce & Retail, Healthcare, Real Estate, Education & E-Learning, FinTech & Banking, Logistics, Hospitality, and Travel & Tourism."
+    ]
+  },
+  {
+    "intent": "faq_internship_training",
+    "patterns": [
+      "Do you offer internships?",
+      "Are internship opportunities available?",
+      "Can college students apply for live project training?",
+      "Internship ke liye apply kaise kare?",
+      "Do you provide freshers internship in React, PHP, or Python?",
+      "Is summer internship available at Opti Matrix?"
+    ],
+    "responses": [
+      "Yes, Opti Matrix provides internship and practical training opportunities for promising students and freshers. You can submit your resume and portfolio via email at info@optimatrix.in or through our website's Careers page."
+    ]
+  },
+  {
+    "intent": "faq_working_hours_timezones",
+    "patterns": [
+      "What are your working hours?",
+      "Office timing kya hai?",
+      "What is your support availability time?",
+      "Do you work in international timezones like US or UK?",
+      "What are your business operating hours?",
+      "Kab se kab tak office open rehta hai?"
+    ],
+    "responses": [
+      "Our standard office hours are Monday to Saturday, 9:30 AM to 6:30 PM (IST). For international clients in the US, UK, and Europe, our teams offer flexible overlapping hours to ensure smooth communication and real-time collaboration."
+    ]
+  },
+  {
+    "intent": "faq_maintenance_post_launch",
+    "patterns": [
+      "Do you provide maintenance after project completion?",
+      "What is your post-launch support policy?",
+      "Launch ke baad bug fix karte ho?",
+      "Will you maintain my website after it goes live?",
+      "Do you offer annual maintenance contracts (AMC)?",
+      "Post launch warranty and support details"
+    ],
+    "responses": [
+      "Yes, we provide dedicated post-launch support, bug fixing warranty, performance optimization, and customized Annual Maintenance Contracts (AMC) to ensure your applications remain secure, updated, and fast."
+    ]
+  },
+  {
+    "intent": "faq_payment_terms_milestones",
+    "patterns": [
+      "What are your payment terms?",
+      "How do payment milestones work?",
+      "Payment terms kya hain?",
+      "Do I have to pay 100% upfront?",
+      "What payment methods do you accept?",
+      "Milestone based payment structure"
+    ],
+    "responses": [
+      "We follow a transparent, milestone-based payment structure tied to project deliverables (e.g., Initial Advance, Design Approval, Beta Release, and Final Deployment). We accept bank wire transfers, credit/debit cards, and standard international payment gateways."
+    ]
+  }
+]

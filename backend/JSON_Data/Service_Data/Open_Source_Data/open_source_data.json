@@ -1,0 +1,167 @@
+[
+  {
+    "intent": "open_source_development",
+    "patterns": [
+      "Do you provide open source web development services?",
+      "What is open source web development?",
+      "What are the benefits of open source development?",
+      "Why should I choose open source development?",
+      "Is open source development cost-effective?",
+      "Can you customize open source platforms?",
+      "Can open source software be customized according to my requirements?",
+      "Do you provide open source IT consulting?",
+      "Do you provide open source outsourcing services?",
+      "Does Opti Matrix work with CMS platforms?",
+      "Which open source platforms do you work with?",
+      "Which open source platform is best for my website?",
+      "Can you help me choose an open source platform?",
+      "open_source",
+      "open_source_development",
+      "open_source_web_development",
+      "open_source_customization",
+      "open_source_consulting",
+      "open_source_outsourcing",
+      "open_source_cost_effective",
+      "open_source_flexibility",
+      "open_source_vendor_lockin"
+    ],
+    "responses": [
+      "Opti Matrix provides expert open source web development, customization, and consulting services. We work with major platforms like Joomla, WordPress, Drupal, Magento, osCommerce, and ZenCart to provide flexible, cost-effective, and highly customized solutions while reducing vendor lock-in."
+    ]
+  },
+  {
+    "intent": "joomla_development",
+    "patterns": [
+      "Do you provide Joomla development services?",
+      "Do you provide complete Joomla development?",
+      "Do you have Joomla developers?",
+      "Do you provide Joomla template design?",
+      "Can you build a Joomla website?",
+      "Can you customize Joomla?",
+      "Is Joomla suitable for a CMS website?",
+      "joomla",
+      "joomla_development",
+      "joomla_website",
+      "joomla_customization",
+      "joomla_template",
+      "joomla_cms",
+      "joomla_developer"
+    ],
+    "responses": [
+      "Yes. Opti Matrix offers start-to-end Joomla development services. Our highly experienced Joomla developers and template designers can build, customize, and publish top-quality content management systems using Joomla."
+    ]
+  },
+  {
+    "intent": "wordpress_development",
+    "patterns": [
+      "Do you provide WordPress development services?",
+      "Can you develop a WordPress website?",
+      "Is WordPress suitable for blogging websites?",
+      "Can WordPress be used for ecommerce?",
+      "Can you customize WordPress?",
+      "Does WordPress support plugins?",
+      "Is WordPress user-friendly?",
+      "Does WordPress support SEO?",
+      "Can you create a custom WordPress website?",
+      "Can WordPress be used for a social network?",
+      "wordpress",
+      "wordpress_development",
+      "wordpress_website",
+      "wordpress_customization",
+      "wordpress_plugins",
+      "wordpress_ecommerce",
+      "wordpress_blog",
+      "wordpress_cms",
+      "wordpress_seo",
+      "wordpress_social_network"
+    ],
+    "responses": [
+      "Yes. We offer extensive WordPress development services. WordPress is a robust, user-friendly CMS perfect for custom websites, blogging, ecommerce, and social networks, offering excellent plugin support and SEO management."
+    ]
+  },
+  {
+    "intent": "drupal_development",
+    "patterns": [
+      "Do you provide Drupal development services?",
+      "What is Drupal?",
+      "Can you develop websites using Drupal?",
+      "Can Drupal be customized?",
+      "Is Drupal open source?",
+      "Can you modify Drupal according to my requirements?",
+      "Do you provide Drupal CMS development?",
+      "drupal",
+      "drupal_development",
+      "drupal_website",
+      "drupal_cms",
+      "drupal_customization",
+      "drupal_open_source"
+    ],
+    "responses": [
+      "Yes. We provide expert Drupal development. Drupal is a highly customizable, open source Content Management System (released under the GNU General Public License), ideal for robust web application frameworks."
+    ]
+  },
+  {
+    "intent": "magento_development",
+    "patterns": [
+      "Do you provide Magento development services?",
+      "Can you develop an ecommerce website using Magento?",
+      "What is Magento?",
+      "Can Magento be used for an online store?",
+      "Can products be managed in Magento?",
+      "Do I need technical knowledge to manage products in Magento?",
+      "Is Magento flexible for ecommerce development?",
+      "Can you customize Magento?",
+      "magento",
+      "magento_development",
+      "magento_website",
+      "magento_ecommerce",
+      "magento_customization",
+      "magento_products",
+      "magento_online_store"
+    ],
+    "responses": [
+      "Yes. We provide complete Magento website development. Magento is a professional, feature-rich, open source ecommerce solution that allows merchants to easily add and edit products without specific technical knowledge."
+    ]
+  },
+  {
+    "intent": "oscommerce_development",
+    "patterns": [
+      "Do you provide osCommerce development?",
+      "What is osCommerce?",
+      "Can you build an ecommerce store using osCommerce?",
+      "Is osCommerce suitable for online businesses?",
+      "Why use osCommerce for an ecommerce website?",
+      "oscommerce",
+      "oscommerce_development",
+      "oscommerce_website",
+      "oscommerce_ecommerce",
+      "oscommerce_online_store"
+    ],
+    "responses": [
+      "Yes. Opti Matrix offers specialized osCommerce development services. It is a powerful open source platform that helps businesses set up online ecommerce stores, moving beyond traditional brick-and-mortar operations."
+    ]
+  },
+  {
+    "intent": "zencart_development",
+    "patterns": [
+      "Do you provide ZenCart integration?",
+      "What is ZenCart?",
+      "Can you develop an ecommerce website using ZenCart?",
+      "Is ZenCart open source?",
+      "What technologies does ZenCart use?",
+      "Is ZenCart suitable for an online store?",
+      "Can you integrate ZenCart into my ecommerce project?",
+      "zencart",
+      "zencart_development",
+      "zencart_integration",
+      "zencart_website",
+      "zencart_ecommerce",
+      "zencart_online_store",
+      "zencart_php",
+      "zencart_mysql"
+    ],
+    "responses": [
+      "Yes. We provide professional ZenCart integration and development. ZenCart is a highly beneficial open source ecommerce solution written in PHP and backed by MySQL, perfect for setting up a robust online store."
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "intent": "codeigniter_general_info",
+    "patterns": [
+      "What is CodeIgniter?",
+      "Is CodeIgniter lightweight?",
+      "Is CodeIgniter complex?",
+      "Is CodeIgniter easy to set up?",
+      "Is CodeIgniter an MVC framework?",
+      "How long does it take to set up a workspace in CodeIgniter?",
+      "Is CodeIgniter well-proven?"
+    ],
+    "responses": [
+      "CodeIgniter is a very popular, well-proven, and lightweight MVC architecture. Unlike other complex frameworks, it is easy to set up—taking just minutes to configure a workspace—and has all the essential features developers look for."
+    ]
+  },
+  {
+    "intent": "codeigniter_database_control",
+    "patterns": [
+      "Does CodeIgniter have a good database layer?",
+      "Why do some people dislike CodeIgniter?",
+      "Why do some people love CodeIgniter?",
+      "Can I write my own SQL queries in CodeIgniter?"
+    ],
+    "responses": [
+      "While some developers dislike CodeIgniter because it lacks a heavy, robust database layer, others love it for exactly that reason: it gives total control over the database layer by letting you write your own raw SQL queries."
+    ]
+  },
+  {
+    "intent": "codeigniter_project_suitability",
+    "patterns": [
+      "What scale of projects is CodeIgniter best for?",
+      "Should I use CodeIgniter for complex data structures?",
+      "Should I use CodeIgniter for attractive UIs?",
+      "Does CodeIgniter develop projects in a modular way?",
+      "Is CodeIgniter fast to develop?"
+    ],
+    "responses": [
+      "CodeIgniter is highly recommended for small or medium-scale projects with less complex data structures and attractive user interfaces. It is ideal if you want your project developed in a fast, modular way."
+    ]
+  },
+  {
+    "intent": "codeigniter_developer_experience",
+    "patterns": [
+      "Is CodeIgniter easy to understand?",
+      "Can developers detect different project phases in CodeIgniter?",
+      "Why does CodeIgniter win at many firms?",
+      "Does CodeIgniter allow developers to work fast?",
+      "Do you like developing with CodeIgniter?",
+      "What does freedom mean in CodeIgniter?",
+      "Do I have to follow strict naming conventions for tables in CodeIgniter?",
+      "Do I have to name models after tables in CodeIgniter?",
+      "Does CodeIgniter give developers control?"
+    ],
+    "responses": [
+      "CodeIgniter is so easy to understand that experienced developers can easily trace project phases. It wins at many firms because its organizational dynamic supports freedom—you don't have to strictly name database tables or name models after tables—which allows developers to work much faster."
+    ]
+  },
+  {
+    "intent": "codeigniter_legacy_refactoring",
+    "patterns": [
+      "Is CodeIgniter good for refactoring?",
+      "Can CodeIgniter refactor legacy PHP applications?"
+    ],
+    "responses": [
+      "Yes, the immense freedom and flexibility provided by CodeIgniter make it the perfect choice to refactor legacy PHP applications."
+    ]
+  },
+  {
+    "intent": "codeigniter_technical_specs",
+    "patterns": [
+      "Does CodeIgniter require a huge footprint of code?",
+      "Does CodeIgniter require huge libraries?",
+      "Does CodeIgniter require PEAR?",
+      "What PHP versions does CodeIgniter work on?",
+      "Does CodeIgniter work on PHP 4?",
+      "Does CodeIgniter work on PHP 5?",
+      "Does CodeIgniter create portable applications?"
+    ],
+    "responses": [
+      "CodeIgniter doesn't require a huge footprint of code or massive libraries like PEAR. It works equally well in both PHP 4 and PHP 5, making it excellent for creating fairly portable applications."
+    ]
+  },
+  {
+    "intent": "codeigniter_hiring_services",
+    "patterns": [
+      "Do you have experienced PHP developers for CodeIgniter?",
+      "Can you work on an existing CodeIgniter project?",
+      "Can you build a new CodeIgniter project from scratch?",
+      "Can I hire a CodeIgniter developer from you?",
+      "Do you provide suggestions and support for CodeIgniter projects?",
+      "Is CodeIgniter an Indian service?"
+    ],
+    "responses": [
+      "Yes, we offer expert CodeIgniter PHP Framework Services from India. We have highly experienced PHP developers ready to build new projects from scratch, work on existing CodeIgniter projects, and provide comprehensive suggestions and support."
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "intent": "opencart_development_general",
+    "patterns": [
+      "What is OpenCart Development?",
+      "What is OpenCart?",
+      "Does Opti Matrix provide OpenCart Development services?",
+      "Can you build an ecommerce website using OpenCart?",
+      "Is OpenCart suitable for ecommerce websites?",
+      "Can you help me create an online store with OpenCart?",
+      "Do you provide OpenCart ecommerce development?",
+      "What kind of OpenCart services does Opti Matrix provide?",
+      "I need an OpenCart website. Can Opti Matrix help?",
+      "I want to build an online shop using OpenCart. Can you do it?",
+      "I need OpenCart development services. How can Opti Matrix help?"
+    ],
+    "responses": [
+      "OpenCart is a powerful platform used to build and manage online stores. Opti Matrix provides extensive OpenCart development solutions, including designing, developing, customizing, and maintaining OpenCart ecommerce websites tailored to your business."
+    ]
+  },
+  {
+    "intent": "opencart_customization",
+    "patterns": [
+      "Can OpenCart be customized?",
+      "Do you provide OpenCart customization?",
+      "Can you develop a custom OpenCart ecommerce store?",
+      "Can you design an OpenCart website?",
+      "Can you customize the OpenCart design?",
+      "Can you develop custom functionality in OpenCart?",
+      "Can Opti Matrix customize OpenCart according to my business?",
+      "Can you create custom features for OpenCart?"
+    ],
+    "responses": [
+      "Yes. We provide complete OpenCart customization. We can design unique appearances, develop custom functionality, and build customized OpenCart ecommerce solutions designed around your specific business requirements."
+    ]
+  },
+  {
+    "intent": "opencart_existing_website",
+    "patterns": [
+      "Can you customize an existing OpenCart website?",
+      "Can you work on an existing OpenCart store?",
+      "Can you modify my OpenCart website?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix can provide dedicated development and customization support for existing OpenCart ecommerce websites to add required functionality or modify the design."
+    ]
+  },
+  {
+    "intent": "opencart_integration",
+    "patterns": [
+      "Can you integrate OpenCart with other systems?"
+    ],
+    "responses": [
+      "Yes. OpenCart can be customized for various integration requirements. We provide comprehensive open-source customization services to seamlessly integrate OpenCart with other systems."
+    ]
+  },
+  {
+    "intent": "opencart_open_source",
+    "patterns": [
+      "Is OpenCart an open-source platform?",
+      "Why choose OpenCart for an ecommerce website?",
+      "Does Opti Matrix offer open-source ecommerce development?",
+      "What is Open Source Web Development?",
+      "Why does Opti Matrix provide Open Source Development?",
+      "Can OpenCart be used for a business website?",
+      "Can Opti Matrix develop a customized ecommerce solution?"
+    ],
+    "responses": [
+      "Opti Matrix provides OpenCart under its Open Source Web Development services, which use openly available technologies. This approach focuses on high flexibility, superior quality, deep customization, cost-effectiveness, and avoiding vendor lock-in for your business website."
+    ]
+  }
+]

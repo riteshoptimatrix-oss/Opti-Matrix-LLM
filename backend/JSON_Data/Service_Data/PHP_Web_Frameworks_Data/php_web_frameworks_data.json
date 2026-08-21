@@ -1,0 +1,74 @@
+[
+  {
+    "intent": "php_frameworks_cakephp",
+    "patterns": [
+      "What is CakePHP?",
+      "Is CakePHP popular?",
+      "Is CakePHP an MVC framework?",
+      "Does CakePHP have MVC features?",
+      "What does MVC stand for in CakePHP?",
+      "Why use CakePHP?",
+      "Can I develop a web application using CakePHP?",
+      "Is CakePHP used worldwide?",
+      "Is CakePHP a PHP framework?",
+      "Do you provide CakePHP development?"
+    ],
+    "responses": [
+      "CakePHP is a highly popular PHP web application development framework used worldwide. It is a full MVC (Model-View-Controller) framework, providing all necessary features to develop web applications in a more modular and structured way. We provide extensive CakePHP development services."
+    ]
+  },
+  {
+    "intent": "php_frameworks_codeigniter",
+    "patterns": [
+      "What is CodeIgniter?",
+      "Is CodeIgniter easy to understand?",
+      "Who can detect work in CodeIgniter?",
+      "Can developers detect different phases in a CodeIgniter project?",
+      "What is CodeIgniter compared to?",
+      "Is CodeIgniter good for large projects?",
+      "Is CodeIgniter a PHP framework?",
+      "Do you provide CodeIgniter development?",
+      "Does CodeIgniter help in tracking developers' work?",
+      "Why use CodeIgniter?"
+    ],
+    "responses": [
+      "CodeIgniter is an easy-to-understand PHP framework. Its structure is so clear that an experienced developer can easily detect the work of different developers across various phases of a project, much like an archaeologist examining different epochs. We provide expert CodeIgniter development services."
+    ]
+  },
+  {
+    "intent": "php_frameworks_symfony",
+    "patterns": [
+      "What is Symfony?",
+      "Does Symfony use MVC architecture?",
+      "Under what license is Symfony released?",
+      "Is Symfony the same as Symphony CMS?",
+      "What is Symphony CMS?",
+      "Is Symfony written in PHP?",
+      "Is Symfony open source?",
+      "Do you provide Symfony development?",
+      "Does Symfony follow Model-View-Controller?",
+      "Is Symfony an XML content management system?"
+    ],
+    "responses": [
+      "Symfony is a web application framework written in PHP that follows the MVC (Model-View-Controller) architecture. It is open source and released under the MIT license. Note that it should not be confused with Symphony CMS, which is an XML/XSLT content management system. We offer professional Symfony development services."
+    ]
+  },
+  {
+    "intent": "php_frameworks_mvc",
+    "patterns": [
+      "What does MVC stand for?",
+      "What is MVC?",
+      "Why use MVC?",
+      "How do different developers work?",
+      "How do some developers manage external files?",
+      "How do developers use classes?",
+      "Do all developers manage codes properly?",
+      "What is straight forward PHP coding?",
+      "Does MVC help manage code better than straightforward PHP?",
+      "Do you provide MVC Development?"
+    ],
+    "responses": [
+      "MVC stands for Module-View-Controller (or Model-View-Controller). It is an approach to building web applications in a structured, modular way. Unlike straightforward core PHP where developers might barely manage code or just use huge lists of external files, MVC encourages using classes to manage code effectively. We specialize in robust MVC development."
+    ]
+  }
+]

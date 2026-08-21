@@ -1,0 +1,279 @@
+[
+  {
+    "intent": "web_design_general",
+    "patterns": [
+      "Why is website design important?",
+      "What are website designing services?",
+      "How does a website help my business?"
+    ],
+    "responses": [
+      "A well-designed, informative website is an essential part of any organization. It is the best medium to reach out to the world quickly and give potential customers a clear glimpse of your business."
+    ]
+  },
+  {
+    "intent": "web_design_services",
+    "patterns": [
+      "Do you provide website designing services?",
+      "Do you offer web design solutions?",
+      "Website designing services?"
+    ],
+    "responses": [
+      "Yes. OptiMatrix designs, builds, and supports informative website designing services and e-commerce solutions with HTML and Flash designs."
+    ]
+  },
+  {
+    "intent": "web_design_vision",
+    "patterns": [
+      "Will you match my vision for the website?",
+      "Can you turn my ideas into reality?",
+      "Do you build websites according to my thoughts?"
+    ],
+    "responses": [
+      "Yes. Our talented team of experts works closely with you to translate your vision and ideas into reality, maintaining and enhancing your thoughts."
+    ]
+  },
+  {
+    "intent": "psd_layouts_meaning",
+    "patterns": [
+      "What is a PSD layout?",
+      "How does website development begin?",
+      "What is the first step in website design?"
+    ],
+    "responses": [
+      "Your website begins its journey of development from its design and layout, which is first formed in the shape of a PSD file."
+    ]
+  },
+  {
+    "intent": "psd_file_explanation",
+    "patterns": [
+      "What is a PSD file?",
+      "What does PSD mean?"
+    ],
+    "responses": [
+      "PSD is the native file format of Adobe Photoshop. Web designers design templates in various layers that jointly form a design saved in PSD format. It is the raw visual form of the website."
+    ]
+  },
+  {
+    "intent": "psd_usability",
+    "patterns": [
+      "Can a PSD file be used directly on a website?",
+      "Is a PSD file a working website?"
+    ],
+    "responses": [
+      "No. PSD files are only useful to create and display the visual design and look of your website. They lack usability and cannot be put on a website until converted."
+    ]
+  },
+  {
+    "intent": "psd_to_html_conversion",
+    "patterns": [
+      "Do you convert PSD to HTML?",
+      "What is PSD to HTML conversion?"
+    ],
+    "responses": [
+      "Yes. Since PSD templates are raw files that lack usability on the web, we provide PSD to HTML services to convert these designs into functional, usable HTML codes."
+    ]
+  },
+  {
+    "intent": "psd_to_html_why",
+    "patterns": [
+      "Why do PSD templates need to be converted to HTML?",
+      "Why can't I just upload a PSD template?"
+    ],
+    "responses": [
+      "PSD templates are useful only to the designer to show the look of the web design. They cannot be interacted with or displayed as web pages until they are converted to HTML codes."
+    ]
+  },
+  {
+    "intent": "html_designing_importance",
+    "patterns": [
+      "What is HTML designing?",
+      "Why do I need a unique website?",
+      "Why is HTML design important?"
+    ],
+    "responses": [
+      "A unique HTML website introduces your corporate identity on the web and reflects your business standards. It is a powerful, inexpensive marketing and advertising tool."
+    ]
+  },
+  {
+    "intent": "html_designing_business",
+    "patterns": [
+      "Can HTML design help expand my business?",
+      "Does a website expand business worldwide?"
+    ],
+    "responses": [
+      "Yes, a well-designed HTML website is a great way to expand your business worldwide, acting as a powerful marketing and advertising tool."
+    ]
+  },
+  {
+    "intent": "logo_designing_service",
+    "patterns": [
+      "Do you provide logo designing services?",
+      "What is a logo?",
+      "Can you design a logo for my company?"
+    ],
+    "responses": [
+      "Yes, we provide professional logo designing services. A logo is the corporate identity of every company and builds the foundation of your business recognition in the market."
+    ]
+  },
+  {
+    "intent": "logo_designing_importance",
+    "patterns": [
+      "Why is logo design important?",
+      "Why should I be meticulous about my logo?",
+      "Does a logo impact people?"
+    ],
+    "responses": [
+      "It is crucial to be meticulous when designing a logo because pictures and colors convey more than mere words. A great logo leaves a lasting impact on the minds of the people who see it."
+    ]
+  },
+  {
+    "intent": "web_designing",
+    "patterns": [
+      "Do you offer web designing?",
+      "Web designing?"
+    ],
+    "responses": [
+      "Yes. OptiMatrix designs, builds, and supports distributed web designing solutions to give your potential customers a glimpse of your business."
+    ]
+  },
+  {
+    "intent": "website_designing_services",
+    "patterns": [
+      "What website designing services do you offer?",
+      "Tell me about your website designing services."
+    ],
+    "responses": [
+      "We offer informative website designing services and e-commerce solutions with HTML and Flash designs. Our talented team matches your vision to reality."
+    ]
+  },
+  {
+    "intent": "website_design",
+    "patterns": [
+      "I need website design.",
+      "Website design"
+    ],
+    "responses": [
+      "We specialize in professional website design. A well-designed informative website is the best medium to reach out to the world in a short span of time."
+    ]
+  },
+  {
+    "intent": "website_design_importance",
+    "patterns": [
+      "Why is website design important?",
+      "Importance of website design?"
+    ],
+    "responses": [
+      "Website design is vital because a website is one of the most integral parts of any organization. It is the only medium to reach out quickly and represent your brand."
+    ]
+  },
+  {
+    "intent": "custom_website_design",
+    "patterns": [
+      "Do you provide custom website design?",
+      "Custom website design?"
+    ],
+    "responses": [
+      "Yes. We implement the richness of our customers' thoughts and tailor custom website designs to maintain and enhance your vision."
+    ]
+  },
+  {
+    "intent": "ecommerce_website_design",
+    "patterns": [
+      "Do you design ecommerce websites?",
+      "Ecommerce website design?"
+    ],
+    "responses": [
+      "Yes. We offer informative website designing services alongside powerful e-commerce solutions to help you sell effectively online."
+    ]
+  },
+  {
+    "intent": "psd_layout",
+    "patterns": [
+      "What is a PSD layout?",
+      "PSD layout?"
+    ],
+    "responses": [
+      "Your website begins its journey from its design and layout in the form of a PSD (Photoshop Document). It is the raw visual layout of your site."
+    ]
+  },
+  {
+    "intent": "psd_design",
+    "patterns": [
+      "What is PSD design?",
+      "PSD design?"
+    ],
+    "responses": [
+      "PSD design involves web designers creating templates in various layers that jointly form a design saved in PSD format."
+    ]
+  },
+  {
+    "intent": "psd_to_html",
+    "patterns": [
+      "Do you convert PSD to HTML?",
+      "PSD to HTML conversion?"
+    ],
+    "responses": [
+      "Yes. PSD templates lack usability until they are converted to HTML codes. We provide professional PSD to HTML conversion so they can be put on the web."
+    ]
+  },
+  {
+    "intent": "html_designing",
+    "patterns": [
+      "Do you offer HTML designing?",
+      "HTML designing?"
+    ],
+    "responses": [
+      "Yes. We provide HTML designing services. It is a very powerful and inexpensive marketing tool and a great way to expand your business worldwide."
+    ]
+  },
+  {
+    "intent": "html_website_design",
+    "patterns": [
+      "Can you create an HTML website design?",
+      "HTML website design?"
+    ],
+    "responses": [
+      "Yes. All our HTML website designs are unique and introduce your corporate identity on the web, reflecting your business standards."
+    ]
+  },
+  {
+    "intent": "logo_designing",
+    "patterns": [
+      "Do you do logo designing?",
+      "Logo designing services?"
+    ],
+    "responses": [
+      "Yes, we provide professional logo designing services. We know that pictures and colors convey more than mere words and impact the mind."
+    ]
+  },
+  {
+    "intent": "logo_design",
+    "patterns": [
+      "I need a logo design.",
+      "Logo design"
+    ],
+    "responses": [
+      "We can help! A logo design is necessary to build the foundation of your business for its recognition in the competitive market."
+    ]
+  },
+  {
+    "intent": "logo_design_importance",
+    "patterns": [
+      "Why is a logo design important?",
+      "Importance of logo design?"
+    ],
+    "responses": [
+      "A logo is a corporate identity of every company. It becomes very important to be meticulous while designing a logo because it leaves a lasting impact on people's minds."
+    ]
+  },
+  {
+    "intent": "corporate_identity_design",
+    "patterns": [
+      "Do you provide corporate identity design?",
+      "Corporate identity design?"
+    ],
+    "responses": [
+      "Yes. Through professional logo designing and unique HTML website designing, we help build and introduce your corporate identity on the web."
+    ]
+  }
+]

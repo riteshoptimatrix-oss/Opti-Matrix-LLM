@@ -1,0 +1,82 @@
+[
+  {
+    "intent": "nodejs_general_info",
+    "patterns": [
+      "What is Node.js?",
+      "Is Node.js a framework?",
+      "Why should I choose Node.js?",
+      "What is non-blocking I/O?",
+      "Is Node.js fast?",
+      "What is NPM?",
+      "Is Node.js single-threaded?",
+      "How fast is the development process with Node.js?"
+    ],
+    "responses": [
+      "Node.js is an incredibly fast, open-source JavaScript runtime environment built on Chrome's V8 engine. While technically not a framework, it uses a non-blocking, single-threaded event loop to handle requests asynchronously. Using JavaScript for both the frontend and backend significantly accelerates the development process. It also utilizes NPM, the world's largest software registry."
+    ]
+  },
+  {
+    "intent": "nodejs_tech_features",
+    "patterns": [
+      "What is Express.js?",
+      "What databases do you use with Node.js?",
+      "What is the MEAN stack?",
+      "What is the MERN stack?",
+      "Does Node.js work well with front-end frameworks?",
+      "What is PM2?"
+    ],
+    "responses": [
+      "Node.js pairs perfectly with frontend frameworks (React, Angular, Vue) to create full-stack MERN or MEAN solutions. We frequently use Express.js (a minimal web framework) along with databases like MongoDB, PostgreSQL, and MySQL. We also utilize PM2 as a production process manager to ensure zero-downtime reloads."
+    ]
+  },
+  {
+    "intent": "nodejs_capabilities",
+    "patterns": [
+      "Can you build real-time applications with Node.js?",
+      "Does Node.js use WebSockets?",
+      "Can Opti Matrix build an API using Node.js?",
+      "Can you build microservices with Node.js?",
+      "Is Node.js suitable for enterprise applications?",
+      "How does Node.js handle heavy traffic?",
+      "Can Node.js be used for IoT applications?",
+      "Is Node.js good for streaming applications?",
+      "Does Node.js support serverless architecture?",
+      "Can Opti Matrix handle e-commerce backends with Node.js?",
+      "Does Node.js support GraphQL?",
+      "Can Opti Matrix build SaaS applications using Node.js?"
+    ],
+    "responses": [
+      "Node.js is incredibly powerful and versatile. Because it handles heavy concurrent traffic so well, it is perfect for real-time applications (using WebSockets), highly scalable APIs (REST/GraphQL), microservices, enterprise SaaS applications, IoT platforms, video streaming, serverless architectures (AWS Lambda), and high-volume e-commerce backends."
+    ]
+  },
+  {
+    "intent": "nodejs_services",
+    "patterns": [
+      "Does Opti Matrix provide Node.js development?",
+      "Do your developers use Express.js?",
+      "Can you migrate my backend to Node.js?",
+      "Does Opti Matrix provide Node.js maintenance?",
+      "How do you ensure security in Node.js applications?",
+      "Do you use custom NPM packages?",
+      "Can you optimize a slow Node.js application?",
+      "Can you deploy Node.js to AWS?",
+      "Do you write unit tests for Node.js?",
+      "Can you integrate payment gateways with Node.js?",
+      "Does Opti Matrix provide custom Node.js plugin development?"
+    ],
+    "responses": [
+      "Opti Matrix provides end-to-end Node.js services. This includes building new backends (often using Express.js), migrating legacy systems to Node.js, API/payment gateway integration, AWS cloud deployment, rigorous unit testing (Mocha/Jest), strict security implementations (JWT, CORS), custom NPM package creation, and deep optimization to speed up slow applications."
+    ]
+  },
+  {
+    "intent": "nodejs_hiring",
+    "patterns": [
+      "Can I hire a dedicated Node.js developer?",
+      "Are your Node.js developers experienced?",
+      "Why choose Opti Matrix for Node.js development in India?"
+    ],
+    "responses": [
+      "Opti Matrix houses a team of elite, highly experienced Node.js developers in India. We offer flexible hiring models (monthly, part-time, or hourly) providing you with top-tier talent, transparent communication, agile methodologies, and cost-effective solutions for your global projects."
+    ]
+  }
+]

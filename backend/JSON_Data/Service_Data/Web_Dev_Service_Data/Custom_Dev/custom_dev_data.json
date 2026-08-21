@@ -1,0 +1,330 @@
+[
+  {
+    "intent": "custom_web_dev_meaning",
+    "patterns": [
+      "What is Custom Website Development?",
+      "What makes custom websites different from ready-made websites?"
+    ],
+    "responses": [
+      "Custom Website Development means creating a website specifically according to the requirements, goals, brand, and audience of a business. Unlike common ready-made solutions, custom websites are tailored to represent the business in its own way and can be designed for its unique processes and future requirements."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_services",
+    "patterns": [
+      "Do you provide Custom Website Development services?",
+      "Can you build a website according to my business requirements?",
+      "Can you create a completely customized website?",
+      "Custom website?",
+      "Custom web development?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix Solutions provides custom web development services in Ahmedabad. We follow a requirement-focused approach to create tailored websites and web applications specifically designed to suit the needs of your business."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_why",
+    "patterns": [
+      "Why should I choose a custom website?"
+    ],
+    "responses": [
+      "A custom website gives you more flexibility to represent your brand, business goals, and audience. You can include specific features and functionality instead of being limited to a common ready-made structure."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_templates",
+    "patterns": [
+      "Do you use templates for custom websites?"
+    ],
+    "responses": [
+      "No. Opti Matrix's custom development approach is tailored to each business, emphasizing customized websites rather than standard templates."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_small_business",
+    "patterns": [
+      "Is custom web development suitable for small businesses?"
+    ],
+    "responses": [
+      "Yes. At Opti Matrix, the size of the project is not the main consideration. The focus is on providing the right solution that properly suits the customer's needs."
+    ]
+  },
+  {
+    "intent": "custom_web_app_dev_services",
+    "patterns": [
+      "Do you develop custom web applications?",
+      "What type of web applications can you develop?",
+      "Can you develop complex web applications?",
+      "Web application development?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides custom web application development services ranging from content-based websites to complex web-based Internet applications, electronic business applications, software consulting, and social networking services."
+    ]
+  },
+  {
+    "intent": "custom_web_app_dev_b2b_b2c",
+    "patterns": [
+      "Can you develop B2B web applications?",
+      "Can you develop B2C web applications?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix's custom web application services can support both B2B and B2C business interactions effectively."
+    ]
+  },
+  {
+    "intent": "custom_web_app_dev_integration_erp_crm",
+    "patterns": [
+      "Can you integrate applications into my website?",
+      "Do you provide ERP application development?",
+      "Do you provide CRM development services?",
+      "Do you provide data management solutions?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides application integration, ERP applications, CRM development, and data management solutions as part of our custom web application development services."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_maintenance",
+    "patterns": [
+      "Do you provide application maintenance?",
+      "Do you provide maintenance after website launch?",
+      "Do you provide post-launch support?",
+      "Website maintenance?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides ongoing maintenance and support after launch, including optimization to help keep your website or application up to date."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_technologies",
+    "patterns": [
+      "What technologies do you use for custom web development?",
+      "Can you work with multiple web technologies?",
+      "Do you use PHP for web development?",
+      "Do you work with JavaScript?",
+      "Do you use MySQL databases?",
+      "Do you work with ASP.NET?",
+      "Do you provide AJAX development?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix works with multiple web technologies including PHP, JavaScript, MySQL databases, ASP.NET, AJAX, and other modern frameworks for web application and custom development."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_process",
+    "patterns": [
+      "What is your custom web development process?",
+      "What happens after development is completed?"
+    ],
+    "responses": [
+      "Opti Matrix follows a structured development process: Research & Consultation, Design & Architecture, Development, Testing & QA, Launch, and ongoing Maintenance & Support."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_research",
+    "patterns": [
+      "What happens during the Research & Consultation stage?",
+      "Do you provide consultation before development?"
+    ],
+    "responses": [
+      "Yes. Research and consultation are the first steps. The team begins by understanding your business goals and technical requirements to establish a solid foundation for the project."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_design",
+    "patterns": [
+      "What happens during Design & Architecture?",
+      "Do you create wireframes and prototypes?",
+      "Are the designs customized according to my brand?"
+    ],
+    "responses": [
+      "Yes. During the Design & Architecture stage, Opti Matrix creates wireframes and prototypes that are completely customized according to your brand."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_development_stage",
+    "patterns": [
+      "What happens during the Development stage?",
+      "Do you build scalable websites?",
+      "Scalable website?"
+    ],
+    "responses": [
+      "Yes. During development, the team codes and builds the website with precision, focusing on creating scalable web solutions that can support future growth."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_testing",
+    "patterns": [
+      "Do you test the website before launch?",
+      "What does your Testing & QA process include?",
+      "Do you test websites on different browsers?",
+      "Do you test websites on different devices?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix performs rigorous Testing & QA before launch to check performance, identify bugs, and ensure full compatibility across different devices and browsers."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_benefits",
+    "patterns": [
+      "What are the benefits of custom web development?"
+    ],
+    "responses": [
+      "Custom web development provides a website tailored to your brand, goals, audience, and requirements. It supports custom features, responsive experiences, SEO, security, integrations, and future scalability."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_ux",
+    "patterns": [
+      "Can custom development improve user experience?",
+      "How does custom development help user experience?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix builds websites around users, providing clean and intuitive designs, easy navigation, fast loading, mobile responsiveness, and smooth interactions tailored to your business objectives."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_brand",
+    "patterns": [
+      "Can you create a website that represents my brand?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix creates tailored designs specifically intended to reflect your brand and provide a unique website experience."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_mobile_responsive",
+    "patterns": [
+      "Can you build a website that is mobile responsive?",
+      "Mobile responsive website?"
+    ],
+    "responses": [
+      "Yes. Mobile responsiveness is a core part of Opti Matrix's custom web development approach."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_performance",
+    "patterns": [
+      "Do you focus on website performance?"
+    ],
+    "responses": [
+      "Yes. We emphasize performance, ensuring fast-loading websites and conducting thorough testing to optimize speed and reliability."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_seo",
+    "patterns": [
+      "Can custom websites be optimized for SEO?",
+      "Do you provide SEO-friendly website development?",
+      "SEO-friendly website?"
+    ],
+    "responses": [
+      "Yes. SEO is incorporated into our custom website development approach from the ground up to help improve your online search visibility."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_security",
+    "patterns": [
+      "Is security considered during custom web development?",
+      "Can you integrate security features into a custom website?",
+      "Website security?"
+    ],
+    "responses": [
+      "Yes. Security is a priority. We integrate measures such as SSL, encrypted transactions, and regular updates to help protect your data and your customers."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_scalability",
+    "patterns": [
+      "Can my custom website be expanded in the future?",
+      "Can I add new features to my website later?",
+      "Can you integrate third-party tools into a website?",
+      "Can custom development support business growth?"
+    ],
+    "responses": [
+      "Yes. Our custom websites are built to scale. You can easily add new features, pages, and integrate third-party tools as your business grows and your requirements evolve."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_industry",
+    "patterns": [
+      "Can you develop a website specifically for my industry?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix's web development methodology is designed to help customers across various industries achieve measurable results and support their specific business goals."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_ecommerce",
+    "patterns": [
+      "Do you provide custom ecommerce development?",
+      "Can you create a customized online store?",
+      "Custom ecommerce?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides custom ecommerce website development designed around the requirements and business type of your brand to help you soar."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_features",
+    "patterns": [
+      "Can you add special features to my website?",
+      "Can you create booking forms for a website?",
+      "Can you create product pages?"
+    ],
+    "responses": [
+      "Yes. The custom development approach allows us to incorporate features like booking forms, product pages, and any other special functionality according to your exact business requirements."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_location",
+    "patterns": [
+      "Do you provide custom web development in Ahmedabad?",
+      "Is Opti Matrix a custom web development company in Ahmedabad?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix Solutions is a top custom web design and development company based in Ahmedabad, with a team of developers focused on creating tailored web solutions."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_why_opti",
+    "patterns": [
+      "Why should I choose Opti Matrix for custom web development?"
+    ],
+    "responses": [
+      "Opti Matrix combines experienced professionals, modern technologies, and a focus on customer requirements to deliver tailored solutions. We emphasize delivering business tools designed specifically for you."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_consulting_time_money",
+    "patterns": [
+      "Do you provide web development consulting?",
+      "Can Opti Matrix help me save time and money?"
+    ],
+    "responses": [
+      "Yes. We offer software consulting as part of our custom development services. Working with our professionals can help you save time and money while creating a valuable business tool."
+    ]
+  },
+  {
+    "intent": "custom_web_dev_quote",
+    "patterns": [
+      "Can I get a quote for custom website development?",
+      "Do you offer a free quote?",
+      "How much does custom website development cost?",
+      "Free quote?"
+    ],
+    "responses": [
+      "Pricing for custom websites depends on your specific requirements. You can easily request a free quote from Opti Matrix to discuss your project. GET A FREE QUOTE: https://www.optimatrix.in/free-quote"
+    ]
+  },
+  {
+    "intent": "custom_web_dev_start",
+    "patterns": [
+      "Can I discuss my website requirements with your team?",
+      "I need a custom website. How can I get started?"
+    ],
+    "responses": [
+      "You can get started by reaching out to us for a Research & Consultation phase, where we discuss your business goals and technical requirements. Request a free quote here: https://www.optimatrix.in/free-quote"
+    ]
+  }
+]

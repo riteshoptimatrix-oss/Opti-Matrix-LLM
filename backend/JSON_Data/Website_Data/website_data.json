@@ -1,0 +1,249 @@
+[
+  {
+    "intent": "website_general",
+    "patterns": [
+      "What is your website?",
+      "What is your official website?",
+      "What is your company website?",
+      "Do you have a website?",
+      "Website link please",
+      "Company website link?",
+      "Where can I find your website?",
+      "Give me your website",
+      "Aapki website kya hai?",
+      "Website ka link do",
+      "Company ki website bhejo",
+      "Official site kya hai?",
+      "Main website kya hai?",
+      "What are all the web addresses for your company?",
+      "Can you provide the links to your company sites?",
+      "Kaun kaun si website hai aapki?",
+      "How many websites do you have?",
+      "Kitni websites hain aapki?",
+      "Do you have multiple websites?",
+      "How many sites do you operate?",
+      "List all your websites",
+      "Can you list your websites?",
+      "Total websites kitni hain?",
+      "How many official sites are there?",
+      "Give me the list of all your sites",
+      "Tell me all your web URLs"
+    ],
+    "responses": [
+      "We have 2 official websites. You can visit them below:\n\n[Optimatrix](https://www.optimatrix.in/) [OptiInfo](https://www.optiinfo.com/)"
+    ]
+  },
+  {
+    "intent": "website_optimatrix",
+    "patterns": [
+      "What is Optimatrix website?",
+      "Optimatrix website?",
+      "Optimatrix website link?",
+      "What is the Optimatrix URL?",
+      "Optimatrix ki website kya hai?",
+      "Optimatrix ka website link do",
+      "Where can I find Optimatrix online?",
+      "Optimatrix official website?",
+      "Open Optimatrix website",
+      "Optimatrix site batao",
+      "Optimatrix web address?",
+      "I want to visit Optimatrix",
+      "I need the link to the Optimatrix main page.",
+      "Can you send the Optimatrix URL?",
+      "Optimatrix website pe kaise jau?"
+    ],
+    "responses": [
+      "The Optimatrix website is [Optimatrix](https://www.optimatrix.in/)"
+    ]
+  },
+  {
+    "intent": "website_optiinfo",
+    "patterns": [
+      "What is OptiInfo website?",
+      "OptiInfo website?",
+      "OptiInfo website link?",
+      "What is the OptiInfo URL?",
+      "OptiInfo ki website kya hai?",
+      "OptiInfo ka website link do",
+      "Where can I find OptiInfo online?",
+      "OptiInfo official website?",
+      "Open OptiInfo website",
+      "OptiInfo site batao",
+      "OptiInfo web address?",
+      "I want to visit OptiInfo",
+      "I need the link to the OptiInfo page.",
+      "Can you send the OptiInfo URL?",
+      "OptiInfo website pe kaise jau?"
+    ],
+    "responses": [
+      "The OptiInfo website is [OptiInfo](https://www.optiinfo.com/)"
+    ]
+  },
+  {
+    "intent": "website_comparison",
+    "patterns": [
+      "What are your two websites?",
+      "Why do you have two websites?",
+      "What is the difference between your websites?",
+      "Optimatrix aur OptiInfo mein kya difference hai?",
+      "Which website should I visit?",
+      "Which is your main website?",
+      "Are Optimatrix and OptiInfo the same company?",
+      "Is OptiInfo related to Optimatrix?",
+      "Tell me the difference between your two sites.",
+      "Optimatrix aur OptiInfo me kya farq hai?",
+      "Why do you operate two different domains?"
+    ],
+    "responses": [
+      "Both websites represent Opti Matrix Solutions. Optimatrix is the main company website focusing on services, solutions, and products. OptiInfo focuses more on software/web development and our portfolio."
+    ]
+  },
+  {
+    "intent": "website_services",
+    "patterns": [
+      "What services do you provide?",
+      "What services are available on your website?",
+      "What does Optimatrix do?",
+      "What kind of services do you offer?",
+      "Website development karte ho?",
+      "Mobile app banate ho?",
+      "Digital marketing karte ho?",
+      "What digital solutions are listed on the website?",
+      "Can I hire you for web development?",
+      "Are you a digital marketing agency?"
+    ],
+    "responses": [
+      "We provide premium digital solutions including website design, mobile application development, custom web development, and digital marketing."
+    ]
+  },
+  {
+    "intent": "website_portfolio",
+    "patterns": [
+      "Can I see your portfolio?",
+      "Where can I see your previous work?",
+      "Show me your projects",
+      "Do you have a portfolio?",
+      "Previous work kaha dekh sakta hu?",
+      "Your portfolio link?",
+      "What projects have you completed?",
+      "Where are your past projects listed?",
+      "Show me examples of your previous web development.",
+      "Aapne pehle kaun se projects kiye hain?",
+      "Show me the projects you have done?",
+      "Projects of your company",
+      "Show me the portfolio"
+    ],
+    "responses": [
+      "You can explore our previous work and case studies in the Portfolio section on our websites:\n\n[Optimatrix Portfolio](https://www.optimatrix.in/portfolio)\n[OptiInfo Portfolio](https://www.optiinfo.com/our-portfolio/)"
+    ]
+  },
+  {
+    "intent": "website_free_quote",
+    "patterns": [
+      "How can I get a quote?",
+      "Do you provide free quotes?",
+      "How do I request a project quote?",
+      "Project ka quotation kaise milega?",
+      "I want a project quotation",
+      "Can I get a project estimate?",
+      "Free quotation available hai?",
+      "Is it possible to get a project estimate online?",
+      "How much will my app cost?",
+      "Mujhe apne project ka quote chahiye."
+    ],
+    "responses": [
+      "Yes! You can easily submit your project details and request a free quote directly through our website."
+    ]
+  },
+  {
+    "intent": "website_contact",
+    "patterns": [
+      "How can I contact you through the website?",
+      "Contact page kaha hai?",
+      "Can I contact you online?",
+      "Website se contact kaise karu?",
+      "Contact form hai?",
+      "I want to send an inquiry",
+      "Where is the contact form on your site?",
+      "How do I message you directly from the site?",
+      "Online inquiry kaise bheju?"
+    ],
+    "responses": [
+      "You can send us an inquiry anytime using the 'Contact Us' form available on our website."
+    ]
+  },
+  {
+    "intent": "support_details",
+    "patterns": [
+      "Give me the Supports details of the company",
+      "Give me the support details of the company",
+      "Support details",
+      "Support contact details?",
+      "Customer support number?",
+      "Customer support email?",
+      "Support team email and contact",
+      "How do I contact customer support?",
+      "Help desk number",
+      "Technical support contact",
+      "How to reach support team?",
+      "Support helpline number",
+      "Need customer service support",
+      "Support se kaise contact karein?",
+      "Customer care number kya hai?",
+      "Support email address batao",
+      "Customer support hours",
+      "Support timing kya hai?",
+      "What are your support operating hours?",
+      "Do you have 24/7 support?",
+      "Support phone number",
+      "Tech support kaise milega?",
+      "I need urgent technical support",
+      "Contact details for support team",
+      "How do I raise a support ticket?",
+      "Helpdesk support contact",
+      "Customer service helpline",
+      "Support assistance contact",
+      "Kaha call kare support ke liye?"
+    ],
+    "responses": [
+      "For Support inquiries, please contact our Head Office at +91 81283 61116 or email us at info@optimatrix.in. Our team is available Monday to Saturday, 9:30 AM to 6:30 PM (IST) to assist you.",
+      "Our Customer Support team is available at +91 81283 61116. You can also email your support queries to info@optimatrix.in or reach out through the contact form on our website for prompt assistance.",
+      "You can reach our dedicated Support Desk via phone at +91 81283 61116 or by email at info@optimatrix.in. We offer comprehensive technical assistance, troubleshooting, and project maintenance support."
+    ]
+  },
+  {
+    "intent": "website_about",
+    "patterns": [
+      "Tell me about your company",
+      "About Optimatrix?",
+      "Who is Optimatrix?",
+      "What is Opti Matrix?",
+      "Company ke baare mein batao",
+      "Optimatrix kya company hai?",
+      "When was Opti Matrix established?",
+      "What is your company's history?",
+      "Aapki company kya karti hai?"
+    ],
+    "responses": [
+      "Opti Matrix Solutions is a premier digital agency established in 2010. Headquartered in Ahmedabad with a branch in Bhuj and global presence, we provide software, web, mobile, and digital marketing solutions worldwide."
+    ]
+  },
+  {
+    "intent": "website_careers",
+    "patterns": [
+      "Do you have job openings?",
+      "Are you hiring?",
+      "How can I apply for a job?",
+      "Where can I find vacancies?",
+      "Job ke liye apply kaise karu?",
+      "Careers page kaha hai?",
+      "Vacancy available hai?",
+      "Is your company hiring freshers right now?",
+      "Where do I submit my resume?",
+      "Job vacancy kaise check karu?"
+    ],
+    "responses": [
+      "Yes, we are often hiring! You can find current vacancies and apply directly on the 'Work With Us' or 'Careers' page on our website."
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "intent": "greeting",
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "hi there",
+      "hello there",
+      "greetings",
+      "howdy",
+      "hey opti matrix",
+      "hello opti matrix",
+      "start chat",
+      "is anyone there",
+      "hey ai",
+      "hello bot",
+      "hii",
+      "hyy",
+      "hmm",
+      "heyyy"
+    ],
+    "responses": [
+      "Welcome to Opti Matrix! How can I assist you today?",
+      "Hello from Opti Matrix! What can I help you discover today?",
+      "Hi there! I am the Opti Matrix virtual assistant. How may I serve you?",
+      "Greetings! How can Opti Matrix help bring your ideas to life today?",
+      "Welcome! I am here to answer any questions you have about Opti Matrix."
+    ]
+  },
+  {
+    "intent": "how_are_you",
+    "patterns": [
+      "how are you",
+      "how are you doing",
+      "how is it going",
+      "what's up",
+      "how are things",
+      "how do you do",
+      "hope you are well"
+    ],
+    "responses": [
+      "I'm an AI, so I don't have feelings, but I'm operating perfectly and ready to help you with Opti Matrix services!",
+      "I am doing fantastic, thank you! How can I assist you with Opti Matrix today?",
+      "All systems are running smoothly! What can I help you with?"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "patterns": [
+      "thanks",
+      "thank you",
+      "thanks a lot",
+      "thank you so much",
+      "appreciate it",
+      "many thanks",
+      "thank you for the help",
+      "that was helpful",
+      "great thanks"
+    ],
+    "responses": [
+      "You're very welcome! Let me know if you need anything else.",
+      "Glad I could help! Have a great day.",
+      "Anytime! Opti Matrix is always here to assist you.",
+      "You got it! Don't hesitate to reach out if you have more questions.",
+      "My pleasure! Enjoy the rest of your day."
+    ]
+  },
+  {
+    "intent": "bye",
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "catch you later",
+      "have a good day",
+      "bye bye",
+      "good night",
+      "talk to you later",
+      "ttyl",
+      "end chat",
+      "i'm leaving",
+      "farewell",
+      "have a good night"
+    ],
+    "responses": [
+      "Goodbye! Have a wonderful day from all of us at Opti Matrix!",
+      "Catch you later! Take care.",
+      "See you soon! Have a great time ahead.",
+      "Bye! Feel free to ask if you need anything else in the future.",
+      "Farewell! We hope to work with you soon at Opti Matrix.",
+      "Good night! Have a peaceful rest."
+    ]
+  }
+]

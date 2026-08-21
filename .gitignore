@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+vendor/
+venv/
+env/
+.env
+
+# Build & Runtime
+.next/
+out/
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Models & Data
+*.pkl
+model.pkl
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log

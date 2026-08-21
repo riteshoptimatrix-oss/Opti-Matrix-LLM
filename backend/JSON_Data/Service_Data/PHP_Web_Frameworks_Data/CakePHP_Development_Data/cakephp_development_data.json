@@ -1,0 +1,54 @@
+[
+  {
+    "intent": "cakephp_development_benefits",
+    "patterns": [
+      "What are the benefits of selecting PHP-MySQL for web development?",
+      "Is the turnaround time faster with a proven framework?",
+      "What are the advantages of using CakePHP as a core framework?"
+    ],
+    "responses": [
+      "Selecting PHP-MySQL, particularly with a proven framework like CakePHP, provides a much quicker turnaround time. It saves money, ensures strong security measures, and increases speed through caching technology and other features."
+    ]
+  },
+  {
+    "intent": "cakephp_mvc_architecture",
+    "patterns": [
+      "Is CakePHP popular?",
+      "Is CakePHP an MVC framework?",
+      "What is an MVC Framework?",
+      "What are the 3 parts of the MVC architecture?",
+      "What do Modules represent in CakePHP?",
+      "What are Views used for in CakePHP?",
+      "What are Controllers used for in CakePHP?"
+    ],
+    "responses": [
+      "CakePHP is a worldwide favorite MVC (Model-View-Controller) framework that promotes highly modular web development. Modules represent database tables, Views display content to the user, and Controllers fetch data using the Modules to present through the Views."
+    ]
+  },
+  {
+    "intent": "cakephp_features",
+    "patterns": [
+      "Does CakePHP have a strong database module?",
+      "Why is the CakePHP database engine a favorite?",
+      "Does CakePHP have a routing engine?",
+      "Are CakePHP URLs search engine friendly?"
+    ],
+    "responses": [
+      "CakePHP features a strong, easy-to-use, and highly favored database module for transactions. It also includes a beautiful routing engine that makes creating search-engine-friendly URLs very easy."
+    ]
+  },
+  {
+    "intent": "cakephp_hiring_support",
+    "patterns": [
+      "Is Opti Matrix a CakePHP development company?",
+      "Can I hire CakePHP developers from Opti Matrix?",
+      "Do you provide CakePHP development from scratch?",
+      "Do you provide maintenance for CakePHP projects?",
+      "Can you help complete an unfinished CakePHP project?",
+      "What are the hiring options for CakePHP developers?"
+    ],
+    "responses": [
+      "Yes, Opti Matrix is a leading CakePHP development company. We offer development from scratch, project maintenance, and completion of unfinished projects. You can hire our qualified CakePHP developers on flexible monthly or hourly basis packages."
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "intent": "policy_privacy_general",
+    "patterns": [
+      "What is your privacy policy?",
+      "Show me the privacy policy",
+      "Do you have a privacy policy?",
+      "Privacy policy details",
+      "How do you handle privacy?",
+      "Tell me about privacy",
+      "Privacy statement",
+      "Is my privacy protected?",
+      "Read privacy policy"
+    ],
+    "responses": [
+      "Our Privacy Policy governs your visit to optiinfo.com, explaining how we collect, safeguard, and disclose information resulting from your use of our Service. By using our Service, you agree to the collection and use of information in accordance with this policy. For questions, you can contact us at info@optinfo.com."
+    ]
+  },
+  {
+    "intent": "policy_terms",
+    "patterns": [
+      "What are your terms and conditions?",
+      "Terms of service",
+      "Show me the terms and conditions",
+      "Terms and conditions",
+      "T&C",
+      "What are the terms?"
+    ],
+    "responses": [
+      "**Terms & Conditions**\nWe help to provide you guidance; we do not guarantee successful growth. We just help you to boost your Business."
+    ]
+  },
+  {
+    "intent": "policy_refund_cancellation",
+    "patterns": [
+      "What is your refund policy?",
+      "Do you offer refunds?",
+      "Can I get my money back?",
+      "Cancellation policy",
+      "How do I cancel my order?",
+      "Can I cancel?",
+      "Refund rules"
+    ],
+    "responses": [
+      "**Cancellation / Refund Policy**\nWe do not have any cancellation or refund policy. Once an amount is paid, it will not be refunded."
+    ]
+  },
+  {
+    "intent": "policy_data_collection",
+    "patterns": [
+      "What data do you collect?",
+      "Do you collect personal data?",
+      "What information is collected?",
+      "Do you track usage data?",
+      "What personal information do you need?",
+      "How do you use my data?"
+    ],
+    "responses": [
+      "We collect several types of information to provide and improve our Service, including:\n- **Personal Data**: Email, Name, Phone, Address.\n- **Usage Data**: IP address, browser type, pages visited, time spent.\n- **Location Data**: If you give permission.\n- **Tracking Cookies**: Session, Preference, Security, and Advertising cookies."
+    ]
+  },
+  {
+    "intent": "policy_data_security",
+    "patterns": [
+      "Is my data secure?",
+      "How do you protect my data?",
+      "Security of data",
+      "Is it safe to share information?",
+      "Data protection"
+    ],
+    "responses": [
+      "The security of your data is important to us. While we strive to use commercially acceptable means to protect your Personal Data, please remember that no method of transmission over the Internet or electronic storage is 100% secure."
+    ]
+  },
+  {
+    "intent": "policy_gdpr",
+    "patterns": [
+      "What are my GDPR rights?",
+      "EU privacy rights",
+      "European Union data protection",
+      "GDPR policy",
+      "Right to delete data under GDPR",
+      "General Data Protection Regulation"
+    ],
+    "responses": [
+      "**Your Data Protection Rights Under GDPR**\nIf you are a resident of the European Union (EU) and European Economic Area (EEA), you have data protection rights, including the right to access, update, delete, restrict, and port your Personal Data. If you wish to be informed what Personal Data we hold about you or want it removed, please email us at info@optiinfo.com."
+    ]
+  },
+  {
+    "intent": "policy_ccpa_caloppa",
+    "patterns": [
+      "What are my CCPA rights?",
+      "California privacy rights",
+      "CalOPPA policy",
+      "CCPA data protection",
+      "California Consumer Privacy Act",
+      "Do Not Track signals"
+    ],
+    "responses": [
+      "**Your Data Protection Rights under CCPA & CalOPPA**\nIf you are a California resident, you are entitled to learn what data we collect about you, ask to delete your data, and ask us not to sell it. We do not sell your personal information for monetary consideration. To exercise your rights, please email info@optiinfo.com."
+    ]
+  },
+  {
+    "intent": "policy_children",
+    "patterns": [
+      "What is your children's privacy policy?",
+      "Do you collect data from children?",
+      "Age limit for users",
+      "Under 18 privacy",
+      "Child privacy"
+    ],
+    "responses": [
+      "**Children's Privacy**\nOur Services are not intended for use by children under the age of 18. We do not knowingly collect personally identifiable information from Children under 18. If we become aware that we have collected such data without parental consent, we take steps to remove it."
+    ]
+  },
+  {
+    "intent": "policy_contact",
+    "patterns": [
+      "How do I contact you about privacy?",
+      "Privacy email",
+      "Who to contact for data deletion?",
+      "Privacy support",
+      "Contact for personal data"
+    ],
+    "responses": [
+      "If you have any questions about this Privacy Policy, or if you wish to exercise your data protection rights, please contact us by email at: info@optinfo.com."
+    ]
+  },
+  {
+    "intent": "policy_cookies",
+    "patterns": [
+      "Do you use cookies?",
+      "What cookies do you use?",
+      "How do I disable cookies?",
+      "Cookie policy",
+      "Are you tracking me with cookies?",
+      "Session cookies"
+    ],
+    "responses": [
+      "We use Session, Preference, Security, and Advertising cookies to track activity and improve our Service. You can instruct your browser to refuse all cookies, though some portions of our Service may not function properly."
+    ]
+  },
+  {
+    "intent": "policy_data_retention",
+    "patterns": [
+      "How long do you keep my data?",
+      "Data retention policy",
+      "When do you delete my data?",
+      "Do you store data forever?",
+      "How long is data saved?"
+    ],
+    "responses": [
+      "We will retain your Personal Data only for as long as is necessary for the purposes set out in our Privacy Policy, to comply with legal obligations, resolve disputes, and enforce our agreements."
+    ]
+  },
+  {
+    "intent": "policy_data_transfer",
+    "patterns": [
+      "Do you transfer data outside my country?",
+      "Where is my data stored?",
+      "International data transfer",
+      "Is data sent to India?",
+      "Data storage location"
+    ],
+    "responses": [
+      "If you are located outside India, please note that we transfer your data to India and process it securely there in accordance with our Privacy Policy."
+    ]
+  },
+  {
+    "intent": "policy_disclosure",
+    "patterns": [
+      "Do you share my data with third parties?",
+      "Who do you share my data with?",
+      "Law enforcement data disclosure",
+      "Is my data sold to third parties?",
+      "Do you sell personal information?"
+    ],
+    "responses": [
+      "We do not sell your personal information. We may disclose personal data to law enforcement, during business transactions (like mergers), to our affiliates, and to trusted third-party service providers who assist us."
+    ]
+  },
+  {
+    "intent": "policy_third_party_links",
+    "patterns": [
+      "Are there links to other sites?",
+      "Third party websites",
+      "External links privacy",
+      "Do you link to outside websites?"
+    ],
+    "responses": [
+      "Our Service may contain links to other sites that are not operated by us. We assume no responsibility for the content or privacy practices of third-party sites and strongly advise you to review their Privacy Policies."
+    ]
+  }
+]

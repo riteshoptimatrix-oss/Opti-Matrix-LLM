@@ -1,0 +1,141 @@
+[
+  {
+    "intent": "joomla_general_benefits",
+    "patterns": [
+      "joomla_website_development",
+      "why_joomla",
+      "joomla_popularity",
+      "joomla_easy_to_use",
+      "feature_rich_joomla",
+      "low_cost_joomla",
+      "joomla_development_cost",
+      "joomla_development_time",
+      "Why choose Joomla?",
+      "Is Joomla easy to use?",
+      "What are the benefits of Joomla website development?"
+    ],
+    "responses": [
+      "Joomla is the most popular, feature-rich, and widely used open-source CMS. It is very easy to use, extremely modular, and offers a low-cost web development solution with a great turnaround time."
+    ]
+  },
+  {
+    "intent": "joomla_open_source_free",
+    "patterns": [
+      "joomla_open_source",
+      "joomla_free",
+      "Is Joomla free?",
+      "Is Joomla open source?"
+    ],
+    "responses": [
+      "Yes, Joomla is an open-source platform, meaning you get the base platform completely free of cost. You only pay for the expert Joomla customization and development services we provide."
+    ]
+  },
+  {
+    "intent": "joomla_business_fit",
+    "patterns": [
+      "joomla_business_website",
+      "joomla_small_business",
+      "joomla_medium_business",
+      "Is Joomla good for small businesses?",
+      "Can medium businesses use Joomla?"
+    ],
+    "responses": [
+      "Absolutely. Joomla is remarkably popular among small and medium-sized businesses for their web portal development because it provides a robust, low-cost, and flexible online application tailored to their needs."
+    ]
+  },
+  {
+    "intent": "joomla_customization_design",
+    "patterns": [
+      "joomla_customization",
+      "joomla_customization_features",
+      "joomla_template_design",
+      "custom_joomla_design",
+      "Do you provide Joomla customization?",
+      "Can you design a custom Joomla template?"
+    ],
+    "responses": [
+      "We don't just do basic development; we provide complete Joomla customization. We design unique Joomla templates that suit your business and mold the base installation into exactly the kind of online application you require."
+    ]
+  },
+  {
+    "intent": "joomla_plugins_modules",
+    "patterns": [
+      "joomla_custom_modules",
+      "joomla_plugins",
+      "joomla_plugins_modules",
+      "joomla_plugin_integration",
+      "joomla_plugin_benefits",
+      "Can you develop custom Joomla modules?",
+      "Does Joomla have plugins?"
+    ],
+    "responses": [
+      "Joomla has a massive online community offering freely available plugins and modules for quick feature integration. If you need something unique, our experts are proficient enough to write complex, custom Joomla modules from scratch."
+    ]
+  },
+  {
+    "intent": "joomla_project_types",
+    "patterns": [
+      "joomla_ecommerce",
+      "joomla_social_network",
+      "joomla_social_network_development",
+      "joomla_web_portal",
+      "joomla_company_website",
+      "joomla_project_types",
+      "Can Joomla be used for ecommerce?",
+      "Can I build a social network with Joomla?"
+    ],
+    "responses": [
+      "We can mold Joomla into almost any application, including robust e-commerce platforms, large social networks, or comprehensive corporate web portals that perfectly represent your company on the internet."
+    ]
+  },
+  {
+    "intent": "joomla_complete_solutions",
+    "patterns": [
+      "joomla_consulting",
+      "complete_joomla_solution",
+      "joomla_hosting",
+      "joomla_website_hosting",
+      "joomla_development_to_hosting",
+      "why_optimatrix_joomla",
+      "Do you provide Joomla hosting?",
+      "Why choose Opti Matrix for Joomla?"
+    ],
+    "responses": [
+      "Opti Matrix is your one-stop solution. We provide complete start-to-end services, from expert consulting and building your Joomla website to finally hosting it on the internet with our reliable Joomla Hosting solution."
+    ]
+  },
+  {
+    "intent": "joomla_hiring_developers",
+    "patterns": [
+      "experienced_joomla_developers",
+      "joomla_template_designers",
+      "hire_joomla_developer",
+      "hire_joomla_programmer",
+      "hire_joomla_developer_fulltime",
+      "hire_joomla_developer_project",
+      "Can I hire a Joomla developer?",
+      "Do you have experienced Joomla programmers?"
+    ],
+    "responses": [
+      "Our team comprises highly experienced Joomla developers and template designers in India. You can hire a dedicated Joomla programmer full-time or just for a specific project to finish your unfinished website."
+    ]
+  },
+  {
+    "intent": "joomla_maintenance_support",
+    "patterns": [
+      "existing_joomla_website",
+      "joomla_existing_website_support",
+      "joomla_existing_project",
+      "joomla_maintenance",
+      "joomla_website_maintenance",
+      "joomla_updates",
+      "joomla_database_maintenance",
+      "finish_joomla_website",
+      "Can you maintain my existing Joomla website?",
+      "Do you offer Joomla updates and support?"
+    ],
+    "responses": [
+      "If you already have a Joomla website, you can hire our developers for continuous updates, database maintenance, or to complete an unfinished project. This is especially useful for large portals like social networks or educational sites."
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "intent": "psd_to_html_general",
+    "patterns": [
+      "What is PSD to HTML conversion?",
+      "Why is PSD to HTML conversion necessary?",
+      "Why convert PSD to HTML?"
+    ],
+    "responses": [
+      "PSD templates are raw files useful only to the designer and lack usability on the web. Conversion to HTML is necessary because web browsers can only read and display content written with HTML tags."
+    ]
+  },
+  {
+    "intent": "psd_to_html_services",
+    "patterns": [
+      "Do you provide PSD to HTML conversion services?",
+      "Can you convert my PSD to HTML?",
+      "PSD to HTML services?"
+    ],
+    "responses": [
+      "Yes. Opti Matrix provides professional PSD to HTML conversion services delivering near perfection and ultimate quality within rigid timelines."
+    ]
+  },
+  {
+    "intent": "psd_to_html_manual_coding",
+    "patterns": [
+      "Do you provide hand-coded PSD to HTML?",
+      "Is the conversion manually coded?",
+      "Why not use PSD to HTML converter software?"
+    ],
+    "responses": [
+      "We practice manually coded and W3C valid HTML coding. Unlike automated converter software, hand-coding by our professionals reduces errors, promotes valid coding, and ensures smooth navigation and cross-browser compatibility."
+    ]
+  },
+  {
+    "intent": "psd_to_html_seo",
+    "patterns": [
+      "Are your HTML conversions SEO friendly?",
+      "Will the converted HTML be search engine friendly?"
+    ],
+    "responses": [
+      "Yes. Our professionals practice manually coded and semantic W3C valid HTML coding, making the design highly search engine friendly and enhancing website visibility."
+    ]
+  },
+  {
+    "intent": "psd_to_html_compatibility",
+    "patterns": [
+      "Are your conversions cross-browser compatible?",
+      "Will the HTML work on all browsers?"
+    ],
+    "responses": [
+      "Yes. Our meticulous manual coding process ensures strict cross-browser compatibility so your website functions flawlessly across all internet browsers."
+    ]
+  },
+  {
+    "intent": "psd_to_html_process",
+    "patterns": [
+      "Is PSD to HTML conversion difficult?",
+      "What does the conversion process require?"
+    ],
+    "responses": [
+      "The conversion process requires profound knowledge of different technologies and extensive coding. However, with our professional manpower, the process is quick, simple, and ensures ultimate quality."
+    ]
+  }
+]
