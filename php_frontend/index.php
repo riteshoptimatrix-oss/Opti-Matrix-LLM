@@ -365,16 +365,51 @@
             `).join('');
         }
 
-        function addMessage(role, content) {
+        function addMessage(role, content, suggestions = []) {
             const wrapper = document.createElement('div');
             wrapper.className = `message-wrapper ${role}`;
             
+            const innerWrapper = document.createElement('div');
+            innerWrapper.style.display = 'flex';
+            innerWrapper.style.flexDirection = 'column';
+            innerWrapper.style.maxWidth = '75%';
+            innerWrapper.style.alignItems = role === 'bot' ? 'flex-start' : 'flex-end';
+            
             const messageEl = document.createElement('div');
             messageEl.className = `message ${role}`;
+            messageEl.style.maxWidth = '100%'; // overridden by innerWrapper
             
             messageEl.innerHTML = renderMessageContent(content);
             
-            wrapper.appendChild(messageEl);
+            innerWrapper.appendChild(messageEl);
+
+            if (role === 'bot' && suggestions && suggestions.length > 0) {
+                const suggestionsDiv = document.createElement('div');
+                suggestionsDiv.style.display = 'flex';
+                suggestionsDiv.style.flexWrap = 'wrap';
+                suggestionsDiv.style.gap = '8px';
+                suggestionsDiv.style.marginTop = '12px';
+                
+                suggestions.forEach(suggestion => {
+                    const btn = document.createElement('button');
+                    btn.className = 'filter-btn';
+                    btn.style.border = '1px solid #2563eb';
+                    btn.style.backgroundColor = '#eff6ff';
+                    btn.style.color = '#1d4ed8';
+                    btn.style.textAlign = 'left';
+                    btn.style.fontSize = '0.9rem';
+                    btn.style.padding = '8px 12px';
+                    btn.innerText = suggestion;
+                    btn.onclick = () => {
+                        chatInput.value = suggestion;
+                        chatForm.dispatchEvent(new Event('submit'));
+                    };
+                    suggestionsDiv.appendChild(btn);
+                });
+                innerWrapper.appendChild(suggestionsDiv);
+            }
+
+            wrapper.appendChild(innerWrapper);
             chatMessages.appendChild(wrapper);
             scrollToBottom();
         }
@@ -382,13 +417,22 @@
         function showTyping() {
             const wrapper = document.createElement('div');
             wrapper.className = 'message-wrapper bot typing-wrapper';
-            wrapper.innerHTML = `
+            
+            const innerWrapper = document.createElement('div');
+            innerWrapper.style.display = 'flex';
+            innerWrapper.style.flexDirection = 'column';
+            innerWrapper.style.maxWidth = '75%';
+            innerWrapper.style.alignItems = 'flex-start';
+            
+            innerWrapper.innerHTML = `
                 <div class="typing-indicator">
                     <div class="dot"></div>
                     <div class="dot"></div>
                     <div class="dot"></div>
                 </div>
             `;
+            
+            wrapper.appendChild(innerWrapper);
             chatMessages.appendChild(wrapper);
             scrollToBottom();
         }
@@ -398,8 +442,19 @@
             if(typing) typing.remove();
         }
 
+        function generateUUID() {
+            if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+                return crypto.randomUUID();
+            }
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                const r = Math.random() * 16 | 0;
+                const v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+        
         // Generate a unique session ID for context tracking
-        const sessionId = localStorage.getItem("chatSessionId") || crypto.randomUUID();
+        const sessionId = localStorage.getItem("chatSessionId") || generateUUID();
         localStorage.setItem("chatSessionId", sessionId);
 
         chatForm.addEventListener('submit', async (e) => {
@@ -431,7 +486,7 @@
 
                 const data = await response.json();
                 hideTyping();
-                addMessage('bot', data.answer || "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information.");
+                addMessage('bot', data.answer || "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information.", data.suggested_questions);
             } catch (error) {
                 console.error("Error fetching response:", error);
                 hideTyping();
@@ -443,7 +498,11 @@
         });
 
         // Initialize with default greeting
-        addMessage('bot', "Hello! I am the OptiMatrix AI assistant. You can ask me about our services, location, or general company information.");
+        addMessage('bot', "Hello! I am the OptiMatrix AI assistant. You can ask me about our services, location, or general company information.", [
+            "What services do you offer?", 
+            "How can I contact you?", 
+            "Where is your office located?"
+        ]);
     </script>
 </body>
 </html>

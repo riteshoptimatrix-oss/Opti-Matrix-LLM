@@ -34,10 +34,12 @@ mongo_client = None
 db = None
 sessions_collection = None
 
+import certifi
+
 MONGODB_URI = os.getenv("MONGODB_URI")
 if MONGODB_URI:
     try:
-        mongo_client = MongoClient(MONGODB_URI)
+        mongo_client = MongoClient(MONGODB_URI, tlsCAFile=certifi.where())
         try:
             db = mongo_client.get_database()
         except Exception:

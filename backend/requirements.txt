@@ -5,3 +5,4 @@ joblib
 pydantic
 pymongo[srv]
 python-dotenv
+certifi
