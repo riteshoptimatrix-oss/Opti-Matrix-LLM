@@ -262,30 +262,30 @@
                     const timelineId = 'timeline-' + Date.now();
                     window['timelineData_' + timelineId] = events;
                     
-                    return \`
-                    <div id="\${timelineId}" style="width: 100%; max-width: 600px; font-family: sans-serif; margin: 10px 0;">
+                    return `
+                    <div id="${timelineId}" style="width: 100%; max-width: 600px; font-family: sans-serif; margin: 10px 0;">
                         <h3 style="margin: 0 0 16px 0; font-size: 22px; color: #111827; display: flex; align-items: center; gap: 8px;">
                             🚀 OPTI MATRIX JOURNEY
                         </h3>
                         <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;" class="timeline-filters">
-                            <button onclick="renderTimeline('\${timelineId}', 'All')" class="filter-btn filter-active" style="border: none; background-color: #2563eb; color: #fff; box-shadow: 0 4px 6px rgba(37,99,235,0.2);">🚀 Full Journey</button>
-                            <button onclick="renderTimeline('\${timelineId}', '2010-2012')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">2010-2012</button>
-                            <button onclick="renderTimeline('\${timelineId}', '2013-2015')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">2013-2015</button>
-                            <button onclick="renderTimeline('\${timelineId}', '2016-2018')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">2016-2018</button>
-                            <button onclick="renderTimeline('\${timelineId}', 'Major Achievements')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">🏆 Major Achievements</button>
+                            <button onclick="renderTimeline('${timelineId}', 'All')" class="filter-btn filter-active" style="border: none; background-color: #2563eb; color: #fff; box-shadow: 0 4px 6px rgba(37,99,235,0.2);">🚀 Full Journey</button>
+                            <button onclick="renderTimeline('${timelineId}', '2010-2012')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">2010-2012</button>
+                            <button onclick="renderTimeline('${timelineId}', '2013-2015')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">2013-2015</button>
+                            <button onclick="renderTimeline('${timelineId}', '2016-2018')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">2016-2018</button>
+                            <button onclick="renderTimeline('${timelineId}', 'Major Achievements')" class="filter-btn" style="border: 1px solid #d1d5db; background-color: #fff; color: #4b5563;">🏆 Major Achievements</button>
                         </div>
                         <div class="timeline-content" style="position: relative; border-left: 3px solid #e5e7eb; margin-left: 16px; padding-left: 24px;">
-                            \${generateTimelineHTML(events)}
+                            ${generateTimelineHTML(events)}
                         </div>
                     </div>
-                    \`;
+                    `;
                 } catch(e) {
                     console.error("Error parsing timeline JSON:", e);
                 }
             }
 
             // Markdown link parsing
-            const linkRegex = /\\[([^\\]]+)\\]\\(([^)]+)\\)/g;
+            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
             let formattedContent = content;
             if (linkRegex.test(content)) {
                 formattedContent = content.replace(linkRegex, '<a href="$2" target="_blank" rel="noopener noreferrer" class="md-link">$1</a>');
@@ -344,28 +344,28 @@
         };
 
         function generateTimelineHTML(events) {
-            return events.map((ev) => \`
+            return events.map((ev) => `
                 <div style="margin-bottom: 28px; position: relative;">
                     <div style="position: absolute; left: -32.5px; top: 4px; width: 16px; height: 16px; background-color: #2563eb; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 0 1px #e5e7eb;"></div>
-                    <span style="display: inline-block; background-color: #eff6ff; color: #1d4ed8; font-size: 12px; font-weight: bold; padding: 4px 10px; border-radius: 12px; margin-bottom: 8px;">\${ev.year}</span>
+                    <span style="display: inline-block; background-color: #eff6ff; color: #1d4ed8; font-size: 12px; font-weight: bold; padding: 4px 10px; border-radius: 12px; margin-bottom: 8px;">${ev.year}</span>
                     <div style="background-color: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-                        <h4 style="margin: 0 0 4px 0; font-size: 16px; color: #111827; font-weight: bold;">\${ev.title}</h4>
-                        <p style="margin: 0 0 10px 0; font-size: 13px; color: #6b7280; font-weight: 500;">\${ev.date}</p>
-                        <p style="margin: 0 0 16px 0; font-size: 14px; color: #4b5563; line-height: 1.5;">\${ev.desc}</p>
-                        <a href="\${ev.link}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 14px;">
-                            \${ev.linkText} <span style="margin-left: 4px; font-size: 16px;">→</span>
+                        <h4 style="margin: 0 0 4px 0; font-size: 16px; color: #111827; font-weight: bold;">${ev.title}</h4>
+                        <p style="margin: 0 0 10px 0; font-size: 13px; color: #6b7280; font-weight: 500;">${ev.date}</p>
+                        <p style="margin: 0 0 16px 0; font-size: 14px; color: #4b5563; line-height: 1.5;">${ev.desc}</p>
+                        <a href="${ev.link}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; color: #2563eb; text-decoration: none; font-weight: 600; font-size: 14px;">
+                            ${ev.linkText} <span style="margin-left: 4px; font-size: 16px;">→</span>
                         </a>
                     </div>
                 </div>
-            \`).join('');
+            `).join('');
         }
 
         function addMessage(role, content) {
             const wrapper = document.createElement('div');
-            wrapper.className = \`message-wrapper \${role}\`;
+            wrapper.className = `message-wrapper ${role}`;
             
             const messageEl = document.createElement('div');
-            messageEl.className = \`message \${role}\`;
+            messageEl.className = `message ${role}`;
             
             messageEl.innerHTML = renderMessageContent(content);
             
@@ -377,13 +377,13 @@
         function showTyping() {
             const wrapper = document.createElement('div');
             wrapper.className = 'message-wrapper bot typing-wrapper';
-            wrapper.innerHTML = \`
+            wrapper.innerHTML = `
                 <div class="typing-indicator">
                     <div class="dot"></div>
                     <div class="dot"></div>
                     <div class="dot"></div>
                 </div>
-            \`;
+            `;
             chatMessages.appendChild(wrapper);
             scrollToBottom();
         }
@@ -426,7 +426,7 @@
             } catch (error) {
                 console.error("Error fetching response:", error);
                 hideTyping();
-                addMessage('bot', "Sorry, I am having trouble connecting to the server. Please verify that the application backend is active at http://127.0.0.1:8000");
+                addMessage('bot', "I'm sorry, I don't have enough information to answer that question accurately. Please contact Opti Matrix for more information.");
             } finally {
                 isLoading = false;
                 if(chatInput.value.trim()) sendButton.disabled = false;
@@ -438,3 +438,4 @@
     </script>
 </body>
 </html>
+
