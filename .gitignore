@@ -18,8 +18,8 @@ __pycache__/
 *.so
 
 # Models & Data
-*.pkl
-model.pkl
+# *.pkl
+# model.pkl
 
 # OS Files
 .DS_Store

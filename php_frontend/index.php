@@ -215,7 +215,7 @@
     </div>
 
     <script>
-        const BACKEND_API_URL = "Bakaand URL";
+        const BACKEND_API_URL = "https://opti-matrix-llm.onrender.com";
         
         const chatMessages = document.getElementById('chat-messages');
         const chatInput = document.getElementById('chat-input');
