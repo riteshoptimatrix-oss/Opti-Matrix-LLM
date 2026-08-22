@@ -1,0 +1,19 @@
+[
+  {
+    "intent": "brand_meaning",
+    "patterns": [
+      "What does Opti Matrix mean?",
+      "Meaning of Opti Matrix",
+      "Opti Matrix full form",
+      "Why the name Opti Matrix?",
+      "What is the meaning behind your brand name?",
+      "Brand name meaning",
+      "What does the name stand for?"
+    ],
+    "responses": [
+      "Opti means Optimize and Matrix means Complicated matrix..... Our core idea represents simplifying, optimizing, and solving complex systems, processes, data, or problems to provide seamless digital solutions.",
+      "The name 'Opti Matrix' reflects our core mission: 'Opti' stands for Optimize, and 'Matrix' refers to a Complicated matrix. We specialize in turning complex technological problems into simple, optimized digital solutions.",
+      "'Opti' means Optimize and 'Matrix' means Complicated matrix. As a digital agency, we simplify and optimize the intricate elements of technology to deliver clear, powerful, and user-friendly results."
+    ]
+  }
+]
