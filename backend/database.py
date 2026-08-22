@@ -20,13 +20,27 @@ _db: Optional[Database] = None
 def get_mongo_client() -> Optional[MongoClient]:
     global _mongo_client
     if _mongo_client is None and MONGODB_URI:
+        # Strategy 1: Standard client with certifi CA bundle
         try:
-            _mongo_client = MongoClient(MONGODB_URI, tlsCAFile=certifi.where(), serverSelectionTimeoutMS=5000)
-            _mongo_client.admin.command('ping')
-            logger.info("MongoDB client connected successfully.")
-        except Exception as e:
-            logger.error(f"Failed to connect to MongoDB: {e}")
+            client = MongoClient(MONGODB_URI, tlsCAFile=certifi.where(), serverSelectionTimeoutMS=5000)
+            client.admin.command('ping')
+            _mongo_client = client
+            logger.info("MongoDB client connected successfully using certifi CA bundle.")
+            return _mongo_client
+        except Exception as e1:
+            logger.warning(f"MongoDB connection attempt with certifi failed: {e1}. Trying TLS fallback...")
+        
+        # Strategy 2: Fallback with tlsAllowInvalidCertificates (fixes Render/OpenSSL TLS handshake alerts)
+        try:
+            client = MongoClient(MONGODB_URI, tlsAllowInvalidCertificates=True, serverSelectionTimeoutMS=5000)
+            client.admin.command('ping')
+            _mongo_client = client
+            logger.info("MongoDB client connected successfully using fallback TLS configuration.")
+            return _mongo_client
+        except Exception as e2:
+            logger.error(f"Failed to connect to MongoDB: {e2}")
             _mongo_client = None
+
     return _mongo_client
 
 def get_database() -> Optional[Database]:
