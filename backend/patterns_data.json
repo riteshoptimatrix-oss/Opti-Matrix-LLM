@@ -126,7 +126,9 @@
     "Can I talk to HR?",
     "Who is the HR manager?",
     "HR contact details",
-    "Send resume to HR"
+    "Send resume to HR",
+    "hr's email",
+    "hr email"
   ],
   "career_why_choose": [
     "Why should I choose Career?",
@@ -136,6 +138,31 @@
   "career_migrate_app": [
     "Can you migrate my existing app to Career?",
     "Can you migrate my app to career"
+  ],
+  "career_join_as_technology_candidate": [
+    "i want to join as php developer",
+    "i want to join as node js developer",
+    "i want to join as Node js developer",
+    "i want to join AS NODE JS DEVELOPER",
+    "I want to join as python developer",
+    "i want to join as react developer",
+    "i want to join as next.js developer",
+    "i want to join as next js developer",
+    "i want to join as ios developer",
+    "i want to join as android developer",
+    "i want to join as flutter developer",
+    "i want to join as web developer",
+    "i want to join as app developer",
+    "i want to join as developer",
+    "i want to join as a developer",
+    "hire me",
+    "Hire me",
+    "can you hire me",
+    "Can you hire me",
+    "please hire me",
+    "hire me as developer",
+    "hire me as web developer",
+    "hire me as node js developer"
   ],
   "ceo_general": [
     "Who is the owner of Opti Matrix Solutions?",

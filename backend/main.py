@@ -229,14 +229,24 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
     is_hiring = "hire" in intent or "hiring" in intent
     
     if is_hiring:
-        pool = [
-            f"What skills should I look for in a {topic} developer?",
-            f"How much does it typically cost to hire a {topic} developer?",
-            f"Can you help me create a job description for a {topic} developer?",
-            f"Are your {topic} developers experienced?",
-            f"Do you provide dedicated {topic} developers?",
-            f"What hiring models do you offer for {topic}?"
-        ]
+        if topic.lower() == "developer":
+            pool = [
+                "What skills should I look for when hiring a developer?",
+                "How much does it typically cost to hire a developer?",
+                "Can you help me create a job description for a developer?",
+                "Are your developers experienced?",
+                "Do you provide dedicated developers?",
+                "What hiring models do you offer for developers?"
+            ]
+        else:
+            pool = [
+                f"What skills should I look for in a {topic} developer?",
+                f"How much does it typically cost to hire a {topic} developer?",
+                f"Can you help me create a job description for a {topic} developer?",
+                f"Are your {topic} developers experienced?",
+                f"Do you provide dedicated {topic} developers?",
+                f"What hiring models do you offer for {topic}?"
+            ]
         return random.sample(pool, min(3, len(pool)))
     elif raw_topic in ["contact", "greeting", "general", "company", "portfolio", "career", "ceo", "social", "privacy"]:
         pool = [
@@ -268,7 +278,7 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
             f"What is the development process for {topic}?"
         ]
         return random.sample(pool, min(3, len(pool)))
-
+            
 def log_and_create_response(session_id: str, question: str, intent: Optional[str], answer: str, confidence: float, matched: bool, suggested_questions: List[str] = None):
     if suggested_questions is None:
         suggested_questions = []
@@ -320,7 +330,12 @@ async def predict_intent(request: PredictRequest):
         
         # Explicit Context Routing for "Hire" intents
         last_intent = session_data.get("last_intent")
-        if "hire" in raw_question.lower() and last_intent:
+        
+        # Don't route candidate phrases to client hiring logic
+        candidate_phrases = ["hire me", "can you hire me", "please hire me"]
+        is_candidate = any(phrase in raw_question.lower() for phrase in candidate_phrases)
+
+        if "hire" in raw_question.lower() and last_intent and not is_candidate:
             parts = last_intent.lower().replace("_", " ").split()
             # Extract meaningful topic by ignoring common prefix/suffix words
             ignore_words = {"career", "service", "dev", "development", "developer", "design", "designer", "general"}

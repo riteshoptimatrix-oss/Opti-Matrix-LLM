@@ -103,10 +103,12 @@
       "Can I talk to HR?",
       "Who is the HR manager?",
       "HR contact details",
-      "Send resume to HR"
+      "Send resume to HR",
+      "hr's email",
+      "hr email"
     ],
     "responses": [
-      "For all recruitment and HR-related queries, the best way to reach us is by submitting an application directly on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
+      "For all recruitment and HR-related queries, you can reach out to us at hr@optiinfo.com or submit an application directly on our career portal. [Apply Here...](https://www.optimatrix.in/apply)"
     ]
   },
   {
@@ -128,6 +130,37 @@
     ],
     "responses": [
       "I think there might be a misunderstanding! If you are looking for App Migration services, we can certainly help with that. However, if you are inquiring about a job, please visit our careers page. [Apply Here...](https://www.optimatrix.in/apply)"
+    ]
+  },
+  {
+    "intent": "career_join_as_technology_candidate",
+    "patterns": [
+      "i want to join as php developer",
+      "i want to join as node js developer",
+      "i want to join as Node js developer",
+      "i want to join AS NODE JS DEVELOPER",
+      "I want to join as python developer",
+      "i want to join as react developer",
+      "i want to join as next.js developer",
+      "i want to join as next js developer",
+      "i want to join as ios developer",
+      "i want to join as android developer",
+      "i want to join as flutter developer",
+      "i want to join as web developer",
+      "i want to join as app developer",
+      "i want to join as developer",
+      "i want to join as a developer",
+      "hire me",
+      "Hire me",
+      "can you hire me",
+      "Can you hire me",
+      "please hire me",
+      "hire me as developer",
+      "hire me as web developer",
+      "hire me as node js developer"
+    ],
+    "responses": [
+      "We are thrilled that you want to join our team! Please apply directly through our official careers page. We review applications regularly. [Apply Here...](https://www.optimatrix.in/apply)"
     ]
   }
 ]
