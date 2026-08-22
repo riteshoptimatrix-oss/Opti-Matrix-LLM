@@ -4,7 +4,7 @@ import random
 import logging
 import joblib
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timezone
 from contextlib import asynccontextmanager
 from typing import Optional, List, Dict, Any
 
@@ -17,8 +17,10 @@ import re
 from dotenv import load_dotenv
 load_dotenv()
 
-from pymongo import MongoClient
 from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
+from database import get_database, get_sessions_collection, get_inquiries_collection
+from routes.inquiry_router import router as inquiry_router
+from services.inquiry_flow import process_inquiry_turn
 
 # Setup logging
 logging.basicConfig(
@@ -33,54 +35,60 @@ responses_db: Dict[str, List[str]] = {}
 patterns_db: Dict[str, List[str]] = {}
 sessions_db: Dict[str, Dict[str, Any]] = {}
 
-# MongoDB Client
-mongo_client = None
-db = None
-sessions_collection = None
-
-import certifi
-
-MONGODB_URI = os.getenv("MONGODB_URI")
-if MONGODB_URI:
-    try:
-        mongo_client = MongoClient(MONGODB_URI, tlsCAFile=certifi.where())
-        mongo_client.admin.command('ping')
-        try:
-            db = mongo_client.get_database()
-        except Exception:
-            db = mongo_client.get_database("optimatrix_chat")
-        sessions_collection = db["chat_sessions"]
-        # Add TTL index for automatic cleanup of abandoned sessions (expires after 24 hours)
-        sessions_collection.create_index("updated_at", expireAfterSeconds=86400)
-        logger.info("MongoDB connected successfully for session storage. TTL index ensured.")
-    except Exception as e:
-        logger.error("Failed to connect to MongoDB. Check credentials, URI format, and network connectivity.")
-
 def get_session(session_id: str) -> dict:
-    if sessions_collection is not None:
-        doc = sessions_collection.find_one({"session_id": session_id})
-        if doc:
-            if "chat_history" not in doc:
-                doc["chat_history"] = []
-            return doc
-        return {"session_id": session_id, "last_query": "", "last_intent": None, "chat_history": []}
+    sessions_coll = get_sessions_collection()
+    if sessions_coll is not None:
+        try:
+            doc = sessions_coll.find_one({"session_id": session_id})
+            if doc:
+                if "chat_history" not in doc:
+                    doc["chat_history"] = []
+                return doc
+        except Exception as e:
+            logger.warning(f"Error fetching session from MongoDB: {e}")
+            
+        return {
+            "session_id": session_id,
+            "last_query": "",
+            "last_intent": None,
+            "chat_history": [],
+            "inquiry_state": None,
+            "inquiry_draft": {}
+        }
     else:
         if session_id not in sessions_db:
-            sessions_db[session_id] = {"last_query": "", "last_intent": None, "chat_history": []}
+            sessions_db[session_id] = {
+                "last_query": "",
+                "last_intent": None,
+                "chat_history": [],
+                "inquiry_state": None,
+                "inquiry_draft": {}
+            }
         return sessions_db[session_id]
 
 def update_session(session_id: str, updates: dict):
-    if sessions_collection is not None:
-        updates["updated_at"] = datetime.utcnow()
-        sessions_collection.update_one(
-            {"session_id": session_id},
-            {"$set": updates},
-            upsert=True
-        )
-    else:
-        if session_id not in sessions_db:
-            sessions_db[session_id] = {"last_query": "", "last_intent": None, "chat_history": []}
-        sessions_db[session_id].update(updates)
+    sessions_coll = get_sessions_collection()
+    if sessions_coll is not None:
+        try:
+            updates["updated_at"] = datetime.now(timezone.utc)
+            sessions_coll.update_one(
+                {"session_id": session_id},
+                {"$set": updates},
+                upsert=True
+            )
+            return
+        except Exception as e:
+            logger.warning(f"Error updating session in MongoDB: {e}")
+            
+    if session_id not in sessions_db:
+        sessions_db[session_id] = {
+            "last_query": "",
+            "last_intent": None,
+            "chat_history": [],
+            "inquiry_state": None,
+            "inquiry_draft": {}
+        }
+    sessions_db[session_id].update(updates)
 
 
 # Configurable fallback message and confidence threshold
@@ -153,9 +161,9 @@ async def lifespan(app: FastAPI):
     logger.info("ML Service shutting down.")
 
 app = FastAPI(
-    title="Opti Matrix ML Chatbot Service",
+    title="Opti Matrix ML Chatbot & Inquiry Service",
     version="1.0.0",
-    description="Intent classification and response retrieval ML service powered by model.pkl and JSON_Data.",
+    description="Intent classification, response retrieval, and project inquiry service with MongoDB storage.",
     lifespan=lifespan
 )
 
@@ -167,6 +175,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Register routers
+app.include_router(inquiry_router)
 
 # Request / Response Models
 class PredictRequest(BaseModel):
@@ -539,7 +550,26 @@ async def predict_intent(request: PredictRequest):
         session_data = get_session(session_id)
         chat_history = session_data.get("chat_history", [])
         
-        # Priority Rule: Chat History Intent has higher priority
+        # Priority 1: Step-by-Step Project Inquiry Collection Flow
+        inquiry_reply, inquiry_updates, saved_inquiry = process_inquiry_turn(
+            session_id=session_id,
+            user_query=raw_question,
+            session_data=session_data
+        )
+        if inquiry_reply:
+            if inquiry_updates:
+                update_session(session_id, inquiry_updates)
+            return log_and_create_response(
+                session_id=session_id,
+                question=raw_question,
+                intent="project_inquiry_flow",
+                answer=inquiry_reply,
+                confidence=1.0,
+                matched=True,
+                suggested_questions=[]
+            )
+        
+        # Priority 2: Chat History Intent
         chat_history_response = handle_chat_history_intent(raw_question, chat_history)
         if chat_history_response:
             return log_and_create_response(
@@ -698,8 +728,9 @@ async def get_chat_history(session_id: str):
 @app.delete("/session/{session_id}")
 async def clear_session(session_id: str):
     """Explicitly clear a session and its history."""
-    if sessions_collection is not None:
-        result = sessions_collection.delete_one({"session_id": session_id})
+    sessions_coll = get_sessions_collection()
+    if sessions_coll is not None:
+        result = sessions_coll.delete_one({"session_id": session_id})
         deleted = result.deleted_count > 0
     else:
         deleted = sessions_db.pop(session_id, None) is not None
