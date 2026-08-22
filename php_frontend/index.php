@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company AI Assistant - PHP</title>
+    <title>Opti Matrix AI Assistant - Optimize the Complicated</title>
     <style>
         :root {
           --bg-color: #f0f2f5;
@@ -198,7 +198,7 @@
 <body>
     <div class="chat-container">
       <div class="chat-header">
-        <h1>Company AI Assistant</h1>
+        <h1>Opti Matrix AI Assistant</h1>
         <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 4px;">
           <div style="width: 8px; height: 8px; background-color: #22c55e; border-radius: 50%;"></div>
           <p style="margin: 0;">Online | Ask me anything</p>
@@ -287,9 +287,23 @@
                 }
             }
 
-            // Markdown link and plain URL parsing
-            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)/g;
-            let formattedContent = content.replace(linkRegex, function(match, mdText, mdUrl, plainUrl) {
+            // ── Markdown & Link Rendering ─────────────────────────────────────
+            // Step 1: Escape HTML to prevent injection from raw text
+            // (We only escape content that is NOT already an HTML tag)
+            // Step 2: Apply markdown bold  **text** → <strong>text</strong>
+            let formattedContent = content;
+
+            // Bold: **text** → <strong>text</strong>
+            formattedContent = formattedContent.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+            // Markdown link, plain URL, and HTML anchor parsing
+            const linkRegex = /<a\b[^>]*>(.*?)<\/a>|\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s<"]+)/gi;
+            formattedContent = formattedContent.replace(linkRegex, function(match, htmlText, mdText, mdUrl, plainUrl) {
+                // If it's already an HTML anchor tag, return it intact
+                if (match.toLowerCase().startsWith('<a')) {
+                    return match;
+                }
+                
                 const isMarkdown = !!mdText && !!mdUrl;
                 const url = isMarkdown ? mdUrl : plainUrl;
                 let text = isMarkdown ? mdText : url;
@@ -460,9 +474,9 @@
             });
         }
         
-        // Generate a unique session ID for context tracking
-        const sessionId = localStorage.getItem("chatSessionId") || generateUUID();
-        localStorage.setItem("chatSessionId", sessionId);
+        // Generate a unique session ID for context tracking per page load.
+        // It resets on every page refresh as requested by the user.
+        const sessionId = generateUUID();
 
         chatForm.addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -504,12 +518,34 @@
             }
         });
 
-        // Initialize with default greeting
-        addMessage('bot', "Hello! I am the OptiMatrix AI assistant. You can ask me about our services, location, or general company information.", [
-            "What services do you offer?", 
-            "How can I contact you?", 
-            "Where is your office located?"
-        ]);
+        // Initialize chat
+        async function loadChatHistory() {
+            try {
+                const response = await fetch(BACKEND_API_URL + "/history/" + sessionId);
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.chat_history && data.chat_history.length > 0) {
+                        data.chat_history.forEach(msg => {
+                            // Backend role "assistant" corresponds to "bot" in frontend
+                            const role = msg.role === 'assistant' ? 'bot' : 'user';
+                            addMessage(role, msg.content);
+                        });
+                        return; // Successfully loaded history, so don't show default greeting
+                    }
+                }
+            } catch (error) {
+                console.error("Error loading chat history:", error);
+            }
+            
+            // Fallback to default greeting if no history or error
+            addMessage('bot', "Hello! I am the Opti Matrix AI Assistant. We 'Optimize the Complicated (Matrix)'. You can ask me about our services, location, or general company information.", [
+                "What services do you offer?", 
+                "How can I contact you?", 
+                "Where is your office located?"
+            ]);
+        }
+        
+        loadChatHistory();
     </script>
 </body>
 </html>
