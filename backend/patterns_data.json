@@ -1333,6 +1333,18 @@
     "Can you fix my current website?",
     "Bug fixing"
   ],
+  "office_development_process": [
+    "What is the development process for Office?"
+  ],
+  "office_why_choose": [
+    "Why should I choose Office?"
+  ],
+  "office_migrate_app": [
+    "Can you migrate my existing app to Office?"
+  ],
+  "office_services_developers_experienced": [
+    "Are your Services developers experienced?"
+  ],
   "portfolio_general": [
     "Show me your portfolio",
     "Where can I see your portfolio?",
