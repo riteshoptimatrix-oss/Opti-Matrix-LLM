@@ -1341,6 +1341,14 @@
   "contact_general_info_custom": [
     "How can I contact Opti Matrix?"
   ],
+  "quotation_general_custom": [
+    "can i get quotation",
+    "can I get a quotation",
+    "how to get quotation",
+    "give me quotation",
+    "request a quote",
+    "get a quote"
+  ],
   "faq_payment_upfront": [
     "Do I have to pay 100% upfront?",
     "Do I pay all at once?",

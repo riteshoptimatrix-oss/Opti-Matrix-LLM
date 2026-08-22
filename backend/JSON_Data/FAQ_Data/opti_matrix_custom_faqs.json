@@ -219,5 +219,19 @@
     "intent": "contact_general_info_custom",
     "patterns": ["How can I contact Opti Matrix?"],
     "responses": ["You can contact Opti Matrix through the following channels:\nEmail: <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Contact Opti Matrix</a>\n<a href=\"https://wa.me/918128361116?utm_source=chatgpt.com\">WhatsApp Opti Matrix</a>\nFor developer hiring, website development, or other project inquiries, please share your requirements with our team."]
+  },
+  {
+    "intent": "quotation_general_custom",
+    "patterns": [
+      "can i get quotation",
+      "can I get a quotation",
+      "how to get quotation",
+      "give me quotation",
+      "request a quote",
+      "get a quote"
+    ],
+    "responses": [
+      "Yes! You can easily submit your project details and request a free quote directly through our website.\n[https://www.optiinfo.com/get-quote/](https://www.optiinfo.com/get-quote/)"
+    ]
   }
 ]

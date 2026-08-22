@@ -253,17 +253,14 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
                 f"What hiring models do you offer for {topic}?"
             ]
         return random.sample(pool, min(3, len(pool)))
-    elif raw_topic in ["contact", "greeting", "greetings", "general", "company", "portfolio", "career", "ceo", "social", "privacy", "benefits", "technology", "process", "migration"]:
-        pool = [
-            "What services do you offer?",
-            "Do you offer dedicated resource hiring models?",
-            "Can you show me websites you have built?",
-            "Where is your head office?",
-            "What industries do you serve?",
-            "How can I get a quote?"
-        ]
-        return random.sample(pool, min(3, len(pool)))
-    elif raw_topic in ["payment", "legal", "security", "troubleshooting", "tech", "launch", "support"]:
+    valid_tech_services = {
+        "nodejs", "nextjs", "reactjs", "vuejs", "php", "ios", "uiux", "wordpress", "ecommerce",
+        "website", "web", "app", "mobile", "software", "android", "flutter", "laravel", "django", 
+        "python", "cakephp", "codeigniter", "joomla", "magento", "opencart", "drupal", "zencart", 
+        "oscommerce", "react", "angular", "jquery", "js", "javascript", "html", "css", "static", "psd"
+    }
+
+    if raw_topic in ["payment", "legal", "security", "troubleshooting", "tech", "launch", "support"]:
         pool = [
             "Do I have to pay 100% upfront?",
             "Do you sign an NDA before we discuss my idea?",
@@ -273,13 +270,23 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
             "What is your refund policy?"
         ]
         return random.sample(pool, min(3, len(pool)))
-    else:
+    elif raw_topic in valid_tech_services:
         pool = [
             f"What are the benefits of using {topic} for my project?",
             f"Do you have a portfolio or case studies for {topic}?",
             f"Why should I choose {topic}?",
             f"Can you migrate my existing app to {topic}?",
             f"What is the development process for {topic}?"
+        ]
+        return random.sample(pool, min(3, len(pool)))
+    else:
+        pool = [
+            "What services do you offer?",
+            "Do you offer dedicated resource hiring models?",
+            "Can you show me websites you have built?",
+            "Where is your head office?",
+            "What industries do you serve?",
+            "How can I get a quote?"
         ]
         return random.sample(pool, min(3, len(pool)))
 
@@ -583,6 +590,18 @@ async def predict_intent(request: PredictRequest):
                             confidence=1.0,
                             matched=True
                         )
+
+        # Explicit routing for basic greetings and farewells
+        q_lower = raw_question.lower().strip(r"[!?.] ")
+        if q_lower in ["hi", "hello", "hey", "hii", "hyy", "heyy", "greetings", "start chat", "is anyone there", "hey ai", "hello bot"]:
+            company_answer = retrieve_approved_response("greeting")
+            if company_answer:
+                return log_and_create_response(session_id, raw_question, "greeting", company_answer, 1.0, True, get_dynamic_suggestions("greeting"))
+                
+        if q_lower in ["bye", "goodbye", "see you", "ttyl", "end chat", "i'm leaving", "farewell", "bye bye", "catch you later"]:
+            company_answer = retrieve_approved_response("bye")
+            if company_answer:
+                return log_and_create_response(session_id, raw_question, "bye", company_answer, 1.0, True, get_dynamic_suggestions("bye"))
 
         # 1. Try predicting with the raw question
         probs = model.predict_proba([raw_question])[0]
