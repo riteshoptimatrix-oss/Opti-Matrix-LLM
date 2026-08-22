@@ -48,7 +48,9 @@ if MONGODB_URI:
         except Exception:
             db = mongo_client.get_database("optimatrix_chat")
         sessions_collection = db["chat_sessions"]
-        logger.info("MongoDB connected successfully for session storage.")
+        # Add TTL index for automatic cleanup of abandoned sessions (expires after 24 hours)
+        sessions_collection.create_index("updated_at", expireAfterSeconds=86400)
+        logger.info("MongoDB connected successfully for session storage. TTL index ensured.")
     except Exception as e:
         logger.error("Failed to connect to MongoDB. Check credentials, URI format, and network connectivity.")
 
@@ -441,3 +443,17 @@ async def get_chat_history(session_id: str):
         "session_id": session_id,
         "chat_history": session_data.get("chat_history", [])
     }
+
+@app.delete("/session/{session_id}")
+async def clear_session(session_id: str):
+    """Explicitly clear a session and its history."""
+    if sessions_collection is not None:
+        result = sessions_collection.delete_one({"session_id": session_id})
+        deleted = result.deleted_count > 0
+    else:
+        deleted = sessions_db.pop(session_id, None) is not None
+        
+    if deleted:
+        return {"success": True, "message": f"Session {session_id} cleared successfully."}
+    else:
+        raise HTTPException(status_code=404, detail="Session not found.")
