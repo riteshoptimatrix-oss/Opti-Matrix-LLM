@@ -21,6 +21,8 @@ class TestInquiryFlow(unittest.TestCase):
         cls.client = TestClient(app)
 
     def setUp(self):
+        from main import sessions_db
+        sessions_db.clear()
         self.session_id = f"test_session_{int(datetime.now(timezone.utc).timestamp())}"
 
     def test_direct_inquiry_api_success(self):
@@ -219,6 +221,7 @@ class TestInquiryFlow(unittest.TestCase):
     def test_my_inquiries_conversational_flow(self):
         """Test the 'My Inquiries' conversational intent and phone prompt flow."""
         session_id = "test_web_session_no_phone"
+        self.client.delete(f"/session/{session_id}")
 
         # Turn 1: User asks 'My Inquiries'
         resp1 = self.client.post("/predict", json={

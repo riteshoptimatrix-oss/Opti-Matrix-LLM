@@ -39,7 +39,7 @@ class InquiryService:
         Validates, prepares, and securely stores an inquiry document in MongoDB.
         Returns the formatted saved inquiry record with IST timestamp.
         """
-        now = datetime.now(timezone.utc)
+        now = datetime.now(IST)
         norm_phone = inquiry_input.normalizedPhone or normalize_phone_number(inquiry_input.contactNumber)
         
         doc = {
