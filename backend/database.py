@@ -20,26 +20,28 @@ _db: Optional[Database] = None
 def get_mongo_client() -> Optional[MongoClient]:
     global _mongo_client
     if _mongo_client is None and MONGODB_URI:
-        # Strategy 1: Standard client with certifi CA bundle
-        try:
-            client = MongoClient(MONGODB_URI, tlsCAFile=certifi.where(), serverSelectionTimeoutMS=5000)
-            client.admin.command('ping')
-            _mongo_client = client
-            logger.info("MongoDB client connected successfully using certifi CA bundle.")
-            return _mongo_client
-        except Exception as e1:
-            logger.warning(f"MongoDB connection attempt with certifi failed: {e1}. Trying TLS fallback...")
+        strategies = [
+            ("certifi CA bundle", {"tlsCAFile": certifi.where()}),
+            ("tlsAllowInvalidCertificates", {"tlsAllowInvalidCertificates": True}),
+            ("tlsInsecure", {"tlsInsecure": True}),
+        ]
         
-        # Strategy 2: Fallback with tlsAllowInvalidCertificates (fixes Render/OpenSSL TLS handshake alerts)
-        try:
-            client = MongoClient(MONGODB_URI, tlsAllowInvalidCertificates=True, serverSelectionTimeoutMS=5000)
-            client.admin.command('ping')
-            _mongo_client = client
-            logger.info("MongoDB client connected successfully using fallback TLS configuration.")
-            return _mongo_client
-        except Exception as e2:
-            logger.error(f"Failed to connect to MongoDB: {e2}")
-            _mongo_client = None
+        for name, opts in strategies:
+            try:
+                client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000, **opts)
+                client.admin.command('ping')
+                _mongo_client = client
+                logger.info(f"MongoDB client connected successfully using strategy: {name}")
+                return _mongo_client
+            except Exception as e:
+                logger.warning(f"MongoDB connection strategy '{name}' failed: {e}")
+                
+        logger.error(
+            "Failed to connect to MongoDB Atlas with all SSL/TLS strategies. "
+            "CRITICAL: If deploying on Render, ensure '0.0.0.0/0' (Allow access from anywhere) is added in "
+            "MongoDB Atlas -> Network Access -> IP Access List."
+        )
+        _mongo_client = None
 
     return _mongo_client
 
