@@ -7,3 +7,4 @@ pymongo[srv]==4.9.0
 python-dotenv
 certifi
 pymongo
+pkg_resources

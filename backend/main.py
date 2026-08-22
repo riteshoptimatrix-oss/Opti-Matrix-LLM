@@ -216,6 +216,9 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
             "How long have you been in business?"
         ]
         return random.sample(pool, min(3, len(pool)))
+        
+    if any(keyword in intent.lower() for keyword in ["greeting", "bye", "thank", "welcome"]):
+        return []
     
     parts = intent.lower().replace("_", " ").split()
     raw_topic = parts[0] if parts else "general"
@@ -250,7 +253,7 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
                 f"What hiring models do you offer for {topic}?"
             ]
         return random.sample(pool, min(3, len(pool)))
-    elif raw_topic in ["contact", "greeting", "general", "company", "portfolio", "career", "ceo", "social", "privacy"]:
+    elif raw_topic in ["contact", "greeting", "greetings", "general", "company", "portfolio", "career", "ceo", "social", "privacy", "benefits", "technology", "process", "migration"]:
         pool = [
             "What services do you offer?",
             "Do you offer dedicated resource hiring models?",
@@ -274,7 +277,6 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
         pool = [
             f"What are the benefits of using {topic} for my project?",
             f"Do you have a portfolio or case studies for {topic}?",
-            f"I need to hire a {topic} developer",
             f"Why should I choose {topic}?",
             f"Can you migrate my existing app to {topic}?",
             f"What is the development process for {topic}?"
@@ -285,48 +287,112 @@ def handle_chat_history_intent(query: str, chat_history: list) -> Optional[str]:
     """
     Priority Rule: Chat History Intent has higher priority than the general knowledge base.
     Detects and responds to queries about conversation history using the actual session chat_history.
-    The current question has NOT yet been saved to chat_history when this function is called,
-    so the history reflects all previous exchanges only.
     """
     query_lower = query.lower().strip()
+    
+    # ── Auto-Correct Common Spelling Errors ────────────────────────────────────
+    # Safely corrects common typos so the regex engine doesn't break
+    typo_map = {
+        "cht": "chat", "chaat": "chat", "cahat": "chat", "chatt": "chat",
+        "mesage": "message", "messge": "message", "mesagge": "message", "msg": "message",
+        "lsat": "last", "lst": "last", "lasst": "last",
+        "previus": "previous", "prev": "previous", "prevoius": "previous",
+        "histroy": "history", "histry": "history",
+        "qstn": "question", "ques": "question", "qestion": "question",
+        "frist": "first", "frst": "first",
+        "secnd": "second", "scnd": "second",
+        "thrd": "third", "thrid": "third"
+    }
+    try:
+        from thefuzz import process, fuzz
+        crucial_words = ['chat', 'message', 'prompt', 'question', 'first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth', 'last', 'previous', 'before', 'history', 'complete']
+        words = query_lower.split()
+        corrected_words = []
+        for w in words:
+            # 1. Check explicit map first
+            if w in typo_map:
+                corrected_words.append(typo_map[w])
+                continue
+            # 2. Fuzzy match for longer words to avoid false positives on short words like "that"
+            if len(w) > 4:
+                match = process.extractOne(w, crucial_words, scorer=fuzz.ratio)
+                if match and match[1] >= 85:
+                    corrected_words.append(match[0])
+                    continue
+            corrected_words.append(w)
+        query_lower = " ".join(corrected_words)
+    except ImportError:
+        # Fallback to pure dictionary map if thefuzz isn't available
+        query_lower = " ".join([typo_map.get(w, w) for w in query_lower.split()])
 
     # ── Pattern Detection ──────────────────────────────────────────────────────
+    positional_words = r"(?:first|1st|second|2nd|third|3rd|fourth|4th|fifth|5th|sixth|6th|seventh|7th|eighth|8th|ninth|9th|tenth|10th|\d+(?:st|nd|rd|th))"
     history_patterns = [
-        # last / previous
-        r"(what (is|was)|show me) my last (chat|message|prompt|question)",
-        r"my last (chat|message|prompt|question)",
-        r"what was my last (message|prompt|question|chat)",
-        # first
-        r"(what (is|was)|show me) my first (chat|message|prompt|question)",
-        r"my first (chat|message|prompt|question)",
-        r"what (is|was) my first prompt",
-        r"what did i ask (you )?first",
-        r"what did i ask first",
-        r"asked? first",
-        # 2nd last
-        r"(what (is|was)|show me) my (2nd|second)[ -]last (chat|message|prompt|question)",
-        r"my (2nd|second)[ -]last (chat|message|prompt|question)",
+      r"complete chat history",
+r"chat history",
+r"my chats",
+r"list of my chats",
+r"show my chats",
+r"show my chat history",
+r"show chat history",
+r"view my chats",
+r"view chat history",
+r"get my chats",
+r"get my chat history",
+r"retrieve my chats",
+r"retrieve chat history",
+r"conversation history",
+r"my conversation history",
+r"show my conversation history",
+r"view my conversation history",
+r"list my conversations",
+r"show my conversations",
+r"my conversations",
+r"all my chats",
+r"all my conversations",
+r"previous chats",
+r"past chats",
+r"old chats",
+r"recent chats",
+r"chat records",
+r"my chat records",
+r"conversation records",
+r"my conversation records",
+r"all chat history",
+r"entire chat history",
+r"full chat history",
+r"complete conversation history",
+r"full conversation history",
+r"entire conversation history",
+r"history of my chats",
+r"history of my conversations",
+r"what did we chat about",
+r"what have we chatted about",
+r"show everything we talked about",
+r"show all my conversations",
+r"show all my chats",
+        
+        # Positional exact matches
+        rf"\b({positional_words})\b (chat|message|prompt|question)",
+        rf"(what (is|was)|show me) my ({positional_words}) (chat|message|prompt|question)",
+        rf"what did i ask (you )?({positional_words})",
+        rf"asked? ({positional_words})",
+        
+        # From the end generic (e.g., 2nd last, last 2nd)
+        rf"({positional_words})[ -]last (chat|message|prompt|question)",
+        rf"last ({positional_words}) (chat|message|prompt|question)",
+        rf"(what (is|was)|show me) my ({positional_words})[ -]last (chat|message|prompt|question)",
+        rf"(what (is|was)|show me) my last ({positional_words}) (chat|message|prompt|question)",
         r"what did i ask before my last",
         r"before my last (question|message|prompt|chat)",
-        # 3rd last
-        r"(what (is|was)|show me) my (3rd|third)[ -]last (chat|message|prompt|question)",
-        r"my (3rd|third)[ -]last (chat|message|prompt|question)",
-        # 2nd / second (positional, not last)
-        r"(what (is|was)|show me) my (2nd|second) (chat|message|prompt|question)",
-        r"my (2nd|second) (chat|message|prompt|question)",
-        # previous
-        r"(show me|what (is|was)) my previous (chat|message|prompt|question)",
-        r"previous (chat|message|prompt|question)",
+        
+        # simple last / previous
+        r"\blast\b (chat|message|prompt|question)",
+        r"\bprevious\b (chat|message|prompt|question)",
+        r"(show me|what (is|was)) my (last|previous) (chat|message|prompt|question)",
         r"what did i ask (you )?before",
         r"what did i (ask|say) before",
-        r"asked? you before",
-        r"what was my previous (prompt|message|chat|question)",
-        # history listing
-        r"(show me|what (is|are)) my (chat history|chats|previous chats|messages)",
-        r"complete chat history",
-        r"chat history",
-        r"my chats",
-        r"list my chats",
+        r"asked? you before"
     ]
 
     is_history_intent = any(re.search(p, query_lower) for p in history_patterns)
@@ -335,19 +401,33 @@ def handle_chat_history_intent(query: str, chat_history: list) -> Optional[str]:
 
     # ── Extract user-only messages ────────────────────────────────────────────
     user_messages = [msg["content"] for msg in chat_history if msg.get("role") == "user"]
-
     unavailable_msg = (
-        "I can only access the conversation history that is available in this chat. "
-        "I don't have access to older or unavailable chats."
+        "I currently only have access to the conversation history within this active session. "
+        "I cannot retrieve older or deleted chats."
     )
+
+    # ── Helper to parse Nth string ─────────────────────────────────────────────
+    def get_nth(word: str) -> Optional[int]:
+        if not word: return None
+        word = word.lower().strip()
+        mapping = {
+            "first": 1, "1st": 1, "second": 2, "2nd": 2, "third": 3, "3rd": 3,
+            "fourth": 4, "4th": 4, "fifth": 5, "5th": 5, "sixth": 6, "6th": 6,
+            "seventh": 7, "7th": 7, "eighth": 8, "8th": 8, "ninth": 9, "9th": 9,
+            "tenth": 10, "10th": 10
+        }
+        if word in mapping: return mapping[word]
+        m = re.match(r"^(\d+)(?:st|nd|rd|th)?$", word)
+        if m: return int(m.group(1))
+        return None
 
     # ── Complete chat history ─────────────────────────────────────────────────
     if "complete chat history" in query_lower:
         if not chat_history:
             return unavailable_msg
-        formatted_history = []
+        formatted_history = ["Here is our conversation history for this session:\n"]
         for msg in chat_history:
-            role = "You" if msg["role"] == "user" else "Assistant"
+            role = "You" if msg["role"] == "user" else "Opti Matrix"
             formatted_history.append(f"**{role}:** {msg['content']}")
         return "\n\n".join(formatted_history)
 
@@ -359,61 +439,47 @@ def handle_chat_history_intent(query: str, chat_history: list) -> Optional[str]:
     ):
         if not user_messages:
             return unavailable_msg
-        formatted = ["Your messages in this conversation:"] + [
+        formatted = ["Here are the questions and messages you have sent in this session:\n"] + [
             f"{i+1}. {m}" for i, m in enumerate(user_messages)
         ]
         return "\n".join(formatted)
 
     # ── Position Mapping ──────────────────────────────────────────────────────
 
-    # First message
-    if (
-        re.search(r"(first|1st) ?(chat|message|prompt|question)", query_lower)
-        or re.search(r"what (is|was) my (first|1st) prompt", query_lower)
-        or re.search(r"what did i ask (you )?first", query_lower)
-        or re.search(r"asked? first", query_lower)
-    ):
-        if user_messages:
-            return f"Your 1st Reponse is :-\n\n{user_messages[0]}"
+    # Nth last (e.g. 2nd last, last 5th)
+    nth_last_match = re.search(rf"({positional_words})[ -]last|last ({positional_words})", query_lower)
+    if nth_last_match:
+        word = nth_last_match.group(1) or nth_last_match.group(2)
+        idx = get_nth(word)
+        if idx and len(user_messages) >= idx:
+            return f"Your {word}-to-last message was:\n\n**\"{user_messages[-idx]}\"**"
         return unavailable_msg
 
-    # 3rd last  (check before 2nd last to avoid misfire)
-    if re.search(r"(3rd|third)[ -]?last", query_lower):
-        if len(user_messages) >= 3:
-            return f"Your third-last message was: **{user_messages[-3]}**"
-        return unavailable_msg
-
-    # 2nd last / before my last
-    if (
-        re.search(r"(2nd|second)[ -]?last", query_lower)
-        or "before my last" in query_lower
-        or re.search(r"before my last (question|message|prompt|chat)", query_lower)
-    ):
+    # Before my last (2nd last)
+    if "before my last" in query_lower:
         if len(user_messages) >= 2:
-            return f"Your second-last message was: **{user_messages[-2]}**"
-        return unavailable_msg
-
-    # 2nd message (positional, NOT last)
-    if re.search(r"(2nd|second) (chat|message|prompt|question)", query_lower):
-        if len(user_messages) >= 2:
-            return f"Your second message in this conversation was: **{user_messages[1]}**"
+            return f"The message you sent just before your last one was:\n\n**\"{user_messages[-2]}\"**"
         return unavailable_msg
 
     # Last / previous / asked before
-    if (
-        re.search(r"last (chat|message|prompt|question)", query_lower)
-        or re.search(r"previous (chat|message|prompt|question)", query_lower)
-        or re.search(r"what was my previous (prompt|message|chat|question)", query_lower)
-        or re.search(r"what did i (ask|say) (you )?before", query_lower)
-        or "asked you before" in query_lower
-        or "ask you before" in query_lower
-        or "show me my previous" in query_lower
-    ):
+    if re.search(r"\b(last|previous)\b", query_lower) or "before" in query_lower:
         if user_messages:
-            return f"Your last message was: **{user_messages[-1]}**"
+            return f"Your last message was:\n\n**\"{user_messages[-1]}\"**"
         return unavailable_msg
 
-    # Generic fallback for anything that triggered the intent but wasn't routed above
+    # Nth (from the start)
+    nth_match = re.search(rf"\b({positional_words})\b", query_lower)
+    if nth_match:
+        word = nth_match.group(1)
+        idx = get_nth(word)
+        if idx:
+            if idx == 1 and user_messages:
+                return f"The very first message you sent in this session was:\n\n**\"{user_messages[0]}\"**"
+            elif len(user_messages) >= idx:
+                return f"Your {word} message in this session was:\n\n**\"{user_messages[idx-1]}\"**"
+            return unavailable_msg
+
+    # Generic fallback
     return unavailable_msg
             
 def log_and_create_response(session_id: str, question: str, intent: Optional[str], answer: str, confidence: float, matched: bool, suggested_questions: List[str] = None):

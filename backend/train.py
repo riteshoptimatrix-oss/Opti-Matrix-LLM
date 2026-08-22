@@ -167,16 +167,17 @@ def main():
 
     eval_pipeline = Pipeline([
         ('tfidf', TfidfVectorizer(
-            ngram_range=(1, 2),
-            max_features=8000,
-            sublinear_tf=True,
-            token_pattern=r'(?u)\b\w+\b'
+            analyzer='word',
+            ngram_range=(1, 3),
+            max_features=12000,
+            sublinear_tf=True
         )),
         ('clf', LogisticRegression(
-            C=30.0,
+            C=10.0,
             max_iter=500,
             solver='lbfgs',
-            random_state=42
+            random_state=42,
+            class_weight='balanced'
         ))
     ])
 
@@ -201,16 +202,17 @@ def main():
 
     production_pipeline = Pipeline([
         ('tfidf', TfidfVectorizer(
-            ngram_range=(1, 2),
-            max_features=8000,
-            sublinear_tf=True,
-            token_pattern=r'(?u)\b\w+\b'
+            analyzer='word',
+            ngram_range=(1, 3),
+            max_features=12000,
+            sublinear_tf=True
         )),
         ('clf', LogisticRegression(
-            C=30.0,
+            C=10.0,
             max_iter=500,
             solver='lbfgs',
-            random_state=42
+            random_state=42,
+            class_weight='balanced'
         ))
     ])
 

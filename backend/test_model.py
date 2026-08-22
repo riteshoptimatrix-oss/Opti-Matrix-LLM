@@ -24,7 +24,9 @@ test_queries = [
     ("Show me your portfolio", "portfolio_general", True),
     ("What services do you provide?", "services", True),
     ("Tell me about iOS application development", "iphone_app_general", True),
-    ("Random gibberish xyz123 hello unknown?", None, False)
+    ("Random gibberish xyz123 hello unknown?", None, False),
+    ("can you give some software demo , you have built", "portfolio_general", True),
+    ("can you give some software names that you have built", "portfolio_general", True)
 ]
 
 CONFIDENCE_THRESHOLD = 0.15

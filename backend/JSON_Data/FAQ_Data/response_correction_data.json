@@ -66,7 +66,98 @@
     "patterns": [
       "portfolio",
       "show portfolio",
-      "your portfolio"
+      "show me your portfolio",
+      "your portfolio",
+      "can you show me your portfolio",
+      "can you share your portfolio",
+      "share your portfolio",
+      "give me your portfolio",
+      "do you have a portfolio",
+      "where can I see your portfolio",
+      "can I see your portfolio",
+      "show me some of your work",
+      "show me your work",
+      "showcase your work",
+      "work you have done",
+      "projects you have built",
+      "projects you have worked on",
+      "software you have built",
+      "software projects you have built",
+      "software projects you have worked on",
+      "can you show some software you have built",
+      "can you show some software projects",
+      "can you give some software demos",
+      "can you give me some software demos",
+      "can you show me some software demos",
+      "can you give some software demo",
+      "can you show me a software demo",
+      "software demo",
+      "software demos",
+      "product demo",
+      "product demos",
+      "application demo",
+      "app demo",
+      "show me a demo",
+      "show me some demos",
+      "show me what you have built",
+      "what software have you built",
+      "what projects have you built",
+      "what applications have you built",
+      "what products have you built",
+      "software names you have built",
+      "software names you have worked on",
+      "can you give some software names that you have built",
+      "can you give me software names that you have built",
+      "can you list the software you have built",
+      "can you list some software projects you have built",
+      "give me examples of software you have built",
+      "give me examples of projects you have built",
+      "examples of software you have built",
+      "examples of projects you have built",
+      "list your software projects",
+      "list projects you have built",
+      "your software projects",
+      "your projects",
+      "past projects",
+      "previous projects",
+      "past work",
+      "previous work",
+      "case studies",
+      "show me your case studies",
+      "do you have any case studies",
+      "what products have you developed",
+      "what applications have you developed",
+      "what systems have you built",
+      "what platforms have you built",
+      "what websites have you built",
+      "what apps have you built",
+      "what web apps have you built",
+      "what software products have you created",
+      "what have you built",
+      "what have you worked on",
+      "show me examples of your work",
+      "show me examples of what you have built",
+      "can I see examples of your work",
+      "can I see some of your projects",
+      "can I see what you have built",
+      "I want to see your portfolio",
+      "I want to see your projects",
+      "I want to see your previous work",
+      "I want to see software you have built",
+      "I want to see some demos",
+      "do you have software demos",
+      "do you have software projects",
+      "do you have any projects to show",
+      "show portfolio please",
+      "show me portfolio",
+      "give portfolio",
+      "send portfolio",
+      "share portfolio",
+      "portfolio please",
+      "software demo please",
+      "show software demo",
+      "show software demos",
+      "software projects please"
     ],
     "responses": [
       "You can explore Opti Matrix's portfolio here:\n[https://www.optimatrix.in/portfolio](https://www.optimatrix.in/portfolio)\nYou can also view additional work here:\n[https://www.optiinfo.com/our-portfolio/](https://www.optiinfo.com/our-portfolio/)"
@@ -87,6 +178,7 @@
     "intent": "technology_stack_general",
     "patterns": [
       "Technologies used in Development",
+      "Technology used by you",
       "What technologies do you use?",
       "Which technologies do you use for development?",
       "What tech stack do you use?",
@@ -97,6 +189,16 @@
     ],
     "responses": [
       "At Opti Matrix, we work with a range of modern technologies across frontend, backend, mobile, databases, and cloud development.\n\n**Frontend:** HTML, CSS, JavaScript, React.js, Next.js, Bootstrap, Tailwind CSS\n\n**Backend:** PHP, Laravel, Node.js, Python, Django, REST APIs\n\n**Mobile:** Android, iOS, Flutter, React Native\n\n**Databases:** MySQL, PostgreSQL, MongoDB, SQL Server\n\n**CMS / E-commerce:** WordPress, WooCommerce, Shopify\n\n**Cloud / DevOps:** AWS, Microsoft Azure, Docker, Git/GitHub\n\nThe technology stack is selected based on the project's requirements, scalability, performance, and business goals."
+    ]
+  },
+  {
+    "intent": "choose_benefits",
+    "patterns": [
+      "Why should I choose Benefits?",
+      "choose benefits"
+    ],
+    "responses": [
+      "Choosing Opti Matrix gives you numerous benefits, including expert development, tailored solutions, timely delivery, and excellent post-launch support. Our goal is to maximize the value and return on investment for your custom software or web development project."
     ]
   },
   {
@@ -157,6 +259,16 @@
     ],
     "responses": [
       "**Cloud / DevOps:** AWS, Microsoft Azure, Docker, and Git/GitHub."
+    ]
+  },
+  {
+    "intent": "choose_website_development",
+    "patterns": [
+      "Why should I choose Website?",
+      "Why choose Website?"
+    ],
+    "responses": [
+      "Opti Matrix builds websites that provide a strong online presence, enhanced credibility, and better reach for your business. Our custom-designed websites are optimized for performance, user experience, and scalability, helping you effectively connect with your target audience and grow your business."
     ]
   }
 ]
