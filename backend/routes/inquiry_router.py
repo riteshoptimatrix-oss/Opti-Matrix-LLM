@@ -1,14 +1,33 @@
 import logging
+from typing import Optional, Dict, Any, List
 from fastapi import APIRouter, HTTPException, status
-from pydantic import ValidationError
+from pydantic import BaseModel, Field, ValidationError
 
-from models.inquiry import InquiryCreate, InquiryAPIResponse, InquiryResponseData
+from models.inquiry import InquiryCreate, InquiryAPIResponse, InquiryResponseData, normalize_phone_number
 from services.inquiry_service import InquiryService
 from database import get_inquiries_collection
 
 logger = logging.getLogger("inquiry_router")
 
 router = APIRouter(prefix="", tags=["Inquiries"])
+
+class InquiryHistoryRequest(BaseModel):
+    contactNumber: str = Field(..., description="Registered contact phone number to query history")
+
+class InquiryHistoryResponse(BaseModel):
+    success: bool
+    phone: str
+    total: int
+    data: List[Dict[str, Any]]
+    message: str
+
+class WhatsAppWebhookPayload(BaseModel):
+    phone: Optional[str] = Field(default=None, description="Customer phone number from WhatsApp webhook")
+    contactNumber: Optional[str] = Field(default=None, description="Alternative field for contact number")
+    message: Optional[str] = Field(default=None, description="Text message sent by customer")
+    name: Optional[str] = Field(default=None, description="Customer name if submitting inquiry")
+    requirements: Optional[str] = Field(default=None, description="Project requirements if submitting inquiry")
+    budget: Optional[str] = Field(default=None, description="Project budget if submitting inquiry")
 
 @router.post(
     "/api/inquiry",
@@ -45,6 +64,87 @@ async def submit_inquiry(inquiry: InquiryCreate):
         )
 
 @router.get(
+    "/api/inquiry/history",
+    response_model=InquiryHistoryResponse,
+    summary="Get Inquiry History by Phone Number",
+    description="Fetch complete inquiry history for a customer using their phone number as the unique identifier."
+)
+async def get_inquiry_history_by_phone(phone: str):
+    if not phone or not phone.strip():
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Phone number query parameter is required."
+        )
+    inquiries = InquiryService.get_inquiries_by_phone(phone)
+    return InquiryHistoryResponse(
+        success=True,
+        phone=phone.strip(),
+        total=len(inquiries),
+        data=inquiries,
+        message=f"Retrieved {len(inquiries)} inquiry record(s) for phone '{phone}'."
+    )
+
+@router.post(
+    "/api/inquiry/history",
+    response_model=InquiryHistoryResponse,
+    summary="Post Request for Inquiry History by Phone Number"
+)
+async def post_inquiry_history_by_phone(payload: InquiryHistoryRequest):
+    phone = payload.contactNumber.strip()
+    if not phone:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="contactNumber field cannot be empty."
+        )
+    inquiries = InquiryService.get_inquiries_by_phone(phone)
+    return InquiryHistoryResponse(
+        success=True,
+        phone=phone,
+        total=len(inquiries),
+        data=inquiries,
+        message=f"Retrieved {len(inquiries)} inquiry record(s) for phone '{phone}'."
+    )
+
+@router.post(
+    "/api/webhook/whatsapp",
+    summary="WhatsApp Webhook Endpoint for Inquiry Management"
+)
+async def whatsapp_webhook(payload: WhatsAppWebhookPayload):
+    phone_val = payload.phone or payload.contactNumber
+    if not phone_val:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Phone number is required in WhatsApp webhook payload."
+        )
+
+    # If payload contains inquiry creation fields (name, requirements, budget)
+    if payload.name and payload.requirements and payload.budget:
+        inquiry_input = InquiryCreate(
+            name=payload.name,
+            requirements=payload.requirements,
+            budget=payload.budget,
+            contactNumber=phone_val,
+            source="whatsapp"
+        )
+        saved = InquiryService.create_inquiry(inquiry_input)
+        return {
+            "success": True,
+            "event": "inquiry_created",
+            "message": "WhatsApp inquiry recorded successfully.",
+            "data": saved
+        }
+
+    # Otherwise, query history for WhatsApp user
+    inquiries = InquiryService.get_inquiries_by_phone(phone_val)
+    return {
+        "success": True,
+        "event": "inquiry_history",
+        "phone": phone_val,
+        "total": len(inquiries),
+        "data": inquiries
+    }
+
+@router.get(
     "/api/inquiry/health",
     summary="Inquiry Service Health",
     description="Check MongoDB connectivity for the inquiries collection."
@@ -57,3 +157,4 @@ async def inquiry_health():
         "collection": "inquiries",
         "database_connected": is_connected
     }
+

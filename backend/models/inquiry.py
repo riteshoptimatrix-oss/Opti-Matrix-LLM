@@ -3,12 +3,22 @@ from datetime import datetime
 from typing import Optional, Any, Dict
 from pydantic import BaseModel, Field, field_validator
 
+def normalize_phone_number(phone_str: str) -> str:
+    """
+    Standardizes a phone number by extracting digits only.
+    Returns digits string (e.g. '9876543210' or '919876543210').
+    """
+    if not phone_str:
+        return ""
+    return re.sub(r"\D", "", phone_str)
+
 class InquiryCreate(BaseModel):
     name: str = Field(..., min_length=2, max_length=100, description="Full name of the user inquiring")
     requirements: str = Field(..., min_length=5, max_length=5000, description="Project specifications and requirements")
     budget: str = Field(..., min_length=2, max_length=200, description="Estimated or preferred budget")
     contactNumber: str = Field(..., min_length=7, max_length=30, description="Contact phone number")
-    source: Optional[str] = Field(default="api", description="Source of inquiry (chatbot, api, web_form)")
+    normalizedPhone: Optional[str] = Field(default=None, description="Normalized digits-only phone number")
+    source: Optional[str] = Field(default="api", description="Source of inquiry (chatbot, whatsapp, api, web_form, php)")
 
     @field_validator("name")
     @classmethod
@@ -55,6 +65,7 @@ class InquiryResponseData(BaseModel):
     requirements: str
     budget: str
     contactNumber: str
+    normalizedPhone: Optional[str] = None
     createdAt: str
     updatedAt: str
     source: Optional[str] = "api"
@@ -64,3 +75,4 @@ class InquiryAPIResponse(BaseModel):
     message: str
     data: Optional[InquiryResponseData] = None
     error: Optional[str] = None
+

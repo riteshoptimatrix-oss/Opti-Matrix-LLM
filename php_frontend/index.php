@@ -652,6 +652,7 @@
             }
             
             addMessage('bot', "Hello! I am the **Opti Matrix AI Assistant**. \n\nWe specialize in optimizing complicated digital challenges. How can I help you today?", [
+                "📋 My Inquiries",
                 "What services do you offer?", 
                 "Where is your office located?",
                 "Can you show me your portfolio?"

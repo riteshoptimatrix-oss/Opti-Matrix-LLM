@@ -182,5 +182,116 @@ class TestInquiryFlow(unittest.TestCase):
         self.assertIsNone(session.get("inquiry_state"))
         print("[PASSED] Cancellation flow properly resets session state.")
 
+    def test_phone_normalization_and_history_matching(self):
+        """Test matching PHP-created and WhatsApp-created inquiries for the same phone number."""
+        test_phone_php = "+91 9988776655"
+        test_phone_wa = "919988776655"
+
+        # 1. Create inquiry via PHP source
+        php_payload = InquiryCreate(
+            name="Rahul Sharma",
+            requirements="Need a custom PHP web application for inventory management.",
+            budget="$4,000",
+            contactNumber=test_phone_php,
+            source="php"
+        )
+        InquiryService.create_inquiry(php_payload)
+
+        # 2. Create inquiry via WhatsApp source
+        wa_payload = InquiryCreate(
+            name="Rahul Sharma",
+            requirements="Need WhatsApp automated CRM integration.",
+            budget="$2,500",
+            contactNumber=test_phone_wa,
+            source="whatsapp"
+        )
+        InquiryService.create_inquiry(wa_payload)
+
+        # 3. Query history using plain 10-digit number
+        results = InquiryService.get_inquiries_by_phone("9988776655")
+        self.assertGreaterEqual(len(results), 2, f"Expected at least 2 records, got {len(results)}")
+        
+        sources = [r["source"].lower() for r in results]
+        self.assertIn("php", sources)
+        self.assertIn("whatsapp", sources)
+        print("\n[PASSED] Phone normalization correctly matches both PHP and WhatsApp inquiries.")
+
+    def test_my_inquiries_conversational_flow(self):
+        """Test the 'My Inquiries' conversational intent and phone prompt flow."""
+        session_id = "test_session_history_flow_abc"
+
+        # Turn 1: User asks 'My Inquiries'
+        resp1 = self.client.post("/predict", json={
+            "question": "My Inquiries",
+            "session_id": session_id
+        })
+        self.assertEqual(resp1.status_code, 200)
+        data1 = resp1.json()
+        self.assertIn("view inquiry history", data1["answer"].lower())
+        self.assertIn("phone number", data1["answer"].lower())
+
+        # Turn 2: User provides registered phone number
+        resp2 = self.client.post("/predict", json={
+            "question": "9988776655",
+            "session_id": session_id
+        })
+        self.assertEqual(resp2.status_code, 200)
+        data2 = resp2.json()
+        self.assertIn("inquiry history for", data2["answer"].lower())
+        self.assertIn("rahul sharma", data2["answer"].lower())
+        print("[PASSED] Conversational 'My Inquiries' flow properly prompts and returns history.")
+
+    def test_history_api_endpoints(self):
+        """Test GET and POST /api/inquiry/history endpoints."""
+        test_phone = "+91 9888877777"
+        
+        # Seed test inquiries for history API test
+        InquiryService.create_inquiry(InquiryCreate(
+            name="Vikram Seth",
+            requirements="Custom CRM for logistics firm.",
+            budget="$3,500",
+            contactNumber=test_phone,
+            source="php"
+        ))
+        InquiryService.create_inquiry(InquiryCreate(
+            name="Vikram Seth",
+            requirements="WhatsApp Notification bot for logistics.",
+            budget="$1,500",
+            contactNumber="919888877777",
+            source="whatsapp"
+        ))
+
+        # GET Endpoint
+        get_resp = self.client.get("/api/inquiry/history?phone=9888877777")
+        self.assertEqual(get_resp.status_code, 200)
+        get_data = get_resp.json()
+        self.assertTrue(get_data["success"])
+        self.assertGreaterEqual(get_data["total"], 2)
+
+        # POST Endpoint
+        post_resp = self.client.post("/api/inquiry/history", json={"contactNumber": "+91 9888877777"})
+        self.assertEqual(post_resp.status_code, 200)
+        post_data = post_resp.json()
+        self.assertTrue(post_data["success"])
+        self.assertGreaterEqual(post_data["total"], 2)
+        print("[PASSED] GET and POST /api/inquiry/history API endpoints functioning properly.")
+
+    def test_whatsapp_webhook_integration(self):
+        """Test POST /api/webhook/whatsapp endpoint."""
+        payload = {
+            "phone": "+91 9123456789",
+            "name": "Karan Malhotra",
+            "requirements": "E-Commerce Android & iOS App",
+            "budget": "$8,000"
+        }
+        resp = self.client.post("/api/webhook/whatsapp", json=payload)
+        self.assertEqual(resp.status_code, 200)
+        data = resp.json()
+        self.assertTrue(data["success"])
+        self.assertEqual(data["event"], "inquiry_created")
+        self.assertEqual(data["data"]["source"], "whatsapp")
+        print("[PASSED] WhatsApp webhook endpoint creates inquiry with source 'whatsapp'.")
+
 if __name__ == "__main__":
     unittest.main()
+

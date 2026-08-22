@@ -86,6 +86,7 @@ def init_indexes(database: Database):
         inquiries_coll = database["inquiries"]
         inquiries_coll.create_index("createdAt")
         inquiries_coll.create_index("contactNumber")
+        inquiries_coll.create_index("normalizedPhone")
         logger.info("MongoDB indexes verified for 'chat_sessions' and 'inquiries'.")
     except Exception as e:
         logger.warning(f"Inquiries index creation: {e}")
