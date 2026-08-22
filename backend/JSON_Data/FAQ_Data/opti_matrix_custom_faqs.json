@@ -39,7 +39,7 @@
       "I want to see your website work"
     ],
     "responses": [
-      "Yes, you can explore our website portfolio and previous projects here:\n[https://www.optimatrix.in/portfolio](https://www.optimatrix.in/portfolio)\nYou can also view additional portfolio work here:\n[https://www.optiinfo.com/our-portfolio/](https://www.optiinfo.com/our-portfolio/)"
+      "Yes, you can explore our website portfolio and previous projects here:\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio →</a>"
     ],
     "important_rules": [
       "Do not say \"I don't have enough information.\"",
@@ -70,7 +70,9 @@
   {
     "intent": "nodejs_portfolio_custom",
     "patterns": ["Do you have a portfolio or case studies for Node.js development?"],
-    "responses": ["Yes. Opti Matrix has experience developing web applications and backend solutions using Node.js. You can explore our portfolio and previous projects to learn more about our development capabilities.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">View Opti Matrix Portfolio</a>"]
+    "responses": [
+      "Yes. Opti Matrix has experience developing web applications and backend solutions using Node.js. You can explore our portfolio and previous projects to learn more about our development capabilities.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio →</a>"
+    ]
   },
   {
     "intent": "nodejs_hire_specific_custom",
@@ -154,7 +156,9 @@
   {
     "intent": "careers_portfolio_custom",
     "patterns": ["Do you have a portfolio or case studies for careers?"],
-    "responses": ["A career opportunity is different from a development service, so there is no separate \"career portfolio.\" However, you can explore Opti Matrix's previous projects through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">Opti Matrix Portfolio</a>"]
+    "responses": [
+      "A career opportunity is different from a development service, so there is no separate \"career portfolio.\" However, you can explore Opti Matrix's previous projects through our portfolio.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio →</a>"
+    ]
   },
   {
     "intent": "important_intent_need_dev_custom",

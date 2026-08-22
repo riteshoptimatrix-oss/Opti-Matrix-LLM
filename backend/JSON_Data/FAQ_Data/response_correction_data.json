@@ -160,7 +160,7 @@
       "software projects please"
     ],
     "responses": [
-      "You can explore Opti Matrix's portfolio here:\n[https://www.optimatrix.in/portfolio](https://www.optimatrix.in/portfolio)\nYou can also view additional work here:\n[https://www.optiinfo.com/our-portfolio/](https://www.optiinfo.com/our-portfolio/)"
+      "You can explore Opti Matrix's portfolio here:\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio →</a>"
     ]
   },
   {

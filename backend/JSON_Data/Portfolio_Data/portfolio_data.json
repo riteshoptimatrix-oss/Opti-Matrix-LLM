@@ -14,7 +14,7 @@
       "Show me portfolio"
     ],
     "responses": [
-      "Sure! You can explore our portfolio and see the projects we have worked on.\n\n[View Portfolio](https://www.optiinfo.com/our-portfolio/)\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
+      "Sure! You can explore our portfolio and see the projects we have worked on.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -35,7 +35,7 @@
       "Can I see your past projects?"
     ],
     "responses": [
-      "Sure! Explore all the projects completed by Opti Matrix.\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
+      "Sure! Explore all the projects completed by Opti Matrix.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -48,7 +48,7 @@
       "Web portfolio examples"
     ],
     "responses": [
-      "Here is our Web Portfolio showcasing some of the best websites we have developed.\n\n[View Web Portfolio](https://www.optiinfo.com/our-portfolio/)"
+      "Here is our Web Portfolio showcasing some of the best websites we have developed.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -61,7 +61,7 @@
       "App portfolio examples"
     ],
     "responses": [
-      "Check out our App Portfolio to see the mobile applications we've built for Android and iOS.\n\n[View App Portfolio](https://www.optiinfo.com/our-portfolio/)"
+      "Check out our App Portfolio to see the mobile applications we've built for Android and iOS.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -74,7 +74,7 @@
       "Show case studies"
     ],
     "responses": [
-      "We have detailed case studies available that explain how we solved complex problems for our clients.\n\n[View Case Studies](https://www.optiinfo.com/our-portfolio/)"
+      "We have detailed case studies available that explain how we solved complex problems for our clients.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -86,7 +86,7 @@
       "Show before after comparisons"
     ],
     "responses": [
-      "You can see our Before & After work to understand the dramatic improvements we make for our clients.\n\n[View Before After Work](https://www.optiinfo.com/our-portfolio/)"
+      "You can see our Before & After work to understand the dramatic improvements we make for our clients.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -99,7 +99,7 @@
       "UI UX portfolio examples"
     ],
     "responses": [
-      "Take a look at our Design Portfolio to see the beautiful and intuitive interfaces we have crafted.\n\n[View Design Portfolio](https://www.optiinfo.com/our-portfolio/)"
+      "Take a look at our Design Portfolio to see the beautiful and intuitive interfaces we have crafted.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -112,7 +112,7 @@
       "Ecommerce portfolio examples"
     ],
     "responses": [
-      "We have extensive experience building robust online stores. Browse our eCommerce Portfolio to see our work.\n\n[View eCommerce Portfolio](https://www.optiinfo.com/our-portfolio/)"
+      "We have extensive experience building robust online stores. Browse our eCommerce Portfolio to see our work.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   },
   {
@@ -125,7 +125,7 @@
       "What did you build recently?"
     ],
     "responses": [
-      "We are always building exciting new things! Check out our latest projects and recent work in our portfolio.\n\n[View Recent Work](https://www.optiinfo.com/our-portfolio/)"
+      "We are always building exciting new things! Check out our latest projects and recent work in our portfolio.\n\n<a href=\"https://www.optimatrix.in/portfolio\" target=\"_blank\" class=\"btn btn-primary\" style=\"display: inline-block; padding: 10px 20px; margin-top: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; background-color: #007bff; color: white;\">View Our Portfolio \u2192</a>"
     ]
   }
 ]

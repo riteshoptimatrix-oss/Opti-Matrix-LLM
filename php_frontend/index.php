@@ -370,8 +370,13 @@
 
         // Configure marked.js options
         const renderer = new marked.Renderer();
-        renderer.link = function(href, title, text) {
-            return `<a target="_blank" rel="noopener noreferrer" href="${href}" title="${title || ''}">${text}</a>`;
+        renderer.link = function(param1, param2, param3) {
+            // Support for newer Marked.js versions (v8+) which pass a single token object
+            if (typeof param1 === 'object' && param1 !== null) {
+                return `<a target="_blank" rel="noopener noreferrer" href="${param1.href}" title="${param1.title || ''}">${param1.text}</a>`;
+            }
+            // Fallback for older Marked.js versions
+            return `<a target="_blank" rel="noopener noreferrer" href="${param1}" title="${param2 || ''}">${param3}</a>`;
         };
         marked.setOptions({
             renderer: renderer,
