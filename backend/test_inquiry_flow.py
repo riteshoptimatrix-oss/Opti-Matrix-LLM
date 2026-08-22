@@ -218,7 +218,7 @@ class TestInquiryFlow(unittest.TestCase):
 
     def test_my_inquiries_conversational_flow(self):
         """Test the 'My Inquiries' conversational intent and phone prompt flow."""
-        session_id = "test_session_history_flow_abc"
+        session_id = "test_web_session_no_phone"
 
         # Turn 1: User asks 'My Inquiries'
         resp1 = self.client.post("/predict", json={

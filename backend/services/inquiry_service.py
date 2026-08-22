@@ -1,6 +1,6 @@
 import re
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import Dict, Any, List, Optional
 from bson import ObjectId
 from pymongo.errors import PyMongoError
@@ -10,12 +10,34 @@ from models.inquiry import InquiryCreate, InquiryResponseData, normalize_phone_n
 
 logger = logging.getLogger("inquiry_service")
 
+# Indian Standard Time timezone (UTC+5:30)
+IST = timezone(timedelta(hours=5, minutes=30))
+
+def format_datetime_ist(dt: Any) -> str:
+    """Converts a datetime object or ISO string to formatted IST string (e.g. 'Aug 22, 2026 05:30 PM IST')."""
+    if not dt:
+        return "N/A"
+    
+    if isinstance(dt, str):
+        try:
+            dt = datetime.fromisoformat(dt.replace("Z", "+00:00"))
+        except Exception:
+            return dt
+
+    if isinstance(dt, datetime):
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        ist_dt = dt.astimezone(IST)
+        return ist_dt.strftime("%b %d, %Y %I:%M %p IST")
+        
+    return str(dt)
+
 class InquiryService:
     @staticmethod
     def create_inquiry(inquiry_input: InquiryCreate) -> Dict[str, Any]:
         """
         Validates, prepares, and securely stores an inquiry document in MongoDB.
-        Returns the formatted saved inquiry record.
+        Returns the formatted saved inquiry record with IST timestamp.
         """
         now = datetime.now(timezone.utc)
         norm_phone = inquiry_input.normalizedPhone or normalize_phone_number(inquiry_input.contactNumber)
@@ -49,8 +71,8 @@ class InquiryService:
                 "contactNumber": doc["contactNumber"],
                 "normalizedPhone": doc["normalizedPhone"],
                 "source": doc["source"],
-                "createdAt": now.isoformat(),
-                "updatedAt": now.isoformat()
+                "createdAt": format_datetime_ist(now),
+                "updatedAt": format_datetime_ist(now)
             }
         except PyMongoError as e:
             logger.error(f"MongoDB error while inserting inquiry: {e}", exc_info=True)
@@ -64,6 +86,7 @@ class InquiryService:
         """
         Fetches all inquiries matching a given phone number across all sources (PHP, WhatsApp, Chatbot, API).
         Uses exact matching, normalized digits matching, and last 10 digits regex matching.
+        Formatted with IST timestamps.
         """
         coll = get_inquiries_collection()
         if coll is None:
@@ -92,17 +115,8 @@ class InquiryService:
             cursor = coll.find({"$or": or_conditions}).sort("createdAt", -1)
             results = []
             for doc in cursor:
-                created_at = doc.get("createdAt")
-                if isinstance(created_at, datetime):
-                    created_at_str = created_at.strftime("%b %d, %Y %I:%M %p UTC")
-                else:
-                    created_at_str = str(created_at or "")
-
-                updated_at = doc.get("updatedAt")
-                if isinstance(updated_at, datetime):
-                    updated_at_str = updated_at.strftime("%b %d, %Y %I:%M %p UTC")
-                else:
-                    updated_at_str = str(updated_at or "")
+                created_at_str = format_datetime_ist(doc.get("createdAt"))
+                updated_at_str = format_datetime_ist(doc.get("updatedAt"))
 
                 results.append({
                     "id": str(doc.get("_id")),
@@ -125,4 +139,5 @@ class InquiryService:
         except Exception as e:
             logger.error(f"Unexpected error fetching inquiries by phone: {e}", exc_info=True)
             return []
+
 
