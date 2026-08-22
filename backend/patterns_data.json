@@ -1230,14 +1230,20 @@
   "services_hiring_models_custom": [
     "Do you offer dedicated resource hiring models?"
   ],
-  "website_development_portfolio_custom": [
-    "Can you show me websites you have built?"
+  "website_portfolio_intent": [
+    "Can you show me websites you have built?",
+    "Show me your website portfolio",
+    "What websites have you developed?",
+    "Do you have examples of websites you built?",
+    "Can I see your website projects?",
+    "Do you have a portfolio for websites?",
+    "Show me your previous website work",
+    "Can I see website case studies?",
+    "What websites have you worked on?",
+    "I want to see your website work"
   ],
   "website_development_benefits_custom": [
     "What are the benefits of using a website development service for my project?"
-  ],
-  "website_development_case_studies_custom": [
-    "Do you have a portfolio or case studies for website development?"
   ],
   "nodejs_what_is_custom": [
     "What is Node.js?"
@@ -1261,7 +1267,8 @@
   ],
   "developer_hiring_web_custom": [
     "I need to hire a web developer.",
-    "I want to hire a web developer."
+    "I want to hire a web developer.",
+    "I need to hire a Website developer"
   ],
   "developer_hiring_skills_custom": [
     "What skills should I look for when hiring a developer?"
@@ -1295,6 +1302,41 @@
   ],
   "important_intent_join_optimatrix_custom": [
     "I want to join Opti Matrix."
+  ],
+  "chat_history_intent": [
+    "What is my last chat?",
+    "What was my last message?",
+    "What is my first prompt to you?",
+    "What was my first message?",
+    "What is my 2nd last chat?",
+    "What was my second last message?",
+    "Show me my previous chat",
+    "What did I ask you before?",
+    "What was my previous prompt?",
+    "What did I ask first?",
+    "What did I ask before my last question?",
+    "What is my last message?",
+    "What was my last prompt?",
+    "What was my last question?",
+    "My last chat",
+    "My last message",
+    "My first chat",
+    "My first message",
+    "Show me my chat history",
+    "What is my chat history?",
+    "My chats",
+    "List my chats",
+    "What did I ask before?",
+    "What did I say before?",
+    "What was my previous chat?",
+    "What was my previous message?",
+    "What is my 2nd last message?",
+    "What was my second last prompt?",
+    "What is my 3rd last message?",
+    "What was my third last chat?",
+    "Complete chat history",
+    "Show me my previous message",
+    "What did I ask you first?"
   ],
   "contact_general_info_custom": [
     "How can I contact Opti Matrix?"
@@ -1344,6 +1386,86 @@
     "Admin panel training",
     "How to use the website"
   ],
+  "process_website_development": [
+    "What is the development process for Website?",
+    "development process for Website"
+  ],
+  "process_office_development_invalid": [
+    "What is the development process for Office?",
+    "development process for Office"
+  ],
+  "quotation_web_app": [
+    "quotation for Web App development",
+    "quotation for web app",
+    "cost for Web App",
+    "estimate for Web App"
+  ],
+  "benefits_website_development": [
+    "What are the benefits of using Website Development for my project?",
+    "benefits of using Website Development"
+  ],
+  "benefits_services_invalid": [
+    "What are the benefits of using Services for my project?",
+    "benefits of using Services"
+  ],
+  "migration_office_invalid": [
+    "Can you migrate my existing app to Office?",
+    "migrate my app to Office"
+  ],
+  "portfolio_general": [
+    "portfolio",
+    "show portfolio",
+    "your portfolio",
+    "Show me your portfolio",
+    "Where can I see your portfolio?",
+    "I want to see your work",
+    "Show your work",
+    "Show me your previous work",
+    "What work have you completed?",
+    "What kind of projects have you worked on?",
+    "Can I see examples of your work?",
+    "Do you have a project portfolio?",
+    "Show me portfolio"
+  ],
+  "industry_served_general": [
+    "What industries do you serve?",
+    "industries you serve",
+    "which industries"
+  ],
+  "technology_stack_general": [
+    "Technologies used in Development",
+    "What technologies do you use?",
+    "Which technologies do you use for development?",
+    "What tech stack do you use?",
+    "What technologies do your developers work with?",
+    "What technology stack does Opti Matrix use?",
+    "What technologies are used for website development?",
+    "What technologies are used for web app development?"
+  ],
+  "technology_stack_frontend": [
+    "Which frontend technologies do you use?",
+    "What frontend technologies do you use?"
+  ],
+  "technology_stack_backend": [
+    "Which backend technologies do you use?",
+    "What backend technologies do you use?"
+  ],
+  "technology_stack_databases": [
+    "Which databases do you use?",
+    "What databases do you use?"
+  ],
+  "technology_stack_mobile": [
+    "Which mobile technologies do you use?",
+    "What mobile app development technologies do you use?"
+  ],
+  "technology_stack_cms": [
+    "Which CMS technologies do you use?",
+    "What E-commerce platforms do you use?"
+  ],
+  "technology_stack_cloud": [
+    "Which cloud technologies do you use?",
+    "What DevOps tools do you use?"
+  ],
   "faq_tech_native_vs_hybrid": [
     "Should I build a native app or a hybrid app using Flutter or React Native?",
     "Native vs Hybrid app",
@@ -1368,30 +1490,6 @@
     "I have an existing website built by someone else. Can you fix a bug on it?",
     "Can you fix my current website?",
     "Bug fixing"
-  ],
-  "office_development_process": [
-    "What is the development process for Office?"
-  ],
-  "office_why_choose": [
-    "Why should I choose Office?"
-  ],
-  "office_migrate_app": [
-    "Can you migrate my existing app to Office?"
-  ],
-  "office_services_developers_experienced": [
-    "Are your Services developers experienced?"
-  ],
-  "portfolio_general": [
-    "Show me your portfolio",
-    "Where can I see your portfolio?",
-    "I want to see your work",
-    "Show your work",
-    "Show me your previous work",
-    "What work have you completed?",
-    "What kind of projects have you worked on?",
-    "Can I see examples of your work?",
-    "Do you have a project portfolio?",
-    "Show me portfolio"
   ],
   "show_all_projects": [
     "Show me the projects you have done",

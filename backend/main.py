@@ -12,6 +12,8 @@ from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+import re
+
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -278,6 +280,141 @@ def get_dynamic_suggestions(intent: str) -> List[str]:
             f"What is the development process for {topic}?"
         ]
         return random.sample(pool, min(3, len(pool)))
+
+def handle_chat_history_intent(query: str, chat_history: list) -> Optional[str]:
+    """
+    Priority Rule: Chat History Intent has higher priority than the general knowledge base.
+    Detects and responds to queries about conversation history using the actual session chat_history.
+    The current question has NOT yet been saved to chat_history when this function is called,
+    so the history reflects all previous exchanges only.
+    """
+    query_lower = query.lower().strip()
+
+    # ── Pattern Detection ──────────────────────────────────────────────────────
+    history_patterns = [
+        # last / previous
+        r"(what (is|was)|show me) my last (chat|message|prompt|question)",
+        r"my last (chat|message|prompt|question)",
+        r"what was my last (message|prompt|question|chat)",
+        # first
+        r"(what (is|was)|show me) my first (chat|message|prompt|question)",
+        r"my first (chat|message|prompt|question)",
+        r"what (is|was) my first prompt",
+        r"what did i ask (you )?first",
+        r"what did i ask first",
+        r"asked? first",
+        # 2nd last
+        r"(what (is|was)|show me) my (2nd|second)[ -]last (chat|message|prompt|question)",
+        r"my (2nd|second)[ -]last (chat|message|prompt|question)",
+        r"what did i ask before my last",
+        r"before my last (question|message|prompt|chat)",
+        # 3rd last
+        r"(what (is|was)|show me) my (3rd|third)[ -]last (chat|message|prompt|question)",
+        r"my (3rd|third)[ -]last (chat|message|prompt|question)",
+        # 2nd / second (positional, not last)
+        r"(what (is|was)|show me) my (2nd|second) (chat|message|prompt|question)",
+        r"my (2nd|second) (chat|message|prompt|question)",
+        # previous
+        r"(show me|what (is|was)) my previous (chat|message|prompt|question)",
+        r"previous (chat|message|prompt|question)",
+        r"what did i ask (you )?before",
+        r"what did i (ask|say) before",
+        r"asked? you before",
+        r"what was my previous (prompt|message|chat|question)",
+        # history listing
+        r"(show me|what (is|are)) my (chat history|chats|previous chats|messages)",
+        r"complete chat history",
+        r"chat history",
+        r"my chats",
+        r"list my chats",
+    ]
+
+    is_history_intent = any(re.search(p, query_lower) for p in history_patterns)
+    if not is_history_intent:
+        return None
+
+    # ── Extract user-only messages ────────────────────────────────────────────
+    user_messages = [msg["content"] for msg in chat_history if msg.get("role") == "user"]
+
+    unavailable_msg = (
+        "I can only access the conversation history that is available in this chat. "
+        "I don't have access to older or unavailable chats."
+    )
+
+    # ── Complete chat history ─────────────────────────────────────────────────
+    if "complete chat history" in query_lower:
+        if not chat_history:
+            return unavailable_msg
+        formatted_history = []
+        for msg in chat_history:
+            role = "You" if msg["role"] == "user" else "Assistant"
+            formatted_history.append(f"**{role}:** {msg['content']}")
+        return "\n\n".join(formatted_history)
+
+    # ── My chats (list user messages only) ────────────────────────────────────
+    if (
+        query_lower == "my chats"
+        or "list my chats" in query_lower
+        or re.search(r"(show me|what (is|are)) my chats", query_lower)
+    ):
+        if not user_messages:
+            return unavailable_msg
+        formatted = ["Your messages in this conversation:"] + [
+            f"{i+1}. {m}" for i, m in enumerate(user_messages)
+        ]
+        return "\n".join(formatted)
+
+    # ── Position Mapping ──────────────────────────────────────────────────────
+
+    # First message
+    if (
+        re.search(r"(first|1st) ?(chat|message|prompt|question)", query_lower)
+        or re.search(r"what (is|was) my (first|1st) prompt", query_lower)
+        or re.search(r"what did i ask (you )?first", query_lower)
+        or re.search(r"asked? first", query_lower)
+    ):
+        if user_messages:
+            return f"Your 1st Reponse is :-\n\n{user_messages[0]}"
+        return unavailable_msg
+
+    # 3rd last  (check before 2nd last to avoid misfire)
+    if re.search(r"(3rd|third)[ -]?last", query_lower):
+        if len(user_messages) >= 3:
+            return f"Your third-last message was: **{user_messages[-3]}**"
+        return unavailable_msg
+
+    # 2nd last / before my last
+    if (
+        re.search(r"(2nd|second)[ -]?last", query_lower)
+        or "before my last" in query_lower
+        or re.search(r"before my last (question|message|prompt|chat)", query_lower)
+    ):
+        if len(user_messages) >= 2:
+            return f"Your second-last message was: **{user_messages[-2]}**"
+        return unavailable_msg
+
+    # 2nd message (positional, NOT last)
+    if re.search(r"(2nd|second) (chat|message|prompt|question)", query_lower):
+        if len(user_messages) >= 2:
+            return f"Your second message in this conversation was: **{user_messages[1]}**"
+        return unavailable_msg
+
+    # Last / previous / asked before
+    if (
+        re.search(r"last (chat|message|prompt|question)", query_lower)
+        or re.search(r"previous (chat|message|prompt|question)", query_lower)
+        or re.search(r"what was my previous (prompt|message|chat|question)", query_lower)
+        or re.search(r"what did i (ask|say) (you )?before", query_lower)
+        or "asked you before" in query_lower
+        or "ask you before" in query_lower
+        or "show me my previous" in query_lower
+    ):
+        if user_messages:
+            return f"Your last message was: **{user_messages[-1]}**"
+        return unavailable_msg
+
+    # Generic fallback for anything that triggered the intent but wasn't routed above
+    return unavailable_msg
             
 def log_and_create_response(session_id: str, question: str, intent: Optional[str], answer: str, confidence: float, matched: bool, suggested_questions: List[str] = None):
     if suggested_questions is None:
@@ -327,6 +464,20 @@ async def predict_intent(request: PredictRequest):
     
     try:
         session_data = get_session(session_id)
+        chat_history = session_data.get("chat_history", [])
+        
+        # Priority Rule: Chat History Intent has higher priority
+        chat_history_response = handle_chat_history_intent(raw_question, chat_history)
+        if chat_history_response:
+            return log_and_create_response(
+                session_id=session_id,
+                question=raw_question,
+                intent="chat_history_intent",
+                answer=chat_history_response,
+                confidence=1.0,
+                matched=True,
+                suggested_questions=[]
+            )
         
         # Explicit Context Routing for "Hire" intents
         last_intent = session_data.get("last_intent")

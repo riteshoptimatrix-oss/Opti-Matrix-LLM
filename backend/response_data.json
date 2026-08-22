@@ -27,9 +27,7 @@
     "Good night! Have a peaceful rest."
   ],
   "career_web_developer": [
-    "We are thrilled that you want to join our team! For Web Developer roles and other opportunities, please apply directly through our official careers page. We review applications regularly. [Apply Here...](https://www.optimatrix.in/apply)",
-    "Thank you for your interest in joining Opti Matrix as a Web Developer! Please submit your resume and details on our career portal. [Apply Here...](https://www.optimatrix.in/apply)",
-    "To apply for a Web Developer or Website Developer role at our company, please visit our application page and submit your profile. [Apply Here...](https://www.optimatrix.in/apply)"
+    "Are you looking to apply for a Web Developer position at Opti Matrix? You can apply through our official careers page:\n[https://www.optimatrix.in/apply](https://www.optimatrix.in/apply)"
   ],
   "career_general_inquiry": [
     "We are always on the lookout for talented professionals to join our growing team. You can check our current openings and apply online. [Apply Here...](https://www.optimatrix.in/apply)"
@@ -356,16 +354,13 @@
     "Opti Matrix provides a wide range of software development and IT services, including website development, web application development, mobile app development, custom software development, and dedicated developer hiring.\nWe provide development expertise across technologies such as PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter."
   ],
   "services_hiring_models_custom": [
-    "Yes. Opti Matrix offers flexible dedicated developer hiring models based on your project requirements. You can hire developers on a full-time, part-time, or hourly basis.\nWe provide developers across technologies including PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter.\nFor hiring inquiries, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
+    "Yes. Opti Matrix offers flexible dedicated developer hiring models based on project requirements. Developers can be hired on a full-time, part-time, or hourly basis.\nWe provide developers across technologies including PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter.\nFor hiring inquiries, you can contact us at [info@optimatrix.in](mailto:info@optimatrix.in)."
   ],
-  "website_development_portfolio_custom": [
-    "Yes. Opti Matrix has developed websites and web applications for businesses across various industries. You can explore our previous work, projects, and case studies through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">View Opti Matrix Portfolio</a>"
+  "website_portfolio_intent": [
+    "Yes, you can explore our website portfolio and previous projects here:\n[https://www.optimatrix.in/portfolio](https://www.optimatrix.in/portfolio)\nYou can also view additional portfolio work here:\n[https://www.optiinfo.com/our-portfolio/](https://www.optiinfo.com/our-portfolio/)"
   ],
   "website_development_benefits_custom": [
     "A professionally developed website can help your business establish a strong online presence, improve customer engagement, streamline business processes, and provide a better user experience.\nOpti Matrix can build customized, responsive, secure, and scalable websites based on your business requirements."
-  ],
-  "website_development_case_studies_custom": [
-    "Yes. You can explore our previous website development projects and case studies through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">Opti Matrix Portfolio</a>\n<a href=\"https://www.optiinfo.com/our-portfolio/?utm_source=chatgpt.com\">OptiInfo Portfolio</a>"
   ],
   "nodejs_what_is_custom": [
     "Node.js is a fast, open-source JavaScript runtime environment built on Chrome's V8 JavaScript engine. It uses a non-blocking, event-driven architecture that allows applications to handle multiple requests efficiently.\nNode.js enables developers to use JavaScript for both frontend and backend development, which can simplify development and improve productivity. It also provides access to a large ecosystem of packages through npm, the Node Package Manager."
@@ -389,8 +384,7 @@
     "Yes. We can help you hire an experienced PHP developer on a full-time, part-time, or hourly basis. Please share your project requirements or contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."
   ],
   "developer_hiring_web_custom": [
-    "Yes. Opti Matrix can help you hire experienced web developers based on your technical and project requirements.\nYou can choose from full-time, part-time, or hourly hiring models.\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Get a Quote</a>\n<a href=\"https://wa.me/918128361116?utm_source=chatgpt.com\">Contact us on WhatsApp</a>",
-    "Absolutely. Opti Matrix provides experienced web developers on flexible full-time, part-time, and hourly engagement models.\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Get a Quote</a>"
+    "Yes, we can help you hire a dedicated website developer.\nWe can provide developers based on your required technology, experience level, engagement model, and project requirements.\nPlease share:\n- Required technology\n- Experience level\n- Full-time, part-time, or hourly requirement\n- Project description\n- Expected duration\nYou can also contact us at [info@optimatrix.in](mailto:info@optimatrix.in)."
   ],
   "developer_hiring_skills_custom": [
     "The right skills depend on your project requirements. In general, you should consider:\nRelevant technical expertise\nExperience with your required technology or framework\nProblem-solving ability\nCommunication skills\nUnderstanding of databases and APIs\nVersion control knowledge\nTesting and debugging skills\nExperience working with development methodologies\nAbility to work independently and with a team\nOpti Matrix can help you identify and hire developers based on your specific technical requirements."
@@ -425,6 +419,9 @@
   "important_intent_join_optimatrix_custom": [
     "We would be happy to receive your application. Please apply through our official careers page for available positions.\n<a href=\"https://www.optimatrix.in/apply?utm_source=chatgpt.com\">Apply Here</a>"
   ],
+  "chat_history_intent": [
+    "I can retrieve your conversation history from the current session. Please ask me specifically — for example: 'What was my last message?' or 'What was my first prompt?'"
+  ],
   "contact_general_info_custom": [
     "You can contact Opti Matrix through the following channels:\nEmail: <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Contact Opti Matrix</a>\n<a href=\"https://wa.me/918128361116?utm_source=chatgpt.com\">WhatsApp Opti Matrix</a>\nFor developer hiring, website development, or other project inquiries, please share your requirements with our team."
   ],
@@ -455,6 +452,52 @@
   "faq_support_training": [
     "Absolutely. We design intuitive, user-friendly admin panels and provide full training and documentation so you and your team can easily manage and update your website content."
   ],
+  "process_website_development": [
+    "Our website development process generally includes:\n- Requirement Gathering — understanding your business, goals, features, and target audience.\n- Planning — defining the technology stack, architecture, integrations, and project scope.\n- UI/UX Design — creating the website structure, user experience, and visual design.\n- Development — building the frontend, backend, database, APIs, and required integrations.\n- Quality Assurance — testing functionality, responsiveness, performance, compatibility, and security.\n- Deployment — launching the website on the production environment.\n- Post-launch Support — providing maintenance, updates, and ongoing improvements."
+  ],
+  "process_office_development_invalid": [
+    "If you mean the development process for one of our software services, please tell me whether you mean Website Development, Web Application Development, Mobile App Development, or Custom Software Development. I can then explain the relevant process."
+  ],
+  "quotation_web_app": [
+    "Absolutely. We can help you with a quotation for your web application.\nTo provide a more accurate estimate, please share:\n- Brief description of the web app\n- Required features/modules\n- User types and expected number of users\n- Any required third-party integrations\n- Preferred technology, if any\n- Whether UI/UX design is required\n- Expected timeline\nYou can also share an existing website, app, document, or feature list if you have one. Based on these details, our team can review the requirements and provide a suitable estimate."
+  ],
+  "benefits_website_development": [
+    "Professional website development can help you establish a strong online presence, provide a better user experience, improve scalability, integrate business tools, and create a website tailored to your specific business goals.\nOpti Matrix can build custom websites based on your functionality, design, technology, and integration requirements."
+  ],
+  "benefits_services_invalid": [
+    "Which service are you referring to — Website Development, Web Application Development, Mobile App Development, Custom Software Development, or Dedicated Developer Hiring?"
+  ],
+  "migration_office_invalid": [
+    "If you mean migrating your existing application to a new technology, platform, server, or architecture, yes, we can help assess the migration requirements.\nPlease share:\n- Current technology/platform\n- Target technology/platform\n- Application type\n- Approximate size/complexity\n- Any specific migration challenges\nWe can then determine the appropriate migration approach."
+  ],
+  "portfolio_general": [
+    "You can explore Opti Matrix's portfolio here:\n[https://www.optimatrix.in/portfolio](https://www.optimatrix.in/portfolio)\nYou can also view additional work here:\n[https://www.optiinfo.com/our-portfolio/](https://www.optiinfo.com/our-portfolio/)",
+    "Sure! You can explore our portfolio and see the projects we have worked on.\n\n[View Portfolio](https://www.optiinfo.com/our-portfolio/)\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
+  ],
+  "industry_served_general": [
+    "Opti Matrix works with businesses across different industries and can build solutions based on specific business requirements. Our services can be tailored for industries such as e-commerce, healthcare, education, finance, logistics, real estate, hospitality, retail, and other business domains.\nIf you tell me your industry and project requirements, I can suggest the most relevant solution."
+  ],
+  "technology_stack_general": [
+    "At Opti Matrix, we work with a range of modern technologies across frontend, backend, mobile, databases, and cloud development.\n\n**Frontend:** HTML, CSS, JavaScript, React.js, Next.js, Bootstrap, Tailwind CSS\n\n**Backend:** PHP, Laravel, Node.js, Python, Django, REST APIs\n\n**Mobile:** Android, iOS, Flutter, React Native\n\n**Databases:** MySQL, PostgreSQL, MongoDB, SQL Server\n\n**CMS / E-commerce:** WordPress, WooCommerce, Shopify\n\n**Cloud / DevOps:** AWS, Microsoft Azure, Docker, Git/GitHub\n\nThe technology stack is selected based on the project's requirements, scalability, performance, and business goals."
+  ],
+  "technology_stack_frontend": [
+    "**Frontend Technologies:** HTML, CSS, JavaScript, React.js, Next.js, Bootstrap, and Tailwind CSS."
+  ],
+  "technology_stack_backend": [
+    "**Backend Technologies:** PHP, Laravel, Node.js, Python, Django, and REST APIs."
+  ],
+  "technology_stack_databases": [
+    "**Databases:** MySQL, PostgreSQL, MongoDB, and SQL Server."
+  ],
+  "technology_stack_mobile": [
+    "**Mobile:** Android, iOS, Flutter, and React Native."
+  ],
+  "technology_stack_cms": [
+    "**CMS / E-commerce:** WordPress, WooCommerce, and Shopify."
+  ],
+  "technology_stack_cloud": [
+    "**Cloud / DevOps:** AWS, Microsoft Azure, Docker, and Git/GitHub."
+  ],
   "faq_tech_native_vs_hybrid": [
     "It depends on your goals! Native apps offer maximum performance and deep hardware integration, while Hybrid apps (Flutter/React Native) are highly cost-effective and allow you to launch on both iOS and Android simultaneously. We provide free consultations to help you choose the best fit."
   ],
@@ -469,21 +512,6 @@
   ],
   "faq_troubleshooting_existing": [
     "Yes, we can. Our team is highly experienced in code auditing and refactoring. We can review your existing application, identify the issues, and provide the necessary fixes and optimizations."
-  ],
-  "office_development_process": [
-    "I think there might be a slight misunderstanding! We follow an Agile development process for software projects, not 'for Office'. Our standard 6-phase process includes Requirement Gathering, UI/UX Design, Core Development, Quality Assurance, Deployment, and Post-launch Support. If you'd like to visit our office to discuss a project, you're always welcome!"
-  ],
-  "office_why_choose": [
-    "If you mean why you should choose Opti Matrix, it's because we provide result-driven digital solutions, experienced dedicated developers, and transparent Agile processes. Working with our in-house office team ensures high-quality, secure, and scalable technology solutions for your business."
-  ],
-  "office_migrate_app": [
-    "It seems there might be a slight misunderstanding! 'Office' is not a hosting platform or framework. However, the expert development team at our Opti Matrix office can seamlessly migrate your existing application to modern platforms, cloud architectures like AWS, or upgraded technology stacks!"
-  ],
-  "office_services_developers_experienced": [
-    "Absolutely! Opti Matrix boasts a highly experienced in-house team of developers. Our dedicated professionals specialize in modern technologies like React, Next.js, Node.js, Python, PHP, iOS, Android, and Flutter, with a proven track record of delivering over 500 successful projects globally."
-  ],
-  "portfolio_general": [
-    "Sure! You can explore our portfolio and see the projects we have worked on.\n\n[View Portfolio](https://www.optiinfo.com/our-portfolio/)\n\n[View All Projects](https://www.optimatrix.in/portfolio)"
   ],
   "show_all_projects": [
     "Sure! Explore all the projects completed by Opti Matrix.\n\n[View All Projects](https://www.optimatrix.in/portfolio)"

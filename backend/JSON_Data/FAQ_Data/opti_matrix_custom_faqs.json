@@ -22,22 +22,40 @@
   {
     "intent": "services_hiring_models_custom",
     "patterns": ["Do you offer dedicated resource hiring models?"],
-    "responses": ["Yes. Opti Matrix offers flexible dedicated developer hiring models based on your project requirements. You can hire developers on a full-time, part-time, or hourly basis.\nWe provide developers across technologies including PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter.\nFor hiring inquiries, contact us at <a href=\"mailto:info@optimatrix.in\">info@optimatrix.in</a>."]
+    "responses": ["Yes. Opti Matrix offers flexible dedicated developer hiring models based on project requirements. Developers can be hired on a full-time, part-time, or hourly basis.\nWe provide developers across technologies including PHP, Python, React, Next.js, Node.js, iOS, Android, and Flutter.\nFor hiring inquiries, you can contact us at [info@optimatrix.in](mailto:info@optimatrix.in)."]
   },
   {
-    "intent": "website_development_portfolio_custom",
-    "patterns": ["Can you show me websites you have built?"],
-    "responses": ["Yes. Opti Matrix has developed websites and web applications for businesses across various industries. You can explore our previous work, projects, and case studies through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">View Opti Matrix Portfolio</a>"]
+    "intent": "website_portfolio_intent",
+    "patterns": [
+      "Can you show me websites you have built?",
+      "Show me your website portfolio",
+      "What websites have you developed?",
+      "Do you have examples of websites you built?",
+      "Can I see your website projects?",
+      "Do you have a portfolio for websites?",
+      "Show me your previous website work",
+      "Can I see website case studies?",
+      "What websites have you worked on?",
+      "I want to see your website work"
+    ],
+    "responses": [
+      "Yes, you can explore our website portfolio and previous projects here:\n[https://www.optimatrix.in/portfolio](https://www.optimatrix.in/portfolio)\nYou can also view additional portfolio work here:\n[https://www.optiinfo.com/our-portfolio/](https://www.optiinfo.com/our-portfolio/)"
+    ],
+    "important_rules": [
+      "Do not say \"I don't have enough information.\"",
+      "Do not ask unnecessary clarification questions.",
+      "Do not send the careers page.",
+      "Do not provide developer hiring information.",
+      "Do not explain the development process unless the user asks for it.",
+      "If the user specifically asks for website projects, prioritize the portfolio links.",
+      "Keep the response short and directly relevant.",
+      "Always use the verified portfolio URLs provided above."
+    ]
   },
   {
     "intent": "website_development_benefits_custom",
     "patterns": ["What are the benefits of using a website development service for my project?"],
     "responses": ["A professionally developed website can help your business establish a strong online presence, improve customer engagement, streamline business processes, and provide a better user experience.\nOpti Matrix can build customized, responsive, secure, and scalable websites based on your business requirements."]
-  },
-  {
-    "intent": "website_development_case_studies_custom",
-    "patterns": ["Do you have a portfolio or case studies for website development?"],
-    "responses": ["Yes. You can explore our previous website development projects and case studies through our portfolio.\n<a href=\"https://www.optimatrix.in/portfolio?utm_source=chatgpt.com\">Opti Matrix Portfolio</a>\n<a href=\"https://www.optiinfo.com/our-portfolio/?utm_source=chatgpt.com\">OptiInfo Portfolio</a>"]
   },
   {
     "intent": "nodejs_what_is_custom",
@@ -86,11 +104,11 @@
     "intent": "developer_hiring_web_custom",
     "patterns": [
       "I need to hire a web developer.",
-      "I want to hire a web developer."
+      "I want to hire a web developer.",
+      "I need to hire a Website developer"
     ],
     "responses": [
-      "Yes. Opti Matrix can help you hire experienced web developers based on your technical and project requirements.\nYou can choose from full-time, part-time, or hourly hiring models.\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Get a Quote</a>\n<a href=\"https://wa.me/918128361116?utm_source=chatgpt.com\">Contact us on WhatsApp</a>",
-      "Absolutely. Opti Matrix provides experienced web developers on flexible full-time, part-time, and hourly engagement models.\n<a href=\"https://www.optimatrix.in/contact-us/?utm_source=chatgpt.com\">Get a Quote</a>"
+      "Yes, we can help you hire a dedicated website developer.\nWe can provide developers based on your required technology, experience level, engagement model, and project requirements.\nPlease share:\n- Required technology\n- Experience level\n- Full-time, part-time, or hourly requirement\n- Project description\n- Expected duration\nYou can also contact us at [info@optimatrix.in](mailto:info@optimatrix.in)."
     ]
   },
   {
@@ -147,6 +165,55 @@
     "intent": "important_intent_join_optimatrix_custom",
     "patterns": ["I want to join Opti Matrix."],
     "responses": ["We would be happy to receive your application. Please apply through our official careers page for available positions.\n<a href=\"https://www.optimatrix.in/apply?utm_source=chatgpt.com\">Apply Here</a>"]
+  },
+  {
+    "intent": "chat_history_intent",
+    "patterns": [
+      "What is my last chat?",
+      "What was my last message?",
+      "What is my first prompt to you?",
+      "What was my first message?",
+      "What is my 2nd last chat?",
+      "What was my second last message?",
+      "Show me my previous chat",
+      "What did I ask you before?",
+      "What was my previous prompt?",
+      "What did I ask first?",
+      "What did I ask before my last question?",
+      "What is my last message?",
+      "What was my last prompt?",
+      "What was my last question?",
+      "My last chat",
+      "My last message",
+      "My first chat",
+      "My first message",
+      "Show me my chat history",
+      "What is my chat history?",
+      "My chats",
+      "List my chats",
+      "What did I ask before?",
+      "What did I say before?",
+      "What was my previous chat?",
+      "What was my previous message?",
+      "What is my 2nd last message?",
+      "What was my second last prompt?",
+      "What is my 3rd last message?",
+      "What was my third last chat?",
+      "Complete chat history",
+      "Show me my previous message",
+      "What did I ask you first?"
+    ],
+    "responses": [
+      "I can retrieve your conversation history from the current session. Please ask me specifically — for example: 'What was my last message?' or 'What was my first prompt?'"
+    ],
+    "important_rules": [
+      "This intent is handled entirely at the backend logic layer in handle_chat_history_intent().",
+      "Do NOT use the company knowledge base to answer these queries.",
+      "Always retrieve the actual message from the current session's chat_history.",
+      "Never fabricate or guess conversation history.",
+      "Count only user messages unless the user asks for complete chat history.",
+      "Preserve the user's original wording, spelling, capitalization, and punctuation exactly."
+    ]
   },
   {
     "intent": "contact_general_info_custom",
